@@ -1,0 +1,46 @@
+[Adblock Plus 2.0]
+! Version: 15052025
+! Title: Personal Filter
+! Last Modified: 15 May 2025
+! Homepage: https://github.com/arfshl/filterlist
+! Description: Used for my uBlock Origin a AdGuard Home
+! Expires: 1 days
+
+! Google Login Popup
+||accounts.google.com/gsi/iframe/select$subdocument
+
+! Fandom Age Personalization
+fandom.com###age-gate
+fandom.com##.notifications-box
+
+! Blocks IDN Homographs Domain
+*xn--*.*
+
+! Phishing BCA
+bca-*.*
+
+!! Blocks Tor2Web
+
+! Wildcard covering all
+*.onion.*
+
+! Per-Proxy
+||onion.to^
+||onion.cab^
+||onion.city^
+||onion.direct^
+
+!! WindowsSpyBlocker Update whitelists
+
+! Windows Defender definition update
+@@||definitionupdates.microsoft.com^
+
+! Windows Update Catalog
+@@||catalog.update.microsoft.com^
+@@||catalog.s.download.windowsupdate.com^
+
+! OneDrive
+@@||skydrivesync.policies.live.net^
+
+! Microsoft Edge Extensions
+@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
