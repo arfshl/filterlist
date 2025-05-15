@@ -13,7 +13,7 @@
 fandom.com###age-gate
 fandom.com##.notifications-box
 
-! Blocks IDN Homographs Domain
+! Blocks IDN Homographs domain
 *xn--*.*
 
 ! Phishing BCA
