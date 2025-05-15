@@ -3,7 +3,7 @@
 ! Title: Personal Filter
 ! Last Modified: 15 May 2025
 ! Homepage: https://github.com/arfshl/filterlist
-! Description: Used for my uBlock Origin a AdGuard for Android, and AdGuard Home
+! Description: Used for my uBlock Origin, AdGuard for Android, and AdGuard Home
 ! Expires: 1 days
 
 ! Google Login Popup
