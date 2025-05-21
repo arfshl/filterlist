@@ -13,6 +13,9 @@
 fandom.com###age-gate
 fandom.com##.notifications-box
 
+! 20detik reccomended video (https://github.com/realodix/AdBlockID/blob/08d69416ff0181fd7e47b00a2a05eb97d2242ffe/src%2Fpackages%2Fpersonal.adfl#L88)
+detik.com##.detail__body-text .aevp > .sisip_video_ds:remove()
+
 ! Blocks IDN Homographs domain
 *xn--*.*
 
