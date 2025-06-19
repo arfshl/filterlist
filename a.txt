@@ -8,6 +8,7 @@
 
 ! Google Login Popup
 ||accounts.google.com/gsi/iframe/select$subdocument
+###credential_picker_container
 
 ! Fandom Age Personalization
 fandom.com###age-gate
