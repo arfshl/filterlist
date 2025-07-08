@@ -1,0 +1,24 @@
+[Adblock Plus 2.0]
+! Title: Personal Filter
+! Last Modified: %timestamp%
+! Homepage: https://github.com/arfshl/filterlist
+! Description: Used AdGuard for Android
+! Expires: 1 days
+
+%include https://github.com/arfshl/filterlist/raw/refs/heads/main/a.txt%
+
+%include https://easylist.to/easylist/easyprivacy.txt%
+
+%include https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt%
+
+%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/quick-fixes.txt%
+
+%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/unbreak.txt%
+
+%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/filters-mobile.txt%
+
+%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/filters-general.txt%
+
+%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/annoyances-cookies.txt%
+
+%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/annoyances-others.txt%
