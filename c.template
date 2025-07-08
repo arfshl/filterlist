@@ -7,7 +7,11 @@
 
 %include https://github.com/arfshl/filterlist/raw/refs/heads/main/a.txt%
 
-%include https://easylist.to/easylist/easyprivacy.txt%
+# %include https://easylist.to/easylist/easyprivacy.txt%
+
+%include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt%
+
+%include https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt%
 
 %include https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt%
 
