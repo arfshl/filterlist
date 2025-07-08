@@ -28,7 +28,6 @@ jobs:
     - name: Build
       run: |
         flrender $GITHUB_WORKSPACE/c.template $GITHUB_WORKSPACE/c.txt
-        python $GITHUB_WORKSPACE/fop.py
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
