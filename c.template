@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[Adblock Plus 3.1]
 ! Title: Personal Filter
 ! Last Modified: %timestamp%
 ! Homepage: https://github.com/arfshl/filterlist
@@ -11,14 +11,16 @@
 
 %include https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt%
 
-%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/quick-fixes.txt%
+%include https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.min.txt%
 
-%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/unbreak.txt%
+%include https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/privacy.min.txt%
 
-%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/filters-mobile.txt%
+%include https://ublockorigin.pages.dev/filters/quick-fixes.min.txt%
 
-%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/filters-general.txt%
+%include https://ublockorigin.pages.dev/filters/unbreak.min.txt%
 
-%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/annoyances-cookies.txt%
+%include https://ublockorigin.github.io/uAssetsCDN/filters/annoyances.min.txt%
 
-%include https://github.com/uBlockOrigin/uAssets/raw/refs/heads/master/filters/annoyances-others.txt%
+%include https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/annoyances-cookies.txt%
+
+%include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt%
