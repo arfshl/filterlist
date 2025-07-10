@@ -325,4 +325,143 @@ def elementtidy (domains, separator, selector):
         selectoronlystrings = "{old}{new}".format(old = selectoronlystrings, new = stringmatch.group(2))
     # Clean up tree selectors
     for tree in each(TREESELECTOR, selector):
-        if tree.group
+        if tree.group(0) in selectoronlystrings or not tree.group(0) in selectorwithoutstrings: continue
+        replaceby = " {g2} ".format(g2 = tree.group(2))
+        if replaceby == "   ": replaceby = " "
+        selector = selector.replace(tree.group(0), "{g1}{replaceby}{g3}".format(g1 = tree.group(1), replaceby = replaceby, g3 = tree.group(3)), 1)
+    # Remove unnecessary tags
+    for untag in each(REMOVALPATTERN, selector):
+        untagname = untag.group(4)
+        if untagname in selectoronlystrings or not untagname in selectorwithoutstrings: continue
+        bc = untag.group(2)
+        if bc == None:
+            bc = untag.group(3)
+        ac = untag.group(5)
+        selector = selector.replace("{before}{untag}{after}".format(before = bc, untag = untagname, after = ac), "{before}{after}".format(before = bc, after = ac), 1)
+    # Make the remaining tags lower case wherever possible
+    # for tag in each(SELECTORPATTERN, selector):
+    #     tagname = tag.group(1)
+    #     if tagname in selectoronlystrings or not tagname in selectorwithoutstrings: continue
+    #     if re.search(UNICODESELECTOR, selectorwithoutstrings) != None: break
+    #     ac = tag.group(3)
+    #     if ac == None:
+    #         ac = tag.group(4)
+    #     selector = selector.replace("{tag}{after}".format(tag = tagname, after = ac), "{tag}{after}".format(tag = tagname.lower(), after = ac), 1)
+    # Make pseudo classes lower case where possible
+    for pseudo in each(PSEUDOPATTERN, selector):
+        pseudoclass = pseudo.group(1)
+        if pseudoclass in selectoronlystrings or not pseudoclass in selectorwithoutstrings: continue
+        ac = pseudo.group(3)
+        selector = selector.replace("{pclass}{after}".format(pclass = pseudoclass, after = ac), "{pclass}{after}".format(pclass = pseudoclass.lower(), after = ac), 1)
+    # Remove the markers from the beginning and end of the selector and return the complete rule
+    return "{domain}{separator}{selector}".format(domain = domains, separator = separator, selector = selector[1:-1])
+
+def commit (repository, basecommand, userchanges):
+    """ Commit changes to a repository using the commands provided."""
+    difference = subprocess.check_output(basecommand + repository.difference)
+    if not difference:
+        print("\nNo changes have been recorded by the repository.")
+        return
+    print("\nThe following changes have been recorded by the repository:")
+    try:
+        print(difference.decode("utf-8"))
+    except UnicodeEncodeError:
+        print("\nERROR: DIFF CONTAINED UNKNOWN CHARACTER(S). Showing unformatted diff instead:\n");
+        print(difference)
+
+    try:
+        # Persistently request a suitable comment
+        while True:
+            comment = input("Please enter a valid commit comment or quit:\n")
+            if checkcomment(comment, userchanges):
+                break
+    # Allow users to abort the commit process if they do not approve of the changes
+    except (KeyboardInterrupt, SystemExit):
+        print("\nCommit aborted.")
+        return
+
+    print("Comment \"{comment}\" accepted.".format(comment = comment))
+    try:
+        # Commit the changes
+        command = basecommand + repository.commit + [comment]
+        subprocess.Popen(command).communicate()
+        print("\nConnecting to server. Please enter your password if required.")
+        # Update the server repository as required by the revision control system
+        for command in repository[7:]:
+            command = basecommand + command
+            subprocess.Popen(command).communicate()
+            print()
+    except(subprocess.CalledProcessError):
+        print("Unexpected error with the command \"{command}\".".format(command = command))
+        raise subprocess.CalledProcessError("Aborting FOP.")
+    except(OSError):
+        print("Unexpected error with the command \"{command}\".".format(command = command))
+        raise OSError("Aborting FOP.")
+    print("Completed commit process successfully.")
+
+def isglobalelement (domains):
+    """ Check whether all domains are negations."""
+    for domain in domains.split(","):
+        if domain and not domain.startswith("~"):
+            return False
+    return True
+
+def removeunnecessarywildcards (filtertext):
+    # Where possible, remove unnecessary wildcards from the beginnings and ends of blocking filters.
+    whitelist = False
+    hadStar = False
+    if filtertext[0:2] == "@@":
+        whitelist = True
+        filtertext = filtertext[2:]
+    while len(filtertext) > 1 and filtertext[0] == "" and not filtertext[1] == "|" and not filtertext[1] == "!":
+        filtertext = filtertext[1:]
+        hadStar = True
+    while len(filtertext) > 1 and filtertext[-1] == "" and not filtertext[-2] == "|":
+        filtertext = filtertext[:-1]
+        hadStar = True
+    if hadStar and filtertext[0] == "/" and filtertext[-1] == "/":
+        filtertext = "{filtertext}*".format(filtertext = filtertext)
+    if filtertext == "":
+        filtertext = ""
+    if whitelist:
+        filtertext = "@@{filtertext}".format(filtertext = filtertext)
+    return filtertext
+
+def checkcomment(comment, changed):
+    """ Check the commit comment and return True if the comment is
+    acceptable and False if it is not."""
+    sections = re.match(COMMITPATTERN, comment)
+    if sections == None:
+        print("The comment \"{comment}\" is not in the recognised format.".format(comment = comment))
+    else:
+        indicator = sections.group(1)
+        if indicator == "M":
+            # Allow modification comments to have practically any format
+            return True
+        elif indicator == "A" or indicator == "P":
+            if not changed:
+                print("You have indicated that you have added or removed a rule, but no changes were initially noted by the repository.")
+            else:
+                address = sections.group(4)
+                if not validurl(address):
+                    print("Unrecognised address \"{address}\".".format(address = address))
+                else:
+                    # The user has changed the subscription and has written a suitable comment message with a valid address
+                    return True
+    print()
+    return False
+
+def validurl (url):
+    """ Check that an address has a scheme (e.g. http), a domain name
+    (e.g. example.com) and a path (e.g. /), or relates to the internal
+    about system."""
+    addresspart = urlparse(url)
+    if addresspart.scheme and addresspart.netloc and addresspart.path:
+        return True
+    elif addresspart.scheme == "about":
+        return True
+    else:
+        return False
+
+if __name__ == '__main__':
+    start()
