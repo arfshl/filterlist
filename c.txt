@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202507290235
+! Version: 202507300226
 ! Title: Personal Filter
-! Last Modified: 29 Jul 2025 02:35 UTC
+! Last Modified: 30 Jul 2025 02:26 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -101869,6 +101869,7 @@ zmail.happycustomer.io$image
 ||adv-sv-stat.focus.cn^
 ||aegis.qq.com^
 ||aem-collector.daumkakao.io^
+||aem-kakao-collector.onkakao.net^
 ||afd.baidu.com^
 ||affiliate.gameladen.com^
 ||affiliate.gamesdeal.com^
@@ -102407,7 +102408,6 @@ zmail.happycustomer.io$image
 ||collector-hpn.ghostery.net^
 ||collector-statistics.nhn-commerce.com^
 ||collector.abc.net.au^
-||collector.appconsent.io^
 ||collector.bsg.brave.com^
 ||collector.bunchbox.co^
 ||collector.cakeresume.com^
@@ -103804,6 +103804,7 @@ zmail.happycustomer.io$image
 ||skroutza.skroutz.gr^
 ||sks.mrkhub.com^
 ||sl-h-statistics-ch-1.storeland.ru^
+||slc.commerce.naver.com^
 ||slf.fugu-it.com^
 ||sli.familyhandyman.com^
 ||sli.huffpost.com^
@@ -105595,7 +105596,7 @@ colliers.com#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
 comichara.com,movient.net###text-6
 computerbild.de##.articleAdditional > .mehrthema
 continentseven.com##.gaoop
-coomer.su,kemono.su#%#//scriptlet('set-local-storage-item', 'plausible_ignore', 'true')
+coomer.st,kemono.cr#%#//scriptlet('set-local-storage-item', 'plausible_ignore', 'true')
 crank-in.net#?#.wrap_general:has( > #taboola-below-article-thumbnails-mg)
 crank-in.net#?#article > section.block-area:has( > div#taboola-below-article-thumbnails-mg)
 crea.bunshun.jp##.module-recommend
@@ -106796,6 +106797,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||coincarp.com/script/events.js
 ||collections.mp.microsoft.com/*/collections/query
 ||collector-pxxljwhhue.px-cloud.net/b/s/beacon
+||collector.appconsent.io/t2.gif?a=
 ||collector.leaddyno.com/clickstream^
 ||collector.xh*/?log=
 ||colliers.com/Coveo/Hive/js/CoveoForSitecoreAnalytics.js
@@ -106860,6 +106862,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||coocha.co.kr/static/js/common/tracker.js
 ||cookpad.com/*/activity_logs
 ||cookpad.com/FqtAw5et/init.js
+||coomer.st/api/v1/creators|
 ||coopmobile.ch/analytics/at.js
 ||cope.es/stats/services/recordEvent
 ||copilot.microsoft.com/fd/ls/
@@ -107881,8 +107884,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kazus.ru/js/*/log_trackjs.htm
 ||kbb.com/pixall/
 ||kccsrecommend.site/torimochi_log/
-||kemono.party/api/event
-||kemono.party/onomek.js
+||kemono.cr/api/v1/creators|
 ||kenga.tech/heatmaps-
 ||kentaku.co.jp/js/gtm.js
 ||kerch.fm/templates/FM/js/analytic.js
@@ -109737,7 +109739,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||wblt.oui.sncf/prod/*/vsca.js
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt*.js?ts=
-||wcs.naver.com^$redirect=noop.txt,~script,domain=smartstore.naver.com
 ||wcs.naver.com^$~script,domain=~smartstore.naver.com
 ||wcs.naver.net/wcslog.js^
 ||wct-1.com/wct.js
@@ -111754,6 +111755,7 @@ d4?appid*type*
 ||device-metrics-*.amazon.com^
 ||devlog-upload-os.hoyoverse.com^
 ||dex50.deteql.net^
+||df.afafb.com^
 ||dflow.log.hunantv.com^
 ||dig.bdurl.net^
 ||direct-collect.dy-api.com^
@@ -111776,6 +111778,7 @@ d4?appid*type*
 ||e-ssl.apsalar.com^
 ||eats-ads-event-capture.coupang.com^
 ||ec.adadapted.com^
+||ecpm.afafb.com^
 ||edith-seb.xiaohongshu.com^
 ||edmanalytics.pandahall.com^
 ||elephantdata.net^
@@ -111827,6 +111830,7 @@ d4?appid*type*
 ||fraud.adjoe.zone^
 ||fraudmetrix.cn^
 ||g.analytics.versa-ai.com^
+||gamedot.afafb.com^
 ||gamestats.easybrain.com^
 ||gateway.bingviz.microsoftapp.net^$app=com.microsoft.bing
 ||gcm.ksmobile.com^
@@ -112003,6 +112007,7 @@ d4?appid*type*
 ||mcs-va.tiktokv.com^
 ||mcs.*.tiktokv.com^
 ||mcs.tiktokw.us^
+||mediation-receiver.afafb.com^
 ||mediation-tracking.prd.mz.internal.unity3d.com^
 ||mediation.mwmadnetworks.com^
 ||meitustat.com^
@@ -112019,6 +112024,7 @@ d4?appid*type*
 ||metrics.timewarnercable.com^
 ||mgbsdk*.matrix.easebar.com^
 ||mgs123.com^
+||middle-defend.afafb.com^
 ||minor-api-os.hoyoverse.com^
 ||mintegral.net^
 ||misc.api.snaptube.app^
@@ -112233,6 +112239,7 @@ d4?appid*type*
 ||t.adx.opera.com^
 ||t.castle.io^
 ||t.ndemiccreations.com/*/*?tv=*&uid=
+||tadata.afafb.com^
 ||tagdelivery.mayoclinic.org.pc-mc.greylabeldelivery.com^
 ||tagdelivery.mayoclinic.org^
 ||tags.creditkarma.com^
@@ -112436,6 +112443,7 @@ d4?appid*type*
 @@||cl-*.k5a.io/*.js^$domain=tv2.no
 @@||cl-eu4.k5a.io/*.js$domain=itavisen.no
 @@||cnstrc.com/js/cust/swanson-health_*.js$domain=swansonvitamins.com
+@@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||content.canadiantire.ca/fp/tags.js$domain=customerauth.triangle.com
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$domain=curos.ca
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=abcnews.go.com
@@ -112444,7 +112452,7 @@ d4?appid*type*
 @@||g.alicdn.com/AWSC/et/$domain=ele.me
 @@||googletagmanager.com/gtag/js?id=$domain=moegirl.org.cn
 @@||googletagmanager.com/gtag/js?l=$domain=wps.com
-@@||googletagmanager.com/gtm.js$domain=catfootwear.com|chacos.com|challenges.fr|firsty.app|hytest.com|leroymerlin.es|merrell.com|saucony.com|slam.nl|volksstimme.de|wolverine.com|ybt.sapporobeer.jp
+@@||googletagmanager.com/gtm.js$domain=catfootwear.com|chacos.com|challenges.fr|firsty.app|hytest.com|jornaldocomercio.com|leroymerlin.es|merrell.com|saucony.com|slam.nl|volksstimme.de|wolverine.com|ybt.sapporobeer.jp
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=asda.com
 @@||js.monitor.azure.com/scripts/c/ms.jsll-*.min.js$domain=visualstudio.microsoft.com
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
