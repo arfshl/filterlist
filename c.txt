@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202507300226
+! Version: 202507310225
 ! Title: Personal Filter
-! Last Modified: 30 Jul 2025 02:26 UTC
+! Last Modified: 31 Jul 2025 02:25 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -465,6 +465,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||8digits.com^
 ||8ehhtsv9bo7i.monkeylearn.com^
 ||8ezc.sfr.fr^
+||8inhjmd.usefathom.com^
 ||8ue4rp6yxyis.www.tapmyback.com^
 ||8vwxqg.tapin.gg^
 ||8wozkl2r32jb.mitarbeiter-schmiede.de^
@@ -6320,7 +6321,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||beneficios.davivienda.sv^
 ||benefits.aon.com^
 ||benelux2.secureforms.mcafee.com^
-||bentonow.com^$third-party
 ||beoofo.pairs.lv^
 ||beppk.travelsmith.com^
 ||beqvol.nabbi.sk^
@@ -50275,6 +50275,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||starget.westjet.com^
 ||starget.workingadvantage.com^
 ||starkgame.zijieapi.com^
+||starman.usefathom.com^
 ||starmount.alwayscarebenefits.com^
 ||start.adelaide.edu.au^
 ||start.ashfieldmeetings.com^
@@ -55217,6 +55218,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||track.bemestardavida.com^
 ||track.bemestarharmonia.com^
 ||track.bemmefiz.com.br^
+||track.bentonow.com^
 ||track.bestbuy.ca^
 ||track.bestportableacunits.com^
 ||track.bestseedsonline.com^
@@ -58328,7 +58330,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||usamidia.v4company.com^
 ||usb-vna.coppermountaintech.com^
 ||usebc.vertellis.nl^
-||usefathom.com^
 ||user-analysis.7moor.com^
 ||user-clicks.com^$third-party
 ||user-stats.rbl.ms^$third-party
@@ -102127,6 +102128,7 @@ zmail.happycustomer.io$image
 ||analytics.vixcloud.co^
 ||analytics.vpplayer.tech^
 ||analytics.waifu2x.org^
+||analytics.webanalytics.op.europa.eu^
 ||analytics.webflow.com^
 ||analytics.webgains.io^
 ||analytics.wondershare.cc^
@@ -102201,6 +102203,7 @@ zmail.happycustomer.io$image
 ||audience.visiblemeasures.com^
 ||auth-*.hismarttv.com^
 ||auth-srv.launchthatapps.com^
+||aws-analytics.nmg.com.hk^
 ||awsync.yandex.ru^
 ||ax.amnezia.org^
 ||azq.zozo.jp^
@@ -102305,6 +102308,7 @@ zmail.happycustomer.io$image
 ||cc.calltracking.ru^
 ||cc.swiftype.com^
 ||cdn-channels-pixel.ex.co^
+||cdn-eu.usefathom.com^
 ||cdn-redirector.glopal.com^
 ||cdn.c-i.as^
 ||cdn.contalyze.com^
@@ -102704,6 +102708,7 @@ zmail.happycustomer.io$image
 ||et.nytimes.com^
 ||eu.pftk.temu.com^
 ||eu.thtk.temu.com^
+||eu.usefathom.com^
 ||eum*.instana.io^
 ||ev.api.bdg.com^
 ||ev.kck.st^
@@ -103973,6 +103978,7 @@ zmail.happycustomer.io$image
 ||staging-*.ispot.tv^
 ||stags.bluekai.com^
 ||stape.brascast.com^
+||starman.usefathom.com^
 ||startrekk.flaconi.de^
 ||stat*.1internet.tv^
 ||stat.4u.pl^
@@ -105596,7 +105602,7 @@ colliers.com#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
 comichara.com,movient.net###text-6
 computerbild.de##.articleAdditional > .mehrthema
 continentseven.com##.gaoop
-coomer.st,kemono.cr#%#//scriptlet('set-local-storage-item', 'plausible_ignore', 'true')
+coomer.*,kemono.*#%#//scriptlet('set-local-storage-item', 'plausible_ignore', 'true')
 crank-in.net#?#.wrap_general:has( > #taboola-below-article-thumbnails-mg)
 crank-in.net#?#article > section.block-area:has( > div#taboola-below-article-thumbnails-mg)
 crea.bunshun.jp##.module-recommend
@@ -105658,6 +105664,8 @@ hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has( > td[backgro
 hmangamatome.net###text-39
 hobbylog.jp##.pbancut
 hochi.news###ohtani-pickup
+hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_se', '$remove$')
+hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_uid', '$remove$')
 idle-girl.com###custom_html-74
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cc_id', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_atfr', '$remove$')
@@ -105765,6 +105773,7 @@ raycast.com#%#//scriptlet('set-local-storage-item', '/ph_phc_/', '$remove$')
 raycast.com#%#//scriptlet('set-session-storage-item', '/ph_phc_/', '$remove$')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href="#pixel"]
 reuters.com###taboola-recirc
+revistaoeste.com##.content-aside__taboola
 revuestarlightre.com###custom_html-6
 samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 sankei.com##div[id^="piano_special_Top_"]
@@ -106862,7 +106871,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||coocha.co.kr/static/js/common/tracker.js
 ||cookpad.com/*/activity_logs
 ||cookpad.com/FqtAw5et/init.js
-||coomer.st/api/v1/creators|
+||coomer.*/api/v1/creators|
 ||coopmobile.ch/analytics/at.js
 ||cope.es/stats/services/recordEvent
 ||copilot.microsoft.com/fd/ls/
@@ -107334,6 +107343,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||fotka.com/ajax_action/adblock_stat
 ||fotka.com/out/counters.php
 ||fotocommunity.de/track/js/
+||fotokino.sk/catalog/view/javascript/devmanextensions_gmt/gmt-library.js
 ||foursquare.com/*/collector/noScript.gif
 ||foursquare.com/*/logger
 ||foursquare.com/*/wtrack?event=
@@ -107884,7 +107894,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kazus.ru/js/*/log_trackjs.htm
 ||kbb.com/pixall/
 ||kccsrecommend.site/torimochi_log/
-||kemono.cr/api/v1/creators|
+||keirin.netkeiba.com/ndtracker/
+||kemono.*/api/v1/creators|
 ||kenga.tech/heatmaps-
 ||kentaku.co.jp/js/gtm.js
 ||kerch.fm/templates/FM/js/analytic.js
@@ -110899,6 +110910,8 @@ $cookie=ytrackvisit
 ||hk01.com^$cookie=hk01-annonymous-id
 ||hk01.com^$cookie=hk01-segment-id
 ||homerun.co.uk^$cookie=-fingerprint
+||hpplus.jp^$cookie=fw-se
+||hpplus.jp^$cookie=fw-uid
 ||https-filtering-check.adtidy.org^
 ||hulu.com^$cookie=metrics-tracker-session-manager
 ||hwbusters.com^$cookie=advanced-ads-page-impressions
@@ -115326,7 +115339,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||wetransfer.com^$removeparam=amp;utm-source
 ||wetransfer.com^$removeparam=t-exp
 ||wetransfer.com^$removeparam=t-lsid
+||wetransfer.com^$removeparam=t-network
 ||wetransfer.com^$removeparam=t-rid
+||wetransfer.com^$removeparam=t-s
 ||wetransfer.com^$removeparam=t-ts
 ||wetransfer.com^$removeparam=trk
 ||wetransfer.zendesk.com^$removeparam=amp%3btoken
@@ -116262,7 +116277,7 @@ kompas.com##.gate-kgplus
 liputan6.com##.gateway__mobile-app
 inews.id##.getawayApp
 tokopedia.com##.h0omPnp2Vr0upyxAZbs4jw\=\=
-kompas.com,sonora.id##.kgnw-middle-ready.kgnw-middle
+kompas.com,kompas.tv,sonora.id##.kgnw-middle-ready.kgnw-middle
 bolasport.com,grid.id,gridoto.com,kompas.com,kompas.tv,motorplus-online.com##.kgnw-player
 kapanlagi.com##.liputan6-mobileapp-widget
 inilah.com##.mui-style-1tl651l.MuiStack-root
