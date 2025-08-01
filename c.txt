@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202507310225
+! Version: 202508010237
 ! Title: Personal Filter
-! Last Modified: 31 Jul 2025 02:25 UTC
+! Last Modified: 01 Aug 2025 02:37 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -350,6 +350,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||1hb4jkt1u2d.probemas.com^
 ||1j2n061x3td.www.digi.no^
 ||1k5vz1ejbcx.staging.probemas.com^
+||1p-data.com^$third-party
 ||1p3293dngsv.dodofacile.fr^
 ||1phrzgfqiym8.marketingtornado.ca^
 ||1ps6e7sort397gy9.edge46.testandtarget.omniture.com^
@@ -8940,6 +8941,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||customercare.myomnipod.com^
 ||customerexperience.verintsystemsinc.com^
 ||customerjourney.mba.org^
+||customerlabs.co^$third-party
 ||customerrelations.theinstitutes.org^
 ||customers-capitalbank-jo-877029.p06.elqsandbox.com^
 ||customerservice.invacare.eu.com^
@@ -101936,6 +101938,7 @@ zmail.happycustomer.io$image
 ||analytics-ingestion.production-public.tubi.io^
 ||analytics-ingress-global.bitmovin.com^
 ||analytics-ingress.bitmovin.com^
+||analytics-ipv6.tiktokw.us^
 ||analytics-logger.service.junctiontv.net^
 ||analytics-mkt.wemakeprice.com^
 ||analytics-op.streak.ninja^
@@ -102363,6 +102366,7 @@ zmail.happycustomer.io$image
 ||clog.geniex.com^
 ||clog.go.com^
 ||clog.lghv.net^
+||clog.tanshudata.com^
 ||clt.banggood.com^
 ||clvk.viki.io^
 ||cmap.alibaba.com^
@@ -102928,6 +102932,7 @@ zmail.happycustomer.io$image
 ||gtmfsstatic.getgoogletagmanager.com^
 ||gtr1.yes24.com^
 ||guq9.vente-unique.it^
+||gw.stape.fr^
 ||h019.wtae.com^
 ||h031.familydollar.com^
 ||h353.ncadvertiser.com^
@@ -103027,6 +103032,7 @@ zmail.happycustomer.io$image
 ||istatistik.arabam.com^
 ||istatistik.trthaber.com^
 ||ivstat.indavideo.hu^
+||iws2.io.naver.com^
 ||j.uralweb.ru^
 ||j0v36abmdj.execute-api.us-east-1.amazonaws.com^
 ||j178.wmur.com^
@@ -105676,6 +105682,7 @@ infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.livei
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
 insider.com,israelnationalnews.com##.taboola
+itmedia.co.jp,mag.osdn.jp##div[id^="logly-lift-"]
 ixbt.com##.block__recommend
 j-cast.com###cxRelatedEntry
 j-cast.com###sp_j-cast_kiji_recommend_1
@@ -105705,7 +105712,6 @@ m.lenta.ru##.b-footer_counters
 m24.ru##.b-counters > ul
 m4ex.com###footer-widget
 m4ex.com##.plugin-counter
-mag.osdn.jp##div[id^="logly-lift-"]
 mais.sbt.com.br#%#//scriptlet('set-local-storage-item', 'youbora.youboraDeviceUUID', '$remove$')
 makemytrip.com#%#//scriptlet('set-local-storage-item', 'marketingCloudVisitorID', '$remove$')
 makemytrip.com#%#//scriptlet('set-local-storage-item', 'PERSONAL_FLIGHT_emperiaResponse', '$remove$')
@@ -105775,6 +105781,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[hre
 reuters.com###taboola-recirc
 revistaoeste.com##.content-aside__taboola
 revuestarlightre.com###custom_html-6
+s.response.jp##.aside-box-relation-arti
 samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 sankei.com##div[id^="piano_special_Top_"]
 scarfilm.org##.footer-col-3
@@ -106018,6 +106025,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||aktion.kurier.de/umfrage/anlvi/setIframeParent
 ||alarm.youku.com/api/sendAlarm
 ||alawar.com/gcounter_alawar.js
+||alia-cloudflare.com/*/events
 ||alibaba.com/js/beacon_
 ||alicdn.com/AWSC/et/
 ||alicdn.com/f/pcdn/i.php?
@@ -107396,6 +107404,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||gamejolt.com/tick/
 ||gamerant.com/strpixel.png
 ||gamerpay.gg/monitoring?
+||games-sdk.yandex.ru/games/api/sdk/v1/player/stats^
 ||gamesgames.com/wdg/performance_tracker-active
 ||gamesgames.com/wdg/tracking-active
 ||gamespot.com/js/compiled/trackingWithCT.js
@@ -108489,6 +108498,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||pdfcrowd.com/pls/api/event
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/StaffContent/assets/js/staffstart-analytics.js
+||peacocktv.com/*/tracking/
 ||pearson.com/assets/*/collect
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||peerius.episerver.net/tracker/
@@ -109000,6 +109010,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||show.revico.jp/api/reviewclick/add
 ||show.revico.jp/providejs/revico_tracking.js
 ||showstopped.com/owa/log.php
+||shueisha.online/op/analytics.js
 ||shufoo.net/log/
 ||shufoo.net/plus/media/beacon
 ||sight.ewp.gg/track/
@@ -109434,6 +109445,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tmp.argusplatform.com/js/wid.tracker.js
 ||tms.marriott.com/error/e.gif
 ||tmserverside.mango.com/g/collect
+||tof.perfectworld.com/public/js/stat-tof-perfectworld-
 ||toho-u.ac.jp/common/js/ga_tracking.js
 ||token.awswaf.com/*/report|
 ||tom.itv.com/itv/count/*
@@ -110138,6 +110150,8 @@ bolt.im/t/$image
 c-hh-point-jp.*.cuenote.jp%2Fc%2F*.gif$image
 c-hh-point-jp.*.cuenote.jp/c/*.gif$image
 c.crm-em.com$image
+c.groovehq.com%2F*.gif$image
+c.groovehq.com/*.gif$image
 cl.melonbooks.co.jp$image
 cl.mos.jp%2Fq%2F$image
 cl.mos.jp/q/$image
@@ -114386,9 +114400,11 @@ $removeparam=ysclid
 &af_xp=$removeparam=pid
 &uclick=*&uclickhash=$removeparam
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
+*$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=service-id,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=siteno,domain=emart.ssg.com|m-emart.ssg.com
+*$removeparam=spartner,domain=easynotebooks.de|notebook.de
 *$removeparam=t-src,domain=tuta.com|tutanota.com
 /?affijet-click=$removeparam
 /?r=dir&zoneid=$removeparam
@@ -114581,6 +114597,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||clickserve.dartsearch.net^$removeparam=ds-s-kwgid
 ||clickserve.dartsearch.net^$removeparam=lid
 ||cloud.baidu.com^$removeparam=from
+||clubi.cc/*?t=$removeparam=c
+||clubi.cc/*?t=$removeparam=s
+||clubi.cc/*?t=$removeparam=t
 ||cmswire.com^$removeparam=source
 ||cnbc.com^$removeparam=--source
 ||cnbc.com^$removeparam=par
@@ -114600,6 +114619,10 @@ rtkcid=*&clickid=$removeparam=clickid
 ||cyber.sports.ru^$removeparam=p-a
 ||cyber.sports.ru^$removeparam=p-c
 ||cyber.sports.ru^$removeparam=p-n
+||cyberghostvpn.com^$removeparam=aff-id
+||cyberghostvpn.com^$removeparam=aff-sub
+||cyberghostvpn.com^$removeparam=brand
+||cyberghostvpn.com^$removeparam=source
 ||d.ghostery.com^$removeparam
 ||d.odsyms15.com/click$removeparam=article-id
 ||d.odsyms15.com/click$removeparam=ext.referrer
@@ -115033,7 +115056,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||promote.betcity.ru^$removeparam=icm
 ||promote.betcity.ru^$removeparam=refcode
 ||promote.betcity.ru^$removeparam=widget-id
+||protonvpn.com^$removeparam=plan
 ||protonvpn.com^$removeparam=ref
+||protonvpn.com^$removeparam=url-id
 ||provereno.media^$removeparam=tg-rhash
 ||puma.com^$removeparam=sc-eh
 ||puma.com^$removeparam=sc-lid
@@ -115283,6 +115308,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||tiktok.com^$removeparam=tt-from
 ||tiktok.com^$removeparam=u-code
 ||tiktok.com^$removeparam=web-id
+||tingfm.com^$removeparam=from
 ||tinkoff.ru^$removeparam=dsp-click-id
 ||tmz.com^$removeparam=adid
 ||tokopedia.com^$removeparam=extparam
