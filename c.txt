@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508010237
+! Version: 202508020219
 ! Title: Personal Filter
-! Last Modified: 01 Aug 2025 02:37 UTC
+! Last Modified: 02 Aug 2025 02:19 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -105801,6 +105801,7 @@ syzran-small.ru##.footbl3 > div[style="margin-right:100px;"]
 tap.az##.links-sites > .counters
 techcrunch.com#%#//scriptlet('set-local-storage-item', 'criteo_fast_bid', '$remove$')
 techmaniachd.pl###sidebar-right-1 > #HTML6
+techradar.com#%#//scriptlet('href-sanitizer', 'a[href^="https://go.redirectingat.com/?id="]', '?url')
 telegraph.co.uk##.more-stories
 temu.com#%#//scriptlet('set-local-storage-item', '_nano_fp', '$remove$')
 tensaigakkou.ru###custom_html-16
@@ -107661,6 +107662,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hrw.org/libraries/custom/simpleanalytics.js
 ||hsbcglobalcmb.sc.omtrdc.net/id?$important,redirect=noop.txt,domain=business.hsbc.uk
 ||hsforms.com/*/counters.gif
+||http-inputs-itv.splunkcloud.com/services/collector
 ||httpstatus.io/analytics/api/send
 ||huawei.com/*/hwautocomplete/
 ||hub.fromdoppler.com/public/dhtrack.js
@@ -108934,8 +108936,10 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||searchunify.com/analytics/suanlytics.png
 ||secretcv.com/log/
 ||secretescapes.de/assets/common/tracker
+||secure.ace.itv.com/*/event|
 ||secure.agoda.com/pixel.gif
 ||secure.booking.com/email_opened_tracking_pixel
+||secure.pes.itv.com/*/event|
 ||secure.planetfootball.com/tag/*/tag.js
 ||securegw.paytm.in/ui/uilogger/log?
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$important,redirect=googletagservices-gpt,script,domain=turbo.pt
@@ -110074,23 +110078,29 @@ link.gmapp*.net$image
 %2F%2Fp.liadm.com%2Fimp%3Fs%3D$image
 %2FCI0%2F0$image
 %2Fe3t%2FCto%2FRK$image
+%2Feos%2Fv1%2F$image
+%2Fgp%2Fr.html%3FC%3D*%26ref_%3Dpe_*_open$image
 %2Fo.gif%3Fmi_u%3D$image
 %2Fopen.aspx$image
 %2Fpixel%3Fc%3D$image
+%2Fpub%2Fas%3F_ri_%3D$image
+%2Fq%2F*~~%2F$image
 %2Fr%2F%3Fid%3D$image
+%2Fs%2Feo%2F$image
 %2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
+%2Fsenp.png%3F$image
 %2Ft1.*.sbs.com.au%2Fr%2F%3Fid%3D$image
 %2Ftrack%2Fopen.php%3Fu%3D$image
+%2Fvia%2Fo%3Fh%3D
+%2Fvia%2Fo%3Fh%3D$image
 %2Fwf%2Fopen%3Fupn%3D$image
 %3A%2F%2Fe.*%2Fopen%3F$image
 .awstrack.me$image
 .bzzgroup.cn$image
 .com%2F_t%2Fopen%2F$image
 .com%2Fe%2Fo%2F$image
-.com%2Fq%2F*~~%2F$image
 .com/_t/open/$image
 .com/e/o/$image
-.com/q/*~~/$image
 .e-mailnews.de%2Fi%2F$image
 .e-mailnews.de/i/$image
 .everestengagement.com%2Fea%2F$image
@@ -110106,13 +110116,21 @@ link.gmapp*.net$image
 .pulse-stat.com$image
 /CI0/0$image
 /e3t/Cto/RK$image
+/eos/v1/$image
+/gp/r.html?C=*&ref_=pe_*_open$image
 /mpss/o/*$image
 /o.gif?mi_u=$image
 /open.aspx$image
 /open.html?x=$image
 /pixel?c=$image
+/pub/as?_ri_=$image
+/q/*~~/*$image
 /r/?id=$image
+/s/eo/*$image
+/senp.png?$image
 /track/open.php?u=$image
+/via/o?h=
+/via/o?h=$image
 /wf/open?upn=$image
 0ukok.mjt.lu$image
 30menu.com/_t/$image
@@ -110126,8 +110144,6 @@ ablink.hi.channel4.com$image
 ad.doubleclick.net*trackimp$image
 ae.mmstat.com%2Fae.edm.edm_open%3F$image
 ae.mmstat.com/ae.edm.edm_open?$image
-amazon.*%2Fgp%2Fr.html%3FC%3D*%26ref_%3Dpe_*_open$image
-amazon.*/gp/r.html?C=*&ref_=pe_*_open$image
 aozorabank.co.jp%2Fr%2F*%2Fopen%2F$image
 aozorabank.co.jp/r/*/open/$image
 api.mixpanel.com/track$image
@@ -110238,6 +110254,7 @@ feedback.send.yandex.ru/px/$image
 files.fm%2Fl%2Femail-pix$image
 files.fm/l/email-pix$image
 filetransfer.io*pixel$image
+flask.us.nextdoor.com$image
 geteml.com$image
 github.com%2Fnotifications%2Fbeacon%2F$image
 github.com/notifications/beacon/$image
@@ -110284,12 +110301,8 @@ link.vox.com$image
 linkedin.com*emimp$image
 links.*.com/e/eo?_t=$image
 links.email.digg.com$image
-links.flickr.com%2Fs%2Feo%2F$image
-links.flickr.com/s/eo/$image
 links.kahoot.com$image
 links.newsletter.fortune.com$image
-links.plex.tv%2Fs%2Feo%2F$image
-links.plex.tv/s/eo/$image
 links.signup.com$image
 links.skillbox.ru%2Fo%2F$image
 links.skillbox.ru/o/$image
@@ -110297,8 +110310,6 @@ links.theskimm.com$image
 links1.*.com/q/*$image
 list-manage.com*track$image
 lmqmpm.clicks.mlsend.com$image
-lnk.1password.com%2Fs%2Feo%2F$image
-lnk.1password.com/s/eo/$image
 log.bntrace.com$image
 lurl.soundcloud.com%2Fss%2Fo%2F$image
 lurl.soundcloud.com/ss/o/$image
@@ -112535,8 +112546,8 @@ trendyol.com#%#//scriptlet('set-constant', 'process.env', 'emptyObj')
 @@||cloud.polarbyte.com/webapps-api/api/v1/campaigns/$domain=cambridgeenglish.org
 @@||dpm.zebestof.com/*/tag.js^$domain=journaldunet.com
 @@||f-tra.com^$script,domain=pokemoncenter-online.com
-@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=birminghammail.co.uk|liverpoolecho.co.uk|mirror.co.uk
-@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=birminghammail.co.uk|liverpoolecho.co.uk|mirror.co.uk
+@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=birminghammail.co.uk|dailystar.co.uk|liverpoolecho.co.uk|manchestereveningnews.co.uk|mirror.co.uk
+@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=birminghammail.co.uk|dailystar.co.uk|liverpoolecho.co.uk|manchestereveningnews.co.uk|mirror.co.uk
 @@||google-analytics.com/debug/$domain=10bye.com
 @@||googletagmanager.com/gtag/$domain=oo.ai
 @@||googletagmanager.com/gtag/js$domain=dizzylab.net
@@ -112570,8 +112581,6 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no|panzerglass.com
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
 @@||d.line-scdn.net/*/torimochi.js/*/torimochi.js$domain=pointclub.line.me
-@@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=dailystar.co.uk
-@@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=dailystar.co.uk
 @@||google-analytics.com/mp/collect?$domain=startse.com
 @@||googletagmanager.com/gtm.js$domain=almamedia.fi|cityheaven.net|flets.com|hobbystock.jp|ladepeche.fr|online.ysroad.co.jp|playactivate.com|shop-apotheke.com|wowma.jp
 @@||googletagmanager.com/gtm.js?id=GTM-WMQ82P6$domain=excite.co.jp
