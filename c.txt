@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508020219
+! Version: 202508030236
 ! Title: Personal Filter
-! Last Modified: 02 Aug 2025 02:19 UTC
+! Last Modified: 03 Aug 2025 02:36 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -105031,6 +105031,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /diffuser.js
 /dist/owa.tracker.js
 /dooanalytics/*$script
+/dtr/count.php
 /duracelltomi-google-tag-manager/*$script
 /dwanalytics-
 /dynaTraceMonitor?
@@ -105047,6 +105048,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /fbevents.min.js
 /fbpix-events-
 /fingerprint.js
+/fingerprint/iife.min.js
 /fingerprint2.js
 /fingerprint2.min.js^
 /flying-analytics/js/analytics.js
