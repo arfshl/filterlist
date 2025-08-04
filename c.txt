@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508030236
+! Version: 202508040235
 ! Title: Personal Filter
-! Last Modified: 03 Aug 2025 02:36 UTC
+! Last Modified: 04 Aug 2025 02:35 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -116337,6 +116337,9 @@ quran.nu.or.id##.w-full.relative
 inews.id##.widgetNewsTV__news24Jam
 bloombergtechnoz.com##div:nth-of-type(5)
 kompas.tv,sonora.id##kgnw-middle-player
+! adult
+dutasex.*##.channel-icon-Telegram.chaty-icon
+dutasex.*##[href="https://rebrand.ly/dutasexAPK"]
 ! Grid Networks
 grid.id###buttonGridstore
 motorplus-online.com###floatingIframe
@@ -116446,7 +116449,7 @@ zapytaj.onet.pl##.know-better-answer
 ! !!instagram.com##div[style*=spectrum-cherry]:has(form[id^=loginForm i])
 instagram.com#?#div[class^=" _"][style^="width: "]:only-of-type:has(a[href^="/accounts/emailsignup/"])
 ! https://www•instagram•com/foxilayart/ (07/01/2025)
-www.instagram.com##div[data-visualcompletion=ignore] + div[class*=" "]
+! !! www.instagram.com##div[data-visualcompletion=ignore] + div[class*=" "] (https://github.com/AdguardTeam/AdguardFilters/issues/210579)
 ! SpanishDict
 ! https://github.com/DandelionSprout/adfilt/issues/7#issuecomment-559903607
 ! Removes a one-time account creation prompt
