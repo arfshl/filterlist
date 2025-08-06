@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508050229
+! Version: 202508060227
 ! Title: Personal Filter
-! Last Modified: 05 Aug 2025 02:29 UTC
+! Last Modified: 06 Aug 2025 02:27 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3674,6 +3674,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||alerts.ironmountain.com^
 ||alerts.wolterskluwerfs.com^
 ||alex.coatdefense.com^
+||alexametrics.com^
 ||alexfj.elten-store.de^
 ||alfbgg.lojacoty.com.br^
 ||alfeza.vueling.com^
@@ -14608,7 +14609,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||eco-tag.jp^$third-party
 ||ecologi.link^
 ||ecomm.events^$third-party
-||ecommerce-events.adscale.com^
+||ecommerce-events*.adscale.com^
 ||ecommhpi.ext.hp.com^
 ||ecommstats.com^$third-party
 ||econa.met.vgwort.de^
@@ -97517,6 +97518,7 @@ zmail.happycustomer.io$image
 ||analytics.emol.com^
 ||analytics.faceitanalytics.com^
 ||analytics.fap.bar^
+||analytics.flexclip.com^
 ||analytics.floris.amsterdam^$third-party
 ||analytics.fontanka.ru^
 ||analytics.freemake.com^
@@ -97568,6 +97570,7 @@ zmail.happycustomer.io$image
 ||analytics.nova.foxsports.com^
 ||analytics.onedio.com^
 ||analytics.ooyala.com^
+||analytics.org.coveo.com^
 ||analytics.ouc.ac.cy^
 ||analytics.ovh.com^
 ||analytics.oyorooms.com^
@@ -97615,6 +97618,7 @@ zmail.happycustomer.io$image
 ||analytics.tebilisim.com^
 ||analytics.tedium.co^
 ||analytics.teespring.com^
+||analytics.tempmail100.com^
 ||analytics.thenest.com^
 ||analytics.thenewslens.com^
 ||analytics.theta360.com^
@@ -97643,12 +97647,14 @@ zmail.happycustomer.io$image
 ||analytics.wondershare.cc^
 ||analytics.wrc.nic.in^
 ||analytics.yahoo.com^
+||analytics.zdassets.com^
 ||analytics.zoomit.ir^
 ||analytics2.tvreport.co.kr^
 ||analyticsengine.s3.amazonaws.com^
 ||analyticshipaa.cloud.coveo.com^
 ||analyticsnew.overwolf.com^
 ||analyticswritenew.xerevo.com^
+||analyzer*.fc2.com^
 ||anon-stats.eff.org^
 ||anonym.data.funkedigital.de^
 ||ap.attainplatform.io^
@@ -97958,6 +97964,7 @@ zmail.happycustomer.io$image
 ||conf.international.baidu.com^
 ||config.sdk.kochava.dewrain.life^
 ||connect.blockboardtech.com^
+||copilot-telemetry.githubusercontent.com^
 ||core.airbridge.io^
 ||count.channeladvisor.com^
 ||count.ing.de^
@@ -98616,6 +98623,7 @@ zmail.happycustomer.io$image
 ||log*.aliyuncs.com^
 ||log*.vietnamplus.vn^
 ||log-ana.h3z.jp^
+||log-api.sooplive.com^
 ||log-auth.flysleep.cn^
 ||log-lb.skyperfectv.co.jp^
 ||log-player.arte.tv^
@@ -98701,6 +98709,7 @@ zmail.happycustomer.io$image
 ||log2.musical.ly^
 ||log2.radiko.jp^
 ||logapi.kt.com^
+||logapi.sooplive.com^
 ||logapi.tv.naver.com^
 ||logapi.zhipin.com^
 ||logcol.kyobobook.co.kr^
@@ -98839,6 +98848,7 @@ zmail.happycustomer.io$image
 ||metrics.imdb.a2z.com^
 ||metrics.imdb.com^
 ||metrics.infranken.de^
+||metrics.kapa.ai^
 ||metrics.makemytrip.com^
 ||metrics.mdstrm.com^
 ||metrics.motoblouz.com^
@@ -98907,6 +98917,7 @@ zmail.happycustomer.io$image
 ||montelena.auction.co.kr^
 ||montelena.gmarket.co.kr^
 ||mormont.gamer-network.net^
+||mp.cwtv.com^
 ||mp.theepochtimes.com^
 ||mpc.nicequest.com^
 ||mqqad.html5.qq.com^
@@ -99810,6 +99821,8 @@ zmail.happycustomer.io$image
 ||telemetry.jivosite.com^
 ||telemetry.malwarebytes.com^
 ||telemetry.nbcuott.com^
+||telemetry.proton.me^
+||telemetry.sgp.pvp.net^
 ||telemetry.soundcloud.com^
 ||telemetry.stytch.com^
 ||telemetry.svc.transifex.net^
@@ -100261,6 +100274,7 @@ zmail.happycustomer.io$image
 ||wl.yna.co.kr^
 ||wlog.ifdo.co.kr^
 ||wlog.tmon.co.kr^
+||wphlvzycf5.execute-api.eu-west-2.amazonaws.com^
 ||wstat.ozon.ru^
 ||wt.soundestlink.com^
 ||wtbevents.pricespider.com^
@@ -100902,6 +100916,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /zhugeio.js
 /ztagtrackedevent/*
 /zz.gif?url=
+/~partytown/proxytown
 ://analytics.*/collect
 ://b.*/vanity/?
 ://ct1.*.com/sc/
@@ -101204,6 +101219,8 @@ jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
 jisin.jp#?##main-articles > section.post-group > div[data-gmoad]:upward(1)
 joinrs.com#%#//scriptlet('set-local-storage-item', 'TRACKING_EVENTS', '$remove$')
 kanobu.ru##a[href^="https://www.liveinternet.ru/click"]
+kari.com#%#//scriptlet('set-local-storage-item', 'device_id', '$remove$')
+kari.com#%#//scriptlet('set-local-storage-item', 'rees46_device_id', '$remove$')
 kerch.com.ru##a[href^="http://www.kerch.net/counter/"]
 kino-zeit.de##.vgwort-metis-marker
 kinotan.ru,kinotochka.club,legend.az##.counts
@@ -101858,7 +101875,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets.grubhub.com/libs/*/clickstream2.min.js
 ||assets.hearstapps.com/commerce/release/affiliate-
 ||assets.htvapps.com/lumiere/fallback/analytics.js
-||assets.msn.com/bundles/*/libs_ads-utils_dist_logging_*.js
 ||assets.papegames.com/libs/monitor.js
 ||assets.pixlee.com/assets/fp.js
 ||assets.pixlee.com/shopify/pixlee.shopify.v2.prod.js
@@ -102844,6 +102860,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||fishki.net/counter/
 ||fiylo.de/typo3conf/ext/of_design/Resources/Public/JavaScript/Libs/smarttag_LIVE.js
 ||flaticon.com/_ga?
+||flexclip.com/templates/fujie/js/analytics.js
 ||flipboard.com/api/v2/reporting/datadog
 ||flipkart.net/*/*/tracker/
 ||flixcar.com/*/tracking/
@@ -105633,6 +105650,8 @@ link.gmapp*.net$image
 .net%2Fe%2Fo%2F$image
 .net/e/o/$image
 .pulse-stat.com$image
+.salesforce.com%2Fservlet%2Fservlet.ImageServer$image
+.salesforce.com/servlet/servlet.ImageServer$image
 /CI0/0$image
 /e3t/Cto/RK$image
 /eos/v1/$image
@@ -106483,6 +106502,9 @@ $cookie=ytrackvisit
 ||jobkorea.co.kr^$cookie=jk-user-uuid
 ||joinrs.com^$cookie=tracking-client-token
 ||joinrs.com^$cookie=tracking-session-token
+||kari.com^$cookie=/^sid-/
+||kari.com^$cookie=did
+||kari.com^$cookie=rees46-device-id
 ||katu.com^$cookie=suid
 ||kimbino.$cookie=/^kim-tracker/
 ||kma.go.kr^$cookie=-trk-sid
@@ -106515,6 +106537,10 @@ $cookie=ytrackvisit
 ||okko.tv^$cookie=odid
 ||okko.tv^$cookie=sherlockchatinfo
 ||opera.com^$cookie=opref
+||outdoorsy.com^$cookie=odc-aid
+||outdoorsy.com^$cookie=odc-d
+||outdoorsy.com^$cookie=odc-e
+||outdoorsy.com^$cookie=odc-s
 ||pap.pl^$cookie=/incap-/
 ||pinkvilla.com^$cookie=1p-jar
 ||pixabay.com^$cookie=anonymous-user-id
@@ -107143,6 +107169,7 @@ d4?appid*type*
 ||analytics.mobile.yandex.net^
 ||analytics.mobilegamestats.com^
 ||analytics.nianticlabs.com^
+||analytics.nianticspatial.com^
 ||analytics.picsart.com^
 ||analytics.prod.mybuddy.ai^
 ||analytics.projectcarmen.com^
@@ -108000,11 +108027,13 @@ d4?appid*type*
 @@||cdn.almamedia.tech/esm/geo-client/v*/geo-client.min.mjs$domain=iltalehti.fi
 @@||cdn.cxense.com/cx.cce.js$domain=bild.de
 @@||cdn.cxense.com/cx.js$domain=bild.de
+@@||cdn.ing.de/ing-cms-ui/*/js/webtrekk-snwMKyfV.js
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
 @@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com|pizzahut.co.uk
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.polarbyte.com^$domain=bab.la
 @@||cdn.prod.uidapi.com/uid2-sdk-*.js$domain=hoy.tv
+@@||cdn.segment.com/*/settings|$xmlhttprequest,domain=outdoorsy.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$script,domain=accounts-bc.com
 @@||cl*.k5a.io^$script,xmlhttprequest,domain=finansavisen.no
 @@||cl-*.k5a.io/*.js^$domain=tv2.no
