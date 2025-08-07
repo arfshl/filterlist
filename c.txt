@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508060227
+! Version: 202508070227
 ! Title: Personal Filter
-! Last Modified: 06 Aug 2025 02:27 UTC
+! Last Modified: 07 Aug 2025 02:27 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -100953,7 +100953,7 @@ directtrack.*.js
 ||cdn.amplitude.com/libs/plugin-session-replay-browser-$third-party
 ||google-analytics.com/analytics.js$redirect=google-analytics,script,domain=~banki.ru|~bigc.co.th|~olx.*|~sonos.com
 ||google-analytics.com/ga.js$redirect=google-analytics-ga,script,domain=~daj.jp
-||googletagmanager.com/gtm.js$redirect=googletagmanager-gtm,script,third-party,domain=~bethesda.net|~corsair.com|~olx.*|~paddle.com|~simon.com
+||googletagmanager.com/gtm.js$redirect=google-analytics,script,third-party,domain=~bethesda.net|~corsair.com|~olx.*|~paddle.com|~simon.com
 ||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest
 ||id.x5.ru^$referrerpolicy=origin
 ||mc.yandex.ru/metrika/tag.js$redirect=metrika-yandex-tag,script,domain=~aiondb.ru|~id.x5.ru
@@ -102170,6 +102170,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.gamer-network.net/*/scripts/mormont
 ||cdn.gifs.com/scripts/analytics.min.js
 ||cdn.gravitec.media/track.min.js
+||cdn.ing.de/ing-cms-ui/*/js/webtrekk
 ||cdn.iol.pt/js/utils/Modules/IOLAnalytics/dist/iol.analytics.js
 ||cdn.iyosa.com/src/report.js
 ||cdn.jsdelivr.net/countly-sdk-web/
@@ -103059,6 +103060,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||googletagmanager.com/gtm.js$third-party
 ||googletagmanager.com/gtm/
 ||googletagmanager.com/ns.html?$third-party
+||googletagmanager.com/static/service_worker/
 ||googletagservices.com/tag/js/gpt.js$domain=autonews.com|bhub.com.ua|bohenon.com|buhgalter.com.ua|day.az|dt.ua|easybib.com|fontanka.ru|guhoyas.com|gutefrage.net|hclips.com|hh.ru|kanalukraina.tv|knuddels.de|linuxtopia.org|m.yeniakit.com.tr|metropoles.com|mywebtimes.com|newsroom.kh.ua|ngs.ru|northumberlandgazette.co.uk|noticierodigital.com|okezone.com|rst.ua|sinoptik.ua|telekritika.ua|unian.net|unocero.com|watchuseek.com
 ||gopuff.com/api/v1/track/impression/
 ||gordonua.com/actions/stat/
@@ -103309,7 +103311,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||infusionsoft.app/app/webTracking/
 ||infusionsoft.com/app/webTracking/getTrackingCode
 ||ing.com.tr/assets/scripts/dataroid.websdk-
-||ing.de/*/webtrekk
 ||ingest.insights.ninetailed.co/*/events
 ||ingest.make.rvapps.io^$domain=zdnet.com
 ||ingesteer.services-prod.nsvcs.net/rum_collection|
@@ -103327,6 +103328,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||instagram.com/logging/
 ||instagram.com/paid_ads/
 ||instagram.com/static/bundles/*/EmbedAsyncLogger.js
+||interactions.one.store/v1/analytics/
 ||intercom.io/messenger/web/page_view_events
 ||interia.pl/*/hit.t?
 ||internet-abc.de^*/eTracker.js
@@ -103877,6 +103879,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||nlog.commerce.naver.com^$redirect=noop.txt
 ||nlog.naver.com^$domain=~brand.naver.com|~shopping.naver.com|~smartstore.naver.com
 ||nltx.kikar.co.il/v*/analytics/
+||nmc.cn/npt/track/stat.js
+||nmc.cn/static/nmclog/nmclog.js
 ||nocowanie.pl/plugin/tracking/
 ||nocutnews.co.kr/js/logger*.htm
 ||nordbayern.de/scripts/drive-*.js
@@ -104752,6 +104756,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||static.wattpad.com/js/tracker/app.
 ||static.wellsfargo.com/tracking/
+||static.wertpapiere.ing.de/*/webtrekk
 ||static.ws.126.net/f2e/products/analysis/
 ||static.yandex.net/browser-updater/stripe/script.js
 ||static.zhipin.com/library/js/analytics/
@@ -105173,6 +105178,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||upstract.com/tokei/
 ||uq.force.com/auraAnalytics^
 ||uraaka.com/analytics/
+||urldefense.com/*/webmon.js
 ||urldefense.proofpoint.com^*analytics_insight.min.js
 ||urlscan.io/stats
 ||us-central*-shopify-instrumentat-*.cloudfunctions.net/telemetry
@@ -106527,6 +106533,8 @@ $cookie=ytrackvisit
 ||mgmanager.gr^$cookie=visitorguid
 ||mgmanager.gr^$cookie=visitorstate
 ||my-best.com^$cookie=mybest-uuid
+||newneek.co^$cookie=/amp-/
+||newneek.co^$cookie=deviceid
 ||news.kbs.co.kr^$cookie=stat-weblog-token
 ||newsbreak.com^$cookie=nb-wuid
 ||newsbreak.com^$cookie=userid
@@ -108049,6 +108057,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtag/js?id=$domain=moegirl.org.cn
 @@||googletagmanager.com/gtag/js?l=$domain=wps.com
 @@||googletagmanager.com/gtm.js$domain=catfootwear.com|chacos.com|challenges.fr|firsty.app|hytest.com|jornaldocomercio.com|leroymerlin.es|merrell.com|saucony.com|slam.nl|volksstimme.de|wolverine.com|ybt.sapporobeer.jp
+@@||googletagmanager.com/gtm.js?id=GTM-56WSR2$domain=victorinox.com
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=asda.com
 @@||js.monitor.azure.com/scripts/c/ms.jsll-*.min.js$domain=visualstudio.microsoft.com
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
@@ -108154,11 +108163,11 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||smetrics.aa.com^$app=com.aa.android
 @@||v144.philanthropy.com/DG/DEFAULT/rest/rpc/
 @@||walmart.com/px/*/captcha
-||googletagmanager.com/gtag/js$redirect=googletagmanager-gtm,script,domain=ncsoft.jp
-||googletagmanager.com/gtag/js?id=$redirect=googletagmanager-gtm,script,domain=dvdmax.pl
+||googletagmanager.com/gtag/js$redirect=google-analytics,script,domain=ncsoft.jp
+||googletagmanager.com/gtag/js?id=$redirect=google-analytics,script,domain=dvdmax.pl
 ||hm.baidu.com/hm.js$redirect=noop.js,script,domain=qpp.caq.org.cn
 ||mtcs.nhk-ondemand.jp/b/ss/nhkodmain/$image,redirect=1x1-transparent.gif,domain=nhk-ondemand.jp
-||sgtm.ipekyol.com.tr/gtm.js$redirect=googletagmanager-gtm,script
+||sgtm.ipekyol.com.tr/gtm.js$redirect=google-analytics,script
 ||vgwort.de^$image,redirect-rule=1x1-transparent.gif,domain=experte.de
 ! + PLATFORM(windows, mac, android)
 @@/kcarting-tally?&random=$domain=coveryourtracks.eff.org
@@ -108453,7 +108462,7 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyArr")
 ||dan-ball.jp/*/img.gif$image,important,redirect=1x1-transparent.gif,domain=dan-ball.jp
-||googletagmanager.com/gtag/js$redirect=googletagmanager-gtm,script,domain=clujust.ro
+||googletagmanager.com/gtag/js$redirect=google-analytics,script,domain=clujust.ro
 ||login.eki-net.com^$badfilter
 ! + PLATFORM(windows, mac, android)
 @@||alternativeto.net/_next/data/*/*.json
@@ -108510,8 +108519,8 @@ goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyArr")
 ||api.taboola.com/2.0/json/*/recommendations.$redirect=noop.txt,domain=azby.fmworld.net
 ||btloader.com/tag?$redirect=noop.js,domain=voici.fr
 ||data-*.welt.de/iomm/latest/manager/base/*/bundle.js$redirect-rule=nooptext,script,stylesheet
-||googletagmanager.com/gtag/js$important,redirect=googletagmanager-gtm,script,domain=weathernews.jp
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,domain=raaga.com
+||googletagmanager.com/gtag/js$important,redirect=google-analytics,script,domain=weathernews.jp
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,domain=raaga.com
 ||googletagservices.com/tag/js/gpt.js$badfilter,redirect=googletagservices-gpt,script,xmlhttprequest,domain=thedailybeast.com
 ||wpfc.ml/b.gif$image,redirect=1x1-transparent.gif,domain=thestoryexchange.org
 ! #safari_cb_affinity
@@ -108563,10 +108572,10 @@ userstyles.org#%#//scriptlet("set-constant", "poptin_display", "noopFunc")
 ||cdn.segmentify.com/*/segmentify.js$important,redirect=noop.js,script,domain=gratis.com
 ||gj.mmstat.com/aliyun.$other,redirect=noop.js,domain=work.aliyun.com
 ||googletagmanager.com/gtag/js$important,redirect=google-analytics,script,domain=av01.tv|photopea.com
-||googletagmanager.com/gtag/js?id=$important,redirect=googletagmanager-gtm,script,domain=inforesist.org
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,xmlhttprequest,domain=coda.io|evernote.com|systemrequirementslab.com
+||googletagmanager.com/gtag/js?id=$important,redirect=google-analytics,script,domain=inforesist.org
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,xmlhttprequest,domain=coda.io|evernote.com|systemrequirementslab.com
 ||googletagmanager.com/gtm.js$important,redirect=noop.js,script,xmlhttprequest,domain=security-demo.extrahop.com
-||googletagmanager.com/gtm.js$redirect=googletagmanager-gtm,script,xmlhttprequest,domain=whoer.net
+||googletagmanager.com/gtm.js$redirect=google-analytics,script,xmlhttprequest,domain=whoer.net
 ||r10s.jp/com/img/home/t.gif?$image,important,redirect=1x1-transparent.gif,domain=rakuten.co.jp
 ||smetrics.nintendo.com/id?d_visid_ver=$redirect=noop.txt,xmlhttprequest
 ! + NOT_PLATFORM(ext_ublock)
@@ -108614,8 +108623,8 @@ suki-kira.com#%#//scriptlet("remove-attr", "disabled", "button.vote-submit")
 ||cloudflare.com/ajax/libs/fingerprintjs2/$important,redirect=fingerprintjs2,script,domain=gamebox.gesoten.com
 ||custojusto.pt/smarttag.js$important,redirect=ati-smarttag,script
 ||cxense.com/cx.js$important,redirect=noop.js,script,domain=friday.kodansha.co.jp
-||googletagmanager.com/gtag/js$other,redirect=googletagmanager-gtm,script,domain=filmomaniak.pl
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,xmlhttprequest,domain=napishem.ru|oresundsbron.com|thestar.co.uk
+||googletagmanager.com/gtag/js$other,redirect=google-analytics,script,domain=filmomaniak.pl
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,xmlhttprequest,domain=napishem.ru|oresundsbron.com|thestar.co.uk
 ||info.neg.co.jp^$badfilter
 ||js.adsrvr.org/up_loader.$redirect=noop.js,script,domain=nissan.co.jp
 ||lp.tfd-corp.co.jp^$badfilter
@@ -108798,11 +108807,11 @@ woman.excite.co.jp#%#//scriptlet('remove-attr', 'data-woman-ex', 'a[href][data-w
 ||gamerch.com/s3-assets/library/js/fingerprint2.min.js$important,redirect=noop.js,script
 ||google-analytics.com/analytics.js$important,redirect=google-analytics,script,domain=biomedglobal.net|boostnote.io|chess24.com|code.tutsplus.com|cuk.pl|dashboard.kitcast.tv|dirkzwager.nl|flyingv.cc|index.hr|ksat.com|onul-hoi.com|viu.com|whatcar.com|wikium.ru
 ||google-analytics.com/analytics.js$redirect=google-analytics,script,domain=hypebeast.kr|learning.edx.org|lrytas.lt|straitstimes.com|venturebeat.com
-||googletagmanager.com/gtag/js$other,redirect=googletagmanager-gtm,script,domain=playphrase.me
-||googletagmanager.com/gtag/js$redirect=googletagmanager-gtm,script,domain=html5.gamedistribution.com
+||googletagmanager.com/gtag/js$other,redirect=google-analytics,script,domain=playphrase.me
+||googletagmanager.com/gtag/js$redirect=google-analytics,script,domain=html5.gamedistribution.com
 ||googletagmanager.com/gtag/js?id=$important,other,redirect=noop.js,script,domain=kawasaki.com|rotana.net|view.epageview.com
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,domain=flyingv.cc
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,xmlhttprequest,domain=cuk.pl|gazin.com.br|northantstelegraph.co.uk
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,domain=flyingv.cc
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,xmlhttprequest,domain=cuk.pl|gazin.com.br|northantstelegraph.co.uk
 ||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=dafiti.com.co|straitstimes.com
 ||jianshu.com/asimov/ab_test/info$important,redirect=noop.txt,xmlhttprequest
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$redirect=noop.js,script
@@ -108868,7 +108877,7 @@ woman.excite.co.jp#%#//scriptlet('remove-attr', 'data-woman-ex', 'a[href][data-w
 @@||whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=$domain=kitchenaid.com
 @@||www.googletagmanager.com/gtm.js$script,domain=book.impress.co.jp
 ||google-analytics.com/analytics.js$important,redirect=google-analytics,script,domain=displate.com|home24.de
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,domain=displate.com
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,domain=displate.com
 ||tag.aticdn.net/*/smarttag.js$important,redirect=ati-smarttag,script,domain=rte.ie
 ! + NOT_PLATFORM(ios, ext_android_cb, ext_safari, ext_edge, ext_ublock)
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
@@ -109055,7 +109064,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 mamibuy.com.tw#%#window.ga = function() {};
 ||ens.nzz.ch^$badfilter
 ||google-analytics.com/analytics.js$important,redirect=google-analytics,script,domain=polygon.com
-||googletagmanager.com/gtm.js$important,redirect=googletagmanager-gtm,script,domain=theverge.com
+||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,domain=theverge.com
 ! + PLATFORM(ios, ext_android_cb, android)
 @@.2o7.net/$domain=today.com
 @@.googleadservices.*.js$domain=ponominalu.ru
@@ -109259,7 +109268,6 @@ mamibuy.com.tw#%#window.ga = function() {};
 @@||freegeoip.net/json/|$domain=userstyles.org
 @@||freehostedscripts.net/online/$script,~third-party
 @@||fussball.de/fbed/js/xtcore.js
-@@||gaanacdn.com/*_social_tracking.js$domain=gaana.com
 @@||gameplayer.io^*/EventTracker.js
 @@||gamespot.com/js/compiled/trackingWithCT.js$domain=gamespot.com
 @@||gardenista.com/media/js/libs/ga_social_tracking.js
@@ -110311,6 +110319,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||finance.yahoo.co.jp^$removeparam=cpt-m
 ||finance.yahoo.co.jp^$removeparam=cpt-n
 ||finance.yahoo.co.jp^$removeparam=cpt-s
+||firefox.com^$removeparam=redirect-source
 ||fiverr.com^$removeparam=context-referrer
 ||fiverr.com^$removeparam=context-type
 ||fiverr.com^$removeparam=filtered-price
@@ -111897,6 +111906,7 @@ jakartaglobe.id,republika.co.id##.show.fade.modal
 jakartaglobe.id,republika.co.id##.show.fade.modal-backdrop
 insertlive.com##.smartbanner_new
 metrotvnews.com##.socmed-share-container
+keepo.me##.sticky-share-content
 pinhome.id##.style_stickyBannerDesktop__GLF3I
 quran.nu.or.id##.w-full.relative
 inews.id##.widgetNewsTV__news24Jam
