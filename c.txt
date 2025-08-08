@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508070227
+! Version: 202508080227
 ! Title: Personal Filter
-! Last Modified: 07 Aug 2025 02:27 UTC
+! Last Modified: 08 Aug 2025 02:27 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -28774,6 +28774,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||log.snssdk.com^
 ||log.tpns.gz2.tencent.com^
 ||log.trackingio.com^
+||log.trend.rankify.best^
 ||log.voicecloud.cn^
 ||log.xpln.tech^
 ||log.yapaytech.com^
@@ -99797,6 +99798,7 @@ zmail.happycustomer.io$image
 ||targeting.api.drift.com^
 ||targeting.tbt.arcpublishing.com^
 ||targeting.washpost.nile.works^
+||targetyo.yogiyo.co.kr^
 ||taskapi.net^
 ||tc-log.mattel163.com^
 ||tcheck.outbrainimg.com^
@@ -104717,6 +104719,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.developer.riotgames.com/js/rgea.min.js
 ||static.ex.co/cdn/content/monetization/pixel-sdk/
+||static.files.bbci.co.uk/ws/simorgh-assets/public/static/js/reverb/
+||static.fnnews.com/resources/w/statics/fn-staticsV2.js
 ||static.foxnews.com/static/leap/sites/fnc/metrics.js
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
 ||static.gazeta.ru/nm2021/js/block_counter.
@@ -105761,6 +105765,8 @@ ebayadservices.com%2Fmarketingtracking%2Fv1%2Fimpression%3F$image
 ebayadservices.com/marketingtracking/v1/impression?$image
 egbgaig.r.*.d.sendibt$image
 elink.clickdimensions.com$image
+email-link.adtidy.org%2Fopen%2F$image
+email-link.adtidy.org/open/$image
 email-links.buffer.com$image
 email.123formbuilder.com$image
 email.aol.net$image
@@ -107461,7 +107467,6 @@ d4?appid*type*
 ||hilton.data.adobedc.net^
 ||hit.gemius.pl^
 ||hkrpg-log-upload-os.hoyoverse.com^
-||httpdns-push.heytapmobile.com^
 ||hw-sh-pcdn-*.biliapi.net^
 ||hwstats.unity3d.com^
 ||hz-telemetry.adobe.io^
@@ -110163,6 +110168,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
 ||cinematoday.jp^$removeparam=g-clk
+||click.redditmail.com^$removeparam=ref
+||click.redditmail.com^$removeparam=ref-campaign
+||click.redditmail.com^$removeparam=ref-source
 ||click.speee-ad.jp^$removeparam=os
 ||click.speee-ad.jp^$removeparam=ref
 ||click.speee-ad.jp^$removeparam=sess-id
