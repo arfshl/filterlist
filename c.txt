@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508080227
+! Version: 202508090209
 ! Title: Personal Filter
-! Last Modified: 08 Aug 2025 02:27 UTC
+! Last Modified: 09 Aug 2025 02:09 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -108383,7 +108383,6 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||zsp1.luzdelsur.com.pe/*/fingerprint2/fingerprint2.min.js$~third-party
 abema.tv#%#//scriptlet('remove-node-text', 'script', 'NREUM')
 abema.tv$$script:contains(NREUM)
-alternativeto.net#%#//scriptlet('prevent-element-src-loading', 'script', 'doubleclick.net')
 anikore.jp#$#html[class^="loading"] { visibility: visible !important; }
 e-begin.jp#$#.inviewSection:not(.is-show) { transform: translateY(0) !important; opacity: 1 !important; }
 globo.com#%#//scriptlet('set-constant', 'libAnalytics.data.get', 'noopFunc')
@@ -110337,6 +110336,13 @@ rtkcid=*&clickid=$removeparam=clickid
 ||fiverr.com^$removeparam=pos
 ||fiverr.com^$removeparam=ref-ctx-id
 ||fiverr.com^$removeparam=source
+||fnnews.com^$removeparam=dc-data
+||fnnews.com^$removeparam=did
+||fnnews.com^$removeparam=jd
+||fnnews.com^$removeparam=origin-referral-type
+||fnnews.com^$removeparam=response.id
+||fnnews.com^$removeparam=response.session
+||fnnews.com^$removeparam=ui
 ||fon.bet^$removeparam=affijet-click
 ||fon.bet^$removeparam=partner-id
 ||fon.bet^$removeparam=sub-1
@@ -111039,6 +111045,7 @@ $removeparam=trafficfrom,domain=lazada.com.ph|lazada.vn
 $removeparam=union-lens,domain=taobao.com|tmall.com
 $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 .com/*/status/$removeparam=t,domain=twitter.com|x.com
+://www.bilibili.com/video/$removeparam=mid
 ://yandex.$removeparam=clid
 ://yandex.$removeparam=source
 ||1password.university^$removeparam=utm-ref
