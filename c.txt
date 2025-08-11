@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508100231
+! Version: 202508110226
 ! Title: Personal Filter
-! Last Modified: 10 Aug 2025 02:31 UTC
+! Last Modified: 11 Aug 2025 02:26 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -4093,6 +4093,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analytics.ghamieh.com^
 ||analytics.gnetworks.xyz^
 ||analytics.gokwik.co^$third-party
+||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.gorgeous-il.co.il^
 ||analytics.govyy.com^
@@ -100146,6 +100147,7 @@ zmail.happycustomer.io$image
 ||trk.vidible.tv^
 ||truehits1.gits.net.th^
 ||truehits3.gits.net.th^
+||ts-analysis.shoalter.com^
 ||ts.delfi.lt^
 ||ts.tradetracker.net^
 ||tsj0.madeindesign.com^
