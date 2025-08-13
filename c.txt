@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508120208
+! Version: 202508130210
 ! Title: Personal Filter
-! Last Modified: 12 Aug 2025 02:08 UTC
+! Last Modified: 13 Aug 2025 02:10 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -8570,6 +8570,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||conseil.seicgland.ch^
 ||conseils.dotbase.com^
 ||consentag.eu^$third-party
+||consolidata.ai^
 ||consulting.guidehouse.com^
 ||consulting.icmi.com^
 ||consulting.mcgladrey.com^
@@ -98678,6 +98679,7 @@ zmail.happycustomer.io$image
 ||a.ria.ru^
 ||a.thelocal.com^
 ||a.visme.co^
+||a.wb.ru^
 ||a3.ogt.jp^
 ||a352.sandiegouniontribune.com^
 ||a433.dailypress.com^
@@ -99114,6 +99116,7 @@ zmail.happycustomer.io$image
 ||beacons.digital.disneyadvertising.com^
 ||beam.remp.impresa.pt^
 ||beat.yourtv.jp^
+||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||behave.noen.at^
 ||ben.crxmouse.com^
 ||beta.simpel.nl^
@@ -99506,6 +99509,7 @@ zmail.happycustomer.io$image
 ||dsb.yahoo.co.jp^
 ||dsbahmgppc0j4.cloudfront.net^
 ||dsp.logly.co.jp^$third-party
+||dsp.newsbreak.com^
 ||dtch.brunel.nl^
 ||dtm.ashleyhomestore.ca^
 ||dtr-onsite-feed.datarize.ai^
@@ -100969,6 +100973,7 @@ zmail.happycustomer.io$image
 ||stats.totalav.com^
 ||stats.townnews.com^
 ||stats.travelask.ru^
+||stats.vidalytics.com^
 ||stats.video.globo.com^
 ||stats.videodelivery.net^
 ||stats.videoseyred.in^
@@ -103439,6 +103444,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||caitlin.top/counter.php
 ||calc.ru/js/metrics.js
 ||calc.ru/stat.php
+||calendly.com/api/booking/analytics/track
 ||caliente.mx/integration-scripts/tracking.min.js
 ||caloo.jp/js/common/click-tracking.js
 ||camp-api.naver.com/*/bulk
@@ -104478,6 +104484,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||henkel.com.tr/resources/*/webtrekk.js
 ||hentai.name/js/track.js
 ||hepsiburada.com/webcontent/
+||herokuapp.com/save_utm_params
 ||herz-fuer-tiere.de/assets/themes/default/images/ad.gif
 ||herz-fuer-tiere.de/assets/themes/default/images/sunshine.gif
 ||heute.at/*/render/common/js/tracking.js
@@ -105095,6 +105102,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||mobile.auction.co.kr/CLog.aspx
 ||mobtop.az^$third-party
 ||mod.calltouch.ru/callback_event.php?*&analyticsId=
+||moderate.cleantalk.org/*/frontend_data
 ||moe-online.ru/api/moe/stat/sendStat
 ||moe-online.ru/themes/default/front/js/stat/
 ||monster-strike.com/assets/scripts/tracking.js
@@ -105271,6 +105279,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||omt.shinobi.jp/tsumugi?location=
 ||omtrdc.net/id^$important,redirect=noop.txt
 ||omtrdc.net/rest/v*/delivery?client=$replace=/^\{[\s\s]*\}\$/{}/,domain=~acrobat.adobe.com|~elcomercio.es|~elcorreo.com|~eldiariomontanes.es|~hoy.es|~ideal.es|~kia.com|~lasprovincias.es|~pccomponentes.com|~ups.com
+||on.aws/track?
 ||on.aws/tracking/event
 ||onecount.net/onecount/oc_track/
 ||onesignal.com/webPushAnalytics
@@ -105854,6 +105863,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||service.webgoto.net/*?wAnalytics
 ||services.kontur.ru/articles/ajax/statistics/update
 ||services.meteored.com/web/usr/v1/check/
+||services.msgsndr.com/attribution_service/
 ||services.noticiasaominuto.com/site/track?
 ||services.rome2rio.com/api/json/LogAnalyticsEvent
 ||services.rome2rio.com/api/json/LogCoreWebVital
@@ -107869,6 +107879,7 @@ $cookie=ytrackvisit
 ||kma.go.kr^$cookie=-trk-sid
 ||kma.go.kr^$cookie=-trk-uid
 ||kma.go.kr^$cookie=trk-ex
+||ko44.ru^$cookie=uniqueid
 ||lifehacker.com^$cookie=gtagsessionid
 ||maccabi4u.co.il^$cookie=dsid
 ||makemytrip.com^$cookie=dvid
@@ -107953,6 +107964,7 @@ $cookie=ytrackvisit
 ||tractorsupply.com^$cookie=wc-activepointer
 ||tractorsupply.com^$cookie=wc-generic-activitydata
 ||uber.com^$cookie=marketing-vistor-id
+||unipegaso.it^$cookie=crm-multi-tracking
 ||usetrmnl.com^$cookie=/^intercom-/
 ||vgwort.de^$cookie=srp
 ||vnexpress.net^$cookie=/^fosp-/
@@ -108451,6 +108463,7 @@ d4?appid*type*
 ||ad-api-log.colopl.jp^
 ||ad-creative.projectcarmen.com^
 ||ad-log-upload-os.hoyoverse.com^
+||adash-emas.cn-hangzhou.aliyuncs.com^
 ||adash.m.taobao.com^
 ||adash.man.aliyuncs.com^
 ||adashx.ut.alibaba.com^
@@ -108707,6 +108720,7 @@ d4?appid*type*
 ||devlog-upload-os.hoyoverse.com^
 ||dex50.deteql.net^
 ||df.afafb.com^
+||dfe.mic.mob.com^
 ||dflow.log.hunantv.com^
 ||dig.bdurl.net^
 ||direct-collect.dy-api.com^
@@ -108726,6 +108740,7 @@ d4?appid*type*
 ||dt.beyla.site^
 ||dualstack-cgicol.amap.com^
 ||dualstack-logs.amap.com^
+||dutils.com^
 ||e-ssl.apsalar.com^
 ||eats-ads-event-capture.coupang.com^
 ||ec.adadapted.com^
@@ -108883,6 +108898,7 @@ d4?appid*type*
 ||log-verify.mob.com^
 ||log.51changdu.com^
 ||log.adtimaserver.vn^
+||log.aliyuncs.com^
 ||log.apk.v-mate.mobi^
 ||log.apkomega.com^
 ||log.appbundledownload.com^
@@ -109039,6 +109055,7 @@ d4?appid*type*
 ||online-metrix.net^
 ||onthe.io^
 ||open.oneplus.net^
+||openlog.tapapis.cn^
 ||openstat.net^
 ||opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io^
 ||overseauspider.yuanshen.com:8888/log^
@@ -111571,6 +111588,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||fairygaze.com^
 ||fairytaleflame.com^
 ||faithrowold.com^
+||fakedisguise.com^
 ||fallaciousfifth.com^
 ||falseframe.com^
 ||falsesight.com^
@@ -111788,6 +111806,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||hikingbars.com^
 ||hilariouszinc.com^
 ||historicalbeam.com^
+||historytrade.com^
 ||hocgeese.com^
 ||hollowafterthought.com^
 ||homebizplaza.com^
@@ -112013,6 +112032,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||mimosamajor.com^
 ||mindfulgem.com^
 ||mindlessmark.com^
+||mineinvoice.com^
 ||minorcattle.com^
 ||minuteburst.com^
 ||miscreantmoon.com^
