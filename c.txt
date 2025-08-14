@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508130210
+! Version: 202508140211
 ! Title: Personal Filter
-! Last Modified: 13 Aug 2025 02:10 UTC
+! Last Modified: 14 Aug 2025 02:11 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -105005,7 +105005,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||market-click2.yandex.ru/safeclick/json|
 ||marketingautomation.services/client/ss.js
 ||marketingautomation.services/net?$third-party
-||marketingplatform.google.com/about/enterprise/$third-party,xmlhttprequest
 ||marsflag.com/mf2file/site/ext/tr.js
 ||martechsecresponse.s3.us-east-2.amazonaws.com/HotelTracker-*.js
 ||massdrop.com/*/pixelrb?
@@ -106087,7 +106086,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js
 ||static.jobrapido.com/public/tracking/
 ||static.kbs.co.kr/recommend/rcmd_track.js
-||static.klaviyo.com/onsite/js/telemetry.
 ||static.krone.at/wcm/donau/extern/anti_adblocker/check.js
 ||static.lefigaro.fr/figanalytics/
 ||static.line-scdn.net/uts/edge/*/uts.js$domain=today.line.me
@@ -106658,6 +106656,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||wa.slideshare.net/api/v1/events
 ||walgreens.digital.nuance.com/tagserver/incrementality/onEvent
 ||walmart.com/px/
+||walmart.com/sp/b/s/im|
 ||walmartimages.com/beacon/beacon.js
 ||warehousecinemas.com/ahoy/events
 ||was.livere.me/api/ad|
@@ -107385,6 +107384,7 @@ $cookie=--gfp-64b
 $cookie=--gpi
 $cookie=--igaw--adid
 $cookie=--kla-id
+$cookie=--kla-session
 $cookie=--pulseenvironmentid
 $cookie=--pvi
 $cookie=--qca
