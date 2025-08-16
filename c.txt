@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508150212
+! Version: 202508160205
 ! Title: Personal Filter
-! Last Modified: 15 Aug 2025 02:12 UTC
+! Last Modified: 16 Aug 2025 02:05 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3719,6 +3719,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analytics*.clickdimensions.com^
 ||analytics*.prezly.com^
 ||analytics-api.a-f.io^
+||analytics-api.gemcommerce.com^
 ||analytics-api.statvoo.com^
 ||analytics-beacon.p.uliza.jp^
 ||analytics-cdiscount.com^
@@ -42121,6 +42122,8 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||slea.life-evolution-academy.com^
 ||sleep.ubm-events.com^
 ||slewvr.gp.se^
+||slgnt.eu^
+||slgnt.us^
 ||slingpic.com^$third-party
 ||slingshot.io^$third-party
 ||slipperyslope.mjolner.dk^
@@ -99138,6 +99141,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.codigo.se^
 ||analytics.cookiefirst.dev^
 ||analytics.cosmonova.net^
+||analytics.cosmopolitanmag.com.tr^
 ||analytics.crea.ca^
 ||analytics.dashboard.fingerprint.com^
 ||analytics.data.visenze.com^
@@ -100540,7 +100544,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||mms.splinternews.com^
 ||mms.syracuse.com^
 ||mms.theroot.com^
-||mobile.slgnt.eu^
 ||mobileanalytics.*.amazonaws.com^
 ||moduleanalysis.aliexpress.com^
 ||momowa.momoshop.com.tw^
@@ -100969,7 +100972,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sid.nordstrom.com^
 ||signals.carrefoursa.com^
 ||sioa.chewy.com^
-||site-azp.slgnt.eu^
 ||skroutza.skroutz.gr^
 ||sks.mrkhub.com^
 ||sl-h-statistics-ch-1.storeland.ru^
@@ -102575,6 +102577,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 ://plausible.*/api/event|
 ://plausible.*/js/script.
 ://ply.*/?v=$image,third-party
+://rum.collector.*/beacon.gif
 ://sgtm.*.js?
 ://ss.*.js?st=
 ://sst.*.js?id=GTM-
@@ -103050,6 +103053,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||1password.com/js/analytics.*.js
 ||1password.community/*/*?select=analytics.anonymize
 ||1password.community/*/vanillaanalytics
+||20minutes.fr/js/piano-*.js
 ||24sata.hr/static/scripts/utils/tracking.min.js
 ||24support.cc/js/stats.js
 ||2ch-c.net/click.php
@@ -104064,7 +104068,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||coocha.co.kr/static/js/common/tracker.js
 ||cookpad.com/*/activity_logs
 ||cookpad.com/FqtAw5et/init.js
-||coomer.*/api/v1/creators|
 ||coopmobile.ch/analytics/at.js
 ||cope.es/stats/services/recordEvent
 ||copilot.microsoft.com/fd/ls/
@@ -104180,6 +104183,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||data.liba.com/_.gif
 ||data.pendo.statista.com/data/ptm.gif
 ||data.product.lastpass.com/data/ptm.gif/
+||data.qiota.com/api/event
 ||data.qvc.com/cm?tid
 ||data.reactandshare.com/track.gif
 ||data.riotgames.com/collector/*/events
@@ -105095,7 +105099,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kbb.com/pixall/
 ||kccsrecommend.site/torimochi_log/
 ||keirin.netkeiba.com/ndtracker/
-||kemono.*/api/v1/creators|
 ||kenga.tech/heatmaps-
 ||kentaku.co.jp/js/gtm.js
 ||kerch.fm/templates/FM/js/analytic.js
@@ -105161,6 +105164,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||lego.com/api/dl-event-ingest
 ||lemonde.fr/*?s=$ping,xmlhttprequest
 ||lemonde.fr/bucket/*/js/smartTag.bundle.js
+||lemonde.fr/bucket/resources/front/*.pa.js
 ||lendingtree.com/path/api/track/
 ||lenovo.com/_ui/desktop/common/js/common/youtubeVideoAnalytic.js
 ||lespresso.it/js/gtm-helper.js
@@ -106264,6 +106268,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sohu.com/qfpc.gif?
 ||sohu.com/stat/
 ||sohu.com/track/
+||solarwinds.com/ra-$script
 ||solvay.com/js/ext.js
 ||sonar.semantiqo.com^$third-party
 ||songmeanings.com/*/e.gif?pixels=
@@ -110444,7 +110449,7 @@ suki-kira.com#%#//scriptlet("remove-attr", "disabled", "button.vote-submit")
 @@||ssl.geoplugin.net/javascript.gp$domain=imalentstore.com|retrohahn.myshopify.com
 @@||ssl.kaptcha.com/collect/$domain=balance.vanillagift.com|securespend.com
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
-@@||st.top100.ru/top100/top100.js$domain=m.gazeta.ru|motor.ru|rambler.ru
+@@||st.top100.ru/top100/top100.js$domain=ferra.ru|m.gazeta.ru|motor.ru|rambler.ru
 @@||stat.sputnik.ru/cnt.js$domain=krskstate.ru
 @@||static.ads-twitter.com^|$app=com.nttdocomo.android.danimeapp
 @@||stats.g.doubleclick.net^|$app=com.nttdocomo.android.danimeapp
@@ -112102,6 +112107,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||humdrumtouch.com^
 ||humourspot.com^
 ||hurtgrape.com^
+||hustlercoach.com^
 ||hydraconcept.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
@@ -112182,6 +112188,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||lackadaisicalkite.com^
 ||lameletters.com^
 ||lamplow.com^
+||landkarts.com^
 ||landlordspy.com^
 ||landwestern.com^
 ||largebrass.com^
