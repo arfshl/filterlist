@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508160205
+! Version: 202508170223
 ! Title: Personal Filter
-! Last Modified: 16 Aug 2025 02:05 UTC
+! Last Modified: 17 Aug 2025 02:23 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -113352,6 +113352,7 @@ $removeparam=itm-source
 $removeparam=itm-term
 $removeparam=jmtyclid
 $removeparam=line-uid
+$removeparam=loclid
 $removeparam=maf
 $removeparam=mallcode,domain=shein.co.uk|shein.com
 $removeparam=mc-cid
@@ -113651,6 +113652,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||camcam.cc^$removeparam=ref
 ||camp-fire.jp/projects/*/view$removeparam=list
 ||camsoda.com^$removeparam=id
+||cancam.jp^$removeparam=from
 ||candy.ai^$removeparam=cid
 ||carousell.*$removeparam=t-id
 ||carousell.*$removeparam=t-referrer-browse-type
