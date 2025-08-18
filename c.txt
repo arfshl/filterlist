@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508170223
+! Version: 202508180223
 ! Title: Personal Filter
-! Last Modified: 17 Aug 2025 02:23 UTC
+! Last Modified: 18 Aug 2025 02:23 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -102026,7 +102026,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 .microsoft.com/trans_pixel.
 .microsoft.com/wupixel/
 .net/api/stats?t=$ping,xmlhttprequest
-.pageview-props.js
+.pageview-props.*js$script
 .providesupport.com/cmd/*?ps_t=
 .svc/?tracking_id=
 .tns-counter.ru/v13a
