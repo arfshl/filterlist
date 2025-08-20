@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508190204
+! Version: 202508200202
 ! Title: Personal Filter
-! Last Modified: 19 Aug 2025 02:04 UTC
+! Last Modified: 20 Aug 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -22843,6 +22843,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||indextools.com^$third-party
 ||indexww.com^$third-party
 ||indgq.simplyearth.com^
+||indicative.com^$third-party
 ||indicia.com^$third-party
 ||indiv.indivmedia.com^
 ||individuad.net^$third-party
@@ -35372,6 +35373,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||onenet.gakujutsu.com^
 ||onestat.com^$third-party
 ||onetag-sys.com^$third-party
+||onetag.co.kr^
 ||ongc.justmusic.co.il^
 ||onghfx.revolve.com^
 ||ongsono.com^$third-party
@@ -57066,6 +57068,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||t.usatoday-breakingupdates.com^
 ||t.usctrojans.com^
 ||t.usdtoreros.com^
+||t.usermaven.com^
 ||t.usm.com^
 ||t.usnh.edu^
 ||t.utahstateaggies.com^
@@ -62907,6 +62910,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||uawefo.guylook.co.kr^
 ||uawuau.thejulius.co.kr^
 ||uazmti.a101.com.tr^
+||ub-analytics.com^
 ||ubdjfy.maje.com^
 ||ubdsej.notino.pl^
 ||ubeqzm.cleor.com^
@@ -100207,6 +100211,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||daq0d0aotgq0f.cloudfront.net^
 ||data-collector.wefi.com^
 ||data-ingestion.flowgpt.com^
+||data.ds.dumont.de^
 ||data.festool.pl^
 ||data.mob.com^
 ||data.r.pl^
@@ -100532,6 +100537,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||gtm.wonderbly.com^
 ||gtmdev.jabra.
 ||gtmfsstatic.getgoogletagmanager.com^
+||gtmserverside.eluniversal.com.mx^
 ||gtr1.yes24.com^
 ||guq9.vente-unique.it^
 ||gw.stape.fr^
@@ -100594,6 +100600,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ichnaea-web.netflix.com^
 ||ichnaea.dradis.netflix.com^
 ||ichnaea.netflix.com^
+||icu.newsroom.bi^
 ||idat.production.ippen.space^
 ||img.opentracker.net
 ||img.sct.eu1.usercentrics.eu^
@@ -101223,6 +101230,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||prdwebcollector.ruetracking.com^
 ||prebid-log.getpublica.com^
 ||presentationtracking.netflix.com^
+||pro-1w-dataaggregator.onelouder.com^
 ||prod-collector.bigbasket.com^
 ||prod.event.mwm-asset-manager.mwmwebapis.com^
 ||prod.fennec.atp.fox^
@@ -101583,6 +101591,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||st.dynamicyield.com^
 ||st.film.ru^
 ||st.top100.ru^
+||sta-events.swishapps.ai^
 ||sta.tirexo.ink^
 ||sta.tracedock.com^
 ||staging-*.ispot.tv^
@@ -102394,6 +102403,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||yieldmo-builds.s3.amazonaws.com^
 ||ylog.huya.com^
 ||ylog.nimo.tv^
+||ym-tack.b-cdn.net^
 ||ymprove.gmx.net^
 ||ymprove.web.de^
 ||yoc.younited-credit.com^
@@ -104781,6 +104791,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||dynamic.infranken.de/delivery/info/
 ||dynatrace.com^$domain=~dynatrace.com|~dynatracelabs.com
 ||dzen.ru/api/v4/launcher/stats/
+||e-himart.co.kr/app/api/*/display/citrusAdTrk
 ||e-himart.co.kr/app/common/fromShopInfoAjax|
 ||e-himart.co.kr/resources/layout/js/wiselog/
 ||e-kuzbass.ru/rank$third-party
@@ -105195,6 +105206,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||gsp10.apple-mapkit.com/mw/v1/report
 ||gstatic.com/devrel-devsite/*/js/devsite_*analytics*.js
 ||gstatic.com/gen_204?
+||guc*-spclient.spotify.com/gabo-receiver-service/public/*/events
 ||guj.de/js/gujTracker.js
 ||gutefrage.net/px.js
 ||gvm.com.tw/tracker/view
@@ -105472,6 +105484,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ir.ebaystatic.com/rs/c/makeebayfasterscript-src-scripts-logger-cbdc5549.js
 ||irs01.com/irt?_iwt_id=
 ||isitdownorjustme.net/wp-content/plugins/track-the-click/
+||issuu.com/bsp/events/*/web-events
 ||istanbul.com/ui/js/analytics.js
 ||istatistik.milliyet.com.tr/CntRpt.aspx
 ||istoe.com.br/@nave/gateway/reply?navtrackdata=
@@ -105584,6 +105597,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kodik.cc/stats
 ||kodik.info/stats|
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
+||kolayik.com/gjyo/
 ||konami.com/games/s/common/js/analytics.js
 ||konturnovosti.com/packs/js/opm.js
 ||kookbang.dema.mil.kr/newspaper/js/nlogger.js
@@ -108138,6 +108152,7 @@ $cookie=---nrbi
 $cookie=---nrbic
 $cookie=--ae-uid-sess-id
 $cookie=--auc
+$cookie=--ga-uid
 $cookie=--gads
 $cookie=--gfp-64b
 $cookie=--gpi
@@ -108267,7 +108282,7 @@ $cookie=/^ezux-lpl-/
 $cookie=/^ezux-tos-/
 $cookie=/^krtbcookie-/
 $cookie=/^mprtcl-prodv4-/
-$cookie=/^mprtcl-v4-/
+$cookie=/^mprtcl-v4/
 $cookie=/^uid-bp-\d+/
 $cookie=/^wisepops/
 $cookie=/dwac-/,domain=~nintendo.com
@@ -108481,6 +108496,9 @@ $cookie=tradedoublerguid
 $cookie=trc-cookie-storage
 $cookie=tuuid
 $cookie=tuuid-lu
+$cookie=ubpv
+$cookie=ubvs
+$cookie=ubvt
 $cookie=uniquecmgvisitor
 $cookie=usermatchhistory
 $cookie=utag-main
@@ -109391,6 +109409,7 @@ d4?appid*type*
 ||beacon.shazam.com^
 ||beacons*.gvt3.com^
 ||beacons-prod.fubo.tv^
+||beacons.ads.fubo.tv^
 ||beha.ksmobile.com^
 ||bfmio.com^
 ||bi.manhuaren.com^
@@ -112613,6 +112632,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||j93557g.com^
 ||jaderooster.com^
 ||jailbulb.com^
+||jamexport.com^
 ||jazzstadium.com^
 ||jazzwholesale.com^
 ||jetskiscovers.com^
@@ -114251,6 +114271,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||dvdfab.org^$removeparam=soft
 ||dvdfab.org^$removeparam=trackid
 ||dvdfab.org^$removeparam=ver
+||e-himart.co.kr^$removeparam=gtmpos
+||e-himart.co.kr^$removeparam=jsclck
 ||easyfundraising.org.uk^$removeparam=efr-campaign
 ||easyfundraising.org.uk^$removeparam=efr-medium
 ||easyfundraising.org.uk^$removeparam=efr-source
@@ -114825,6 +114847,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||target.com^$removeparam=ref
 ||target.com^$removeparam=targetid
 ||tcgplayer.com^$removeparam=source
+||tech.onliner.by^$removeparam=int-source
 ||teknosa.com^$removeparam=adj-adgroup
 ||teknosa.com^$removeparam=adp-cid
 ||teknosa.com^$removeparam=adp-oid
