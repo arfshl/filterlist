@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508210201
+! Version: 202508220202
 ! Title: Personal Filter
-! Last Modified: 21 Aug 2025 02:01 UTC
+! Last Modified: 22 Aug 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -35464,6 +35464,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||openclick.com^$third-party
 ||openfpcdn.io^
 ||openhit.com^$third-party
+||openinstall.io^
 ||openinternetexchange.com^$third-party
 ||openinternetexchange.net^$third-party
 ||openstat.net^$third-party
@@ -39322,6 +39323,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||s.splazzh.in^
 ||s.sporks.space^
 ||s.srvsynd.com^$third-party
+||s.ssl.qhres2.com^
 ||s.stcatharinesstandard.ca^
 ||s.stgeorgeafc.com.au^
 ||s.sunnybeach.dk^
@@ -99988,6 +99990,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||caclick.baidu.com^
 ||campaign.remp.nv.ua^
 ||candac.iridion.de^
+||carmen.golem.de^
 ||cc.calltracking.ru^
 ||cc.swiftype.com^
 ||cdn-channels-pixel.ex.co^
@@ -100010,6 +100013,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ce-global-track-*.amazonaws.com^
 ||ce.x-opt.io^
 ||cellar-analytics.mapion.co.jp^
+||cfa-js.cafe24.com^
 ||cfg.imtt.qq.com^
 ||check.tadapi.info^
 ||chocolatine.apexlegendsstatus.com^
@@ -100178,6 +100182,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||counter1.fc2.com^
 ||counter24.luxnet.ua^
 ||cpu.baidu.com^
+||cpx.golem.de^
 ||cpxl.golem.de^
 ||creativeassets.asosservices.com^
 ||crta.dailymail.co.uk^
@@ -102364,7 +102369,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ucounter.ucoz.net^
 ||udbdf-v2.nimo.tv^
 ||udc.msn.com^
-||udc.yahoo.com^
 ||udgrbq.malwarebytes.com^
 ||uep.gaijin.net^
 ||uie.data.cbc.ca^
@@ -103151,8 +103155,8 @@ directtrack.*.js
 ||plausible.io/api/event
 ||plausible.io/js/p.js
 ||t.*/v1/lst/universal-script?ph=$script
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|anantara.com|brother-usa.com|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
-||tags.tiqcdn.com/utag/*/utag.sync.js$domain=sibreal.org|yousee.dk
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
+||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|sibreal.org|yousee.dk
 ! + NOT_OPTIMIZED
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
 ! + NOT_OPTIMIZED
@@ -104072,6 +104076,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets.askdoctors.jp/assets/packs/js/impression_tracker-*.js
 ||assets.bbystatic.com/analytics-dotcom/
 ||assets.bwbx.io/s3/foundation/event-recorder-client/1.0/event-recorder-client.min.js
+||assets.engoo-static.com/tracking.js
 ||assets.getpocket.com/web-utilities/public/static/te.js
 ||assets.grubhub.com/libs/*/clickstream2.min.js
 ||assets.hearstapps.com/commerce/release/affiliate-
@@ -104961,6 +104966,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||escapistmagazine.com/*/gamurs-group-analytics/js/openweb-tracking.js
 ||esgazete.com/service/social-counter.json
 ||esmas.com/scripts/esmas_stats.js
+||espncdn.com/*/js/espn-analytics.js
+||espncdn.com/js/omniture/tracking.js
 ||esports-world.jp/js/banner.event.js
 ||esrtech.com/api/collect
 ||esrtech.com/web-pixels
@@ -105318,6 +105325,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hagebau.de/tracking^
 ||halktv.com.tr/stats/
 ||handelsblatt.com/images/blank/*/1-formatOriginal.gif
+||handler.amarujala.com/user/event
 ||hankookilbo.com/statistics/uv?
 ||hankyung.com/resource/js/w/view.gtmet.js
 ||hao123.com/images/track.gif
@@ -105812,6 +105820,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||lucida.su/api/event
 ||luisaviaroma.com/dynamic/log
 ||lulus.com/api/tracking/events
+||lumo.proton.me/api/data/v1/telemetry
 ||lurker.olx.com.br^
 ||lvbet.pl/*/json/web-analitics-events.json
 ||lvz.de/viewlog_receiver.php?
@@ -106056,6 +106065,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||nestle.com/staticlocal/analytics.js
 ||netflix.com/*/log|
 ||netflix.com/api/ftl/probe?monotonic=
+||netflix.com/log/
 ||netflix.com/track/
 ||netflix.com/uitracking/
 ||netflix.com^*/homepagePing?
@@ -109649,6 +109659,7 @@ d4?appid*type*
 ||event-dot-learning-piano.appspot.com^
 ||event-search.jorte.com^
 ||event-us.ssp.taxssp.com^
+||event.*.karrotmarket.com^
 ||event.airbridge.io/*/apps/joonggonara
 ||event.karrotmarket.com^
 ||event.meloshort.com^
@@ -110294,6 +110305,7 @@ d4?appid*type*
 @@||a-fds.youborafds01.com/data?$xmlhttprequest,domain=pluto.tv
 @@||abt.nike.com^$domain=nike.com
 @@||api.clerk.io/v*/log/click?$domain=fjellandhandel.no
+@@||api.cxense.com/public/widget/data$domain=krone.at
 @@||api.cxense.com/public/widget/data?json=$domain=bild.de
 @@||api.ip.sb/geoip$domain=tauri.localhost
 @@||auth.ticketmaster.com/epsf/gec*Login
@@ -114467,6 +114479,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||game-i.daa.jp/?cmd=ad_mode$removeparam=cmd
 ||game.hiroba.dpoint.docomo.ne.jp^$removeparam=mks-referer-event
 ||gamersgate.com^$removeparam=caff
+||gaming.amazon.com^$removeparam=ingress
 ||gaming.amazon.com^$removeparam=ref-
 ||gaming.amazon.com^$removeparam=tag
 ||gaming.amazon.com^$removeparam=twitchreferral
@@ -114623,6 +114636,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||litres.ru^$removeparam=lfrom-processed
 ||login.sooplive.co.kr^$removeparam=szfrom
 ||luisaviaroma.com/*/p$removeparam=lvrid
+||luna.amazon.*^$removeparam=ingress
+||luna.amazon.*^$removeparam=ref
+||luna.amazon.*^$removeparam=ytwchpos
 ||lyf.eu^$removeparam=adid
 ||m.1688.com^$removeparam=--removesafearea--
 ||m.1688.com^$removeparam=src
