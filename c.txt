@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508220202
+! Version: 202508230157
 ! Title: Personal Filter
-! Last Modified: 22 Aug 2025 02:02 UTC
+! Last Modified: 23 Aug 2025 01:57 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -21937,6 +21937,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||htrji.mazeliving.co.uk^
 ||htrog.threewarriors.com.au^
 ||httjs.davidscookies.com^
+||http-inputs-notion.splunkcloud.com^
 ||htvso.lovisa.com.au^
 ||hu-business.vodafone.com^
 ||huabfv.jshoe.co.kr^
@@ -35468,6 +35469,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||openinternetexchange.com^$third-party
 ||openinternetexchange.net^$third-party
 ||openstat.net^$third-party
+||openstats.co^
 ||opentracker.net^$third-party
 ||oph7o.montecarlosbm-corporate.com^
 ||opim.pixmania.com^
@@ -40699,6 +40701,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||sentiment.icis.com^
 ||sentinelbi.com^
 ||sentinelbi.com^$third-party
+||sentinelpro.com^$third-party
 ||sentry.pnblab.com^
 ||seo-master.net^$third-party
 ||seo.erika.it^
@@ -99535,6 +99538,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||adeventtrackermonitoring.spotify.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||ads-trk.vidible.tv^
+||ads.mozilla.org^
 ||adservice.google.
 ||adstat.4u.pl^
 ||adstatistics.av380.net^
@@ -99957,6 +99961,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||bzclk.baidu.com^
 ||c*hit.zerkalo.io^
 ||c.adroll.com^
+||c.bazu.cc^
 ||c.bigmir.net
 ||c.bing.com/c.gif
 ||c.hit.ua^
@@ -101506,6 +101511,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sgtm.walbrook.ac.uk^
 ||sgtm.wimdu.
 ||sgtm.yubico.com^
+||sherlock-events-sampler.ebay.com^
 ||shopify-fast-tags.deliverr.com^
 ||shtrack.kingsoft.jp^
 ||sid.nordstrom.com^
@@ -104158,6 +104164,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||baur.de/servlet/*?clientId=*&landmark=*&ssid=
 ||bayshop.com/img/svg/track
 ||bazaarvoice.com^*/magpie.js
+||bazu.cc/api/baidu_tui.php
 ||bbc.com/ngas/latest/dotcom-analytics.js
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
@@ -107915,7 +107922,7 @@ link.gmapp*.net$image
 .salesforce.com/servlet/servlet.ImageServer$image
 /CI0/0$image
 /e3t/Cto/RK$image
-/eos/v1/$image
+/eos/v1/*$image
 /gp/r.html?C=*&ref_=pe_*_open$image
 /mpss/o/*$image
 /o.gif?mi_u=$image
@@ -107967,6 +107974,8 @@ c-hh-point-jp.*.cuenote.jp/c/*.gif$image
 c.crm-em.com$image
 c.groovehq.com%2F*.gif$image
 c.groovehq.com/*.gif$image
+cdn.shopify.com%2Fshopifycloud%2Fshopify%2Fassets%2Fthemes_support%2Fnotifications%2Fspacer-$image
+cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/spacer-$image
 cl.melonbooks.co.jp$image
 cl.mos.jp%2Fq%2F$image
 cl.mos.jp/q/$image
@@ -109474,6 +109483,7 @@ d4?appid*type*
 ||api.branch.io^
 ||api.bytebrew.io^
 ||api.data-analytics.pokemon.com^
+||api.deeplink.dev^
 ||api.elysium.opera.com/api/elysium/log_session_events
 ||api.elysium.opera.com/api/elysium/log_session_info
 ||api.facebook.com/method/logging.clientevent
@@ -109515,6 +109525,7 @@ d4?appid*type*
 ||at-af.outfit7.com^
 ||atb-stats-api.imolive.tv^
 ||atsod.launch.liveramp.com^
+||attr-logs.*.amazonaws.com^
 ||attribution.airbridge.io/attribution-result/*/apps/joonggonara
 ||audid-api.taobao.com^
 ||autotrack.studyquicks.com^
@@ -109661,6 +109672,7 @@ d4?appid*type*
 ||event-us.ssp.taxssp.com^
 ||event.*.karrotmarket.com^
 ||event.airbridge.io/*/apps/joonggonara
+||event.flareflow.tv^
 ||event.karrotmarket.com^
 ||event.meloshort.com^
 ||event.togothermany.com^
@@ -110324,6 +110336,7 @@ d4?appid*type*
 @@||cdn.prod.uidapi.com/uid2-sdk-*.js$domain=hoy.tv
 @@||cdn.segment.com/*/settings|$xmlhttprequest,domain=outdoorsy.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$script,domain=accounts-bc.com
+@@||cdn.stroeerdigitalgroup.de/metatag/live/ctc_golem_relaunch/metaTag.min.js$domain=golem.de
 @@||cl*.k5a.io^$script,xmlhttprequest,domain=finansavisen.no
 @@||cl-*.k5a.io/*.js^$domain=tv2.no
 @@||cl-eu4.k5a.io/*.js$domain=itavisen.no
@@ -113548,6 +113561,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||swankysquare.com^
 ||sweetslope.com^
 ||swellstocking.com^
+||swiftintro.com^
 ||swimfreely.com^
 ||swingslip.com^
 ||swipechief.com^
@@ -114077,6 +114091,7 @@ $removeparam=utm-source
 $removeparam=utm-source-platform
 $removeparam=utm-supplier
 $removeparam=utm-swu
+$removeparam=utm-tag
 $removeparam=utm-term
 $removeparam=utm-umguk
 $removeparam=utm-userid
@@ -114795,6 +114810,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||puma.com^$removeparam=sc-uid
 ||qianfan.cloud.baidu.com^$removeparam=track
 ||qjweb.jp^$removeparam=from
+||qms.ru^$removeparam=src
 ||querie.me^$removeparam=timestamp
 ||quizangel.com^$removeparam=utm-site-campaign
 ||quizangel.com^$removeparam=utm-site-medium
