@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508230157
+! Version: 202508240218
 ! Title: Personal Filter
-! Last Modified: 23 Aug 2025 01:57 UTC
+! Last Modified: 24 Aug 2025 02:18 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -108178,6 +108178,8 @@ preview.ab0.jp/static/starbucks/ma/*/rewards_img/*scenario*img-*.gif$image
 probe.zalando.com$image
 pstmrk.it/open$image
 public-cis.exponea.com$image
+r.a.d.sendibm1.com%2Fmk%2Fop%2F$image
+r.a.d.sendibm1.com/mk/op/$image
 r.ml.reverso.net%2Ftr%2Fop$image
 r.ml.reverso.net/tr/op$image
 r.rakuten.co.jp%2F*.gif%3Fmpe%3D
