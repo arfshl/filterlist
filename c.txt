@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508240218
+! Version: 202508250207
 ! Title: Personal Filter
-! Last Modified: 24 Aug 2025 02:18 UTC
+! Last Modified: 25 Aug 2025 02:07 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -57315,6 +57315,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tagging.vordingborgnet.dk^
 ||tagging.weightloss.goodbodyclinic.com^
 ||tagging.wellen-trading.de^
+||tagm.uneedcomms.com^
 ||tagman.britishairways.com^
 ||tagman.crystalsummer.co.uk^
 ||tagman.guoman.com^
@@ -102005,6 +102006,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||telem.sre.gopuff.com^
 ||telemetry*.transcend.io^
 ||telemetry-in.battle.net^
+||telemetry.*.pvp.net^
 ||telemetry.art19.com^
 ||telemetry.battle.net^
 ||telemetry.dzen.ru^
@@ -102014,7 +102016,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||telemetry.malwarebytes.com^
 ||telemetry.nbcuott.com^
 ||telemetry.proton.me^
-||telemetry.sgp.pvp.net^
 ||telemetry.soundcloud.com^
 ||telemetry.stytch.com^
 ||telemetry.svc.transifex.net^
@@ -104842,6 +104843,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||dojq4kt8ws9iq.cloudfront.net/js/analytics.js
 ||dollartree.com/ccstoreui/*/analytics/
 ||domatv.dnevnik.hr/bin/usrtrck-new.php
+||donga.com/proc/ad_history
 ||doppler.hulu.com/doppler/*/ingest?source=client-reporting-HTML
 ||dotnet.microsoft.com/static/js/analytics.min.js
 ||doubleclick.net/activity$third-party
@@ -106928,6 +106930,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ssl.pstatic.net/adimg3.search/adpost/js/ad.js
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
 ||ssl.pstatic.net/static.gn/js/clickcrD.js$domain=~search.naver.com
+||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/statistics_jquery.js
 ||ssl.pstatic.net/t.static.blog/nmobile/versioning//common/lib/ntm/ntm-blog-web-*.js
 ||ssl.pstatic.net/t.static.blog/nmobile/versioning/NtmBaLog-*.js
 ||sslwidget.criteo.com/event^
@@ -107905,6 +107908,8 @@ link.gmapp*.net$image
 .com%2Fe%2Fo%2F$image
 .com/_t/open/$image
 .com/e/o/$image
+.cuenote.jp%2Fc%2F*.gif$image
+.cuenote.jp/c/*.gif$image
 .e-mailnews.de%2Fi%2F$image
 .e-mailnews.de/i/$image
 .everestengagement.com%2Fea%2F$image
@@ -107969,8 +107974,6 @@ atlassian-trk.prd.msg.ss-inf.net$image
 bl-1.com$image
 bmo.mercari.jp/?s$image
 bolt.im/t/$image
-c-hh-point-jp.*.cuenote.jp%2Fc%2F*.gif$image
-c-hh-point-jp.*.cuenote.jp/c/*.gif$image
 c.crm-em.com$image
 c.groovehq.com%2F*.gif$image
 c.groovehq.com/*.gif$image
@@ -110332,7 +110335,7 @@ d4?appid*type*
 @@||cdn.cxense.com/cx.js$domain=bild.de
 @@||cdn.ing.de/ing-cms-ui/*/js/webtrekk-snwMKyfV.js
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
-@@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com|pizzahut.co.uk
+@@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com|pizzahut.*
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
 @@||cdn.polarbyte.com^$domain=bab.la
 @@||cdn.prod.uidapi.com/uid2-sdk-*.js$domain=hoy.tv
