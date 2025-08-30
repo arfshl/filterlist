@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508290158
+! Version: 202508300152
 ! Title: Personal Filter
-! Last Modified: 29 Aug 2025 01:58 UTC
+! Last Modified: 30 Aug 2025 01:52 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -106592,6 +106592,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.ecosia.org^
 ||analytics.edaily.co.kr^
 ||analytics.edgekey.net^
+||analytics.egdata.app^
 ||analytics.eip.telegraph.co.uk^
 ||analytics.electro-com.ru^
 ||analytics.elegela.us^
@@ -106685,6 +106686,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.shareaholic.com^
 ||analytics.shop.hisense.com^
 ||analytics.shorthand.com^
+||analytics.shutterstock.com^
 ||analytics.silktide.com^
 ||analytics.similarweb.com^
 ||analytics.skyscanner.net^
@@ -108228,6 +108230,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||player-feedback.p7s1video.net^
 ||player-telemetry.vimeo.com^
 ||player.stats.live-video.net^
+||plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws^
 ||pn.ybp.yahoo.com^
 ||po.ponant.com^
 ||pos.baidu.com^
@@ -110869,6 +110872,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.opinary.com/*events
 ||api.parsely.com/*/analytics/
 ||api.parsely.com/v2/profile?uuid=*&apikey=
+||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
 ||api.personaclick.com/push$xmlhttprequest
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
@@ -111145,6 +111149,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bilder-a.akamaihd.net/ip/js/ipdvdc/dbav.js
 ||bilder-a.akamaihd.net/rtl-v*/components/tracking/js/tc.min.js
 ||bildiray.com/pixel/
+||bilet.com/gtmcf/
 ||bilet.yandex.com.tr/log/
 ||bilibili.com/x/frontend/finger/fpfmc?
 ||billboard.com/wp-content/plugins/pmc-plugins/pmc-trackonomics/build/index.js
@@ -113013,6 +113018,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||mylocal.co.uk/api/trpc/analytics.
 ||mypalmshop.de/website/stats.php
 ||mysexgames.com/statstracker.php
+||myshopify.com/api/collect
 ||myspace.com/beacon/
 ||n-tv.de/stats^
 ||n.tooplay.com/s?v_unique=
@@ -113781,6 +113787,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||shueisha.online/op/analytics.js
 ||shufoo.net/log/
 ||shufoo.net/plus/media/beacon
+||shutterstock.com/ja/blog/wp-content/mu-plugins/wp-parsely-
+||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/analytics.min.js
+||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
 ||sight.ewp.gg/track/
 ||sign.ing/libs/martech/analytics.js
 ||signal-collector.gemaltodigitalbankingidcloud.com^$script
@@ -113907,7 +113916,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/statistics_jquery.js
 ||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js
 ||ssl.pstatic.net/t.static.blog/mylog/versioning//common/js/nilForNtm-
-||ssl.pstatic.net/t.static.blog/mylog/versioning/NtmBaLog-
 ||ssl.pstatic.net/t.static.blog/nmobile/versioning//common/lib/ntm/ntm-blog-web-*.js
 ||ssl.pstatic.net/t.static.blog/nmobile/versioning/NtmBaLog-*.js
 ||sslwidget.criteo.com/event^
@@ -122296,6 +122304,7 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||amazon.*/*dp/$removeparam=keywords
 ||amazon.*/aa$removeparam=bitcampaigncode
 ||amazon.*/artists/$removeparam=tag
+||amazon.*/dp/$removeparam=pbs
 ||amazon.*/dp/$removeparam=tag
 ||amazon.*/gp/$removeparam=tag
 ||amazon.*/gp/buyagain$removeparam=ats
