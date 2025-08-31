@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508300152
+! Version: 202508310204
 ! Title: Personal Filter
-! Last Modified: 30 Aug 2025 01:52 UTC
+! Last Modified: 31 Aug 2025 02:04 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -62169,6 +62169,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||track.fun4mobcy.com^
 ||track.funplusjo.com^
 ||track.funscapeuae.com^
+||track.fusionmedia.io^
 ||track.futureshop.ca^
 ||track.g6cred.com.br^
 ||track.gaconnector.com^
@@ -115007,6 +115008,8 @@ demdex.net%2Fevent%3Fd_event%3D$image
 demdex.net/event?d_event=$image
 discord.com%2Fapi%2Fscience%2F*.gif%3Fproperties%3D$image
 discord.com/api/science/*.gif?properties=$image
+dominos.*%2Fo%2Fo.gif$image
+dominos.*/o/o.gif$image
 dripemail2$image
 e-bedwettingstore.com$image
 e.customeriomail.com$image
@@ -122551,6 +122554,7 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||gmx.*/logoutlounge$removeparam=p
 ||gmx.*^$removeparam=mc
 ||go.mysku.ru^$removeparam=~r
+||go.tscprts.com^$removeparam
 ||go.xlivrdr.com^$removeparam
 ||goodreads.com^$removeparam=ref
 ||google.$removeparam=subid
@@ -122811,11 +122815,18 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||sp.nicovideo.jp^$removeparam=viewing-source
 ||start.pm.by^$removeparam=adtag
 ||store.udiscovermusic.com^$removeparam=/utm-/
+||stripchat.com^$removeparam=abtest
+||stripchat.com^$removeparam=abtestvariant
+||stripchat.com^$removeparam=action
 ||stripchat.com^$removeparam=affiliateid
 ||stripchat.com^$removeparam=campaignid
+||stripchat.com^$removeparam=landing
+||stripchat.com^$removeparam=modelid
 ||stripchat.com^$removeparam=realdomain
 ||stripchat.com^$removeparam=referrer
 ||stripchat.com^$removeparam=sourceid
+||stripchat.com^$removeparam=traffictype
+||stripchat.com^$removeparam=userid
 ||t.myvisualiq.net^$removeparam=~red
 ||taobao.com^$removeparam=activityid
 ||taobao.com^$removeparam=app-pvid
