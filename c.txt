@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202508310204
+! Version: 202509010220
 ! Title: Personal Filter
-! Last Modified: 31 Aug 2025 02:04 UTC
+! Last Modified: 01 Sep 2025 02:20 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -109531,6 +109531,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /_ajax/tebilisim.php?
 /_CPiX/art
 /_static/deliver.js?nonce=$script,~third-party
+/_vercel/speed-insights/script.js
 /a/elevar/static/*
 /acc/acctag.js
 /access.php?referrer=
@@ -113521,7 +113522,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||res.cdn.office.net/owamail/*/scripts/owa.Analytics.js
 ||res.heraldm.com/js/acecounter_*.js
 ||res.heraldm.com/js/logcollectscript_*.js
-||res.sooplive.co.kr/script/player/service-maintenance.js
 ||researchgate.net/track/
 ||researchnow.com/t/beacon$third-party
 ||resources.hltv.org/hltv-tracking.js
@@ -114772,6 +114772,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
 ||ytn.co.kr/_comm/ylog.php?
+||yupp.ai/api/log-event
+||yupp.ai/monitoring/?o=*&p=*&r=
 ||yvesrocher.com.tr/images/__utm.gif^
 ||yvesrocher.com.tr/images/avenseo/tr_TR/avenseo-uniq.min.js
 ||yvesrocher.com.tr/images/js/coremetrics.js
