@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509020200
+! Version: 202509030152
 ! Title: Personal Filter
-! Last Modified: 02 Sep 2025 02:00 UTC
+! Last Modified: 03 Sep 2025 01:52 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -5661,6 +5661,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||app.olemisssports.com^
 ||app.on.hp.com^
 ||app.online.microfocus.com^
+||app.optibase.io^$third-party
 ||app.osubeavers.com^
 ||app.pac.uga.edu^
 ||app.paciolan.com^
@@ -99109,6 +99110,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||customerevents.netflix.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||cv-tracker.stanby.com^
+||cvt1.sibnet.ru^
 ||cwt.citywire.info^
 ||cza.crazygames.com^
 ||d-collector.jennifersoft.com^
@@ -100232,7 +100234,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||prdwebcollector.ruetracking.com^
 ||prebid-log.getpublica.com^
 ||presentationtracking.netflix.com^
-||pro-1w-dataaggregator.onelouder.com^
 ||prod-collector.bigbasket.com^
 ||prod.event.mwm-asset-manager.mwmwebapis.com^
 ||prod.fennec.atp.fox^
@@ -102326,6 +102327,7 @@ hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has( > td[backgro
 hmangamatome.net###text-39
 hobbylog.jp##.pbancut
 hochi.news###ohtani-pickup
+hopper.com#%#//scriptlet('set-local-storage-item', 'ld:$anonUserId', '$remove$')
 hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_se', '$remove$')
 hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_uid', '$remove$')
 idle-girl.com###custom_html-74
@@ -103188,6 +103190,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||booking.com/*/track^
 ||booking.com/js_tracking?
 ||booking.com/logo?
+||bookwalker.jp/ex/browser-viewer/unitag_bv.js
 ||boomplay.com/batchUploadLogs
 ||boostog.net/visitor/
 ||bootbarn.com/on/demandware.store/Sites-bootbarn_us-Site/default/GoogleTagManagerServer-GetDataLayer
@@ -103233,6 +103236,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-rings.net^$script,third-party
 ||c.aaxads.com/aax.js^
+||c.bookwalker.jp/v/louis/*/tracks.js
 ||c.delivery.consentmanager.net/delivery/$image
 ||c.gazetevatan.com^
 ||c.keltis.com/c.aspx
@@ -104350,6 +104354,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||honcierge.jp/pv?
 ||honda.co.jp/common/beacon/
 ||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
+||hopper.com/api/v0/tracking/event
 ||horizon.businessinsider.com/*/track
 ||horizon.mashable.com/*/track
 ||horizont.net/stats/
@@ -105567,6 +105572,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rtb.loopa.net.au^$domain=junkmail.co.za
 ||rtb.wedeo.ru/track?
 ||rtings.com/api/event|
+||rtp.pt/common/js/convivaAppTracker.js
 ||ru-mi.com/*/ee_tracking.js
 ||rule34.paheal.net/stat.txt
 ||rumble.com/l/$image
@@ -106758,6 +106764,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
+||ytn.co.kr/_comm/yct.js
 ||ytn.co.kr/_comm/ylog.php?
 ||yupp.ai/api/log-event
 ||yupp.ai/monitoring/?o=*&p=*&r=
@@ -109360,6 +109367,7 @@ d4?appid*type*
 @@||nelo2-col.navercorp.com/_store$domain=weverse.io
 @@||prod.adobeccstatic.com/unav/*/AnalyticsProvider.*.bundle.js$domain=acrobat.adobe.com
 @@||query.petametrics.com^$image,xmlhttprequest,domain=mechacomic.jp
+@@||s.ssl.qhres2.com/baomitu/jquery/*/jquery.min.js$domain=yasuo.360.cn
 @@||s.yimg.com/ss/analytics3.js$domain=hk.news.yahoo.com|hk.stock.yahoo.com|hk.yahoo.com|sports.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@||s.yimg.jp/images/listing/tool/cv/ytag.js$domain=store-jp.nintendo.com
 @@||se.com/_uce_/immutable/chunks/google-analytics.$script
