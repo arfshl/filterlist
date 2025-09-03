@@ -14,6 +14,9 @@
 fandom.com###age-gate
 fandom.com##.notifications-box
 
+! speedtest ads
+speedtest.net###zdcFloatingBtn
+
 ! Blocks IDN Homographs domain
 *xn--*.*
 
