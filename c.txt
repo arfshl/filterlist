@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509030152
+! Version: 202509040152
 ! Title: Personal Filter
-! Last Modified: 03 Sep 2025 01:52 UTC
+! Last Modified: 04 Sep 2025 01:52 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -12,6 +12,8 @@
 ! Fandom Age Personalization
 fandom.com###age-gate
 fandom.com##.notifications-box
+! speedtest ads
+speedtest.net###zdcFloatingBtn
 ! Blocks IDN Homographs domain
 *xn--*.*
 ! Phishing BCA
@@ -21473,6 +21475,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||higbju.lovelingjewelry.co.kr^
 ||higherengine.com^$third-party
 ||highmetrics.com^$third-party
+||highway.cablecar.sph.com.sg^
 ||hijab.decentattire.com^
 ||hijxfm.gaspedaal.nl^
 ||hikaria.healthy365days.org^
@@ -21883,6 +21886,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||i.memsql.com^
 ||i.moshimo.com^
 ||i.paypal.com^
+||i.posthog.com^
 ||i.snssdk.com^$domain=~i.snssdk.com
 ||i.tct-rom.com^
 ||i.thinkclearly.uk^
@@ -43461,7 +43465,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||sldoj.shoptimized.net^
 ||slea.life-evolution-academy.com^
 ||slewvr.gp.se^
-||slgnt.eu^
 ||slgnt.us^
 ||slingpic.com^$third-party
 ||slingshot.io^$third-party
@@ -99997,6 +100000,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||mms.splinternews.com^
 ||mms.syracuse.com^
 ||mms.theroot.com^
+||mobile.slgnt.eu^
 ||mobileanalytics.*.amazonaws.com^
 ||moduleanalysis.aliexpress.com^
 ||momowa.momoshop.com.tw^
@@ -100430,6 +100434,8 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sid.nordstrom.com^
 ||signals.carrefoursa.com^
 ||sioa.chewy.com^
+||site-azp.slgnt.eu^
+||site-see.slgnt.eu^
 ||skroutza.skroutz.gr^
 ||sks.mrkhub.com^
 ||sl-h-statistics-ch-1.storeland.ru^
@@ -103380,6 +103386,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.shopify.com/s/files/*/ba_tracking.js
 ||cdn.shopify.com/shopifycloud/consent-tracking-api/*/consent-tracking-api.js
 ||cdn.sift.com/s.js
+||cdn.sphlabs.com/suid/
 ||cdn.static-fra.de/*/tracking/
 ||cdn.staticmember.com/wtp/common/scripts/google-tagmanager-min.js
 ||cdn.stroeerdigitalgroup.de/metatag/live/
@@ -104389,7 +104396,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hsbcglobalcmb.sc.omtrdc.net/id?$important,redirect=noop.txt,domain=business.hsbc.uk
 ||hsforms.com/*/counters.gif
 ||http-inputs-itv.splunkcloud.com/services/collector
-||http-inputs-notion.splunkcloud.com^$redirect=noop.txt,domain=notion.so
 ||httpstatus.io/analytics/api/send
 ||huawei.com/*/hwautocomplete/
 ||hub.fromdoppler.com/public/dhtrack.js
@@ -105680,7 +105686,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||scripts.swifteq.com/hc_events.js
 ||scripts.zeit.de/static/js/webtrekk
 ||scrt.link/api/stats
-||scv-blog.io.nver.com/jackpotlog/
+||scv-blog.io.naver.com/jackpotlog/
 ||scv-cafe.io.naver.com/jackpotlog/*/logs$redirect=noop.json,xmlhttprequest
 ||scv-game.io.naver.com/jackpotlog/*/logs|$xmlhttprequest
 ||scv.band.us/jackpotlog/*/logs|$xmlhttprequest
@@ -105812,6 +105818,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||slack.com/clog/track/
 ||slack.com/clog/track/?
 ||sleeknotestaticcontent.sleeknote.com/production/package-tracker.js
+||slgnt.eu/frontend/api/track
 ||slideplayer.biz.tr/slide/getviewscount/
 ||smaero.jp/js/access.js
 ||smallpdf.com/build/track-js.js
@@ -106165,6 +106172,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tchibo.de/prof/js?event
 ||tcloudbase.com/access?
 ||tds.net/api/*/sendEvents/
+||teamtailor.com/pageview
 ||teamviewer.com/api/log/
 ||techcrunch.com/wp-json/wp/v*/tc_events
 ||technologynetworks.com/ApprovedGuid/
@@ -106432,6 +106440,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||us-central1-affilimate.cloudfunctions.net/tracking_
 ||us.web3-lab.com*/*/stats
 ||usa.asset.d5techs.com/script/track.min.js
+||usa.asset.d5techs.com/script/utm.min.js
 ||useinsider.com^$domain=francfranc.com
 ||usercentrics.eu/uct?$important
 ||userstatics.com/get/script.js
@@ -107715,6 +107724,7 @@ $cookie=ytrackvisit
 ||azcentral.com^$cookie=/^gnt-/
 ||azcentral.com^$cookie=gup-anonid
 ||azcentral.com^$cookie=gup-clientid
+||blog.naver.com^$cookie=ba-device
 ||boundless.com^$cookie=-boundless-tracking-id
 ||buildtheearth.net^$cookie=/^-pk-id./
 ||businessinsider.jp^$cookie=mgppid
@@ -115153,6 +115163,8 @@ brainacademy.id,ruangguru.com##.side-banner-desktop
 brainacademy.id,ruangguru.com##.side-banner-mobile
 ruangguru.com##.widget-container
 brainacademy.id,english-academy.id,ruangguru.com##body:style(overflow: auto !important; position: static !important;)
+! Singaporean section
+beritaharian.sg##.p-\[24px\]
 ! uBlock Specific
 detik.com##.detail__body-text .aevp > .sisip_video_ds:remove()
 ! *** https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt ***
