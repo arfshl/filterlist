@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509040152
+! Version: 202509050155
 ! Title: Personal Filter
-! Last Modified: 04 Sep 2025 01:52 UTC
+! Last Modified: 05 Sep 2025 01:55 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -60,6 +60,8 @@ cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAna
 cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.track', 'noopFunc')
 cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.use', 'noopFunc')
 convertcase.net,issuya.com,topstarnews.net,islamicfinder.org,secure-signup.net#%#//scriptlet('remove-node-text', 'script', 'error-report.com')
+delta.com#%#//scriptlet('set-constant', 'TrackJS', 'emptyObj')
+delta.com#%#//scriptlet('set-constant', 'TrackJS.install', 'noopFunc')
 discover.hubpages.com#%#//scriptlet('adjust-setTimeout', 'beacon failed', '*', '0.001')
 faz.net#%#//scriptlet('set-local-storage-item', 'com.adobe.reactor.core.visitorTracking.pagesViewed', '$remove$')
 faz.net#%#//scriptlet('set-local-storage-item', 'com.adobe.reactor.core.visitorTracking.sessionCount', '$remove$')
@@ -8594,6 +8596,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cloud.villaagarna.se^
 ||cloud.zapvoice.top^
 ||cloudad.icu^
+||cloudfilt.com^$third-party
 ||cloudhosting-business.vodafone.com^
 ||cloverleaf.infor.com^
 ||clownfish.onvard.de^
@@ -101524,6 +101527,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /__ub.gif?
 /_ajax/tebilisim.php?
 /_CPiX/art
+/_hcms/perf
 /_static/deliver.js?nonce=$script,~third-party
 /_vercel/speed-insights/script.js
 /a/elevar/static/*
@@ -102091,7 +102095,7 @@ directtrack.*.js
 ||plausible.io/api/event
 ||plausible.io/js/p.js
 ||t.*/v1/lst/universal-script?ph=$script
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|sibreal.org|yousee.dk
 ! + NOT_OPTIMIZED
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
@@ -104605,6 +104609,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||js.selfimg.com.cn/vogue/discovery/js/collect-entry.js
 ||js.washingtonpost.com/*/init.track-header-*.js
 ||js.washingtonpost.com/wp-stat/
+||js.zi-scripts.com/zi-tag.js
 ||js.zohocdn.com/salesiq/js/track_
 ||jsak.mmtcdn.com/*/pwa_commons/pwatracker.js
 ||jscrambler.com/api/statistics
@@ -105333,6 +105338,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||poder360.com.br/_tracker
 ||poe.com/api/ping
 ||polsatsport.pl/templates/interiaStats/psport2019/interiaStats.js
+||popai.pro/dfxaf3-sg.js
 ||popin.cc/conversion2.js
 ||popularmechanics.com/_assets/oply/
 ||popularwidget.com/tracker/
@@ -106244,6 +106250,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tms.marriott.com/error/e.gif
 ||tmserverside.mango.com/g/collect
 ||tof.perfectworld.com/public/js/stat-tof-perfectworld-
+||tof.perfectworld.com/public/js/stat.js
 ||toho-u.ac.jp/common/js/ga_tracking.js
 ||token.awswaf.com/*/report|
 ||tom.itv.com/itv/count/*
@@ -108637,16 +108644,20 @@ d4?appid*type*
 ||data.terabox.com/issue/terabox/TeraBox_cdn_resource\pic\video_accelerate_guide_new.gif
 ||datacollector-*.dt.dbankcloud.cn^
 ||datacollector-drru.dt.dbankcloud.ru^
+||dc.di.atlas.samsung.com^
+||dc.dqa.samsung.com^
 ||de01.rayjump.com^
 ||decide.mixpanel.com^
 ||demdex.net^
 ||detect.rayjump.com^
+||dev-apigw.samsungdmroute.com^
 ||device-metrics-*.amazon.com^
 ||devlog-upload-os.hoyoverse.com^
 ||dex50.deteql.net^
 ||df.afafb.com^
 ||dfe.mic.mob.com^
 ||dflow.log.hunantv.com^
+||diagmon-serviceapi.samsungdm.com^
 ||dig.bdurl.net^
 ||direct-collect.dy-api.com^
 ||direct-collect.dy-api.eu^
@@ -108654,6 +108665,7 @@ d4?appid*type*
 ||dispatcher.upmc.uc.cn^
 ||dit.whatsapp.net^
 ||dlog.perfectworldgames.com^
+||dls-ddc.dqa.samsung.com^
 ||dm.pstatp.com^
 ||dmx.sync.yume.com/tracker/
 ||dns-clientinfo.cbsivideo.com^
@@ -108928,6 +108940,7 @@ d4?appid*type*
 ||mixpanel.com/track
 ||mlb.did.ijinshan.com^
 ||moa-upload-online.coloros.com^
+||moai-dev-samsung.com^
 ||mob2.healthapplines.com^
 ||mob2.healthtrackergroup.com^
 ||mob2.mymusic2025.com^
@@ -109034,6 +109047,7 @@ d4?appid*type*
 ||px.wpk.quark.cn^
 ||qa-events-schema.viacom.tech^
 ||qcloud-sg-datareceiver.kurogame.xyz^
+||qmds-dev-samsung.com^
 ||quantcount.com^
 ||r-log.dable.io^
 ||r.apkpure.net^
@@ -109041,6 +109055,7 @@ d4?appid*type*
 ||rc.dxsvr.com^
 ||receiver-metis.infeng.site^
 ||receiver.habby.mobi^
+||regi.di.atlas.samsung.com^
 ||remain.appcpi.net^
 ||repo.adbc.io:8081/repository/QTracker/
 ||report*.appmetrica.webvisor.com^
@@ -109133,6 +109148,7 @@ d4?appid*type*
 ||stats.studyquicks.com^
 ||stats.sxp.smartclip.net^
 ||stbid.ru^
+||stg-apigw.samsungdmroute.com^
 ||stocks-analytics-events.apple.com^
 ||stocks-analytics-events.news.apple-dns.net^
 ||stream.shuzilm.cn/report
