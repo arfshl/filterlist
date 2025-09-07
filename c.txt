@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509060152
+! Version: 202509070201
 ! Title: Personal Filter
-! Last Modified: 06 Sep 2025 01:52 UTC
+! Last Modified: 07 Sep 2025 02:01 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -113282,6 +113282,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||bloomberg.com^$removeparam=leadsource
 ||bloomberg.com^$removeparam=sref
 ||bloomberg.com^$removeparam=srnd
+||blu-ray.com/link/click.php$removeparam=c
+||blu-ray.com/link/click.php$removeparam=tid
 ||boards.greenhouse.io^$removeparam=ref
 ||boncharge.com^$removeparam=shpxid
 ||bookshop.org^$removeparam=affiliate
