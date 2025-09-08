@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509070201
+! Version: 202509080201
 ! Title: Personal Filter
-! Last Modified: 07 Sep 2025 02:01 UTC
+! Last Modified: 08 Sep 2025 02:01 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -30954,6 +30954,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||mc.yandex.com^
 ||mc.yandex.md^
 ||mc.yandex.ru^
+||mc.yango.com^
 ||mcacry.trendhim.it^
 ||mcad.mods-clinic.com^
 ||mcad.mods-clinic.info^
@@ -102544,6 +102545,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||101.ru/api/counters/
 ||1014042311.rsc.cdn77.org/log.gif
 ||11st.co.kr/js/*/reviewLog.js
+||11st.co.kr/js/rake/RakeData.js
 ||123recht.de/include/menu/header-stats.asp
 ||160.16.86.134/rtools/*/r_counter.js
 ||163.com/*/__utm.gif?
@@ -109380,6 +109382,7 @@ d4?appid*type*
 @@||cnstrc.com/js/cust/swanson-health_*.js$domain=swansonvitamins.com
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||content.canadiantire.ca/fp/tags.js$domain=customerauth.triangle.com
+@@||criteo.com/delivery/retailmedia$domain=plazavea.com.pe
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$domain=curos.ca
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=abcnews.go.com
 @@||dev.visualwebsiteoptimizer.com/server-side/settings?a=$domain=olx.co.id
