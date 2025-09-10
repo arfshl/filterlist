@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509090157
+! Version: 202509100153
 ! Title: Personal Filter
-! Last Modified: 09 Sep 2025 01:57 UTC
+! Last Modified: 10 Sep 2025 01:53 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -8228,7 +8228,10 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cdn.counter.dev^$third-party
 ||cdn.czx5eyk0exbhwp43ya.biz^
 ||cdn.ddmanager.ru^$third-party
+||cdn.debugbear.com^
 ||cdn.defractal.com^
+||cdn.deviceinf.com^
+||cdn.dfsdk.com^
 ||cdn.dminorschool.com^
 ||cdn.dsspn.com^
 ||cdn.firstpromoter.com^$third-party
@@ -8262,6 +8265,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cdn.residencemilano.org^
 ||cdn.resonate.com^$third-party
 ||cdn.rlets.com^
+||cdn.seonintelligence.com^
 ||cdn.sophi.io^$third-party
 ||cdn.sov.stream^
 ||cdn.teleportapi.com^$third-party
@@ -17115,6 +17119,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||fea-cfd.simutechgroup.com^
 ||feathr.co^$third-party
 ||featureassets.org^
+||featuregates.org^
 ||feavq.freeeasemd.com^
 ||febcyv.joshi-spa.jp^
 ||federal.external.xerox.com^
@@ -106437,6 +106442,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||lcs.modoo.at^
 ||lcs.naver.com^
 ||ldpsh.fashionnova.com^
+||leo.hepsiburada.com^
 ||lexip.4pcdn.de^
 ||lfmetrics.loyalfans.com^
 ||lg3.media.net^
@@ -108828,7 +108834,7 @@ directtrack.*.js
 ! + NOT_OPTIMIZED
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
 ! + NOT_OPTIMIZED
-$permissions=geolocation=(),domain=browserleaks.com|nzherald.co.nz
+$permissions=geolocation=(),domain=nzherald.co.nz
 -config.sensic.net/3pc.html
 -config.sensic.net/s2s-web.js
 -config.sensic.net/sui.js
@@ -110221,6 +110227,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||clickiocdn.com/utr/$image
 ||clickstream.grubhub.com/event.gif?event=
 ||client-log.box.com/analytics-events/
+||client.px-cloud.net/*/main.min.js?ver=
 ||client.smartpushedm.com/eclytics/n.gif
 ||clientstream.launchdarkly.com/eval/
 ||clipkit.co/clipkit_assets/beacon-
@@ -110971,6 +110978,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||google.*/maps/*/log
 ||google.com/apis/gpf_metrics?
 ||google.com/async/ddllog
+||google.com/ccm/collect?
 ||google.com/gsi/log?
 ||google.com/images/phd/gfl.gif
 ||google.com/images/phd/px.gif
@@ -111039,6 +111047,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||harvester.joj.sk/api/v1/harvester.js
 ||hasbro.com/js/omniture.js
 ||hatarako.net/api/recommend/analyze_logger
+||hawk.techradar.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||hawky.pcgamer.com/js/*/analytics-library-entry-getCustomTrackingId.js
 ||hayatbilgileri.com/*/js/front.js
 ||hd.mirdrujbajvachka.ru/stat
@@ -111800,6 +111809,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||news.de/track.php^
 ||news.kbs.co.kr/js/common/generatePageEventId.js
 ||news.nate.com/js/today/userAgent
+||news.sbs.co.kr/news/ajax/insertPcNewsLog.do
 ||newsbreak.com/_api/stat/
 ||newserv.xyz^$third-party
 ||newsharecounts.com/count.json
@@ -112006,6 +112016,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||pendo.scopus.com/data/ptm.gif
 ||perfops.net/rom3/
 ||performance.radar.cloudflare.com/beacon.js
+||perplexity.ai/rest/event/analytics
 ||pes.itv.com/*/post/
 ||petco.com/track-production/analytics.js
 ||philo.com/evr/in/adImp?enc=
@@ -112698,6 +112709,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.canal-plus.net/*/trcking.min.js
 ||static.cdn-cian.ru/frontend/ca/ca.js
 ||static.cdn-cian.ru/frontend/frontend-sdk/system-logger/global-system-logger*.js
+||static.cloud.sbs.co.kr/common/js/*/sbs_log_module.min.js
 ||static.cloudflareinsights.com/beacon.min.js
 ||static.cotemaison.fr/min/js/consent
 ||static.cotemaison.fr/min/js/request_tracker
@@ -112733,6 +112745,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.read.tools/stats.min.js
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
 ||static.rtrp.jp/static/js/googletagmanager.*.js
+||static.sbsdlab.co.kr/common/gtag/
 ||static.searchiq.co/t/pxl.gif
 ||static.shopmy.us/Affiliates/sms_aff_clicktrack.js
 ||static.site24x7rum.jp/beacon/
@@ -118619,6 +118632,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||llamavoice.com^
 ||loadedhearts.com^
 ||loadsurprise.com^
+||locateskill.com^
 ||lockuplookup.com^
 ||logoshutter.com^
 ||lonelyflavor.com^
@@ -120553,6 +120567,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||peacocktv.com^$removeparam=method
 ||peacocktv.com^$removeparam=orig-ref
 ||perfo.salestube.pl^$removeparam=aff-click-id
+||perplexity.ai^$removeparam=login-new
+||perplexity.ai^$removeparam=login-source
 ||pixiv.net^$removeparam=from
 ||plarium.com/landings/$removeparam
 ||playstation.com$removeparam=emcid
@@ -120773,6 +120789,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||target.com^$removeparam=targetid
 ||tcgplayer.com^$removeparam=source
 ||tech.onliner.by^$removeparam=int-source
+||techbook.de^$removeparam=dtp
+||techbook.de^$removeparam=ref
+||techbook.de^$removeparam=tbl
 ||teknosa.com^$removeparam=adj-adgroup
 ||teknosa.com^$removeparam=adp-cid
 ||teknosa.com^$removeparam=adp-oid
