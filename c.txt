@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509100153
+! Version: 202509110156
 ! Title: Personal Filter
-! Last Modified: 10 Sep 2025 01:53 UTC
+! Last Modified: 11 Sep 2025 01:56 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -7254,6 +7254,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||brhwsg.makingnew.co.kr^
 ||bridge.psihosensus.eu^
 ||bridge.vidiq.com^
+||bridged.media^$third-party
 ||bridgevine.com^$third-party
 ||bright-sdk.com^
 ||brightdata.com^$third-party
@@ -13949,7 +13950,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||datacollect-dev.cisco.com^
 ||datacollect.cisco.com^
 ||datacollection.adelaideuni.edu.au^
-||datadog.pool.ntp.org^
 ||datadoghq-browser-agent.com^$third-party
 ||datadome.co^$third-party,domain=~paypal.com
 ||datadrivens.essenciacanina.com^
@@ -106032,6 +106032,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ef.fanatical.com^
 ||ef.futuroscope.com^
 ||egg.afisha.ru^
+||ek-tracker.ekitan.com^
 ||eldoradottfha.dataplane.rudderstack.com^
 ||email.social.qualtrics.com^
 ||ems.youku.com^
@@ -106585,6 +106586,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||logs.viewstats.com^
 ||logs2.jobs.com^
 ||logsdk.kwai-pro.com^
+||logstash-*.radio-canada.ca^
 ||logtake.weidian.com^
 ||loxodo-analytics.ext.nile.works^
 ||loxodo-ct.ext.nile.works^
@@ -109077,6 +109079,7 @@ hochi.news###ohtani-pickup
 hopper.com#%#//scriptlet('set-local-storage-item', 'ld:$anonUserId', '$remove$')
 hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_se', '$remove$')
 hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_uid', '$remove$')
+ici.radio-canada.ca#%#//scriptlet('set-local-storage-item', 'RC_PLAYER_USER_ID', '$remove$')
 idle-girl.com###custom_html-74
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cc_id', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_atfr', '$remove$')
@@ -110095,6 +110098,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.
 ||cdn.jsdelivr.net/npm/perfops-rom$domain=kropic.com|opensubtitles.org
 ||cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.
+||cdn.jsdelivr.net/npm/statsig-js
 ||cdn.jsdelivr.net/npm/statsig-js/build/statsig-prod-web-sdk.min.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
@@ -110642,6 +110646,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||eiga.k-img.com/javascripts/td.js?1578981009
 ||eightsleep.api.kustomerapp.com/*/tracking/
 ||eiu.com/n/wp-content/plugins/eiu-google-tag-manager/assets/dist/js/eiu-google-tag-manager.min.js
+||ekitan.com/*-tracker.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||eldorado.gg/main.$script,replace=/\,dataUnlocker:\{scriptName:\".*?\"\}//
 ||eldorado.gg/white-house/white_house_script_data_
 ||eletrogate.com/_events/
@@ -111166,6 +111172,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ibeat.indiatimes.com/js/pgtrackingV*.js
 ||iboysoft.com/js/track.js
 ||icecat.biz/stats/scripts/live-stats.js
+||ici.radio-canada.ca/v*/tele/trace/
 ||id.rambler.ru/api/v3/session/getRsidx
 ||id.rambler.ru/login-20/counters.js
 ||idat.production.ippen.space/idat
@@ -111660,6 +111667,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||meitetsu.co.jp/*/ga*.js
 ||melonstube.com/js/analytics
 ||memonotepad.com/js/modules/google-analytics-bundle.js
+||mercdn.net/assets/scripts/raphaelp
 ||mercury.jd.com/log.gif
 ||merkur.de/_cua.html
 ||merlininkazani.com/sayac
@@ -111914,6 +111922,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
 ||ophan.theguardian.com/a.gif
 ||optimizer.poxo.com/ca2/analytics.js
+||optimizer.poxo.com/jet/jet.js
 ||oracle.com/asset/web/analytics/ora_ocom.js
 ||oraclecloud.com/static/jslib/apmrum.min.js
 ||orbis.co.jp/*/ga_event_tracking.js
@@ -112486,6 +112495,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||services.meteored.com/web/usr/v1/check/
 ||services.msgsndr.com/attribution_service/
 ||services.noticiasaominuto.com/site/track?
+||services.radio-canada.ca/metrik/
 ||services.rome2rio.com/api/json/LogAnalyticsEvent
 ||services.rome2rio.com/api/json/LogCoreWebVital
 ||services.themarker.com/ds/impression
@@ -112740,6 +112750,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.nrk.no/*/Serum.ExperimentTracking.js
 ||static.olx.com.br/olx/js/lurker.min.js
 ||static.plista.com/async.js$third-party
+||static.plo.vn/v*/web/js/log.min.js
 ||static.posta.com.tr/scripts/tracking/dailymotion-event.min.js
 ||static.quiq-cdn.com/chat-ui/plugin-google-analytics-*.js
 ||static.read.tools/stats.min.js
@@ -112765,6 +112776,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.ws.126.net/f2e/products/analysis/
 ||static.yandex.net/browser-updater/stripe/script.js
 ||static.zhipin.com/library/js/analytics/
+||static.znews.vn/releases/wap/*/js/analytic.min.js
 ||static.znews.vn/releases/web/*/js/analytic.min.js
 ||static1.dmcdn.net/js/cpe/cpeEvent.min.js
 ||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js
@@ -113355,6 +113367,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||webd.home.news.cn/1.gif?
 ||webgozar.*/c.aspx*&t=counter
 ||webim.ru/*/track.php
+||webmasters.ksalsocial.online/pixel-track/
 ||webmetrics.nintendo-europe.com^
 ||webrazzi.com/api/post/stats
 ||websiteplanet.com/wp-content/themes/websiteplanet/js/header-footer.js
