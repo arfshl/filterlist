@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509110156
+! Version: 202509120151
 ! Title: Personal Filter
-! Last Modified: 11 Sep 2025 01:56 UTC
+! Last Modified: 12 Sep 2025 01:51 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -22368,6 +22368,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||hlreoc.gonuldensevenler.com^
 ||hlrqi.lasioinc.com^
 ||hlserve.com^$third-party
+||hlstatus.com^
 ||hlygsp.modivo.ro^
 ||hm.houseofmirror.xyz^
 ||hm2wjuuus3.execute-api.ap-northeast-1.amazonaws.com^
@@ -37294,6 +37295,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||pixad.com.tr^$third-party
 ||pixanalytics.com^$third-party
 ||pixel-*.convertagain.net^
+||pixel-img.com^
 ||pixel.acaditi.com.br^
 ||pixel.ad^$third-party
 ||pixel.advertising.com^
@@ -37316,6 +37318,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||pixel.mintigo.com^
 ||pixel.nudgify.com^
 ||pixel.organicprodact.com^
+||pixel.prb-team.com^
 ||pixel.primaziaplanejados.com.br^
 ||pixel.renanpivetta.com.br^
 ||pixel.s3xified.com^
@@ -105547,6 +105550,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||bc.nhk.jp^
 ||bcd.esprit.de^
 ||bdg-analytics.appspot.com^
+||bdvmetricas.banvenez.com.ve^
 ||beacon-*.helpscout.net^
 ||beacon-1.newrelic.com^
 ||beacon.adelphic.com^
@@ -109759,7 +109763,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|tsn.ca|viabcp.com|webmotors.com.br|worldshop.eu
+||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|viabcp.com|webmotors.com.br|worldshop.eu
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -112231,6 +112235,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rasin.tech/heatmap-
 ||rasin.tech/scroll-logs/
 ||ratteb.com/js.
+||ravde.re-in.de/z?
 ||rcs.mako.co.il/js/neo/hpstats.js
 ||rcs.mako.co.il/js/scripts/metrics.js
 ||rd.com/wp-content/plugins/pup-comscore/
@@ -113011,6 +113016,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tmp.argusplatform.com/js/wid.tracker.js
 ||tms.marriott.com/error/e.gif
 ||tmserverside.mango.com/g/collect
+||tmssl.akamaized.net/js/news-viewport-tracking.js
 ||tof.perfectworld.com/public/js/stat-tof-perfectworld-
 ||tof.perfectworld.com/public/js/stat.js
 ||toho-u.ac.jp/common/js/ga_tracking.js
@@ -113533,7 +113539,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||youtube-nocookie.com/gen_204?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
-||youtube.com/api/stats/atr?ns=
 ||youtube.com/api/stats/qoe?fmt=
 ||youtube.com/csi_204?
 ||youtube.com/gen_204
@@ -113949,6 +113954,7 @@ post.pinterestmail.com/o/$image
 preview.ab0.jp%2Fstatic%2Fstarbucks%2Fma%2F*%2Frewards_img%2F*scenario*img-*.gif$image
 preview.ab0.jp/static/starbucks/ma/*/rewards_img/*scenario*img-*.gif$image
 probe.zalando.com$image
+production.k-trk.com$image
 pstmrk.it/open$image
 public-cis.exponea.com$image
 r.a.d.sendibm1.com%2Fmk%2Fop%2F$image
@@ -119407,6 +119413,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||testedtouch.com^
 ||texturetrick.com^
 ||thebigvan.com^
+||thecrazychili.com^
 ||thefishstops.com^
 ||thejavalane.com^
 ||themangotea.com^
@@ -121766,6 +121773,7 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 @@||a8cv.amiami.jp/click/$removeparam=a8
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||em.dynamicyield.com^$removeparam=cuid
+@@||passport.jlcpcb.com^$removeparam=from
 @@||portal-portm.meituan.com/horn$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||tix.axs.com^$removeparam=irclickid
 @@||yandex.go.link^$removeparam=adj-t
