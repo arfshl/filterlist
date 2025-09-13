@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509120151
+! Version: 202509130147
 ! Title: Personal Filter
-! Last Modified: 12 Sep 2025 01:51 UTC
+! Last Modified: 13 Sep 2025 01:47 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -113593,10 +113593,12 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ! + NOT_PLATFORM(ios, ext_android_cb, ext_safari)
 ||s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js
 ! + NOT_PLATFORM(ios, ext_safari)
+||1gr.cz/log^
+! + NOT_PLATFORM(ext_chromium_mv3)
 /api/rest/analytics/page/rendered$domain=13wham.com|22thepoint.com|abc3340.com|abc45.com|abc6onyourside.com|abc7amarillo.com|abcnews4.com|bakersfieldnow.com|cbs12.com|cbs2iowa.com|cbs4local.com|cbs6albany.com|cbsaustin.com|chattanoogacw.com|cnycentral.com|cw14online.com|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwomaha.tv|cwtreasurevalley.com|dayton247now.com|fox11online.com|fox17.com|fox23maine.com|fox28savannah.com|fox38corpuschristi.com|fox42kptm.com|fox47.com|fox49.tv|fox4beaumont.com|fox56.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxkansas.com|foxnebraska.com|foxreno.com|foxrichmond.com|foxrochester.com|foxsanantonio.com|idahonews.com|katu.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|kfoxtv.com|khqa.com|kimatv.com|kmph.com|kmyu.tv|kocb.com|komonews.com|kpic.com|krcgtv.com|krcrtv.com|ktul.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kutv.com|kval.com|local12.com|local21news.com|midmichigannow.com|mycbs4.com|myfox28columbus.com|mynbc15.com|mynews4.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nbc16.com|nbc24.com|nbcmontana.com|nebraska.tv|nevadasportsnet.com|news3lv.com|news4sanantonio.com|newschannel20.com|newschannel9.com|okcfox.com|raleighcw.com|seattlerefined.com|siouxlandnews.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|turnto10.com|upnorthlive.com|utv44.com|wabm68.com|wach.com|watchdaytime.com|wchstv.com|wcti12.com|wcyb.com|weartv.com|wfgxtv.com|wfxl.com|wgme.com|wgxa.tv|wjactv.com|wjla.com|wlos.com|wpde.com|wpgh53.com|wsbt.com|wset.com|wtov9.com|wtwc40.com|wutv29.com|wwmt.com
 /resources/video/players/prod/dist/*/analytics.js$domain=13wham.com|22thepoint.com|abc3340.com|abc45.com|abc6onyourside.com|abc7amarillo.com|abcnews4.com|bakersfieldnow.com|cbs12.com|cbs2iowa.com|cbs4local.com|cbs6albany.com|cbsaustin.com|chattanoogacw.com|cnycentral.com|cw14online.com|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwomaha.tv|cwtreasurevalley.com|dayton247now.com|fox11online.com|fox17.com|fox23maine.com|fox28savannah.com|fox38corpuschristi.com|fox42kptm.com|fox47.com|fox49.tv|fox4beaumont.com|fox56.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxkansas.com|foxnebraska.com|foxreno.com|foxrichmond.com|foxrochester.com|foxsanantonio.com|idahonews.com|katu.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|kfoxtv.com|khqa.com|kimatv.com|kmph.com|kmyu.tv|kocb.com|komonews.com|kpic.com|krcgtv.com|krcrtv.com|ktul.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kutv.com|kval.com|local12.com|local21news.com|midmichigannow.com|mycbs4.com|myfox28columbus.com|mynbc15.com|mynews4.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nbc16.com|nbc24.com|nbcmontana.com|nebraska.tv|nevadasportsnet.com|news3lv.com|news4sanantonio.com|newschannel20.com|newschannel9.com|okcfox.com|raleighcw.com|seattlerefined.com|siouxlandnews.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|turnto10.com|upnorthlive.com|utv44.com|wabm68.com|wach.com|watchdaytime.com|wchstv.com|wcti12.com|wcyb.com|weartv.com|wfgxtv.com|wfxl.com|wgme.com|wgxa.tv|wjactv.com|wjla.com|wlos.com|wpde.com|wpgh53.com|wsbt.com|wset.com|wtov9.com|wtwc40.com|wutv29.com|wwmt.com
 mediamarkt.de#%#//scriptlet('abort-on-property-write', 'ftr__startScriptLoad')
-||1gr.cz/log^
+||deezer.com/ajax/gw-light.php?method=log.listen
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
 ||dealabs*.digidip.net/visit?url=$urltransform=/%3a/:/
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
@@ -114644,6 +114646,8 @@ $cookie=ytrackvisit
 ||similarweb.com^$cookie=cb-anonymous-id
 ||similarweb.com^$cookie=sgid
 ||softwarekeep.com^$cookie=-orig-referrer
+||soundcloud.com^$cookie=sc-anonymous-id
+||soundcloud.com^$cookie=sc-tracking-anonymous-id
 ||spbvedomosti.ru^$cookie=/^bitrix-/
 ||sport-express.ru^$cookie=-se-site-counter
 ||sravni.ru^$cookie=-fp-
