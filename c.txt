@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509130147
+! Version: 202509140201
 ! Title: Personal Filter
-! Last Modified: 13 Sep 2025 01:47 UTC
+! Last Modified: 14 Sep 2025 02:01 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -118242,6 +118242,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||eatablesquare.com^
 ||echoinghaven.com^
 ||economysoil.com^
+||educationcar.com^
 ||educrated.com^
 ||effervescentcoral.com^
 ||effervescentvista.com^
@@ -118561,6 +118562,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||incompetentjoke.com^
 ||inconclusiveaction.com^
 ||infamousstream.com^
+||infinityhedge.com^
 ||informalbook.com^
 ||innocentlamp.com^
 ||inputicicle.com^
