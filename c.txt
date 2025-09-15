@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509140201
+! Version: 202509150202
 ! Title: Personal Filter
-! Last Modified: 14 Sep 2025 02:01 UTC
+! Last Modified: 15 Sep 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -22547,7 +22547,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||htrji.mazeliving.co.uk^
 ||htrog.threewarriors.com.au^
 ||httjs.davidscookies.com^
-||http-inputs-notion.splunkcloud.com^
 ||htvso.lovisa.com.au^
 ||hu-business.vodafone.com^
 ||huabfv.jshoe.co.kr^
@@ -105155,6 +105154,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||aclog.itmedia.co.jp^
 ||acr-*-prd.samsungcloud.tv^
 ||ad*.ettoday.net^
+||ad-bls-tracking.lemino.docomo.ne.jp^
 ||ad-events.flashtalking.com^
 ||ad-log.wemakeprice.com^
 ||ad.bench.utorrent.com^
@@ -109161,6 +109161,7 @@ nike.com#%#//scriptlet('set-local-storage-item', 'pi_visit_track', '$remove$')
 nike.com#%#//scriptlet('set-local-storage-item', 'pulse_insights_udid', '$remove$')
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 norisoku.com###random
+notion.so#%#//scriptlet('prevent-fetch', 'http-inputs-notion.splunkcloud.com')
 novate.ru#?##right > div.bordered:has( > script:contains(relap))
 novate.ru#?##right > h2:contains(Рекомендуем)
 ntvspor.net##.taboola-class-check
@@ -110141,6 +110142,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.static-fra.de/*/tracking/
 ||cdn.staticmember.com/wtp/common/scripts/google-tagmanager-min.js
 ||cdn.stroeerdigitalgroup.de/metatag/live/
+||cdn.super.com/remote-event-registry.json
 ||cdn.surfside.io/sdk/*/wave.js
 ||cdn.taboola.com/libtrc/animeyttv/loader.js
 ||cdn.tebilisim.com/analytics.js
@@ -112288,6 +112290,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||res.heraldm.com/js/logcollectscript_*.js
 ||researchgate.net/track/
 ||researchnow.com/t/beacon$third-party
+||reservationday.com/metrics/
 ||resources.hltv.org/hltv-tracking.js
 ||responder.wt.heise.de/resp/api/
 ||restaurantguru.com/ajax/logAB
@@ -112769,6 +112772,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.spankbang.com/static_desktop/gen/*-ai-with-privacy.js
 ||static.stands4.com/*/page.analytics.min.js$domain=lyrics.com
 ||static.stylight.net/js_external/trackjs.*.js
+||static.tacdn.com/js3/taevents-c.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
 ||static.teimg.com/analytics.js
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
@@ -113909,6 +113913,8 @@ mailchimp.com%2Fmctx%2Fopens$image
 mailchimp.com/mctx/opens$image
 mailfoogae.appspot.com$image
 mailing.pbank.com.ua$image
+mailmag.hhcross.hankyu-hanshin.jp%2Fc%2F*.gif$image
+mailmag.hhcross.hankyu-hanshin.jp/c/*.gif$image
 mailstat.us/tr$image
 mailtrack.io/trace/$image
 makeup.com.ua%2Famazon%2Fopened%2F$image
@@ -113983,6 +113989,8 @@ sendfox.com%2Ftrk%2Fopen%2F$image
 sendfox.com/trk/open/$image
 sendpul.se*8080$image
 sendpul.se*image$image
+sg1.wizrocketmail.net%2Fr%3Fe%3D$image
+sg1.wizrocketmail.net/r?e=$image
 shop.yushakobo.jp%2F_t%2Fopen%2F$image
 shop.yushakobo.jp/_t/open/$image
 shutterstockmail.com/pub/as?_ri_=$image
