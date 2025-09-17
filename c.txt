@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509160153
+! Version: 202509170153
 ! Title: Personal Filter
-! Last Modified: 16 Sep 2025 01:53 UTC
+! Last Modified: 17 Sep 2025 01:53 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -62787,6 +62787,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||trck.communications.fredhutch.org^
 ||trck.copeland.com^
 ||trck.csnotification.veritas.com^
+||trck.digiteka.com^
 ||trck.dp.intuit.com^
 ||trck.e.atradius.com^
 ||trck.e.evaluate.com^
@@ -109969,6 +109970,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||partner.shareaholic.com^
 ||pasta.esfile.duapps.com^
 ||pb.i.sogou.com^
+||pbc.nypost.com^
 ||pbc.realtor.com^
 ||pbc.wsj.com^
 ||pbox.photobox.de^
@@ -112171,6 +112173,7 @@ football-ukraine.com###shadowMedia
 fr.de##.bottom-footer > .dossier
 fudge.jp##.ratio-wrapper
 full-count.jp#?#.s-entry > section > div.c-heading:has( > div#taboola-below-article-thumbnails-desktop)
+gala.com#%#//scriptlet('set-local-storage-item', '_gal1', '$remove$')
 geinoukame.com##.ninja-recommend-block + br
 geinoukame.com##.ninja-recommend-block + hr
 gendai.media#?#.elementSectionHeadingsWithSuffix:has( + div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
@@ -112276,6 +112279,8 @@ novate.ru#?##right > div.bordered:has( > script:contains(relap))
 novate.ru#?##right > h2:contains(Рекомендуем)
 ntvspor.net##.taboola-class-check
 nukigazo.com###text-2
+nypost.com#%#//scriptlet('set-local-storage-item', 'ow/social-browser-storage', '$remove$')
+nypost.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 oceans-nadia.com##.gtm-bnr-rensai
 okazuch.site###custom_html-30
 okko.tv#%#//scriptlet('set-local-storage-item', 'sbid_logUid', '$remove$')
@@ -112863,6 +112868,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||arms.aliyuncs.com/r.png
 ||armtorg.ru/top/counter/
 ||arstechnica.com/keys/arstechnica.com/p.js
+||arte.tv/log-player/
 ||articles2.marketrealist.com/aptrk^
 ||articulture.org/_t/
 ||arttrk.com/pixel/
@@ -113287,6 +113293,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cerebro.edna.yahoo.net^$image
 ||cewe.de/tracking/*.js
 ||cfm.kt.com/js/adobe/*/launch-
+||cfm.kt.com/js/adobe/staticsLogcodeLaunch.js
+||cfm.kt.com/js/common/global/oms.js
+||cfm.kt.com/js/integrate/kLogcode.js
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
 ||change.org/*/collector
@@ -113722,7 +113731,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||dygassets.dygdigital.com^
 ||dynamic.infranken.de/delivery/consent.php
 ||dynamic.infranken.de/delivery/info/
-||dynatrace.com^$domain=~dynatrace.com|~dynatracelabs.com
+||dynatrace.com^$domain=~dcbstatic.com|~dynatrace.com|~dynatracelabs.com
 ||dzen.ru/api/v4/launcher/stats/
 ||e-himart.co.kr/app/api/*/display/citrusAdTrk
 ||e-himart.co.kr/app/common/fromShopInfoAjax|
@@ -113821,6 +113830,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||europe1.fr/build/e1/tracking.
 ||ev.kck.st/web/track
 ||event-analytics.yesware.com/main.js
+||event.arte.tv/api/server-side-tracking/
 ||event.symbiosys.ai/page_viewjs
 ||eventcom.api.np.km.playstation.net/event^
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
@@ -114670,6 +114680,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ltn.com.tw/impression?
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
 ||lucida.su/api/event
+||luckyduckgames.com/global/index.php?controller=statistics
 ||luisaviaroma.com/dynamic/log
 ||lulus.com/api/tracking/events
 ||lumo.proton.me/api/data/v1/telemetry
@@ -114734,6 +114745,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||market.samm.com/0/sendEventV2
 ||marketingautomation.services/client/ss.js
 ||marketingautomation.services/net?$third-party
+||marketplace.geniusplus.ai/*/lre-events?cid=*&wid=
 ||marsflag.com/mf2file/site/ext/tr.js
 ||martechsecresponse.s3.us-east-2.amazonaws.com/HotelTracker-*.js
 ||massdrop.com/*/pixelrb?
@@ -115437,7 +115449,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rmc-cx.api.rakuten.co.jp/*/web/events|
 ||roadster.com/roadster_dealer_analytics
 ||robert.golem.de/g/collect
-||rocket.ivi.ru/event/
+||rocket.ivi.ru/event
+||rocket.ivi.ru/playback/event
 ||rocketcdn.me/*/tracking.js
 ||rokt.com/v1/events^
 ||rokt.com/v2/metrics^
@@ -115829,6 +115842,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||stat.sports.ru^
 ||statcounter.com/counter/*.js
 ||static-*.plista.com/async.js$third-party
+||static-cdn.arte.tv/static/analytics/
 ||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
 ||static-cdn.tinkoffjournal.ru/js/analytics.*.js
 ||static-cf.sooplive.co.kr/asset/service/common/common_analysis.js
@@ -115856,6 +115870,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.files.bbci.co.uk/ws/simorgh-assets/public/static/js/reverb/
 ||static.fnnews.com/resources/w/statics/fn-staticsV2.js
 ||static.foxnews.com/static/leap/sites/fnc/metrics.js
+||static.gala.games/gal/fp/loader_v*.js
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
 ||static.gazeta.ru/nm2021/js/block_counter.
 ||static.hankyung.com/js/ga/googleTagManager.js
@@ -117635,6 +117650,7 @@ $cookie=ytrackvisit
 ||animegoods.co.kr^$cookie=/fb-/
 ||animegoods.co.kr^$cookie=ec-ipad-device
 ||applesfera.com^$cookie=nid
+||aviasales.$cookie=/^-sp-id/
 ||azcentral.com^$cookie=/^gnt-/
 ||azcentral.com^$cookie=gup-anonid
 ||azcentral.com^$cookie=gup-clientid
@@ -119255,6 +119271,8 @@ d4?appid*type*
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
 ! + PLATFORM(android)
+@@||mc.yandex.ru/metrika/tag.js$domain=banki.ru|id.x5.ru
+! + PLATFORM(windows, mac, android)
 @@/sxp/i/*.js$domain=linkvertise.com
 @@||a-fds.youborafds01.com/data?$xmlhttprequest,domain=pluto.tv
 @@||abt.nike.com^$domain=nike.com
@@ -119301,7 +119319,6 @@ d4?appid*type*
 @@||huntress.com/assets/snowplow.tracker-*.js$domain=huntress.com
 @@||js.monitor.azure.com/scripts/c/ms.jsll-*.min.js$domain=visualstudio.microsoft.com
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
-@@||mc.yandex.ru/metrika/tag.js$domain=banki.ru|id.x5.ru
 @@||measure.medpex.de/gtm.js
 @@||nelo2-col.navercorp.com/_store$domain=weverse.io
 @@||prod.adobeccstatic.com/unav/*/AnalyticsProvider.*.bundle.js$domain=acrobat.adobe.com
@@ -119348,6 +119365,7 @@ xinshuru.com#%#//scriptlet('set-constant', 'RADAR_MONITOR.setProject', 'emptyObj
 ||accueil.banque-france.fr/uti/assets/atinternet/core/smarttag.js$redirect=ati-smarttag,script
 ||files.upscore.com/iframe/iframe_conversion_tracking.js$redirect=noop.js,script,domain=schwarzwaelder-bote.de
 ||sstats.bitdefender.com^$important,redirect=noop.txt,~third-party,xmlhttprequest
+||webtags.logitech.com^$redirect-rule=nooptext
 ! + PLATFORM(windows, mac, android)
 @@://analytics.google.com/analytics/$domain=analytics.google.com
 @@||analytics.analytics-egain.com/onetag/$script,domain=digikey.fr
@@ -123259,6 +123277,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||carwow.de^$removeparam=impact-click-id
 ||carwow.de^$removeparam=impact-product-sku
 ||carwow.de^$removeparam=utm-group
+||casino.ua/short-register/$removeparam
 ||change.org^$removeparam=source-location
 ||change.org^$removeparam=user-flow
 ||chaturbate.com^$removeparam=/tour|campaign/,~third-party
