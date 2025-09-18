@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509170153
+! Version: 202509180153
 ! Title: Personal Filter
-! Last Modified: 17 Sep 2025 01:53 UTC
+! Last Modified: 18 Sep 2025 01:53 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3996,6 +3996,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analytics.ccned.nl^
 ||analytics.cdf.cl^
 ||analytics.cdn.live^
+||analytics.cdnweb.info^
 ||analytics.centrolilac.com^
 ||analytics.centrolilac.it^
 ||analytics.certifriedit.com^
@@ -108455,6 +108456,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.karakuri.ai^
 ||analytics.keepstreams.com^
 ||analytics.kemlu.go.id^
+||analytics.kode.co.kr^
 ||analytics.kurocore.com^
 ||analytics.languagetoolplus.com^
 ||analytics.lasegunda.ecn.cl^
@@ -109287,6 +109289,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ga.clearbit.com^
 ||gak.webtoons.com^
 ||ganon.yahoo.com^
+||gatag.uplus.co.kr^
 ||gateway.cloud.sbs.co.kr^
 ||gather.donga.com^
 ||gc.newsweek.com^
@@ -109504,6 +109507,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||js-agent.newrelic.com^
 ||js.stroeermediabrands.de^
 ||jtp.expressen.se^
+||jzq915.playmobil.com^ы
 ||k030.koco.com^
 ||k864.orovillemr.com^
 ||kaan.kakao.com^
@@ -111260,6 +111264,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||xlog-va.musical.ly^
 ||xpu.samsungelectronics.com^
 ||xray.mail.ru^
+||xtr.tos.sktelecom.com^
 ||xy33.smallable.com^
 ||y.one.impact-ad.jp^
 ||y000.wyff4.com^
@@ -111518,6 +111523,8 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /countly.js
 /countly.min.js
 /cp2.gif?
+/detroitchicago/overlandpark.js
+/detroitchicago/reno.js
 /dfm/fp.min.js
 /DG/DEFAULT/cs?
 /DG/DEFAULT/rest/rpc/*
@@ -111533,6 +111540,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /evercookie_
 /exactag_clientside.js
 /exec/front/eclog/*
+/ezais/analytics
 /facebook_fbevents.
 /facebook_pixel_
 /facebookPixel.
@@ -112139,7 +112147,7 @@ diamond.jp###contents > div.sub-column > div.title:has( + #cx-recommed)
 diamond.jp###cx-recommed
 diamond.jp###main-column > article > div.main-special
 digi.no##img[src^="https://ish.tumedia.no/ish_tracker.gif"]
-disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', 'text')
+disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', '?url')
 dogdrip.net#%#//scriptlet('href-sanitizer', 'a[href^="/link.php?url="]', '?url')
 dokonline.com###Counters
 dokonline.com###Counters + div[class="block"]
@@ -112390,6 +112398,7 @@ xn--r8jwklh769h2mc880dk1o431a.com##.underbox
 yakutia.info##.popular:has( > .js-relap-anchor)
 zch-vip.com##.plugin-access
 zdnet.com###taboola-below-home-thumbnails-homepage
+zdnet.com#%#//scriptlet('href-sanitizer', '.c-articleContent p a[href^="https://cc.zdnet.com/"]', '?url')
 znak.com##.relap
 zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||*report.wc.yahoodns.net/cs/
@@ -114498,6 +114507,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||jsdelivr.net/*/fp.min.js$domain=~cuevana2.io
 ||jsdelivr.net/npm/keen-tracking@*/keen-tracking.min.js
 ||jsdelivr.net/npm/navigator.sendbeacon
+||jsdelivr.net/npm/search-insights$domain=qobuz.com
 ||jsdelivr.net/snowplow/
 ||jsengine.ru/geoproxy/ip
 ||json.inf.mtml.ru/?*&count=
@@ -115316,6 +115326,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||qgraph.io/v3/r/aiqua.js
 ||qihoo.com/stat.gif?
 ||qingflow.com/tracking/
+||qobuz.com/api.json/*/user/tracking?
 ||qoe-*.yottaa.net/*/configure.rapid.js
 ||qoo.by/counter.js$third-party
 ||qq.com/collect?
@@ -115787,6 +115798,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sportsseoul.com/news/site_log/
 ||spot.im/analytics/analytics.js
 ||spot.im/api/tracker/
+||spotifycdn.com/cdn/js/gtm.
 ||spox.com/pub/js/track.js
 ||sprinklr.com/api/livechat/prompt/browse/event
 ||sprocket.bz/trackers/
@@ -116121,6 +116133,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||themescientist.app/*/event.json
 ||themonitor.com/shared-content/art/stats/common/tracker.js^
 ||thenextweb.com/geppetto/s.js
+||thermaltake.com/bannerslider/index/impress/
 ||thesportsrush.com/_axiom/web-vitals
 ||thethings.com/strpixel.png
 ||theurbanlist.com/assets/dist/autotrack.*.js
@@ -116288,6 +116301,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||twitter.com/1.1/jot/client_event.json
 ||twitter.com/i/jot
 ||twivideo.net/templates/ajax_link_click.php
+||tworld.co.kr/web/service/xtractor.service.js
 ||twowheeler.policybazaar.com/js/GTMgoogleAnalytics.js
 ||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
 ||uapi.production-public.tubi.io/datascience/logging
@@ -117198,6 +117212,8 @@ wattpad.com/et?c=$image
 web.frontapp.com/api$image
 welovepg.polymail.io$image
 whiteclouddrive.com$image
+willap.jp%2Ft%3Fr=$image
+willap.jp/t?r=$image
 wizrocketmail.net$image
 yahoocs.my.salesforce.com%2Fs.gif$image
 yahoocs.my.salesforce.com/s.gif$image
@@ -117773,6 +117789,7 @@ $cookie=ytrackvisit
 ||plus.nl^$cookie=/^osvisit/
 ||popin.cc^$cookie=--mguid-
 ||prothomalo.com^$cookie=uuid-v2
+||pzfans.com^$cookie=ezosuibasgeneris-1
 ||rarejob.com^$cookie=guest-id-ads
 ||rarejob.com^$cookie=guest-id-marketing
 ||raycast.com^$cookie=/^ph-phc-/
@@ -122616,6 +122633,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||tofusquirrel.com^
 ||tomatobarrel.com^
 ||toolcapital.com^
+||toolforthought.com^
 ||toomanyalts.com^
 ||topbookgifts.com^
 ||topcrazypress.com^
@@ -125083,6 +125101,7 @@ insertlive.com##.smartbanner_new
 metrotvnews.com##.socmed-share-container
 keepo.me##.sticky-share-content
 pinhome.id##.style_stickyBannerDesktop__GLF3I
+tribunnews.com##.tapp-banner
 quran.nu.or.id##.w-full.relative
 inews.id##.widgetNewsTV__news24Jam
 bloombergtechnoz.com##div:nth-of-type(5)
