@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509190156
+! Version: 202509200151
 ! Title: Personal Filter
-! Last Modified: 19 Sep 2025 01:56 UTC
+! Last Modified: 20 Sep 2025 01:51 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -116113,6 +116113,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.localytics.com^
 ||analytics.lunarclientprod.com^
 ||analytics.lunaweb.cloud^
+||analytics.luogu.me^
 ||analytics.macpaw.com^
 ||analytics.maileon.com^
 ||analytics.mailmunch.co^
@@ -119610,7 +119611,6 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 -config.sensic.net/s2s-web.js
 -config.sensic.net/sui.js
 -pcre-js-gen.herokuapp.com/tracking-event|
--public-api.hoyoverse.com/event/event_fe_info/$xmlhttprequest
 -spclient.spotify.com/gabo-receiver-service*/v3/events
 -vdn.ops.beeline.ru/p?ssp=vdn&id=
 -vlybypoc2019.cloudfunctions.net/vtrack?vid=
@@ -124753,6 +124753,8 @@ nyb.soundestlink.com*track$image
 omeclk.com$image
 omni.soundestlink.com$image
 open.convertkit-mail*.com$image
+openedlog.smart-bdash.com%2Fopened%3Faid%3D$image
+openedlog.smart-bdash.com/opened?aid=$image
 openrate.aweber.com$image
 outpostemail.notify.readtangle.com$image
 outrch.com/api/mailings/opened$image
@@ -125364,6 +125366,7 @@ $cookie=ytrackvisit
 ||hk01.com^$cookie=hk01-annonymous-id
 ||hk01.com^$cookie=hk01-segment-id
 ||homerun.co.uk^$cookie=-fingerprint
+||hoyoverse.com^$cookie=-hyvuuid
 ||hpplus.jp^$cookie=fw-se
 ||hpplus.jp^$cookie=fw-uid
 ||https-filtering-check.adtidy.org^
@@ -126537,6 +126540,7 @@ d4?appid*type*
 ||moai-dev-samsung.com^
 ||mob2.healthapplines.com^
 ||mob2.healthtrackergroup.com^
+||mob2.musicgostudio.com^
 ||mob2.mymusic2025.com^
 ||mobile-collector.newrelic.com^
 ||mobile-events.eservice.emarsys.net^
@@ -126761,6 +126765,7 @@ d4?appid*type*
 ||tapi.axcadsf.cfd^$app=com.apkpure.aegon
 ||tatrack.thinkyeah.com^
 ||taurus.iad.appboy.com^
+||tc.mnbvcxzq.com^
 ||tc.weszxdrf.com^$app=com.apkpure.aegon
 ||tdid.m.qq.com^
 ||tealand.cmcm.com^
@@ -126978,9 +126983,11 @@ d4?appid*type*
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
 @@||g.alicdn.com/AWSC/et/$domain=ele.me
+@@||googletagmanager.com/gtag/destination$script,domain=musinsa.com
 @@||googletagmanager.com/gtag/js?id=$domain=moegirl.org.cn
 @@||googletagmanager.com/gtag/js?l=$domain=wps.com
 @@||googletagmanager.com/gtm.js$domain=catfootwear.com|chacos.com|challenges.fr|firsty.app|hepsiburada.com|hytest.com|jornaldocomercio.com|leroymerlin.es|merrell.com|saucony.com|slam.nl|volksstimme.de|wolverine.com|ybt.sapporobeer.jp
+@@||googletagmanager.com/gtm.js$script,domain=musinsa.com
 @@||googletagmanager.com/gtm.js?id=GTM-56WSR2$domain=victorinox.com
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=asda.com
 @@||huntress.com/assets/snowplow.tracker-*.js$domain=huntress.com
@@ -127014,7 +127021,6 @@ kb.arlo.com#%#//scriptlet('set-constant', '_vwo_code', 'emptyObj')
 kb.arlo.com#%#//scriptlet('set-constant', '_vwo_code.init', 'noopFunc')
 mail.yandex.*#@%#//scriptlet('set-constant', 'navigator.getBattery', 'noopPromiseResolve')
 musinsa.com#%#//scriptlet('set-cookie', '_dd_s', '0', '/', 'musinsa.com')
-musinsa.com#%#//scriptlet('set-cookie', '_ga', '0', '/', 'musinsa.com')
 musinsa.com#%#//scriptlet('trusted-suppress-native-method', 'CookieStore.prototype.set', '_dd_s', 'prevent', 'datadog')
 musinsa.com#%#//scriptlet('trusted-suppress-native-method', 'Date.prototype.toUTCString', 'undefined', 'abort', 'datadog')
 pluto.tv#%#//scriptlet('abort-on-stack-trace', 'Date.prototype.getTime', 'startSessionHeartBeat')
@@ -128766,6 +128772,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||boiledegglabs.com^
 ||boilingbeetle.com^
 ||boilingcredit.com^
+||boilingmadsoup.com^
 ||boldbars.com^
 ||bonuscomplex.com^
 ||bookprobe.com^
@@ -129271,6 +129278,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||glisteningguide.com^
 ||glisteningsign.com^
 ||glitteringbrook.com^
+||gloomyseason.com^
 ||gloriousbeef.com^
 ||glowingmeadow.com^
 ||gluedpixel.com^
@@ -130280,6 +130288,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||ticklesign.com^
 ||tidymitten.com^
 ||tightpowder.com^
+||tinybluewhale.com^
 ||tinyswans.com^
 ||tinytendency.com^
 ||tiredthroat.com^
