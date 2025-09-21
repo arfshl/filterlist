@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509200151
+! Version: 202509210204
 ! Title: Personal Filter
-! Last Modified: 20 Sep 2025 01:51 UTC
+! Last Modified: 21 Sep 2025 02:04 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -121692,6 +121692,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||gazisoft.com/alexa/
 ||gazisoft.com/counter.php
 ||gazzettaobjects.it/*/js/tracking/
+||gcpsmapi.vodafone.com/submit-events
 ||gecid.com/inc/bstat.php
 ||geekchart.net/req.php
 ||geico.com/insite/dynaTraceMonitor
@@ -126942,6 +126943,8 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||at.vodafone.de/rest/$domain=vodafone.de
+@@||was.vodafone.de/ee/*/privacy/set-consent
 ! + PLATFORM(android)
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru|id.x5.ru
 ! + PLATFORM(windows, mac, android)
@@ -132952,6 +132955,8 @@ tumblr.com##div[class][style^="background: rgb(124, 92, 255); "]:only-of-type
 ##.tmblr-iframe--follow-teaser
 ! Because uBlock Filters added "@@||tumblr.com^$ghide"
 tumblr.com##.tmblr-iframe--follow-teaser
+! https://thememedaddy•tumblr•com/archive
+tumblr.com,~www.tumblr.com##div[style^="background-color: rgb(124, 92"]:has( > div > div > button[aria-label="Sign up"])
 ! deviantART ↪️📛
 ! https://www•deviantart•com/demotex/art/Latex-Polly-903934930 (NSFW; thankfully not NSFL, which is what most other DA art is)
 deviantart.com##body[class*=ads-] div[style^="width:"][class]:not([class*=" "]) > div[class]:nth-of-type(2):last-of-type:not([style])
@@ -133013,6 +133018,9 @@ chipstrat.com,microsoftsecurityinsights.com,substack.com##div[class^=subscribe-]
 instacart.com##.AuthModal__Overlay:has(a[href$="/business"])
 ! https://adultdvdrip•is/search/?q=••••••••••#/ (Still leaves many of the BG images blurry, however; 29/06/2025)
 adultdvdrip.is##.backdrop-modal
+! https://www•mycarly•com/community/peugeot-ion-radio-reception-problems-b52f9ba7-6044-44e2-850a-31d11d7fbe70/ (18/09/2025)
+mycarly.com##.chakra-dialog__backdrop:style(backdrop-filter:0!important)
+mycarly.com##.chakra-dialog__positioner
 ! ——————————————————————————————————————————————————————————————————————
 ! Below are entries that I borrowed from «Strappazzon's Annoyances filter list», which is maintained by https://github.com/Strappazzon at https://raw.githubusercontent.com/Strappazzon/filterlists/master/Filterlists/Annoyances.txt, and which is licenced under MIT.
 ! Amazon
