@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509210204
+! Version: 202509220204
 ! Title: Personal Filter
-! Last Modified: 21 Sep 2025 02:04 UTC
+! Last Modified: 22 Sep 2025 02:04 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -117155,6 +117155,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||jitsu.ixbt.com^
 ||jpaasne.e.shifen.com^
 ||js-agent.newrelic.com^
+||js-collector.icewood.net^
 ||js.stroeermediabrands.de^
 ||jtp.expressen.se^
 ||jzq915.playmobil.com^ы
@@ -130264,6 +130265,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||testedtouch.com^
 ||texturetrick.com^
 ||thebigvan.com^
+||thebrainybulb.com^
 ||thecrazychili.com^
 ||thefishstops.com^
 ||thejavalane.com^
