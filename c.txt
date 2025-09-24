@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509230154
+! Version: 202509240155
 ! Title: Personal Filter
-! Last Modified: 23 Sep 2025 01:54 UTC
+! Last Modified: 24 Sep 2025 01:55 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -111313,6 +111313,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.atlassian.com^
 ||analytics.avcdn.net^
 ||analytics.aweber.com^
+||analytics.azrhymes.com^
 ||analytics.b2.ai^
 ||analytics.bauermedia.sk^
 ||analytics.bi.encuentra24.com^
@@ -115017,6 +115018,7 @@ artmoney.ru##noindex > a
 audiobb.com##.sidebar > #custom_html-4
 augsburger-allgemeine.de,nikkansports.com##div[id^="cx_"]
 automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
+azrhymes.com#%#//scriptlet('set-local-storage-item', 'visitor_hash', '$remove$')
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 bangkokpost.com##section.section-page > .container > .row > div:has( > .div-youmaylike)
 baseballpost.jp###highschool-pickup
@@ -115325,6 +115327,7 @@ wps.com#%#//scriptlet('set-constant', '__hasReportedAffiliatePageview', 'true')
 xn--r8jwklh769h2mc880dk1o431a.com##.topbox2 > div.”smanone”
 xn--r8jwklh769h2mc880dk1o431a.com##.underbox
 yakutia.info##.popular:has( > .js-relap-anchor)
+youskbe.com#%#//scriptlet('set-local-storage-item', '__adm_uid', '$remove$')
 zch-vip.com##.plugin-access
 zdnet.com###taboola-below-home-thumbnails-homepage
 zdnet.com#%#//scriptlet('href-sanitizer', '.c-articleContent p a[href^="https://cc.zdnet.com/"]', '?url')
@@ -116435,6 +116438,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cr-eec.etp-prod.com^$domain=crunchyroll.com
 ||crackle.com/*/tracking/
 ||crank-in.net/assets/common/js/sendpv.js
+||create.viverse.com/play/assets/gtm-*.js
 ||creativefactory.zalando.de/impressions^
 ||creema.jp/ad/click-log
 ||creema.jp/ad/impression-log
@@ -116632,6 +116636,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||downloads-photoshop.ru/templates/dp/images/count.png
 ||downloads-photoshop.ru/templates/dp/images/count_top.png
 ||downloads.redbull.com/webtrekk/
+||dp.ru/api/v*/ClientLogs
 ||dpg.danawa.com/*/rest/*getStampEvent
 ||dpm.demdex.net/id$important,redirect=noop.txt,domain=bt.com|business.hsbc.uk|nhl.com|stuff.co.nz
 ||dpool.sina.com.cn/iplookup/iplookup.php
@@ -116750,6 +116755,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||eromon.net/bin/movie/click_count.php
 ||eropuru.com/plugin/tracking/
 ||err.ee/api/statistics/
+||err.lenta.ru/atlas/metrics/
 ||escapistmagazine.com/*/gamurs-group-analytics/js/openweb-tracking.js
 ||esgazete.com/service/social-counter.json
 ||esmas.com/scripts/esmas_stats.js
@@ -120607,6 +120613,7 @@ $cookie=ytrackvisit
 ||azcentral.com^$cookie=/^gnt-/
 ||azcentral.com^$cookie=gup-anonid
 ||azcentral.com^$cookie=gup-clientid
+||azrhymes.com^$cookie=visitor
 ||blog.naver.com^$cookie=ba-device
 ||boundless.com^$cookie=-boundless-tracking-id
 ||buildtheearth.net^$cookie=/^-pk-id./
@@ -121468,6 +121475,7 @@ d4?appid*type*
 ||ced-ns.sascdn.com^
 ||cedexis-radar.net^
 ||cedexis.com^
+||census-app.scorecardresearch.com^
 ||cfg.cml.ksmobile.com^
 ||cgicol.amap.com^
 ||chartbeat.net^
