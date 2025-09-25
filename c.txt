@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509240155
+! Version: 202509250156
 ! Title: Personal Filter
-! Last Modified: 24 Sep 2025 01:55 UTC
+! Last Modified: 25 Sep 2025 01:56 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -7114,6 +7114,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||beencounter.com^$third-party
 ||beer2s.millerbrewing.com^
 ||beetle.enlacepermanente.es^
+||behavior-tracking-event-gateway.imweb.me^
 ||behavior.tongdun.net^
 ||behavioralengine.com^$third-party
 ||bekannt-im-web.de^$third-party
@@ -43920,6 +43921,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||sdk.conscent.in^$third-party
 ||sdk.mrf.io^
 ||sdk.optimove.net^
+||sdkapi-prod.dfinery.ai^
 ||sdlmaf.bestsecret.at^
 ||sdlnra.molders.be^
 ||sdmegj.zucchibassetti.com^
@@ -111276,6 +111278,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics-batch.blitz.gg^
 ||analytics-cdn.levante-emv.com^
 ||analytics-cdn.prensaiberica.es^
+||analytics-cdn.sport.es^
 ||analytics-conomi.line.me^
 ||analytics-dataplane.invideo.io^
 ||analytics-ingestion-production.tubitv.com^
@@ -111427,6 +111430,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.pointdrive.linkedin.com^
 ||analytics.portal.gov.bd^
 ||analytics.posttv.com^
+||analytics.prensaiberica.es^
 ||analytics.proxer.me^
 ||analytics.purelovers.com^
 ||analytics.python.org^
@@ -115825,7 +115829,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|viabcp.com|webmotors.com.br|worldshop.eu
+||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|viabcp.com|webmotors.com.br|worldshop.eu
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -116000,6 +116004,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bn.dxlive.com/js/rightColGa.js
 ||bnews.com.br/increase_counters.js
 ||bnr.nl/pixel/$image
+||bobbibrown.com.tr/js-repo/elc-service-analytics/
+||bobbibrown.com.tr/sites/all/libraries/analytics/
 ||boersennews.de/js/lib/BnPageTracker.js
 ||bol.com/tracking/*.gif
 ||bomp.odmedia.net^$domain=fcb.tv
@@ -117696,6 +117702,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||marketingautomation.services/client/ss.js
 ||marketingautomation.services/net?$third-party
 ||marketplace.geniusplus.ai/*/lre-events?cid=*&wid=
+||markonlive.github.io/analytics/
 ||marsflag.com/mf2file/site/ext/tr.js
 ||martechsecresponse.s3.us-east-2.amazonaws.com/HotelTracker-*.js
 ||massdrop.com/*/pixelrb?
@@ -117705,6 +117712,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||masutabe.info/js/access.js
 ||matchid.adfox.yandex.ru/getcookie$domain=kp.ru|vseinstrumenti.ru
 ||matelso.de/webtracking/
+||maukerja.my/server-api/impression-api
+||maukerja.my/v3mkapi/track/
 ||maximum.ru/uploads/metrics.js
 ||mayla.jp/tracking/
 ||mb.mtvnservices.com/data/collect/
@@ -118752,6 +118761,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||squareup.com/tracking.json
 ||squid.gazeta.pl/bdtrck/
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||sr.de/sr/static/js/optout-tracking.js
 ||src.fwusercontent.com/mas|
 ||srv.onedio.com/counter/
@@ -118799,6 +118809,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static-cdn.tinkoffjournal.ru/js/analytics.*.js
 ||static-cf.sooplive.co.kr/asset/service/common/common_analysis.js
 ||static-cl.xhcdn.com/js/track.min.js
+||static-dc.autodesk.net/etc.clientlibs/*/testandtarget/clientlibs/testandtarget/atjs-integration.min.js
 ||static-fra.de^*/targeting.js
 ||static-fra.de^*/tracking.js
 ||static-img.threatbook.cn/zhugeio/zhuge.js
@@ -120658,6 +120669,7 @@ $cookie=ytrackvisit
 ||hk01.com^$cookie=hk01-annonymous-id
 ||hk01.com^$cookie=hk01-segment-id
 ||homerun.co.uk^$cookie=-fingerprint
+||hostadvice.com^$cookie=msvt-uid
 ||hoyoverse.com^$cookie=-hyvuuid
 ||hpplus.jp^$cookie=fw-se
 ||hpplus.jp^$cookie=fw-uid
@@ -121398,6 +121410,7 @@ d4?appid*type*
 ||api.gameanalytics.com^
 ||api.gimbal.com^
 ||api.goodbarber.net/statsapi/
+||api.learnings.ai^
 ||api.mixpanel.com^
 ||api.onegg.site^$app=com.apkpure.aegon
 ||api.reproio.com^
@@ -121565,6 +121578,7 @@ d4?appid*type*
 ||dsp-adcreative.mobshark.net^
 ||dsptrack.mobshark.net^
 ||dt.beyla.site^
+||dtcollect.newsbang.com^
 ||dualstack-cgicol.amap.com^
 ||dualstack-logs.amap.com^
 ||dutils.com^
@@ -121581,6 +121595,7 @@ d4?appid*type*
 ||ets.easybrain.com^
 ||event-collector.moviesanywhere.com^
 ||event-dot-learning-piano.appspot.com^
+||event-portal.dailyinnovation.biz^
 ||event-search.jorte.com^
 ||event-us.ssp.taxssp.com^
 ||event.*.karrotmarket.com^
@@ -122237,6 +122252,7 @@ d4?appid*type*
 ! #################
 @@||at.vodafone.de/rest/$domain=vodafone.de
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
+@@||track.sendlane.com/track/form/$domain=momentprocamera.com
 @@||was.vodafone.de/ee/*/privacy/set-consent
 ! + PLATFORM(android)
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru|id.x5.ru
@@ -124374,6 +124390,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||earnbaht.com^
 ||earthups.com^
 ||eatablesquare.com^
+||echoacloud.com^
 ||echoinghaven.com^
 ||economysoil.com^
 ||educationcar.com^
@@ -124752,6 +124769,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||kindasingle.com^
 ||kindhush.com^
 ||kitetuning.com^
+||kittycatking.com^
 ||knewpenny.com^
 ||knifetreasury.com^
 ||knitstamp.com^
@@ -125501,6 +125519,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||suggestionbridge.com^
 ||sulkycook.com^
 ||summerobject.com^
+||sunsetcampfires.com^
 ||sunsetstatic.com^
 ||sunshinegates.com^
 ||sunshinepint.com^
