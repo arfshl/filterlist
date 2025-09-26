@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509250156
+! Version: 202509260155
 ! Title: Personal Filter
-! Last Modified: 25 Sep 2025 01:56 UTC
+! Last Modified: 26 Sep 2025 01:55 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -111464,6 +111464,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.stanby.com^
 ||analytics.starlink.com^
 ||analytics.streamfab.
+||analytics.streamingworld.xyz^
 ||analytics.tebilisim.com^
 ||analytics.tedium.co^
 ||analytics.teespring.com^
@@ -113465,6 +113466,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.bbc.co.uk^
 ||stats.blogg.se^
 ||stats.bluebillywig.com^
+||stats.bouyguestelecom.fr^
 ||stats.browsertrix.com^
 ||stats.bunkr.ru^
 ||stats.cardschat.com^
@@ -118610,6 +118612,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sfgame.net/tracking_ggs.php
 ||sfstatic.net/build/js/basicMetricsTracking.*.js
+||sgimage.netmarble.com/js/gtm/
 ||sgqcvfjvr.onet.pl/build/dlApi/dl.clickmap.min.js
 ||sgtm.fashionunited.de/gtm.js
 ||sgtm.kaspersky.de/gtm.js
@@ -119053,6 +119056,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||techstage.de/js/techstage/webtrekk_scrollposition.js
 ||teenporn.ws/zaq/cron.php
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare*.js
+||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?$image
 ||temu.com/api/adx/cm/pixel-xandr
@@ -120561,6 +120565,8 @@ $cookie=vtexfingerprint
 $cookie=waldo-continent
 $cookie=waldo-country
 $cookie=waldo-region
+$cookie=weba-apprlid
+$cookie=weba-vstid
 $cookie=wt-eid
 $cookie=wt-nbg-q3
 $cookie=wt-sid
@@ -120627,6 +120633,7 @@ $cookie=ytrackvisit
 ||azrhymes.com^$cookie=visitor
 ||blog.naver.com^$cookie=ba-device
 ||boundless.com^$cookie=-boundless-tracking-id
+||bouyguestelecom.fr^$cookie=trackerid
 ||buildtheearth.net^$cookie=/^-pk-id./
 ||businessinsider.jp^$cookie=mgppid
 ||businessinsider.jp^$cookie=ppid
@@ -123939,6 +123946,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||accountsdoor.com^
 ||accurateanimal.com^
 ||accuratecoal.com^
+||acebunny.com^
 ||acidicstraw.com^
 ||acidpigs.com^
 ||acquireuser.com^
@@ -124207,6 +124215,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||clarifyverse.com^
 ||classicnotebook.com^
 ||cleanhaircut.com^
+||climbingright.com^
 ||cloisteredcurve.com^
 ||cloudguppy.com^
 ||cloudhustles.com^
@@ -125826,6 +125835,7 @@ $removeparam=adcref,domain=fafit24.de
 $removeparam=adfrom
 $removeparam=adj-campaign
 $removeparam=adj-creative
+$removeparam=adj-label
 $removeparam=adj-t
 $removeparam=adjust-adgroup
 $removeparam=adjust-campaign
@@ -127941,6 +127951,7 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_tracking_params
 adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 ! + PLATFORM(windows, mac, android) NOT_OPTIMIZED
 @@||a8cv.amiami.jp/click/$removeparam=a8
+@@||adj.st^$removeparam=adj-t
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||em.dynamicyield.com^$removeparam=cuid
 @@||passport.jlcpcb.com^$removeparam=from
