@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509260155
+! Version: 202509270150
 ! Title: Personal Filter
-! Last Modified: 26 Sep 2025 01:55 UTC
+! Last Modified: 27 Sep 2025 01:50 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -111514,6 +111514,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||apetite.index.hr^
 ||api-*.hismarttv.com^
 ||api-adservices.apple.com^
+||api-analytics.pelikan.sk^
 ||api-analytics.rozetka.com.ua^
 ||api.ad-platform.jmty.jp^
 ||api.amplitudeexperiment.com^
@@ -111737,6 +111738,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||clog.go.com^
 ||clog.lghv.net^
 ||clog.tanshudata.com^
+||cloudmetrics.xenforo.com^
 ||clt.banggood.com^
 ||clvk.viki.io^
 ||cmap.alibaba.com^
@@ -114784,6 +114786,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /utm-tracker.min.js
 /utx?tid=
 /v.gif?t=
+/v1/rgstr?k=client-
 /v2/pv-data?
 /vglnk.js
 /video.counters.2.js?
@@ -115040,6 +115043,7 @@ blog.jp#?#.plugin-memo > div.side > div > div[id^="blz_rss"]:upward(3)
 blog.jp,blog.livedoor.jp,doorblog.jp,pachinkopachisro.com#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 blog.livedoor.jp##a[href="http://analyzer.fc2.com"]
 blogterest.net#?#.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
+bloomberg.com#%#//scriptlet('set-local-storage-item', '/statsig|youboraDeviceUUID/', '$remove$')
 boredpanda.*#%#//scriptlet('set-local-storage-item', 'bp-analytics', '$remove$')
 borfilm.com,hronika.info##.count
 brasil247.com###taboola-mid-article-leia-mais
@@ -115147,6 +115151,7 @@ idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_atfr', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_cons', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_segmentInfo', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_ls_ttl', '$remove$')
+iflscience.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.liveinternet.ru/"])
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
@@ -115236,6 +115241,7 @@ park.ajinomoto.co.jp##.bottomMenu
 pcgameshardware.de##img[src^="//vg01.met.vgwort.de/"]
 pcmag.com##img[src^="https://t.myvisualiq.net/"]
 pcworld.com#%#//scriptlet('href-sanitizer', 'a[href*="skimresources.com"]', '?url')
+pelikan.*#%#//scriptlet('set-local-storage-item', 'PAPVisitorId', '$remove$')
 petyado.com##center > div > table.font12 + table[width="1200"]:not([class])
 petyado.com##center > div > table[width="1200"]:has( > tbody > tr > td[height="310"] > script)
 petyado.com##table[width="795"]:has(td > script[src^="https://s1.aspservice.jp"])
@@ -115674,6 +115680,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.lit.link/v1/access_logs/
 ||api.livere.org/api/v1/clients/*/visitor
 ||api.livestory.io/*/collect
+||api.mambasms.com/monitorEvent/
 ||api.marquiz.ru/v*/analytics/
 ||api.mercadolibre.com/tracks
 ||api.mindbox.ru/scripts/*/tracker.js
@@ -115752,6 +115759,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||aplus.aliexpress.*/aes.1.1
 ||aplus.aliexpress.*/g.gif?logtype=
 ||aplus.aliexpress.*/Product.*.Event
+||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||apm.infoldgames.com/v1/log/sendtlog
 ||apnews.com/blaize/datalayer
 ||apnews.com/newrelic/newrelic.browser.prod.js
@@ -116881,6 +116889,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||findme.ru/Counter$third-party
 ||finn.no/clientstats.html
 ||finn.no/ec/REK^
+||fino.svc.litv.tv/acs/dms.js
 ||firebaselogging-pa.googleapis.com^$domain=picsman.ai
 ||fireseo.ru/wp-content/*/jquery.iframetracker.js
 ||fishki.net/counter/
@@ -117596,6 +117605,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||liquipedia.net/mm.js
 ||liquipedia.net/stats/
 ||litter-robot.com/tag/events/
+||litv.tv/api/generate-device-id
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live.visually-io.com/*/visually.js
 ||live.visually-io.com/api/allocator/
@@ -118169,6 +118179,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||player.kwikmotion.com/packages/videojs-stat/
 ||player.ooyala.com/errors/report?
 ||player.sbs.co.kr/log/
+||player.svc.litv.tv/pixel/
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||playerserver.walkme.com/Statistics/
@@ -118266,6 +118277,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||purr.nytimes.com/*/purr-cache
 ||push.m.youku.com/collect-api/
 ||push.soft-com.biz/api/ui/metrics
+||pusti.svc.litv.tv/puid
 ||pv.ltn.com.tw/impression?
 ||pv.ltn.com.tw/RI_Server?a=
 ||pwe.epochbase.com/api/config/tracking?
@@ -119229,6 +119241,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tunein.com/*/report?
 ||tunein.com/api/*/comscore
 ||tunein.com/api/*/log/
+||tunein.com/api/*/log/$redirect=noop.json,xmlhttprequest
 ||turbobit.net/ajax/fdlogger/
 ||turbovpn.com/api/mms/analytics/v1/events|
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
@@ -120451,6 +120464,7 @@ $cookie=outbrain-cid-fetch
 $cookie=panoramaid
 $cookie=panoramaid-expiry
 $cookie=panoramaidtype
+$cookie=papvisitorid,domain=pelikan.cz|pelikan.hu|pelikan.sk
 $cookie=pbjs-unifiedid
 $cookie=permutive-id
 $cookie=permutive-session
