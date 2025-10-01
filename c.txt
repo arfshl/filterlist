@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202509300153
+! Version: 202510010206
 ! Title: Personal Filter
-! Last Modified: 30 Sep 2025 01:53 UTC
+! Last Modified: 01 Oct 2025 02:06 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -17967,6 +17967,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||fundraising.centuryresources.com^
 ||funneld.com^$third-party
 ||funnelmetrics.contratosdanovaeconomia.com.br^
+||funsdata.com^
 ||funstage.com^$third-party
 ||fuoqr.comfortorthowear.com^
 ||fupbi.gopurebeauty.com^
@@ -102104,6 +102105,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||1l-view.my.games^
 ||3p-geo.yahoo.com^
 ||3p-udc.yahoo.com^
+||4hfvbao1ea.execute-api.ap-northeast-2.amazonaws.com^
 ||66hao.cc^
 ||6pal.consobaby.com^
 ||a*.smlog.co.kr^
@@ -103044,6 +103046,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||eq-player-log.cdnext.stream.ne.jp^
 ||er.mmi.bemobile.ua^
 ||er.search.naver.com^
+||error-analytics-sessions-production.shopifysvc.com^
 ||error-tracking.reddit.com^
 ||essential-apps-analytics.herokuapp.com^
 ||estat.zum.com^
@@ -104395,6 +104398,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||static-ads.zaloapp.com^
 ||static-trackers.adtarget.me^
 ||static.affiliatly.com^$third-party
+||static.alphwidget.com^
 ||static.cloudflareinsights.com^
 ||static.parsely.com^
 ||static.runconverge.com^
@@ -105051,6 +105055,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||units.knotch.it^
 ||unl1zvy2zuyn.franchiseplus.nl^
 ||uplog.inews.qq.com^
+||upsell.alphwidget.com^
 ||upu.samsungelectronics.com^
 ||usage.trackjs.com^
 ||ut.gamersyde.com^
@@ -106230,6 +106235,7 @@ setafi.com##.footer_bl-3
 sinoptik.ua###bigmirTop
 sinoptik.ua##img[src^="//counter.ukr.net/"]
 sky.pro#%#//scriptlet('set-local-storage-item', '/^(sales-ninja|snj)/', '$remove$')
+slideshare.net#%#//scriptlet('set-local-storage-item', '/^statsig/', '$remove$')
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
 spoki.lv##.popular.piano
 sports.goo.ne.jp###taboola-below-sokuho-thumbnails
@@ -106661,6 +106667,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.reverso.net/stats/
 ||api.rplay.live/ping
 ||api.salesmachine.io/*/track/event
+||api.sdk.letscooee.com/v*/event/
 ||api.snapchat.com/web/metrics
 ||api.socialmart.ru/analytics.php
 ||api.solvvy.com/v1/pixels/track
@@ -106811,6 +106818,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets.papegames.com/libs/monitor.js
 ||assets.pixlee.com/assets/fp.js
 ||assets.pixlee.com/shopify/pixlee.shopify.v2.prod.js
+||assets.poxo.com/jet/jet.js
 ||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
 ||assets.prod.abebookscdn.com/*/scripts/utilities/PixelRenderer-
 ||assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js
@@ -107059,6 +107067,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||carmazoon24-pu01.ihre-webseite.it/js/logger
 ||cars.com/ajax/activityloggingapi^
 ||cartoonporno.xxx/static/js/lib/counters/
+||cartseekite.com/cartxtrack
 ||cas-live.das-onlinespiel.de/gateway?
 ||cast.imp.joins.com/persona.js
 ||catawiki.com/ab/s.js
@@ -107866,6 +107875,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||fool.com/tracking/
 ||forecast.io/js/app/analytics.js
 ||form.flodesk.com/forms/*/events
+||forms.zoho.com/js/zf_gclid.js
 ||forocoches.com/image/nada.gif
 ||forum.ixbt.com/liveinternet.gif
 ||forum.turkmmo.com/jc/gtm.js
@@ -109409,6 +109419,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rtb.loopa.net.au^$domain=junkmail.co.za
 ||rtb.wedeo.ru/track?
 ||rtings.com/api/event|
+||rtings.com/js/script.manual.js
 ||rtp.pt/common/js/convivaAppTracker.js
 ||ru-mi.com/*/ee_tracking.js
 ||rule34.paheal.net/stat.txt
@@ -111671,6 +111682,7 @@ $cookie=ytrackvisit
 ||investing.com^$cookie=adblockernewuserdomains
 ||investing.com^$cookie=smd
 ||investing.com^$cookie=udid
+||jdpower.com^$cookie=userid
 ||jobkorea.co.kr^$cookie=/gtm/
 ||jobkorea.co.kr^$cookie=jk-user-uuid
 ||joinrs.com^$cookie=tracking-client-token
@@ -111751,6 +111763,7 @@ $cookie=ytrackvisit
 ||similarweb.com^$cookie=.devicetoken.similarweb.com
 ||similarweb.com^$cookie=cb-anonymous-id
 ||similarweb.com^$cookie=sgid
+||slideshare.net^$cookie=browser-id
 ||softwarekeep.com^$cookie=-orig-referrer
 ||soundcloud.com^$cookie=sc-anonymous-id
 ||soundcloud.com^$cookie=sc-tracking-anonymous-id
@@ -113087,6 +113100,7 @@ d4?appid*type*
 ||tr.line.me^
 ||tr.snapchat.com^
 ||tr6.snapchat.com^
+||trace.free-reels.com^
 ||trace.qq.com^
 ||traces.sr.roku.com^
 ||tracing-collector.strava.com^
@@ -117714,6 +117728,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||olegmakarenko.ru^$removeparam=from
 ||olx.$removeparam=ad-reason-recommended-items
 ||olybet.lv^$removeparam=ref
+||open.spotify.com^$removeparam=pi
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
 ||operanewsapp.com^$removeparam=from
