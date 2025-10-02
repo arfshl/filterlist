@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510010206
+! Version: 202510020154
 ! Title: Personal Filter
-! Last Modified: 01 Oct 2025 02:06 UTC
+! Last Modified: 02 Oct 2025 01:54 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -36355,6 +36355,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||ouyyua.odalys-vacation-rental.com^
 ||ouzoi.shoprumored.com^
 ||overstat.com^$third-party
+||overtracking.com^$third-party
 ||ovkgvd.mgprojekt.com.pl^
 ||ovlkc.shoprongrong.com^
 ||ovomqo.e-menessaptieka.lv^
@@ -110487,6 +110488,10 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||wherewindsmeetgame.com/*/api/upload/log
 ||whirlpool-cdn.thron.com/shared/plugins/tracking/current/sp.js
 ||whistleout.com.au/track?u=
+||whitepages.com/api/log-
+||whitepages.com/static/dist/amplitudeSetup.js
+||whitepages.com/static/dist/setupGaConfig.js
+||whitepages.com/static/dist/web-vitals.attribution.
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
 ||widgeo.net/hitparade.php
@@ -111245,6 +111250,8 @@ $cookie=-pcus
 $cookie=-perhip,domain=autoweek.com|bestproducts.com|bicycling.com|caranddriver.com|cosmopolitan.com|countryliving.com|delish.com|elle.com|elledecor.com|esquire.com|goodhousekeeping.com|harpersbazaar.com|housebeautiful.com|oprahdaily.com|popularmechanics.com|prevention.com|redbookmag.com|roadandtrack.com|runnersworld.com|seventeen.com|thepioneerwoman.com|townandcountrymag.com|veranda.com|womansday.com|womenshealthmag.com
 $cookie=-pubcid
 $cookie=-pubcid-cst
+$cookie=-pubcommonid
+$cookie=-pubcommonid-cst
 $cookie=-pulse2data
 $cookie=-pulsesession
 $cookie=-rdt-uuid
@@ -111798,6 +111805,7 @@ $cookie=ytrackvisit
 ||wallapop.com^$cookie=rl-anonymous-id
 ||whistleout.com.au^$cookie=arraffinity
 ||whistleout.com.au^$cookie=arraffinitysamesite
+||whitepages.com^$cookie=wp-pid
 ||wisernotify.com^$cookie=track-entry
 ||wisernotify.com^$cookie=track-exit
 ||wisernotify.com^$cookie=track-ref
@@ -116023,6 +116031,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||perfectfetch.com^
 ||perkyjade.com^
 ||phonecup.com^
+||phoneresult.com^
 ||photohints.com^
 ||physicstees.com^
 ||pickmicro.com^
