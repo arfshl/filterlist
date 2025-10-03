@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510020154
+! Version: 202510030153
 ! Title: Personal Filter
-! Last Modified: 02 Oct 2025 01:54 UTC
+! Last Modified: 03 Oct 2025 01:53 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -103222,7 +103222,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||gh.fanatical.com^
 ||gjtrack.uc.cn^
 ||globalservices.conde.digital^
-||gmss.use1.prd.api.discomax.com^
 ||go.bidfluence.com^
 ||gocp.stroeermediabrands.de^
 ||grgnsht.nzxt.com^
@@ -103466,6 +103465,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||log-ana.h3z.jp^
 ||log-api.sooplive.com^
 ||log-auth.flysleep.cn^
+||log-gateway.zoom.us^
 ||log-lb.skyperfectv.co.jp^
 ||log-player.arte.tv^
 ||log-stats.weathercn.com^
@@ -103831,6 +103831,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||openmonitor.alipay.com^
 ||openrate.aweber.com^
 ||ophan.theguardian.com^
+||orderana*.spankbang.com^
 ||owa.any.run^
 ||p-cg64-slinganalytics.movetv.com^
 ||p-events.ivideosmart.com^
@@ -105560,6 +105561,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /performance_tracking.min.js
 /perimeterx/*$domain=~github.com|~github.io
 /PhoenixGoogleAnalytics.min.js
+/piano/engagement
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
@@ -106110,6 +106112,8 @@ idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_cons', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_segmentInfo', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_ls_ttl', '$remove$')
 iflscience.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
+inet.se#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
+inet.se#%#//scriptlet('set-local-storage-item', 'visitorInfo', '$remove$')
 infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.liveinternet.ru/"])
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
@@ -107037,6 +107041,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||c.keltis.com/c.aspx
 ||c.lazada.co.id/t/v.gif?__t=
 ||c.sberlead.ru/clickstream.bundle.js
+||c.seznam.cz/js/rc.js
 ||c0.froala.com/i?
 ||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS^
 ||ca-fe.pstatic.net/web-mobile/static/naverStatLogger
@@ -107528,6 +107533,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||dbastatic.dk/Content_uex/scripts/tracking
 ||dc.services.visualstudio.com/*/track
 ||dcf.espn.com/privacy/
+||dcinside.com/_js/click_log.js
 ||ddla593ymz72o.cloudfront.net^
 ||dealer.com/off-platform/pix-at.min.js^
 ||dealer.com^*/tracker/
@@ -107537,6 +107543,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||deine-tierwelt.de/external/analytics.js
 ||deine-tierwelt.de/static/js/*tracking.js
 ||delamer.jp/sites/cremedelamer2/themes/cremedelamer2_base/js/shared/analytics.js
+||delishkitchen.tv/api/access_trackers
 ||delivery.consentmanager.net/delivery/info/
 ||delivery.r2b2.cz/events.php?
 ||delivery.satr.jp/event/
@@ -107636,6 +107643,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||drugs.com/api/log/$redirect-rule=noopjson,xmlhttprequest
 ||dtm-dre.platform.hicloud.com/download/web/dtm.js
 ||dtory.ebs.co.kr/wlo^
+||dubcdn.com/analytics/
 ||dubox.com/api/analytics
 ||dubox.com/statistics^
 ||duckduckgo.com/*/reportAnalytics
@@ -108452,6 +108460,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||karelcapek.co.jp/Scripts/tracker.js
 ||karstadt.de/on/demandware.store/*/__Analytics-Tracking?
 ||karte.io/mirror-record/record?
+||karte.io^$domain=delishkitchen.tv
 ||kartell.com/ccstoreui/*/analytics/
 ||kayak.co.kr/s/vestigo/*/measure^
 ||kazi.co.jp/js/analytics.js
@@ -109707,6 +109716,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sp.pluto.tv/com.snowplowanalytics.
 ||sp.vtex.com/event-api/
 ||sp0.baidu.com*/s.gif?l=$third-party
+||spankbang.com/api/*/events
+||spankbang.com/api/*/track-impression
 ||sparkasse.de/frontend/setTrackingCookie.html
 ||spclient.wg.spotify.com/ad-logic/
 ||spclient.wg.spotify.com/ads/
@@ -110133,6 +110144,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||toyokeizai.net/op/analytics.js
 ||toyota.jp/pages/contents/include/common/js/tjp_beacon.js
 ||tp-link.com^*/addHits.html
+||tps.trovaprezzi.it/javascripts/tracking-vanilla.min.js
 ||tpucdn.com/js/ga-*.js
 ||tr.computeruniverse.net/*/hm?p=
 ||tr.indeed.com/m/basecamp/analytics.js
@@ -110682,8 +110694,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||zozo.jp/common/js/ads-inner-tracking.js
 ||ztat.net/*/webtrekk.min.js^
 ||zyuken.net/gcp_remote/ads_imp/
-! + NOT_PLATFORM(ext_chromium_mv3)
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$method=post
 ! + NOT_PLATFORM(ios, ext_safari)
 /clck/*$domain=playhop.com|yandex.*
 ! + NOT_PLATFORM(ios, ext_android_cb, ext_safari)
@@ -111610,6 +111620,7 @@ $cookie=ytrackvisit
 ||4game.ru^$cookie=trk
 ||4gamers.com.tw^$cookie=-pkc
 ||aamulehti.fi^$cookie=sa1pid
+||agatameble.pl^$cookie=private-content-version
 ||allrecipes.com^$cookie=/^-sharedid/
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^-snrs-/
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^vtex-search-/
@@ -111639,6 +111650,7 @@ $cookie=ytrackvisit
 ||danawa.com^$cookie=/-insight-ck-/
 ||danawa.com^$cookie=wcs-bt
 ||darntough.com^$cookie=/^ph-phc-/
+||dcinside.com^$cookie=csid
 ||developers.oxylabs.io^$cookie=/^intercom-/
 ||diag.pl^$cookie=---utmvc
 ||diag.pl^$cookie=/incap-/
@@ -111774,9 +111786,12 @@ $cookie=ytrackvisit
 ||softwarekeep.com^$cookie=-orig-referrer
 ||soundcloud.com^$cookie=sc-anonymous-id
 ||soundcloud.com^$cookie=sc-tracking-anonymous-id
+||spankbang.com^$cookie=ana-sid
+||spankbang.com^$cookie=ana-vid
 ||spbvedomosti.ru^$cookie=/^bitrix-/
 ||sport-express.ru^$cookie=-se-site-counter
 ||sravni.ru^$cookie=-fp-
+||superhuman.com^$cookie=web-device
 ||swissotel.com^$cookie=/^nlbi-/
 ||swissotel.com^$cookie=/incap-/
 ||t.co^$cookie=muc-ads
@@ -113252,6 +113267,7 @@ d4?appid*type*
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
 @@||at.vodafone.de/rest/$domain=vodafone.de
+@@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
 @@||track.sendlane.com/track/form/$domain=momentprocamera.com
 @@||was.vodafone.de/ee/*/privacy/set-consent
