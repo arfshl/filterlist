@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510030153
+! Version: 202510040149
 ! Title: Personal Filter
-! Last Modified: 03 Oct 2025 01:53 UTC
+! Last Modified: 04 Oct 2025 01:49 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -102158,6 +102158,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||adcounter*.uptolike.ru^
 ||adeventtrackermonitoring.spotify.com^
 ||adgbb.io.naver.com^
+||adobecorp.data.adobedc.net^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||ads-trk.vidible.tv^
 ||ads.mozilla.org^
@@ -103168,6 +103169,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||fourier.aliexpress.com^
 ||fourier.taobao.com^
 ||fp.kakaku.com^
+||fpt.commerce.adobe.com^
 ||fresnel-events.vimeocdn.com^
 ||frog.yuanfudao.com^
 ||front.optimonk.com^
@@ -103746,6 +103748,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||mobileanalytics.*.amazonaws.com^
 ||moduleanalysis.aliexpress.com^
 ||momowa.momoshop.com.tw^
+||mon*.tiktokv.us^
 ||mon-*.lemon8-app.com^
 ||mon-*.lemon8-app.us^
 ||mon-va.capcutapi.com^
@@ -104676,6 +104679,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||telemetry*.transcend.io^
 ||telemetry-in.battle.net^
 ||telemetry.*.pvp.net^
+||telemetry.adobe.io^
 ||telemetry.art19.com^
 ||telemetry.battle.net^
 ||telemetry.dzen.ru^
@@ -110090,8 +110094,11 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ticketmaster.com/logger/
 ||tidal.com/t|
 ||tiebac.baidu.com/*/log/
+||tiktok.com/api/*/web-cookie-privacy
+||tiktok.com/aweme/*/report
 ||tiktok.com/web/report^
 ||tiktok.com/whale/
+||tiktokcdn-us.com/obj/static-tx/slardar/*/sdk-web/plugins/common-monitors.*.js
 ||tiktokv.com/web/report?
 ||tiktokw.eu/*/list
 ||time4shopping.com.ua/api/api.php/stat
@@ -112835,6 +112842,7 @@ d4?appid*type*
 ||mcs-va.tiktokv.com^
 ||mcs.*.tiktok.com^
 ||mcs.*.tiktokv.com^
+||mcs.tiktokv.us^
 ||mcs.tiktokw.us^
 ||mediation-receiver.afafb.com^
 ||mediation-tracking.prd.mz.internal.unity3d.com^
