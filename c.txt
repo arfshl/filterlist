@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510070154
+! Version: 202510080154
 ! Title: Personal Filter
-! Last Modified: 07 Oct 2025 01:54 UTC
+! Last Modified: 08 Oct 2025 01:54 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -9666,6 +9666,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||contadorweb.com^$third-party
 ||container.fortwostore.inf.br^
 ||container.vetweb.pet^
+||contanuity.com^$third-party
 ||contato.ervencosmetics.com.br^
 ||contatoreaccessi.com^$third-party
 ||conteiner.oaz.vc^
@@ -14629,6 +14630,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||deltadna.net^$third-party
 ||demandbase.com^$third-party
 ||demandgen.ptc.com^
+||demandscience.com^$third-party
 ||demdex.net^$third-party
 ||demo-leadinsights.informa.com^
 ||demo-mktg.vodafone.com^
@@ -27060,6 +27062,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||llsami.eauclair.kr^
 ||llteig.framesdirect.com^
 ||lltmch.zurifurniture.com^
+||lltrck.com^
 ||llutfo.get-nourished.com^
 ||llvvfz.mariapiacasa.com.br^
 ||llwoyl.mirraw.com^
@@ -104265,6 +104268,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||conf.international.baidu.com^
 ||config.sdk.kochava.dewrain.life^
 ||connect.blockboardtech.com^
+||cookiemon-analytics.azurewebsites.net^
 ||copilot-telemetry.githubusercontent.com^
 ||core.airbridge.io^
 ||count.channeladvisor.com^
@@ -109425,7 +109429,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||g123.jp/stats?
 ||ga.yiche.com/autolog
 ||gacraft.jp/publish/token.html
-||gacraft.jp/socket/
 ||gadasource.storage.googleapis.com/ivc.js
 ||gaddet.com/*/event-tracking.js
 ||galaxus.de/*/*/*/*/*/*/*/$script,domain=galaxus.de
@@ -109725,6 +109728,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||i.milliyet.com.tr/D/j/Molatik/GoogleAnalit.js
 ||i1.vivocha.com/a/*/api/vvct.gif?ev=
 ||ias.r10s.jp/grp15/ex_common2.js
+||ias.r10s.jp/grp15/lib/ichiba_frame.js
 ||ibeat.indiatimes.com/js/pgtrackingV*.js
 ||iboysoft.com/js/track.js
 ||icecat.biz/stats/scripts/live-stats.js
@@ -110358,6 +110362,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||nate.com/stat/
 ||nature.com/platform/track/
 ||naukatv.ru/nauka/statistics/
+||navismithapis-cdn.com/js/tracking.js
 ||navitime.co.jp/*/common/nt_count.js
 ||navitime.co.jp/*/jquery.adcount.js
 ||navitime.co.jp/*/log/logger.js
@@ -110636,6 +110641,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||playbrain.io/analytics/
 ||playep.pro/pl/vendor/stat.min.js
+||player-api.instaread.co/api/metrics/
 ||player-feedback-mds.glomex.com/pf/?clientName=
 ||player-files.remixd.com/ping.gif
 ||player.hdgay.net/cdn-cgi/trace
@@ -110785,6 +110791,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||r.dcs.redcdn.pl/*/tracking/atdsTracking.min.js
 ||r.msn.com^
 ||r.popin.cc/log.gif
+||r.r10s.jp/com/ap/plugin/mediatrack/mediatracker_ichiba_item.js
 ||r.stripe.com^$ping,script,xmlhttprequest
 ||r.yna.co.kr/global/lib/*/js/nlogger.js
 ||r0.mail.ru/pixel/
@@ -111151,6 +111158,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||skillshare.com/events/track
 ||skk.moe/*.js?$image
 ||skk.moe/*.png$xmlhttprequest
+||sklavenitis.gr/Scripts/Analytics/
 ||skroutz.gr/analytics/
 ||skroutza.skroutz.gr/skroutza.min.js
 ||skygate.co.jp/baselog/
@@ -113151,6 +113159,8 @@ $cookie=ytrackvisit
 ||diag.pl^$cookie=/incap-/
 ||disqus.com^$cookie=disqus-unique
 ||disqus.com^$cookie=zeta-ssp-user-id
+||dmm.com^$cookie=top-dummy
+||dmm.com^$cookie=top-pv-uid
 ||dropbox.com^$cookie=dbx-js-analytics-id
 ||expressvpn.com^$cookie=/gtm/
 ||expressvpn.com^$cookie=xvid
@@ -118534,6 +118544,7 @@ $removeparam=ref,domain=shein.co.uk|shein.com
 $removeparam=ref-type,domain=backit.me|epn.bz
 $removeparam=rtkcid
 $removeparam=s-cid
+$removeparam=s-id,domain=item.rakuten.co.jp|www.rakuten.co.jp
 $removeparam=sc,domain=dailian.co.kr
 $removeparam=sms-click
 $removeparam=sms-source
@@ -118958,6 +118969,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||fanatical.com^$removeparam=cj-aid
 ||fanatical.com^$removeparam=cj-pid
 ||fanatical.com^$removeparam=cjevent
+||fanicon.net^$removeparam=from
 ||fantasygf.ai^$removeparam=linkid
 ||faphouse.com^$removeparam=login
 ||faphouse.com^$removeparam=signature
@@ -119105,6 +119117,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||incogni.com^$removeparam=transaction-id
 ||indeed.com^$removeparam=from
 ||iotransfer.itopvpn.com^$removeparam=ref
+||item.rakuten.co.jp^$removeparam=iasid
 ||japan.cnet.com^$removeparam=tag
 ||jetbrains.com^$removeparam=from
 ||jiji.com^$removeparam=m
