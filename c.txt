@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510080154
+! Version: 202510090155
 ! Title: Personal Filter
-! Last Modified: 08 Oct 2025 01:54 UTC
+! Last Modified: 09 Oct 2025 01:55 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -41185,6 +41185,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||rum*.cdnvideo.ru^
 ||rum.conde.io^
 ||rum.corewebvitals.io^
+||rum.hlx.page^
 ||rum.uptime.com^
 ||rumanalytics.com^$third-party
 ||rumqlz.gooshoreca.nl^
@@ -104124,6 +104125,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||cdn-redirector.glopal.com^
 ||cdn.c-i.as^
 ||cdn.contalyze.com^
+||cdn.getkoala.com^
 ||cdn.instant.one^
 ||cdn.js.fpaudience.com^
 ||cdn.odoscope.cloud^
@@ -104272,7 +104274,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||copilot-telemetry.githubusercontent.com^
 ||core.airbridge.io^
 ||count.channeladvisor.com^
-||count.ing.de^
 ||count.munhwa.com^
 ||count.rin.ru^
 ||count.rtl.de^
@@ -105330,6 +105331,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||p.armorgames.net^
 ||p.aty.sohu.com^
 ||p.controld.com^
+||p.eneba.com^
 ||p.gazeta.pl^
 ||p.gm99.com^
 ||p.imgur.com^
@@ -109223,6 +109225,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||empa.flixbus.de/acv^
 ||ems.youku.com/event?
 ||en2.elvenar.com/game/tracking
+||eneba.com/metrics/
 ||engadget.com/p.gif?
 ||engadget.com/ping
 ||epicgames.com/id/api/analytics
@@ -109260,6 +109263,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||event.symbiosys.ai/page_viewjs
 ||eventcom.api.np.km.playstation.net/event^
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
+||events-proxy.mintlify.com/decide/
+||events-proxy.mintlify.com/e/?ip=*&ver=$redirect=noop.json,xmlhttprequest
 ||events.*/takeaway/takeaway.com/*/*.gif$domain=just-eat.ch|just-eat.dk|just-eat.fr|just-eat.no|lieferando.at|lieferando.de|pyszne.pl|takeaway.com|thuisbezorgd.nl
 ||events.genndi.com/tracker
 ||eventsproxy.gargantuan.futureplc.com/future.adtech.freyr.v1.PageViewEvent
@@ -109300,6 +109305,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||f.vimeocdn.com/js_opt/modules/utils/vuid.min.js
 ||facebook.com/ajax/*_logging/
 ||facebook.com/ajax/bz?*__comet_req=
+||facebook.com/ajax/bz?*__req=$ping
 ||facebook.com/ajax/weblite_load_logging/
 ||facebook.com/async/wbloks/log/
 ||facebook.com/email_open_log_
@@ -109320,6 +109326,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||fap.bar/a.js
 ||farfetch.net/v1/marketing/trackings
 ||fashionbykakao.com/api/*/tr?
+||fashionnova.com/api/search/events
 ||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||fastcdn.co/js/sptw.
 ||fastcmp.com/1px.png?origin=
@@ -109733,6 +109740,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||iboysoft.com/js/track.js
 ||icecat.biz/stats/scripts/live-stats.js
 ||ici.radio-canada.ca/v*/tele/trace/
+||icon.zol-img.com.cn/public/bdshare/static/api/js/trans/logger.js
 ||id.rambler.ru/api/v3/session/getRsidx
 ||id.rambler.ru/login-20/counters.js
 ||idat.production.ippen.space/idat
@@ -111041,6 +111049,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||scv.band.us/jackpotlog/*/logs|$xmlhttprequest
 ||sdk-service.nsureapi.com/events
 ||sdk.mrf.io/statics/marfeel-sdk.js
+||sdk.nsureapi.com/sdk.js
 ||seaart.ai/log/
 ||search-api.joongna.com/v*/ga/log|
 ||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
@@ -112052,6 +112061,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||wp.com/*/a8c-analytics.js
 ||wpdigital.net/metrics/
 ||wrtn.ai/proxy/client/metrics
+||ws.cs.1worldsync.com/log?
 ||ws.zoominfo.com/pixel/
 ||wscatalog.ru/dizain/cycounter.gif
 ||wsup.ai/ai/api/stats/
@@ -113162,9 +113172,12 @@ $cookie=ytrackvisit
 ||dmm.com^$cookie=top-dummy
 ||dmm.com^$cookie=top-pv-uid
 ||dropbox.com^$cookie=dbx-js-analytics-id
+||eneba.com^$cookie=userid
 ||expressvpn.com^$cookie=/gtm/
 ||expressvpn.com^$cookie=xvid
 ||fanatical.com^$cookie=affiliate-source
+||fashionnova.com^$cookie=2c.cld
+||fashionnova.com^$cookie=optimizelyuserid
 ||faz.net^$cookie=adobe-pageviewcount
 ||flo.com.tr^$cookie=bunsar-visitor-id
 ||galaxus.de^$cookie=/^\.(b|s|xp|ub\.)id/
@@ -113960,6 +113973,7 @@ d4?appid*type*
 ||appmetrica.yandex.com^
 ||appmetrica.yandex.net^
 ||appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
+||apptics.zoho.in^
 ||apsrgeo.amap.com^
 ||arcspire.io^
 ||asanalytics.booking.com^
@@ -114575,6 +114589,7 @@ d4?appid*type*
 ||stats.popcap.com^
 ||stats.rustore.ru^
 ||stats.samsungpass.com^
+||stats.sg-light-edge.com^
 ||stats.studyquicks.com^
 ||stats.sxp.smartclip.net^
 ||stbid.ru^
@@ -114775,7 +114790,10 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||analytics.prensaiberica.es/api/delivery/recommendations$domain=farodevigo.es
+@@||api.cxense.com/public/widget/$domain=farodevigo.es
 @@||at.vodafone.de/rest/$domain=vodafone.de
+@@||cdn.cxense.com/cx*.js$domain=farodevigo.es
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
 @@||teenage.engineering/store/assets/tracking-pixel.*.js$domain=teenage.engineering
@@ -114793,6 +114811,7 @@ telex.hu#%#//scriptlet('set-constant', 'pp_gemius_hit', 'noopFunc')
 @@||api.cxense.com/public/widget/data?json=$domain=bild.de
 @@||api.ip.sb/geoip$domain=tauri.localhost
 @@||auth.ticketmaster.com/epsf/gec*Login
+@@||banking.ing.de/app/obligo/w/r/*/resources/webtrekk-init-ver-*.js
 @@||beeline.api.flocktory.com/*/loader.js$domain=beeline.ru
 @@||beeline.api.flocktory.com/u_shaman/setup-api.js$domain=beeline.ru
 @@||beeline.api.flocktory.com/u_widget/get-widget.js$domain=beeline.ru
@@ -114800,7 +114819,6 @@ telex.hu#%#//scriptlet('set-constant', 'pp_gemius_hit', 'noopFunc')
 @@||cdn.clerk.io/clerk.js$domain=fjellandhandel.no
 @@||cdn.cxense.com/cx.cce.js$domain=bild.de
 @@||cdn.cxense.com/cx.js$domain=bild.de
-@@||cdn.ing.de/ing-cms-ui/*/js/webtrekk-snwMKyfV.js
 @@||cdn.jsdelivr.net/npm/@thumbmarkjs/$domain=dienynas.tamo.lt
 @@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com|pizzahut.*
 @@||cdn.petametrics.com^$script,domain=mechacomic.jp
@@ -120711,7 +120729,7 @@ community.ccleaner.com,forum.malwarebytes.com,linustechtips.com##.cTopicPostArea
 ! https://www•kommunal-rapport•no/miljoe/157019!/ (10/02/2024)
 ##.paywall-fade-out::after
 ! Facebook 🌇
-! Note 9th of March 2025: Various changes to Facebook's login systems, video pages, etc., means that all Facebook entries should/must be rewritten from scratch.
+! Note 9th of March 2025：Various changes to Facebook's login systems, video pages, etc., means that all Facebook entries should/must be rewritten from scratch.
 ! https://touch•facebook•com/Sonic/
 ! ! Removes the login bars (In order to log in with this list turned on, use the pages' "Share" or "Become [group] member" buttons)
 ! !!touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,m.facebook.com,b-m.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###mobile_login_bar,div[style="background: none; height: 214px;"]
@@ -120939,7 +120957,7 @@ deezer.com###modal_login:upward(2)
 ! https://github.com/DandelionSprout/adfilt/issues/25
 ! ! Removes the bottom login banner
 instagram.com##.ZUqME:has(a[href^="/accounts/emailsignup/"])
-! (Note to self: If this entry ceases to work, replace it with "instagram.com#?#div[class*=" "]:has(> div > div > div > a[class][href^="/accounts/emailsignup/"])", as per https://github.com/DandelionSprout/adfilt/issues/25#issuecomment-458347604.)
+! (Note to self：If this entry ceases to work, replace it with "instagram.com#?#div[class*=" "]:has(> div > div > div > a[class][href^="/accounts/emailsignup/"])", as per https://github.com/DandelionSprout/adfilt/issues/25#issuecomment-458347604.)
 ! Ooopic
 ! ! Removes uncloseable login prompt
 ooopic.com###public-mask-login
@@ -120983,13 +121001,13 @@ beprobeproud.org##.movement-popup
 ! Removes a small login modul in the lower right
 behance.net##.Popup-popup-T3F
 ! Zulily
-! https://www.zulily•com/e/sew-on-and-sew-forth-338868•html
+! https://www•zulily•com/e/sew-on-and-sew-forth-338868•html
 ! ! Aims to remove the forced login overlay, without breaking the login button in the upper right
 ! #if !ext_ublock
 zulily.com###loginModal[aria-hidden=false]:not([aria-describedby=subtitle-signin])
 ! #endif
 ! The Australian Frequent Flyer
-! https://www.australianfrequentflyer•com•au/community/whats-new/latest-activity
+! https://www•australianfrequentflyer•com•au/community/whats-new/latest-activity
 ! Removes a login info banner on the top of some pages
 australianfrequentflyer.com.au##.focus-guest-alert.focus-guest
 ! FM.to
