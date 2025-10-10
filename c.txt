@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510090155
+! Version: 202510100156
 ! Title: Personal Filter
-! Last Modified: 09 Oct 2025 01:55 UTC
+! Last Modified: 10 Oct 2025 01:56 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -158,7 +158,6 @@ platform.autods.com#%#//scriptlet('set-constant', '_conv_q', 'emptyObj')
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopFunc')
 pracuj.pl#%#//scriptlet('set-cookie-reload', 'gptrackCookie', '1')
 reddit.com#%#//scriptlet('set-constant', 'navigator.sendBeacon', 'noopFunc')
-repubblica.it#%#//scriptlet('prevent-element-src-loading', 'script', 'static.chartbeat.com/js/chartbeat_brightcove_plugin.js')
 reuters.com#%#(()=>{window.analytics=[],analytics.user=function(){return this},analytics.track=function(){},analytics.anonymousId=function(){},analytics.push=function(){[...arguments].forEach((n=>{if("function"==typeof n)try{n()}catch(n){console.debug(n)}Array.isArray(n)&&[...n].forEach((n=>{if("function"==typeof n)try{n()}catch(n){console.debug(n)}}))}))};})();
 reuters.com#%#//scriptlet('set-local-storage-item', 'ajs_anonymous_id', 'null')
 reverso.net#%#//scriptlet('set-constant', 'rumjs.business.setManualConsent', 'noopFunc')
@@ -41474,7 +41473,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||s.splazzh.in^
 ||s.sporks.space^
 ||s.srvsynd.com^$third-party
-||s.ssl.qhres2.com^
 ||s.stcatharinesstandard.ca^
 ||s.sternregister.de^
 ||s.stgeorgeafc.com.au^
@@ -104128,6 +104126,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||cdn.getkoala.com^
 ||cdn.instant.one^
 ||cdn.js.fpaudience.com^
+||cdn.kmalgo.com^
 ||cdn.odoscope.cloud^
 ||cdn.powerinboxedge.com^
 ||cdn.sgmntfy.com^
@@ -104169,6 +104168,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||client-metrics.chess.com^
 ||client-telemetry.roblox.com^
 ||client.rum.*.amazonaws.com^
+||client.smartpushedm.com^
 ||clientlog.midomi.com^
 ||clientlogger.marketplace.aws.a2z.com^
 ||clk.onet.pl^
@@ -107166,6 +107166,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /stats.php?*event=$image
 /stats.php?type=
 /stats/CounterPage.
+/statsig/rgstr?k=client-
 /stattag.js
 /storeAdvImpression.jsp
 /submission/pageview
@@ -107559,6 +107560,7 @@ erostopics.net###related-box
 espreso.tv##.wrap-footer .counter
 europcar.com###wt_overlay
 express.co.uk##.most-read-stories
+express.co.uk,iflscience.com,nypost.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 ezviz.ru#%#//scriptlet('set-local-storage-item', 'userUuid', '$remove$')
 fatcatslim.ru#?#.sidebar > div.widget:has( > div > a[href$="liveinternet.ru/click"])
 fategrandorder.info##.sidebar_acr.side_inline
@@ -107603,7 +107605,6 @@ idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_atfr', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_cons', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_segmentInfo', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_ls_ttl', '$remove$')
-iflscience.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 inet.se#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
 inet.se#%#//scriptlet('set-local-storage-item', 'visitorInfo', '$remove$')
 infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.liveinternet.ru/"])
@@ -107685,7 +107686,7 @@ novate.ru#?##right > h2:contains(Рекомендуем)
 ntvspor.net##.taboola-class-check
 nukigazo.com###text-2
 nypost.com#%#//scriptlet('set-local-storage-item', 'ow/social-browser-storage', '$remove$')
-nypost.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
+nytimes.com,slideshare.net#%#//scriptlet('set-local-storage-item', '/^statsig/', '$remove$')
 oceans-nadia.com##.gtm-bnr-rensai
 okazuch.site###custom_html-30
 okko.tv#%#//scriptlet('set-local-storage-item', 'sbid_logUid', '$remove$')
@@ -107733,7 +107734,6 @@ setafi.com##.footer_bl-3
 sinoptik.ua###bigmirTop
 sinoptik.ua##img[src^="//counter.ukr.net/"]
 sky.pro#%#//scriptlet('set-local-storage-item', '/^(sales-ninja|snj)/', '$remove$')
-slideshare.net#%#//scriptlet('set-local-storage-item', '/^statsig/', '$remove$')
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
 spoki.lv##.popular.piano
 sports.goo.ne.jp###taboola-below-sokuho-thumbnails
@@ -108101,6 +108101,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.cian.ru/ebc-analytics/
 ||api.clerk.io/v*/log/
 ||api.config-security.com/event
+||api.consumer.pt.mcclatchy.com/mia-mh/meter
 ||api.contentpass.net/analytics
 ||api.contentpass.net/stats^
 ||api.crossengage.io/api/*/track^
@@ -108631,7 +108632,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.gamer-network.net/*/scripts/mormont
 ||cdn.gifs.com/scripts/analytics.min.js
 ||cdn.gravitec.media/track.min.js
-||cdn.ing.de/ing-cms-ui/*/js/webtrekk
 ||cdn.iol.pt/js/utils/Modules/IOLAnalytics/dist/iol.analytics.js
 ||cdn.iyosa.com/src/report.js
 ||cdn.jsdelivr.net/countly-sdk-web/
@@ -108781,7 +108781,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||clickstream.grubhub.com/event.gif?event=
 ||client-log.box.com/analytics-events/
 ||client.px-cloud.net/*/main.min.js?ver=
-||client.smartpushedm.com/eclytics/n.gif
 ||clientstream.launchdarkly.com/eval/
 ||clipkit.co/clipkit_assets/beacon-
 ||cloud.weborama.design/nonio.js
@@ -109828,11 +109827,13 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||infusionsoft.app/app/webTracking/
 ||infusionsoft.com/app/webTracking/getTrackingCode
 ||ing.com.tr/assets/scripts/dataroid.websdk-
+||ing.de/*/*ebtrekk*
 ||ingest.insights.ninetailed.co/*/events
 ||ingest.make.rvapps.io^$domain=zdnet.com
 ||ingesteer.services-prod.nsvcs.net/rum_collection|
 ||ingestion.sportskeeda.com/logviewedpage
 ||ingress.pressreader.com/services/track
+||ingwb.com/*/ingwb-webtrekk
 ||injapan.com/rest/*/track?*&callback=
 ||inq.com/tagserver/*/onEvent
 ||inq.com/tagserver/logging/
@@ -110020,6 +110021,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||l.aaxads.com/log^
 ||l.iplsc.com/logger/
 ||l.ivi.ru/logger/
+||l.search.naver.com/n/scrolllog/*?u=*&slogs=
 ||l2.io/ip.js
 ||laftel.net/twitter-pixel.js
 ||lasso.link/events/tracking
@@ -111378,7 +111380,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||static.wattpad.com/js/tracker/app.
 ||static.wellsfargo.com/tracking/
-||static.wertpapiere.ing.de/*/webtrekk
 ||static.ws.126.net/f2e/products/analysis/
 ||static.yandex.net/browser-updater/stripe/script.js
 ||static.zhipin.com/library/js/analytics/
@@ -114185,6 +114186,7 @@ d4?appid*type*
 ||gd-stats.jpush.cn^
 ||gdl.youngle.tech^$app=com.apkpure.aegon
 ||geico.com.ssl.sc.omtrdc.net^
+||gem-log.sloegem.com^
 ||geo.go2s.co^
 ||geoinfo.i2w.io^
 ||geoip.fotoable.net^
@@ -114305,6 +114307,7 @@ d4?appid*type*
 ||log.make50.com^
 ||log.mgtv.com^
 ||log.mmstat.com^
+||log.oceanzz.xyz^
 ||log.pdfviewerscannerstore.live^
 ||log.pngindir.com^
 ||log.pullcenter.live^
@@ -114665,6 +114668,7 @@ d4?appid*type*
 ||track.mobshark.net^
 ||track.pingstart.com^
 ||track.starmakerstudios.com^
+||track.taimi.com^
 ||track.tenjin.com^
 ||track.tenjin.io^
 ||track.uc.cn^
