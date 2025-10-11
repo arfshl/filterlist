@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510100156
+! Version: 202510110151
 ! Title: Personal Filter
-! Last Modified: 10 Oct 2025 01:56 UTC
+! Last Modified: 11 Oct 2025 01:51 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -30988,6 +30988,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||mapp.jysk.nl^
 ||mapp.peacocks.co.uk^
 ||mapp.yesstyle.com^
+||marathondataco.com^$third-party
 ||marcom.biodex.com^
 ||marcom.biodexrehab.com^
 ||marcomauto.globalfoundries.com^
@@ -62230,6 +62231,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||teefiksummin.visma.fi^
 ||teigwaren.silikonbackform.com^
 ||tel.telegraaf.nl^
+||telecid.ru^
 ||telemetrics.klaviyo.com^
 ||telemetry.am.pictet.com^
 ||telemetry.api.wmcdp.io^$third-party
@@ -104661,6 +104663,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||front.optimonk.com^
 ||frontend-logger.flippback.com^
 ||frontier.musical.ly^
+||fuse.ubs.com^
 ||fxgate.baidu.com^
 ||g.ign.com^
 ||g650.delcotimes.com^
@@ -107374,6 +107377,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/([a-z]|-|_){4,22}@latest\/dist\/script\.min\.js$/$domain=mlbpark.donga.com
 /^https:\/\/korea\.epsilonsoft\.to/[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9].js$/$script,domain=epsilonsoft.to
 /^https:\/\/www\.lowes\.com\/[a-zA-Z0-9-_]+\/[a-z]+\/[a-zA-Z0-9-_]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+$/$method=post,xmlhttprequest,domain=lowes.com
+/^https:\/\/www\.purevpn\.[a-z]+\/[a-z0-9]{7}\/$/$script
 /^https:\/\/www\.totaljobs\.com\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+/$script,xmlhttprequest,domain=totaljobs.com
 /access.html$domain=2jigiri.net
 /analytics.js$domain=amiunique.org|bolgehastanesi.com|city.kushiro.lg.jp|edit.ing|emarat-news.ae|emeraldbridal.com.au|ewtc.de|freexcafe.com|imobie.jp|imore.com|inbox.lv|jrkyushu.co.jp|konami.com|kopeda.com|lun.com|nakubani.ru|newsdig.tbs.co.jp|newsmax.com|resumes.breakdownexpress.com|rusvideos.day|songsara.net|techcult.com|tikla.com.tr|tokyometro.jp
@@ -107448,6 +107452,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /yozons-lib/*$script,~third-party,domain=bradenton.com
 /~/tr/*$xmlhttprequest,domain=bio.to
 2gis.*#%#//scriptlet('set-local-storage-item', '/_ym/', '$remove$')
+2ndswing.com,goodcar.com#%#//scriptlet('set-local-storage-item', 'uw-uid', '$remove$')
 3dnews.ru##a[href^="http://metrika.yandex.ru/"]
 4esnok.by###text-17
 4game.com,4game.ru#%#//scriptlet('set-local-storage-item', 'fingerprint', '$remove$')
@@ -107581,7 +107586,6 @@ geinoukame.com##.ninja-recommend-block + hr
 gendai.media#?#.elementSectionHeadingsWithSuffix:has( + div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
 gmx.com##div[data-mod-name="taboolateasers"]
 gmx.com#?#.content-wrapper > div[data-mod-name="container"]:has( > div.taboola-teasers)
-goodcar.com#%#//scriptlet('set-local-storage-item', 'uw-uid', '$remove$')
 gq.com#%#//scriptlet('set-local-storage-item', '/^avoinspector/', '$remove$')
 hentai-sharing.net,news.webike.net,nexus-games.net###custom_html-3
 hentaiz.org##img[width="31"][height="31"]
@@ -108298,7 +108302,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|viabcp.com|webmotors.com.br|worldshop.eu
+||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -108933,6 +108937,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||csi.gstatic.com^$important,redirect=noop.txt,domain=promiflash.de
 ||csp.godaddy.com/eventbus
 ||cstream.wi-fi.ru/csc-event$domain=wi-fi.ru
+||ctr.incrowdsports.com/v1/*/events
 ||ctrlitb.rightinthebox.com/ctr_tracking.php?
 ||ctv.by/sites/default/files/googleanalytics/analytics.js
 ||cue.search.naver.com/api/*/log/
@@ -109024,6 +109029,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||daxab.com/logger^
 ||dba.dk/ajax/tracking
 ||dbastatic.dk/Content_uex/scripts/tracking
+||dbrand.com/cvg/log?
+||dbrand.com/cvg/static/pixels/
+||dbrand.com/cvg/track?
 ||dc.services.visualstudio.com/*/track
 ||dcf.espn.com/privacy/
 ||dcinside.com/_js/click_log.js
@@ -110701,6 +110709,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
 ||postguam.com/shared-content/art/stats/common/tracker.js
 ||posty.kr/api/tr|
+||potensic.com/npublic/libs/widget/sensors/
 ||poznamka.ru/ametrix.js
 ||pps.rokt.com/v1/timings/events
 ||practicequiz.com/responsive/js/ga.js
@@ -110945,6 +110954,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||runtime.fivem.net/counts.json
 ||rushlane.com/*/ga-*.js
 ||ruslab.net/a/p.js
+||russia-tv.online/api/*/event
+||russia-tv.online/api/*/fingerprint
 ||russian.rt.com/nbc/|
 ||russianfood.com/js/informb_stat.core.js
 ||rzd-partner.ru/events/
@@ -112285,7 +112296,6 @@ link.gmapp*.net$image
 %2Fgp%2Fr.html%3FC%3D*%26ref_%3Dpe_*_open$image
 %2Fo.gif%3Fmi_u%3D$image
 %2Fopen.aspx$image
-%2Fp%2Frp%2F*%3Fmi_u%3D$image
 %2Fpixel%3Fc%3D$image
 %2Fpub%2Fas%3F_ri_%3D$image
 %2Fq%2F*~~%2F$image
@@ -112330,7 +112340,6 @@ link.gmapp*.net$image
 /o.gif?mi_u=$image
 /open.aspx$image
 /open.html?x=$image
-/p/rp/*?mi_u=$image
 /pixel?c=$image
 /pub/as?_ri_=$image
 /q/*~~/*$image
@@ -113275,6 +113284,7 @@ $cookie=ytrackvisit
 ||plus.nl^$cookie=/^osvisit/
 ||popin.cc^$cookie=--mguid-
 ||prothomalo.com^$cookie=uuid-v2
+||purevpn.$cookie=/^intercom-/
 ||pzfans.com^$cookie=ezosuibasgeneris-1
 ||rarejob.com^$cookie=guest-id-ads
 ||rarejob.com^$cookie=guest-id-marketing
@@ -114476,6 +114486,7 @@ d4?appid*type*
 ||pls.prd.mz.internal.unity3d.com^
 ||post-log.pushwoosh.com^
 ||pps-log.op-mobile.opera.com^
+||prebid-server-canary.ifunny.co^
 ||preview-collector.scopely.io^
 ||prod-analytics.royal.drmgms.com^
 ||prod-clientlog.fastly.newssuite.sinfony.ne.jp^
@@ -117516,6 +117527,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||notifyglass.com^
 ||noundictionary.com^
 ||novaseekers.com^
+||nowaymail.com^
 ||nudgeduck.com^
 ||nullnorth.com^
 ||numerousnest.com^
