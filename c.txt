@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510120200
+! Version: 202510130203
 ! Title: Personal Filter
-! Last Modified: 12 Oct 2025 02:00 UTC
+! Last Modified: 13 Oct 2025 02:03 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -287,6 +287,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 |load.sgtm.
 |load.ss.
 |load.sst.
+||*-sdk.rum.aliyuncs.com^
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
 ||-access-logs-1.net.daraz.com^
 ||-access-logs-3apropmdeizy9vjf.net.daraz.com^
@@ -14868,6 +14869,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||digital.opsbase.com^
 ||digital.ramedia.biz^
 ||digital.setpointis.com^
+||digitalcamp.co.kr^$third-party
 ||digitalixir.cleannfreshny.com^
 ||digitalmarketing.gogsg.com^
 ||digitalmarketing.smu.edu.sg^
@@ -104233,6 +104235,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||collector-hpn.ghostery.net^
 ||collector-pxdojv695v.protechts.net^
 ||collector-pxdojv695v.px-cloud.net^
+||collector-sbanking.shb-pelib.com^
 ||collector-statistics.nhn-commerce.com^
 ||collector.abc.net.au^
 ||collector.bsg.brave.com^
@@ -106531,6 +106534,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||u999.wcvb.com^
 ||ua.indianexpress.com^
 ||uaas.yandex.ru^
+||uac.etnews.com^
 ||uac.khan.co.kr^
 ||uac.mk.co.kr^
 ||ub.finanzfrage.net^
@@ -112425,6 +112429,8 @@ demdex.net/event?d_event=$image
 demdex.net/event?d_src=$image
 discord.com%2Fapi%2Fscience%2F*.gif%3Fproperties%3D$image
 discord.com/api/science/*.gif?properties=$image
+dm-sg.aliyuncs.com%2Ftrace%2F*%2Freport$image
+dm-sg.aliyuncs.com/trace/*/report$image
 dominos.*%2Fo%2Fo.gif$image
 dominos.*/o/o.gif$image
 dripemail2$image
@@ -112661,6 +112667,7 @@ t1.mp1.tripadvisor.com$image
 thebell.io%2Fadmin%2Fimages%2Femail%2Fblank.gif$image
 thebell.io/admin/images/email/blank.gif$image
 tinyletterapp.com$image
+tk.seasungame.com$image
 tlr.stripocdn.email$image
 track.canva.com$image
 track.customer.io$image
@@ -119703,6 +119710,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||yna.co.kr^$removeparam=site
 ||you.163.com^$removeparam=from
 ||youtu.be^$removeparam=si
+||youtube.com/shorts/$removeparam=si
 ||youtube.com^$removeparam=pp
 ||zapiska.substack.com^$removeparam=isfreemail
 ||zapiska.substack.com^$removeparam=post-id
