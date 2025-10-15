@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510140156
+! Version: 202510150159
 ! Title: Personal Filter
-! Last Modified: 14 Oct 2025 01:56 UTC
+! Last Modified: 15 Oct 2025 01:59 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -105797,6 +105797,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.maxroll.gg^
 ||analytics.mindjolt.com^
 ||analytics.mobile.walmart.com^
+||analytics.monetha.io^
 ||analytics.move.ru^
 ||analytics.msk1.ru^
 ||analytics.msnbc.msn.com^
@@ -107256,6 +107257,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||nmtracking.netflix.com^
 ||noa.yahoo.com^
 ||notify-bugs-fra1.rtl.de^
+||nr-beacon.movingimage.com^
 ||ns336739.ip-37-187-249.eu^
 ||nsclick.baidu.com^
 ||nst.trex.media^
@@ -107872,6 +107874,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.aplus.com^
 ||stats.articlesbase.com^
 ||stats.avg.com^
+||stats.avito.ru^
 ||stats.aws.rubiconproject.com^
 ||stats.bbc.co.uk^
 ||stats.blogg.se^
@@ -108922,6 +108925,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /google-analyticator/*$script
 /google-analytics.
 /google_tag/*$script
+/gs/ccm/collect?
 /gscounters.
 /gtag/js?id=
 /gtm.js?id=GTM-
@@ -109600,6 +109604,7 @@ kuow.org#?#.story-content-wrapper > div.embed_block:has( > script:contains(windo
 kuruma-news.jp##.recommend-container
 ldblog.jp,livedoor.biz#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 lessentiel.lu#%#//scriptlet('set-local-storage-item', 'clientId', '$remove$')
+letterboxd.com#%#//scriptlet('href-sanitizer', 'a[href^="https://click.justwatch.com/"]', '?r')
 life.ru##.read-next
 livemint.com#%#//scriptlet('set-constant', 'dapTracker', 'emptyObj')
 livemint.com#%#//scriptlet('set-constant', 'dapTracker.track', 'noopFunc')
@@ -109843,6 +109848,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||a24.biz/pixel/
 ||a2z.com/metric-batch
 ||aa.avvo.com/1/collect?*&events=
+||aa.com/aileron/api/log|
 ||aachener-zeitung.de/zva/pc/zaehler.php
 ||aax-us-iad.amazon.com/e/xsp/imp?
 ||ab-in-den-urlaub.de/nocacheTracking.php
@@ -110450,6 +110456,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||booking.com/*/track^
 ||booking.com/js_tracking?
 ||booking.com/logo?
+||bookitnow.lt/gtm/
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
 ||boomplay.com/batchUploadLogs
 ||boostog.net/visitor/
@@ -110613,6 +110620,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
 ||cdn.klambt.services/matomo/$third-party
+||cdn.liga.net/assets/js/campaign.js
+||cdn.liga.net/assets/js/remplib.js
 ||cdn.lihkg.com/static/*/js/21.chunk.js
 ||cdn.lmiutil.com/lpassets/contentsquare/
 ||cdn.lmiutil.com/lpassets/track-
@@ -111291,6 +111300,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||facebook.com/tr?
 ||facebook.com^*/impression_logging/
 ||facebook.com^*/logging/
+||fafvertizing.crazygames.com/*-prebid-
 ||familydollar.com/ccstoreui/*/analytics/
 ||fanp.me/*/silveregg_tracking.html
 ||fap.bar/a.js
@@ -111447,6 +111457,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||generflow.com/client-logs/
 ||geo.query.yahoo.com^$domain=~mail.yahoo.com
 ||geoip.olx.com.br^
+||geradovana.lt/gtm/
 ||get-trust-vpn.info/api_ip_info.php?
 ||getadblock.com/js/log.js
 ||gets.faz.net/z.aspx
@@ -112018,6 +112029,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||letelegramme.fr/assets/block/analytics/
 ||letelegramme.fr/assets/piano/piano-analytics.js
 ||letgo.com/chunks/modern/*-FingerPrintWrapper.*.js
+||letterboxd.com/sm_stats_bug.do
 ||levelaccess.net/analytics/
 ||lexus.jp/common/*/js/analytics.js
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
@@ -112028,6 +112040,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||licensing.bitmovin.com/impression
 ||liczniki.org/hit.php
 ||lidl.media01.eu/tm_js.aspx?trackid=
+||lieliskadavana.lv/gtm/
 ||lifenewsjr.com/xstat/
 ||lifo.gr/modules/custom/lifo_statistics/
 ||lightboxcdn.com/*/digibox.gif?c=
@@ -112843,6 +112856,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rem-track.bild.de^
 ||renotifier.miniclippt.com/rntracking.js
 ||report.23video.com/api/analytics/
+||repost.aws/api/v*/content/markResourceViewed
 ||res-ga.smzdm.com/gtm.js
 ||res.cdn.office.net/owamail/*/resources/analytics-ping.js
 ||res.cdn.office.net/owamail/*/scripts/owa.Analytics.js
@@ -113904,6 +113918,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||voicendata.com/static/js/*_gtag_publisher.js
 ||volleybox.net/media/js/analytics/
 ||voonik.com/analytics.min.js
+||voorkeuren.tvgids.nl/v1/_|
 ||vortex.data.microsoft.com/collect
 ||vost.com.ua/count.js
 ||voxmedia.com/beacon-min.js
@@ -114449,7 +114464,9 @@ filetransfer.io*pixel$image
 flask.us.nextdoor.com$image
 geteml.com$image
 github.com%2Fnotifications%2Fbeacon%2F$image
+github.com%2Fnotifications%2Fbeacon%3D*.gif$image
 github.com/notifications/beacon/$image
+github.com/notifications/beacon=*.gif$image
 gm.mmstat.com$image
 go.lanet.click$image
 go.rjmetrics.com$image
@@ -121781,7 +121798,6 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||amazon.*$removeparam=adgrpid
 ||amazon.*$removeparam=ascsubtag
 ||amazon.*$removeparam=associatetag
-||amazon.*$removeparam=c
 ||amazon.*$removeparam=camp
 ||amazon.*$removeparam=creative
 ||amazon.*$removeparam=creativeasin
@@ -121826,6 +121842,7 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||amazon.*/*dp/$removeparam=keywords
 ||amazon.*/aa$removeparam=bitcampaigncode
 ||amazon.*/artists/$removeparam=tag
+||amazon.*/dp/$removeparam=c
 ||amazon.*/dp/$removeparam=pbs
 ||amazon.*/dp/$removeparam=tag
 ||amazon.*/gp/$removeparam=tag
