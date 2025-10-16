@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510150159
+! Version: 202510160158
 ! Title: Personal Filter
-! Last Modified: 15 Oct 2025 01:59 UTC
+! Last Modified: 16 Oct 2025 01:58 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -37,6 +37,7 @@ bca-*.*
 ! Microsoft Edge Extensions
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
 ! *** https://filters.adtidy.org/android/filters/3_optimized.txt ***
+! + NOT_PLATFORM(ext_chromium_mv3)
 aikatu.jp,gadgets360.com,lamire.jp$$script[onload="error-report.com"]
 archive.org#%#//scriptlet('set-constant', 'archive_analytics', 'noopFunc')
 archive.org#%#//scriptlet('set-constant', 'archive_analytics.create_tracking_image', 'noopFunc')
@@ -122,6 +123,7 @@ traicy.com,hoyme.jp,collinsdictionary.com,pashplus.jp,freemcserver.net,oxfordlea
 variety.com#%#//scriptlet('set-attr', 'iframe[data-lazy-src]:not([src^="http"])', 'src', '[data-lazy-src]')
 webviewer.interstuhlnet.de#%#//scriptlet('set-constant', 'WURFL', 'emptyObj')
 wirkaufens.de#%#//scriptlet('trusted-replace-fetch-response', '/"ip":".*?"/', '"ip":""', 'api.ipify.org')
+www.youtube.com#%#//scriptlet('prevent-xhr', '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
 yourstory.com#%#(()=>{const n=function(){};window.pa={avInsights:{Media:function(){return{set:n}}},setConfigurations:n,sendEvent:n,refresh:n,getVisitorId:n}})();
 zillow.com#%#//scriptlet('set-constant', 'DD_RUM.addError', 'noopFunc')
 ! + NOT_PLATFORM(ios, ext_safari)
@@ -39883,7 +39885,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||redcounter.net^$third-party
 ||reddwarf.till-sanders.de^
 ||rede.lgldelivery.com.br^
-||redfast.com^
 ||redistats.com^$third-party
 ||redstatcounter.com^$third-party
 ||redtk.fitbyyou.com^
@@ -58714,6 +58715,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||stats.fishersci.it^
 ||stats.flightsphere.com^
 ||stats.flowphantom.com^
+||stats.fluorescent.co^
 ||stats.folienmarkt.de^
 ||stats.fomo.com^$third-party
 ||stats.footwork.co^
@@ -66715,6 +66717,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tvpixel.com^
 ||tvsbb.representclo.com^
 ||tvsji.adameve.com^
+||tvspix.com^
 ||tvutso.menbur.com^
 ||tw-go.experian.com^
 ||twcdgc.opodo.ch^
@@ -69443,6 +69446,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||wundercounter.com^$third-party
 ||wunderloop.net^$third-party
 ||wurfl.io^$third-party
+||wurflcloud.com^
 ||wurst.hausschlachtebedarf.de^
 ||wurst.leffis.de^
 ||wurzfs.motherhood.com^
@@ -108617,6 +108621,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||xlog-va.musical.ly^
 ||xpu.samsungelectronics.com^
 ||xray.mail.ru^
+||xstat.gazeta.bo^
 ||xtr.tos.sktelecom.com^
 ||xy33.smallable.com^
 ||y.one.impact-ad.jp^
@@ -109085,6 +109090,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /rd-js-integration.min.js
 /rdstation-popup.min.js
 /rtoaster.js
+/rum/events
 /ruxitagentjs_
 /s/js/ta-2.3.js?
 /s/s/js/m/om.js?v=
@@ -111302,6 +111308,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||facebook.com^*/logging/
 ||fafvertizing.crazygames.com/*-prebid-
 ||familydollar.com/ccstoreui/*/analytics/
+||fanfictionero.com/srv/statistics/
 ||fanp.me/*/silveregg_tracking.html
 ||fap.bar/a.js
 ||farfetch.net/v1/marketing/trackings
@@ -112840,6 +112847,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||redditmedia.com/gtm/
 ||redditmedia.com/gtm?id=
 ||redditstatic.com/ads/pixel.js
+||redfast.com/ping/
 ||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png
 ||reebok.eu/*/trackings|
 ||ref.dealerinspire.com/visit/*/events^
@@ -113388,6 +113396,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||statistic.gamona.de^
 ||statistics.aldi-international.com/consent/collect
 ||statistics.aldi-international.com/ppms.js
+||statix.business-gazeta.ru/js/components/metrics.js
+||statix.business-gazeta.ru/js/components/murmur.js
 ||statnews.com/wp-content/compiled/js/stat-adobe-analytics.js
 ||statnews.com/wp-content/compiled/js/stat-dfp.js
 ||statnews.com/wp-content/compiled/js/stat-hubspot-tracker.js
@@ -115347,6 +115357,8 @@ $cookie=ytrackvisit
 ||wolverine.com^$cookie=sid
 ||wpde.com^$cookie=sbgtvnonce
 ||wpde.com^$cookie=suid
+||x.com^$cookie=guest-id-ads
+||x.com^$cookie=guest-id-marketing
 ||xraws.com^$cookie=client-id
 ||yahoo.com^$cookie=apidts
 ||yahoo.com^$cookie=guc
@@ -115929,6 +115941,7 @@ d4?appid*type*
 ||android.bugly.qq.com^
 ||api*.amplitude.com^
 ||api*.moengage.com^
+||api-access.pangolin-sdk-toutiao1.com^
 ||api-analytics.prod.birdapp.com^
 ||api-fp-retry-bj.fengkongcloud.com^
 ||api.abcsinsights.com^
@@ -116119,6 +116132,7 @@ d4?appid*type*
 ||dualstack-cgicol.amap.com^
 ||dualstack-logs.amap.com^
 ||dutils.com^
+||dxp.baidu.com^
 ||e-ssl.apsalar.com^
 ||eats-ads-event-capture.coupang.com^
 ||ec.adadapted.com^
@@ -116439,6 +116453,7 @@ d4?appid*type*
 ||npario-inc.net^
 ||nr.bidderstack.com^
 ||nrc.tapas.net^
+||nsclickvideo.xiaodutv.com^
 ||oldevent.togothermany.com^
 ||omes-sec.heytapmobile.com^
 ||omni-ads.omni.news^
@@ -116775,6 +116790,7 @@ d4?appid*type*
 ||wsmetrics.batch.com^
 ||www-google-analytics.l.google.com^
 ||wzrkt.com^
+||xda.xiaodutv.com^
 ||xgdata.xoyo.games^
 ||xlog*-*.tiktokv.com^
 ||xlog-va.tiktokv.com^
@@ -118702,6 +118718,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||captivatingillusion.com^
 ||captivatingpanorama.com^
 ||captivatingperformance.com^
+||cardmethod.com^
 ||carefuldolls.com^
 ||caringcast.com^
 ||carloforward.com^
@@ -119188,6 +119205,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||gulliblegrip.com^
 ||gustocooking.com^
 ||gustygrandmother.com^
+||haikusoap.com^
 ||halcyoncanyon.com^
 ||halcyonsculpture.com^
 ||haltingbadge.com^
@@ -119587,6 +119605,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||pickmicro.com^
 ||pietexture.com^
 ||pigeonsetc.com^
+||pigmentpaper.com^
 ||pinchsquirrel.com^
 ||pincourse.com^
 ||piquantgrove.com^
@@ -120178,6 +120197,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||toomanyalts.com^
 ||topbookgifts.com^
 ||topcrazypress.com^
+||topthrowbacks.com^
 ||touristfuel.com^
 ||toysbasics.com^
 ||toytakeover.com^
@@ -121527,6 +121547,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||support.bluestacks.com^$removeparam=guid
 ||support.bluestacks.com^$removeparam=install-id
 ||support.bluestacks.com^$removeparam=oem
+||surfshark.com^$removeparam=rdr-refr
 ||t.adcell.com/*?$removeparam=subid
 ||tagomago.pl^$removeparam=subid
 ||tagomago.pl^$removeparam=subid1
