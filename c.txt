@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510160158
+! Version: 202510170157
 ! Title: Personal Filter
-! Last Modified: 16 Oct 2025 01:58 UTC
+! Last Modified: 17 Oct 2025 01:57 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -4346,6 +4346,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analytics.mcw.nz^
 ||analytics.melissa-online.nl^
 ||analytics.metafox.bmw.com^
+||analytics.metriko.app^
 ||analytics.metro-cc.ru^
 ||analytics.metro-tr.com^
 ||analytics.metro.be^
@@ -109474,6 +109475,7 @@ boredpanda.*#%#//scriptlet('set-local-storage-item', 'bp-analytics', '$remove$')
 borfilm.com,hronika.info##.count
 brasil247.com###taboola-mid-article-leia-mais
 briefly.co.za#%#//scriptlet('set-local-storage-item', '/^recommendation_uuid/', '$remove$')
+bunshun.jp##.recommend-articles
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
@@ -110066,6 +110068,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.bdg.com/event
 ||api.biggylabs.com.br/event-api/
 ||api.biggylabs.com.br/track-api/
+||api.biz.sbs.co.kr/statistics/
 ||api.blockchain.info/events/tracking/consent
 ||api.brunch.co.kr/v1/front-log
 ||api.bunjang.co.kr/api/log/
@@ -110495,6 +110498,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bundle.app/js/PushAnalyticsEvent.js
 ||bunkr.*/js/last_visit.js
 ||bunkr.*/js/lv.js
+||bunshun.jp/*/analytics.js
 ||buondua.com/hit/?
 ||burpee.com/*/pixel/tracker/
 ||bursadabugun.com/haber/imp-
@@ -111633,6 +111637,10 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||herokuapp.com/save_utm_params
 ||herz-fuer-tiere.de/assets/themes/default/images/ad.gif
 ||herz-fuer-tiere.de/assets/themes/default/images/sunshine.gif
+||heumm.com/backpg/add_visit_log.cm
+||heumm.com/js/advanced_trace.js
+||heumm.com/js/fb_pixel.js
+||heumm.com/js/site_log.js
 ||heute.at/*/render/common/js/tracking.js
 ||hexun.com/js/count.
 ||hexun.com/track/
@@ -112639,6 +112647,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||platform.datazoom.io/beacon/
 ||platform.loyaltylion.com/analytics/
 ||plausible.cgmagonline.com/api/event|
+||play.*.com/vendor/$domain=play.aetv.com|play.mylifetime.com
 ||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||playbrain.io/analytics/
 ||playep.pro/pl/vendor/stat.min.js
@@ -113858,6 +113867,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||vantastic-foods.com/dlyx/tms.js
 ||varianty.lviv.ua/counter.php
 ||vault.gostatera.com/collect/rap
+||vbr.ru/init-z.bmp
+||vbr.ru/next/api/v2/n/help/*/view
 ||vc.ru/analytics-event
 ||vc.ru/booster/daily/hits
 ||vc.ru/hit^
@@ -115124,6 +115135,7 @@ $cookie=ytrackvisit
 @@||moegirl.org.cn^$cookie=/^-ga-/
 @@||play.aetv.com^$cookie=/^amcvs?-.*adobeorg/
 @@||play.history.com^$cookie=/^amcvs?-.*adobeorg/
+@@||play.mylifetime.com^$cookie=/^amcvs?-.*adobeorg/
 @@||pracuj.pl^$cookie=gptrackcookie
 @@||scrapbox.io^$cookie=connect.sid
 @@||shop.app^$cookie=-shopify-y
@@ -115196,6 +115208,7 @@ $cookie=ytrackvisit
 ||google.$cookie=uule
 ||healf.com^$cookie=/^ig-/
 ||healf.com^$cookie=/^ph-phc-/
+||heumm.com^$cookie=fb-external-id
 ||hindustantimes.com^$cookie=-ht-fp
 ||hindustantimes.com^$cookie=ppid
 ||hk01.com^$cookie=/^-pk-id./
@@ -115336,6 +115349,7 @@ $cookie=ytrackvisit
 ||uber.com^$cookie=marketing-vistor-id
 ||unipegaso.it^$cookie=crm-multi-tracking
 ||usetrmnl.com^$cookie=/^intercom-/
+||vbr.ru^$cookie=puid
 ||vgwort.de^$cookie=srp
 ||vnexpress.net^$cookie=/^fosp-/
 ||vnexpress.net^$cookie=orig-aid
@@ -116032,6 +116046,7 @@ d4?appid*type*
 ||c.sayhi.360.cn^
 ||caerulus.io^
 ||cafe-log.myshoplus.com^
+||capture.pixverse.ai^
 ||carfax.sc.omtrdc.net^
 ||cdn-adn.rayjump.com^
 ||ced-ns.sascdn.com^
@@ -116181,6 +116196,7 @@ d4?appid*type*
 ||events.watchtower.imdbtv.amazon.dev^
 ||eventsv2balanced.malpagames.com^
 ||evt.mxplay.com^
+||experiment.pixverse.ai^
 ||f-log-*.grammarly.io^
 ||facebook.com/rtb_impression/?tr=
 ||flashtalking.com^
@@ -116527,6 +116543,7 @@ d4?appid*type*
 ||report.*.gbqofs.io^
 ||report.*.qq.com^
 ||report.apkpure.net^
+||report.pixverse.ai^
 ||reporting.aatkit.com^
 ||reportwest-midas.codmwest.com^
 ||resolver.gslb.mi-idc.com^
@@ -116817,6 +116834,7 @@ d4?appid*type*
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
+@@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
 @@||teenage.engineering/store/assets/tracking-pixel.*.js$domain=teenage.engineering
 @@||track.sendlane.com/track/form/$domain=momentprocamera.com
 @@||was.vodafone.de/ee/*/privacy/set-consent
@@ -119127,6 +119145,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||functionalcrown.com^
 ||functionalfeather.com^
 ||funoverbored.com^
+||funtoyplanet.com^
 ||furryfork.com^
 ||fusedcontent.com^
 ||futuristicapparatus.com^
@@ -119166,6 +119185,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||gloriousbeef.com^
 ||glowingmeadow.com^
 ||gluedpixel.com^
+||goddesslamps.com^
 ||godseedband.com^
 ||goldfishgrowth.com^
 ||goldstudies.com^
@@ -119267,6 +119287,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||humourspot.com^
 ||hurtgrape.com^
 ||hustlercoach.com^
+||hybridburst.com^
 ||hydraconcept.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
@@ -119298,6 +119319,8 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||intentlens.com^
 ||internalcondition.com^
 ||internalsink.com^
+||intricateberry.com^
+||inventorycache.com^
 ||inventtango.com^
 ||iotapool.com^
 ||irelandroad.com^
@@ -119467,6 +119490,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||mindfulgem.com^
 ||mindlessmark.com^
 ||mineinvoice.com^
+||minibilling.com^
 ||minorcattle.com^
 ||minuteburst.com^
 ||miscreantmoon.com^
@@ -119533,6 +119557,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||notcardboard.com^
 ||notconscious.com^
 ||notifyglass.com^
+||notrealcat.com^
 ||noundictionary.com^
 ||novaseekers.com^
 ||nowaymail.com^
@@ -119709,6 +119734,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||quizzicalzephyr.com^
 ||rabbitbreath.com^
 ||rabbitrifle.com^
+||rackforstorage.com^
 ||radiantcanopy.com^
 ||radiantlullaby.com^
 ||radiateprose.com^
@@ -120351,6 +120377,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||wrongwound.com^
 ||wtaccesscontrol.com^
 ||yieldingwoman.com^
+||youcandrawanything.com^
 ||yourlifedream.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
