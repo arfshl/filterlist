@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510170157
+! Version: 202510180152
 ! Title: Personal Filter
-! Last Modified: 17 Oct 2025 01:57 UTC
+! Last Modified: 18 Oct 2025 01:52 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -5507,6 +5507,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||api.ryanyao.design^
 ||api.s2shoes.com^
 ||api.sabrinas.com.br^
+||api.sae.systems^
 ||api.sagradauniao.com.br^
 ||api.sail-personalize.com^$third-party
 ||api.salads.fit^
@@ -38289,6 +38290,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||pineapple.kuddl.com^
 ||ping.irisphotos.app^
 ||ping.naturadapt.com^
+||ping.pdst.fm^
 ||ping.resoluteoil.com^
 ||pingdom.net^$third-party
 ||pingmeter.com^$third-party
@@ -106049,6 +106051,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||c.ipaddress.com^
 ||c.msn.com^
 ||c.pravo.ru^
+||c.quackr.io^
 ||c.rzk-m.com^
 ||c.salon24.pl^
 ||c.security.org^
@@ -107373,6 +107376,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||pixel.cdnwidget.com^
 ||pixel.clutter.com^
 ||pixel.condenastdigital.com^
+||pixel.dashfi.dev^
 ||pixel.dev.smartnews.com^
 ||pixel.digitalspy.co.uk^
 ||pixel.dmdi.pl^
@@ -111667,6 +111671,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hm.com/global/session-tracking
 ||hmma.baidu.com/app.gif
 ||hmr.mrgcdn.ru/assets/js/logger.min.js
+||hobbygames.ru/?route=product/product/visit
 ||hogangnono.com/api/*/activity-logs/collect
 ||hogangnono.com/collect?
 ||hombex.com/assets/js/component/analytics.js
@@ -113135,6 +113140,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||shinhancard.com/logic/js/lib/wp_astg_
 ||shinsegae.com/topNPopup.do
 ||shipping.jp/raa/rd.js
+||shop-apotheke.com/conversational-api/analytics
 ||shop.pe/pixel.png?
 ||shop.post.japanpost.jp/js/analytics_cookie.js
 ||shop.rewe.de/api/xrd/performance
@@ -113373,6 +113379,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.rtrp.jp/static/js/googletagmanager.*.js
 ||static.sbsdlab.co.kr/common/gtag/
 ||static.searchiq.co/t/pxl.gif
+||static.shop-apotheke.com/media/js/shopmonitor3.js
 ||static.shopmy.us/Affiliates/sms_aff_clicktrack.js
 ||static.site24x7rum.jp/beacon/
 ||static.solarwinds.com/referrer-cookie.js
@@ -119362,6 +119369,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||kidpowers.com^
 ||kindasingle.com^
 ||kindhush.com^
+||kindlereunion.com^
 ||kitetuning.com^
 ||kittycatking.com^
 ||knewpenny.com^
