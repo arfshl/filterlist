@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510180152
+! Version: 202510190210
 ! Title: Personal Filter
-! Last Modified: 18 Oct 2025 01:52 UTC
+! Last Modified: 19 Oct 2025 02:10 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -289,6 +289,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 |load.sgtm.
 |load.ss.
 |load.sst.
+||*-default-cn.rum.aliyuncs.com^
 ||*-sdk.rum.aliyuncs.com^
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
 ||-access-logs-1.net.daraz.com^
@@ -3881,6 +3882,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analyse.hinemos.info^
 ||analyse.hs-furtwangen.de^
 ||analysis-test.sozialversicherung.at^
+||analysis.chatglm.cn^
 ||analysis.fi^$third-party
 ||analysis.sozialversicherung.at^
 ||analysis.wangtwothree.com^$third-party
@@ -106744,6 +106746,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||harvester.cms.markiza.sk^
 ||harvester.hbpl.co.uk^
 ||harvester.hnonline.sk^
+||haystack.wavve.com^
 ||hba*.hepsiburada.com^
 ||hc-analytics.idp.clogin.att.com^
 ||hc.uralweb.ru^
@@ -108525,6 +108528,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||upsell.alphwidget.com^
 ||upu.samsungelectronics.com^
 ||usage.trackjs.com^
+||user-event-log.aminer.cn^
 ||ut.gamersyde.com^
 ||utiq.actu.fr^
 ||utiq.bfmtv.com^
@@ -109012,6 +109016,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /oo/*/lsync.js$~third-party
 /oo/cl*.js?rd=$~third-party
 /oo/cl.js|$~third-party
+/op/analytics.js?domain=
 /openrtb2/auction
 /openxtargeting.js
 /outLoging.js
@@ -109479,7 +109484,7 @@ boredpanda.*#%#//scriptlet('set-local-storage-item', 'bp-analytics', '$remove$')
 borfilm.com,hronika.info##.count
 brasil247.com###taboola-mid-article-leia-mais
 briefly.co.za#%#//scriptlet('set-local-storage-item', '/^recommendation_uuid/', '$remove$')
-bunshun.jp##.recommend-articles
+bunshun.jp##.recommend-articles:has( > div[class^="taboola"])
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
@@ -109653,7 +109658,6 @@ news.webike.net###custom_html-5
 newsdig.tbs.co.jp#?#.l-contents-wrap > div[v-scope^="Recommend"]:upward(1)
 newslab.ru##.r-recommend
 newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
-nhk-ondemand.jp#%#//scriptlet('abort-on-property-write', 'wd.s_c_il')
 nike.com#%#//scriptlet('set-local-storage-item', 'pi_pageview_count', '$remove$')
 nike.com#%#//scriptlet('set-local-storage-item', 'pi_visit_count', '$remove$')
 nike.com#%#//scriptlet('set-local-storage-item', 'pi_visit_track', '$remove$')
@@ -110166,6 +110170,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.tatadigital.com/analytics-engine/
 ||api.teester.com/data/collect
 ||api.testbook.com/api/*/popup
+||api.thefantazy.com/web-vitals
 ||api.tickpick.com/1.0/tracking/pageLoad
 ||api.tinybird.co/*/events
 ||api.tinypass.com/api/v*/anon/error/log
@@ -110502,7 +110507,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bundle.app/js/PushAnalyticsEvent.js
 ||bunkr.*/js/last_visit.js
 ||bunkr.*/js/lv.js
-||bunshun.jp/*/analytics.js
 ||buondua.com/hit/?
 ||burpee.com/*/pixel/tracker/
 ||bursadabugun.com/haber/imp-
@@ -120844,6 +120848,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||boredpanda.com^$removeparam=cexp-id
 ||boredpanda.com^$removeparam=cexp-var
 ||brazzers.com^$removeparam=ats
+||bunshun.jp^$removeparam=ref
 ||buydomains.com/lander/*?domain=$removeparam
 ||ca.indeed.com/cmp^$removeparam=attributionid
 ||ca.indeed.com/cmp^$removeparam=from
