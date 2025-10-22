@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510210200
+! Version: 202510220203
 ! Title: Personal Filter
-! Last Modified: 21 Oct 2025 02:00 UTC
+! Last Modified: 22 Oct 2025 02:03 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -65235,6 +65235,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tunneldata.arenahotel.com.br^
 ||tunneldata.atriohoteis.com.br^
 ||tunneldata.livahoteis.com.br^
+||turbotargeting.io^
 ||turkey.tella.tv^
 ||turn.com^$third-party
 ||turtle.mushtache.com^
@@ -107616,6 +107617,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||lcs.naver.com^
 ||ldpsh.fashionnova.com^
 ||leo.hepsiburada.com^
+||leo.tridge.com^
 ||lexip.4pcdn.de^
 ||lfmetrics.loyalfans.com^
 ||lg3.media.net^
@@ -109700,6 +109702,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /m.gif?
 /master-amg-plugin/assets/js/page-view-ga.js
 /matomo.js$domain=~github.com
+/matomo.php$ping
 /matomo.php?action_name=
 /matomo.php?idsite=
 /mendelstats.
@@ -111140,6 +111143,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bing.com/api/shopping/v1/telemetry
 ||bing.com/api/v1/mediation/tracking?
 ||bing.com/mouselog
+||bitdefender.com/cdp/
+||bitdefender.com/dtm/
 ||bitrix.info/ba.js
 ||bitrix.info/bx_stat
 ||bitwarden.com/plsbl/
@@ -112032,6 +112037,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||familydollar.com/ccstoreui/*/analytics/
 ||fanfictionero.com/srv/statistics/
 ||fanp.me/*/silveregg_tracking.html
+||fantasylandnews.com/wp-content/cache/min/*/analytics.js
 ||fap.bar/a.js
 ||farfetch.net/v1/marketing/trackings
 ||fashionbykakao.com/api/*/tr?
@@ -117672,7 +117678,6 @@ xinshuru.com#%#//scriptlet('set-constant', 'RADAR_MONITOR.setProject', 'emptyObj
 @@||cdn.cxense.com/cx.cce.js$domain=elcorreogallego.es
 @@||cdn.cxense.com/cx.js$domain=elcorreogallego.es
 @@||cdn.treasuredata.com/sdk/$script,domain=kfc.com.my
-@@||cloud.polarbyte.com/webapps-api/api/v1/campaigns/$domain=cambridgeenglish.org
 @@||dpm.zebestof.com/*/tag.js^$domain=journaldunet.com
 @@||f-tra.com^$script,domain=pokemoncenter-online.com
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=birminghammail.co.uk|dailystar.co.uk|liverpoolecho.co.uk|manchestereveningnews.co.uk|mirror.co.uk
@@ -117848,7 +117853,6 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||js.datadome.co/tags.js$domain=account.samsung.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it
 @@||l.logly.co.jp/lift$script,domain=sponichi.co.jp
-@@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||log.mmstat.com/eg.js$domain=youku.tv
 @@||logly.co.jp/recommend/$image,domain=sponichi.co.jp
 @@||mailingtechnology.com/tracking/tracking_$~third-party
@@ -121536,6 +121540,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||bbc.$removeparam=facebook-page
 ||beacon-recommend.tower.jp^$removeparam=tracking-id
 ||belta.co.jp^$removeparam=cid
+||biccamera.com^$removeparam=source
 ||bild.de^$removeparam=t-ref
 ||billing.purevpn.com/aff.php$removeparam=aff
 ||bizhint.jp^$removeparam=trcd
