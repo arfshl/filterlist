@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510220203
+! Version: 202510230158
 ! Title: Personal Filter
-! Last Modified: 22 Oct 2025 02:03 UTC
+! Last Modified: 23 Oct 2025 01:58 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -65055,6 +65055,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tryitagpro-ss.checkoutera.com^
 ||tryrewave-ss.checkoutera.com^
 ||tryrewave-ss.zavydeals.com^
+||tryzens-analytics.com^
 ||ts.aktienbulls.com^
 ||ts.archbee.com^
 ||ts.beechhalljoinery.co.uk^
@@ -107459,6 +107460,8 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||harvester.hnonline.sk^
 ||haystack.wavve.com^
 ||hba*.hepsiburada.com^
+||hbrcv.adobe.com^
+||hbrt.adobe.com^
 ||hc-analytics.idp.clogin.att.com^
 ||hc.uralweb.ru^
 ||health-metrics-api.setapp.com^
@@ -108019,7 +108022,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||p.imgur.com^
 ||p.raasnet.com^
 ||p.smartertravel.com^
-||p.ura.news^
 ||p.vtracy.de^
 ||p.yotpo.com^
 ||p0.raasnet.com^
@@ -109662,6 +109664,8 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /heatmap/js/clickheat.js
 /hit-increment/*
 /hitartirici/*
+/home/new/v*/api/applogger.php
+/home/new/v*/api/get-ip.php
 /i.gif?pageEvent=
 /i?e=pv&url=
 /images/top100.gif
@@ -109890,6 +109894,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /tns-counter.js
 /tongji/baidutongji.js
 /top-10-tracker.min.js
+/tr/lp/intg.js
 /track.gif?t=
 /track.php?
 /Track/Capture.aspx?
@@ -110301,6 +110306,8 @@ idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_atfr', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_cons', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_cX_segmentInfo', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_ls_ttl', '$remove$')
+indianexpress.com#%#//scriptlet('set-local-storage-item', 'ev_did', '$remove$')
+indianexpress.com#%#//scriptlet('set-local-storage-item', 'ev_sid', '$remove$')
 inet.se#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
 inet.se#%#//scriptlet('set-local-storage-item', 'visitorInfo', '$remove$')
 infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.liveinternet.ru/"])
@@ -111000,7 +111007,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
+||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|assets.adobedtm.com|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -111928,6 +111935,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||emag.ru/counter/counter.php?url=
 ||emails.macys.com/pub/cct?
 ||embed.mikmak.tv/brandTracking/
+||embed.reddit.com/svc/shreddit/events
 ||embed.sendtonews.com/player2/data_logging.php?
 ||embed.videosdemadurasx.com/js/u_hits_control.js
 ||embedly.com/widgets/xcomm.html^$third-party
@@ -112041,7 +112049,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||fap.bar/a.js
 ||farfetch.net/v1/marketing/trackings
 ||fashionbykakao.com/api/*/tr?
-||fashionnova.com/api/search/events
 ||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||fastcdn.co/js/sptw.
 ||fastcmp.com/1px.png?origin=
@@ -112529,6 +112536,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||indeed.com/rpc/log/
 ||indeed.com/rpc/timing?logEvent=
 ||indeed.com/rpc/vjslog?
+||indianexpress.com/wp-content/themes/indianexpress/js/ie-events-all.js
 ||indianpornvideotube.com/incnt
 ||industrystock.de/ajax/track.php
 ||inet.az/img.php$third-party
@@ -112708,6 +112716,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kinja.com/api/analytics/
 ||kino.de/api/core/tracking^
 ||kinokassa.kinoplan24.ru/*/cinema/analytics
+||kio.ac/analytics/
 ||kirinholdings.*/share/ga/code.js
 ||kiss*.com/wp-content/themes/decibel/audio/audio-analytics.js
 ||kitbag.com/api/track|
@@ -112946,6 +112955,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||media.fc2.com/blank.gif
 ||media.fc2.com/counter_empjs.php
 ||media.fc2.com/counter_img
+||media.flaticon.com/dist/js/ads.*.js
 ||media.flixcar.com/delivery/js/hotspot/
 ||media.kaspersky.com/tracking/
 ||media.licdn.com/cdo/rum/id?
@@ -115926,6 +115936,7 @@ $cookie=ytrackvisit
 ||fashionnova.com^$cookie=2c.cld
 ||fashionnova.com^$cookie=optimizelyuserid
 ||faz.net^$cookie=adobe-pageviewcount
+||flaticon.com^$cookie=g-state
 ||flo.com.tr^$cookie=bunsar-visitor-id
 ||galaxus.de^$cookie=/^\.(b|s|xp|ub\.)id/
 ||gb.ru^$cookie=/^utm-/
@@ -115963,6 +115974,8 @@ $cookie=ytrackvisit
 ||idnes.cz^$cookie=lastpianosyncdate
 ||iltalehti.fi^$cookie=/^il-ga-/
 ||independent.co.uk^$cookie=/^esi-/
+||indianexpress.com^$cookie=ev-did
+||indianexpress.com^$cookie=ev-sid
 ||infox.sg^$cookie
 ||investing.com^$cookie=adblockernewuserdomains
 ||investing.com^$cookie=smd
@@ -117561,6 +117574,7 @@ d4?appid*type*
 @@||api.cxense.com/public/widget/$domain=farodevigo.es
 @@||at.vodafone.de/rest/$domain=vodafone.de
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es
+@@||dev.visualwebsiteoptimizer.com/j.php$domain=dominos.jp
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||googletagmanager.com/gtm.js$domain=sferis.pl|tauron.pl
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
@@ -121170,6 +121184,8 @@ $removeparam=adjust-tracker-limit
 $removeparam=admitad-uid
 $removeparam=adobe-mc-ref
 $removeparam=adobe-mc-sdid
+$removeparam=adsterra-clid
+$removeparam=adsterra-placement-id
 $removeparam=af-ad
 $removeparam=af-adset
 $removeparam=af-click-lookback
@@ -121920,6 +121936,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||incogni.com^$removeparam=transaction-id
 ||indeed.com^$removeparam=from
 ||index.hr^$removeparam=index-ref
+||indianexpress.com^$removeparam=ref
 ||iotransfer.itopvpn.com^$removeparam=ref
 ||item.rakuten.co.jp^$removeparam=iasid
 ||japan.cnet.com^$removeparam=tag
