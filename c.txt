@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510230158
+! Version: 202510240154
 ! Title: Personal Filter
-! Last Modified: 23 Oct 2025 01:58 UTC
+! Last Modified: 24 Oct 2025 01:54 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -2495,6 +2495,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||ad-srv-track.com^$third-party
 ||ad.320320.net^
 ||ad.aceplanet.co.kr^
+||ad.admitad.com^$third-party
 ||ad.aim-universe.co.jp^
 ||ad.aucfan.com^
 ||ad.aucview.com^
@@ -2810,7 +2811,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||admissions.easterncollege.ca^
 ||admissions.trios.com^
 ||admit.mountsaintvincent.edu^
-||admitad.com^$third-party
 ||admon.pro^$third-party
 ||adnl.bk.mufg.jp^
 ||adnlb.sprayground.com^
@@ -10612,6 +10612,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||d28082025.entrelogik.com.br^
 ||d2c.ne.jp^$third-party
 ||d2ezz24t9nm0vu.cloudfront.net^
+||d2g2u2795e3fzw.cloudfront.net^
 ||d2hrivdxn8ekm8.cloudfront.net^$third-party
 ||d2u.dauphinquebec.com^
 ||d3lqotgbn3npr.cloudfront.net^
@@ -31591,6 +31592,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||matheranalytics.com^$third-party
 ||mathtag.com^$third-party
 ||mato.clanto.cloud^
+||matomo-demo-*.amazonaws.com^
 ||matomo.akbal.dev^
 ||matomo.clanto.cloud^
 ||matrix.hbo.com^
@@ -33883,6 +33885,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||mo.motocorpbd.com^
 ||mobadme.jp^$third-party
 ||mobalyzer.net^$third-party
+||mobiexchange.com^$third-party
 ||mobile.blackboard.com^
 ||mobile.vmware.com^
 ||mobtop.com^$third-party
@@ -107533,6 +107536,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ingest.make.rvohealth.com^
 ||ingestion.webanalytics.italia.it^
 ||inlog01.hket.com^
+||ins.oberpfalzmedien.de^
 ||insight.bellmetric.net^
 ||insight.danawa.com^
 ||inspector-collector.m.naver.com^
@@ -108578,7 +108582,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||static-ads.zaloapp.com^
 ||static-trackers.adtarget.me^
 ||static.affiliatly.com^$third-party
-||static.alphwidget.com^
 ||static.cloudflareinsights.com^
 ||static.parsely.com^
 ||static.runconverge.com^
@@ -112579,6 +112582,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||instagram.com/static/bundles/*/EmbedAsyncLogger.js
 ||interactions.one.store/v1/analytics/
 ||intercom.io/messenger/web/page_view_events
+||interest.co.nz/core/modules/statistics/statistics.php
 ||interia.pl/*/hit.t?
 ||internet-abc.de^*/eTracker.js
 ||internet-technologies.ru/wp-content/assets/js/log.js
@@ -113455,6 +113459,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||prlog.ru/images/counter/$third-party
 ||pro.ranklet4.com/impression?
 ||probance.jp/webtrax/public/probance_tracker.js
+||prod-app.because-intelligence.com/observability/
 ||prod-app.because-intelligence.com/track/
 ||prod.accdab.net/beacon/
 ||prod.adobeccstatic.com/unav/*/AnalyticsProvider.
@@ -117574,7 +117579,7 @@ d4?appid*type*
 @@||api.cxense.com/public/widget/$domain=farodevigo.es
 @@||at.vodafone.de/rest/$domain=vodafone.de
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es
-@@||dev.visualwebsiteoptimizer.com/j.php$domain=dominos.jp
+@@||dev.visualwebsiteoptimizer.com^$script,domain=dominos.jp
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||googletagmanager.com/gtm.js$domain=sferis.pl|tauron.pl
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
@@ -121259,6 +121264,7 @@ $removeparam=fb-action-types
 $removeparam=fb-comment-id
 $removeparam=fb-ref
 $removeparam=fb-source
+$removeparam=fbadid
 $removeparam=fbclid
 $removeparam=frm,domain=msearch.shopping.naver.com|search.shopping.naver.com
 $removeparam=from,domain=dojin-navi.com|doujinnomori.com|echiman.com|shinshi-manga.net
@@ -121335,6 +121341,8 @@ $removeparam=mtm-placement
 $removeparam=mtm-source
 $removeparam=napm,domain=msearch.shopping.naver.com|search.shopping.naver.com
 $removeparam=naver,domain=dt.co.kr
+$removeparam=nb-expid-meta
+$removeparam=nb-placement
 $removeparam=nclid,domain=microsoft.com
 $removeparam=newsstand,domain=sportalkorea.com
 $removeparam=nv,domain=khan.co.kr
@@ -121445,6 +121453,7 @@ $removeparam=ymid
 $removeparam=ysclid
 &af_xp=$removeparam=c
 &af_xp=$removeparam=pid
+&nbt=nb%3A$removeparam=nbt
 &uclick=*&uclickhash=$removeparam
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
@@ -121464,6 +121473,7 @@ $removeparam=ysclid
 /viewtopic.php?$removeparam=sid
 ://youtube.com/@*?si=$removeparam=si
 ?from=glia^$removeparam=from
+?nbt=nb%3A$removeparam=nbt
 ?ref=awesometechstack.com$removeparam=ref
 ?ref=upstract.com^$removeparam=ref
 ?uclick=*&uclickhash=$removeparam
