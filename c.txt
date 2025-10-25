@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510240154
+! Version: 202510250156
 ! Title: Personal Filter
-! Last Modified: 24 Oct 2025 01:54 UTC
+! Last Modified: 25 Oct 2025 01:56 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -17009,6 +17009,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||events.accuity.com^
 ||events.agropetmineiro.com.br^
 ||events.algorx.ai^
+||events.api.gamma.app^
 ||events.askjdhaa.com^
 ||events.audioplace.me^$third-party
 ||events.axa-im.com^
@@ -37211,6 +37212,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||piranha.mediumsuite.co.uk^
 ||piranha.minnmyatsoe.com^
 ||pirnn.hibobbie.com^
+||pirsch.io^$third-party
 ||pisqpr.puuilo.fi^
 ||pivimc.unitrailer.pl^
 ||piwik.com-online.com^
@@ -108289,6 +108291,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sapi.tremendous.com^
 ||sat.sanoma.fi^
 ||sayac.tmgrup.com.tr^
+||sb1.mangataro.org^
 ||sbeacon.sina.com.cn^
 ||sci.intuit.com^
 ||scripts-repo.reelevant.com^
@@ -109368,6 +109371,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ymprove.web.de^
 ||yoc.younited-credit.com^
 ||yourblocksite.com^
+||z.cdn.protect-ad.com^
 ||z210.manisteenews.com^
 ||z211.yourconroenews.com^
 ||z216.times-standard.com^
@@ -110778,6 +110782,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com/engage/?
 ||api-js.mixpanel.com/track/?
+||api-kit.snapchat.com/com.snap.camerakit.v3.Metrics^
 ||api-onedio-lambda-production.onedio.com/srv/counters/
 ||api-register.ujoygames.com/logs/
 ||api-router.kaspersky-labs.com/logger2^
@@ -110907,6 +110912,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.vicomi.com/api/*/analytics/
 ||api.videowise.com/tracking/
 ||api.viqeo.tv/v1/data/track?npvid=
+||api.vortexscans.org/api/analytics/updateViews
+||api.vortexscans.org/api/track-visit
 ||api.vp.rambler.ru/events/
 ||api.watcher.guru/ads/trackClickout
 ||api.weglot.com/pageviews?api_key
@@ -111504,6 +111511,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cloud.weborama.design/nonio.js
 ||cloudconvert.com/js/ga.js
 ||cloudfront.net/analytics.js
+||cloudfront.net/ecmtr-*.js
 ||cloudfront.net/js/sauron-analytics/stable/sp.js
 ||cloudfront.net/sso.js
 ||cloudfunctions.net/conversionEventCondition|
@@ -111845,6 +111853,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||dr.dk/drWebStat/
 ||dr.dk/mu-online/api/*/reporting/
 ||drive.google.com/drive/logImpressions|
+||drive2.ru/_api/special/*/view|
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
 ||dropbox.com/destiny_log
@@ -112787,6 +112796,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||lexus.jp/common/*/js/analytics.js
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
 ||lib.onet.pl/s.csr/adp
+||lib.onet.pl/static/pixel/
 ||libcdnjs.com/api/event
 ||libs.platform.californiatimes.com/meteringjs/
 ||licdn.com/*li.lms-analytics/
@@ -114310,6 +114320,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||techstage.de/js/techstage/webtrekk_scrollposition.js
 ||teenage.engineering/_api/mw/track/
 ||teenporn.ws/zaq/cron.php
+||teknolojituru.com/api/tracking
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare*.js
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
@@ -114725,6 +114736,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||web-g-p.com/info/log_total.cgi
 ||web-perf.booking.com^
 ||web-t.9gag.com^
+||web.snapchat.com/web-blizzard/web/send^
 ||web.snrbox.com/*?tracker=
 ||web.snrbox.com/tck/$domain=komputronik.pl
 ||web.snrbox.com/tck/$redirect=noop.txt,xmlhttprequest
