@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510260206
+! Version: 202510270210
 ! Title: Personal Filter
-! Last Modified: 26 Oct 2025 02:06 UTC
+! Last Modified: 27 Oct 2025 02:10 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -106655,6 +106655,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||applog.ssgdfs.com^
 ||applog.ucdns.uc.cn^
 ||applog.zaycev.net^
+||applytics.napps-1.com^
 ||applytics.nordvpn.com^
 ||apps.nhk.jp^
 ||appsanalytics.appideas.it^
@@ -122047,6 +122048,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||p.liadm.com/click?s=$removeparam=li
 ||p.liadm.com/click?s=$removeparam=stpe
 ||pcmag.com^$removeparam=taid
+||pcmax.jp^$removeparam=ad-id
 ||peacocktv.com^$removeparam=method
 ||peacocktv.com^$removeparam=orig-ref
 ||perfo.salestube.pl^$removeparam=aff-click-id
