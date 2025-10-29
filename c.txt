@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510280159
+! Version: 202510290206
 ! Title: Personal Filter
-! Last Modified: 28 Oct 2025 01:59 UTC
+! Last Modified: 29 Oct 2025 02:06 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -7975,6 +7975,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||c0i.ckoi.com^
 ||c0p.cepsum.umontreal.ca^
 ||c1.politexpert.ru^$third-party
+||c1.prmonline.ru^
 ||c1exchange.com^$third-party
 ||c212.net^$third-party
 ||c319tpiw462o.segops.madisonspecs.com^
@@ -42039,6 +42040,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||sa.hgtv.com^
 ||sa.investigationdiscovery.com^
 ||sa.lesselectionsskoda.fr^
+||sa.openmedia.co^
 ||sa.oprah.com^
 ||sa.sciencechannel.com^
 ||sa.skoda.fr^
@@ -119973,6 +119975,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||applog.ssgdfs.com^
 ||applog.ucdns.uc.cn^
 ||applog.zaycev.net^
+||applytics.my1337jog.run^
 ||applytics.napps-1.com^
 ||applytics.nordvpn.com^
 ||applytics.os4work.com^
@@ -120325,7 +120328,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ctl.mobitrack.co.kr^
 ||ctr.po-kaki-to.com^
 ||curiosity-seven.vercel.app^
-||curveshore.com^
 ||customerevents.dradis.netflix.com^
 ||customerevents.netflix.com^
 ||customerevents.us-east-*.internal.dradis.netflix.com^
@@ -120425,6 +120427,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||daq0d0aotgq0f.cloudfront.net^
 ||data-collector.wefi.com^
 ||data-ingestion.flowgpt.com^
+||data-track*.yingxiong.com^
 ||data.client.openweb.bid^
 ||data.ds.dumont.de^
 ||data.festool.pl^
@@ -124259,6 +124262,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||app.leadster.com.br/*/analytics/
 ||app.link/_r?sdk=*&callback=branch_callback
 ||app.notipack.com/pixel-track?
+||app.notipack.com/pixel/
 ||app.opmnstr.com/v*/geolocate/
 ||app.pep.work/api/analytics
 ||app.polymersearch.com/dataunlocker.js
@@ -124901,6 +124905,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||coocha.co.kr/static/js/common/tracker.js
 ||cookpad.com/*/activity_logs
 ||cookpad.com/FqtAw5et/init.js
+||coolbe.*/api/*/events
 ||coopmobile.ch/analytics/at.js
 ||cope.es/stats/services/recordEvent
 ||copilot.microsoft.com/fd/ls/
@@ -127019,7 +127024,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||s3a.pstatp.com/toutiao/push.js
 ||s73cloud.com/metrics/
 ||sa.crunchyroll.com/analytics.js
-||sa.openmedia.co/collect?*tid=
 ||sa.sayaclar.com/c/s*.php?$third-party
 ||sa.torbox.app/append|
 ||safevisit.org/api/v*/c?$redirect=noop.txt
@@ -127985,6 +127989,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
 ||weather.go.kr/w/resources/js/logger
+||weatherzone.*/*/scripts/gtmHead.js
+||weatherzone.*/*/scripts/hotjar.js
 ||web-g-p.com/info/js/cookie.js
 ||web-g-p.com/info/log/
 ||web-g-p.com/info/log_total.cgi
@@ -130465,6 +130471,7 @@ d4?appid*type*
 ||nr.bidderstack.com^
 ||nrc.tapas.net^
 ||nsclickvideo.xiaodutv.com^
+||obus-in.dc.heytapmobile.com^
 ||oldevent.togothermany.com^
 ||omes-sec.heytapmobile.com^
 ||omni-ads.omni.news^
@@ -130634,6 +130641,7 @@ d4?appid*type*
 ||t.adx.opera.com^
 ||t.castle.io^
 ||t.ndemiccreations.com/*/*?tv=*&uid=
+||t.usermaven.com/lib.js$redirect=noop.js,script,domain=revisemsra.com
 ||tadata.afafb.com^
 ||tagdelivery.mayoclinic.org.pc-mc.greylabeldelivery.com^
 ||tagdelivery.mayoclinic.org^
@@ -133125,6 +133133,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||framebanana.com^
 ||franksfloral.com^
 ||franticroof.com^
+||freedomgrail.com^
 ||freezeassets.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
@@ -133398,6 +133407,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||likethedog.com^
 ||limepeal.com^
 ||linkedleg.com^
+||linksoutside.com^
 ||livelumber.com^
 ||livelylaugh.com^
 ||livingsleet.com^
@@ -133667,6 +133677,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||polishedfolly.com^
 ||politeplanes.com^
 ||politicalporter.com^
+||popmixradio.com^
 ||popplantation.com^
 ||possibleboats.com^
 ||possiblepencil.com^
