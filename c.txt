@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510290206
+! Version: 202510300205
 ! Title: Personal Filter
-! Last Modified: 29 Oct 2025 02:06 UTC
+! Last Modified: 30 Oct 2025 02:05 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -66889,6 +66889,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||trackinglabs.com^$third-party
 ||trackinglrus.wolterskluwer.com^
 ||trackingmms.accenture.com^
+||trackingmyadsas.com^
 ||trackingserver.shopnokoli.com^
 ||trackingssl.agemployeebenefits.be^
 ||trackingssl.aginsurance.be^
@@ -120859,6 +120860,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||intelligence.xnews.one^
 ||intent.cbsi.com^
 ||intg.snapchat.com^
+||iot.skywayplatform.com^
 ||ipcc.vnpt.com.vn^
 ||ipgeolocation.abstractapi.com^
 ||iptracker-lb-*.amazonaws.com^
@@ -121531,6 +121533,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||rake.tmap.co.kr^
 ||ramp.purch.com^
 ||rcm.shinobi.jp^
+||rcu.skywayplatform.com^
 ||real-feedback.toros.daum.net^
 ||realtime-logger.production-public.tubi.io^
 ||realtime-profiling.datarize.ai^
@@ -122085,6 +122088,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||t969.sentinelandenterprise.com^
 ||ta.pinduoduo.com^
 ||ta.trs.cn^
+||tad.tygem.com^
 ||tag.aftvnews.com^
 ||tag.aticdn.net^
 ||tag.cribnotes.jp^
@@ -122224,6 +122228,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||top100.rambler.ru^
 ||top100.vkirove.ru^
 ||topspin.npo.nl^
+||touch.yesim.
 ||tp.content-score.com^
 ||tpa7.iahorro.com^
 ||tr-experiments.parsely.com^
@@ -122534,6 +122539,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ua.indianexpress.com^
 ||uaas.yandex.ru^
 ||uac.etnews.com^
+||uac.heraldcorp.com^
 ||uac.khan.co.kr^
 ||uac.kyeongin.com^
 ||uac.mk.co.kr^
@@ -123536,6 +123542,7 @@ club-opel.com##.toplist
 club.berkovich-zametki.com,koneta.nifty.com###custom_html-2
 cnn.com##.zn-story-bottom
 colliers.com#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
+coloradoan.com#%#//scriptlet('set-local-storage-item', 'user_insights', '$remove$')
 comichara.com,movient.net###text-6
 computerbild.de##.articleAdditional > .mehrthema
 continentseven.com##.gaoop
@@ -124070,6 +124077,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||anyelse.com/stat^
 ||aol.com/ping?
 ||aol.com/track/
+||aoneroom.com/sdk/athena-unify.js
 ||apartmenttherapy.com/*/xhr/api/*/collector
 ||apartmenttherapy.com/*/xhr/b/s
 ||apay-us.amazon.com/cs/uedata
@@ -124139,6 +124147,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.github.com/_private/browser/stats$important
 ||api.gleap.io/sessions/ping
 ||api.globalbunjang.com/api/log/
+||api.hisavana.com/hisavana/eventtracking/
 ||api.honeycomb.io/*/traces
 ||api.idg.zone/intextlinks-tracking/
 ||api.impresa.pt/trackercookie
@@ -124749,6 +124758,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||charmmy-api.line.me/api/*/bars/tracking
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatgpt.com/ces/*/b|$xmlhttprequest
+||chatgpt.com/ces/statsc/
 ||chatgpt.com/ces/v1/p|
 ||chatgpt.com/ces/v1/t
 ||chaturbate.com/api/adblocker/
@@ -124812,6 +124822,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cloudfunctions.net/trackEvent|
 ||clubjt.jp/js/ga_event.js
 ||clustrmaps.com^$image,redirect=1x1-transparent.gif,third-party
+||cm-oss.hisavana.com/moviebox/mb_hssdk.js
 ||cm.g.doubleclick.net^
 ||cm.nordpass.com/tracy$xmlhttprequest
 ||cmap.alibaba.com/landing_ae.gif
@@ -124919,6 +124930,10 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||corriereobjects.it/*/js/tracking/
 ||coupang.com/next-api/products/reco-widget?productId=*&vendorItemId=*&itemId=
 ||coupang.com/np/abtest/logging/
+||coupang.com/resources/*/np/js/modules/common/adsplatform/adsplatformLogger.js
+||coupang.com/resources/*/np/js/modules/common/gnbWebLogger.js
+||coupang.com/resources/*/np/js/modules/search/searchWebLogSchemas.js
+||coupang.com/resources/*/np/js/modules/search/utils/weblogUtils-min.js
 ||coupangcdn.com/customjs/criteo/
 ||coupangcdn.com/customjs/seo-js-sdk/
 ||courir.*/beacon?
@@ -125597,6 +125612,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||goto.kz/img.php^$third-party
 ||gowatchit.com/analytics.js
 ||gowatchit.com/events/*.gif?
+||goya.rutube.ru^$~image
 ||gplinks.co/auth/ads_stats_controller.php
 ||grammarly.com/api/tracking/
 ||graph.facebook.com/?ids=*&callback=$script,third-party
@@ -127140,6 +127156,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sgimage.netmarble.com/js/gtm/
 ||sgqcvfjvr.onet.pl/build/dlApi/dl.clickmap.min.js
 ||sh.sh7172.workers.dev/?=&event=
+||shallspark.com/athena/tracking/
 ||shalltry.com/athena/
 ||share.9cdn.net/share/long_cache/js/tracking/
 ||shazam.com/services/metrics/
@@ -127586,6 +127603,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||teenporn.ws/zaq/cron.php
 ||teknolojituru.com/api/tracking
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare*.js
+||telegraph.prd.api.hbomax.com/events
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?$image
@@ -127790,6 +127808,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tworld.co.kr/web/service/xtractor.service.js
 ||twowheeler.policybazaar.com/js/GTMgoogleAnalytics.js
 ||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
+||tygem.com/js/tad/tadlog.min.js
 ||uapi.production-public.tubi.io/datascience/logging
 ||uber.com/_events
 ||uber.com/_track
@@ -128075,6 +128094,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||wizcase.com/jssdk//track/
 ||wolfram.com/common/javascript/analytics.js
 ||womentop.ru/top$third-party
+||wondershare.com/ga360/
 ||wondershare.com/trk
 ||wondershare.com/wsid/com/static/utils/track.js
 ||woonboulevardpoortvliet.nl/*/Tagging_GTM/
@@ -128280,7 +128300,7 @@ link.gmapp*.net$image
 ||canvas.*.edu/page_views
 ||chat.deepseek.com/api/v0/events
 ||do-not-tracker.org^$third-party
-||dzen.ru/api/*/stats/$badfilter
+||dzen.ru/api/v4/launcher/stats/$badfilter
 ||eviltracker.net^$third-party
 ||facebook.com/tr/?$important,domain=cnet.com
 ||imrworldwide.com^$important,domain=cnet.com
@@ -129175,6 +129195,8 @@ $cookie=ytrackvisit
 ||clarity.ms^$cookie=clid
 ||clarity.ms^$cookie=muid
 ||cloudflare.com^$cookie=cfz-facebook-pixel
+||coloradoan.com^$cookie=gup-anonid
+||coloradoan.com^$cookie=gup-clientid
 ||cyber.sports.ru^$cookie=suida
 ||cyberghostvpn.com^$cookie=cg-campaign
 ||cyberghostvpn.com^$cookie=cg-clickid
@@ -135997,6 +136019,7 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||bilibili.com^$removeparam=vd-source
 ||blog.twitch.tv^$removeparam=web-only
 ||boomstore.de/*.html$removeparam=campaign
+||browser.yandex.ru^$removeparam=from
 ||bunte.de^$removeparam=umt-source
 ||buzzfeednews.com^$removeparam=ref
 ||cam4.com^$removeparam=act
