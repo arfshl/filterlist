@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510300205
+! Version: 202510310202
 ! Title: Personal Filter
-! Last Modified: 30 Oct 2025 02:05 UTC
+! Last Modified: 31 Oct 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -394,7 +394,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||30x.scaleadsfast.com^
 ||3347.wolf-gordon.com^
 ||3347.wolfgordon.com^
-||33across.com^$third-party
+||33across.com^
 ||360i.com^$third-party
 ||360tag.com^$third-party
 ||39db8b138f.apps.iocnt.de^
@@ -2910,7 +2910,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||adobeanalytics.serveone.co.kr^
 ||adobeanalytics.teksystems.com^
 ||adobeanalytics.vice.com^
-||adobedc.demdex.net^
 ||adobeedge.dva-acc.csda.gov.au^
 ||adobeedge.morganstanley.com^
 ||adobeedge.my.gov.au^
@@ -3044,7 +3043,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||advanced-web-analytics.com^$third-party
 ||advanced.praticaestoica.com.br^
 ||advancing.acams.org^
-||advangelists.com^$third-party
+||advangelists.com^
 ||advconversion.com^$third-party
 ||adviacu.fmservice.com^
 ||advise.gallup.com^
@@ -3458,7 +3457,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||agilone.com^$third-party
 ||aginginplace.vyta.ca^
 ||agkfv.ecco.com^
-||agkn.com^$third-party
+||agkn.com^
 ||agma-analytics.de^
 ||agnes.travelpro.ca^
 ||agodn.crocs.fr^
@@ -3616,7 +3615,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||akplvs.raja.fr^
 ||akq.akquinet.com^
 ||akstat.com^$third-party
-||akstat.io^$third-party
+||akstat.io^
 ||aktigzkm.bigbag.dk^
 ||aktigzkm.bollerup-jensen.dk^
 ||aktigzkm.fyr-selv.dk^
@@ -7269,7 +7268,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||bfjoyp.plus.nl^
 ||bfjpbw.herrenausstatter.de^
 ||bfkzg.bunjiestore.co.nz^
-||bfmio.com^$third-party
+||bfmio.com^
 ||bfntkv.icon.co.cr^
 ||bfofv.starkcarpet.com^
 ||bfoleyinteractive.com^$third-party
@@ -7325,7 +7324,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||bicp-analytics.postscript.io^
 ||bid.run^$third-party
 ||bidrbu.bett1.at^
-||bidswitch.net^$third-party
+||bidswitch.net^
 ||bienvivre.chartwell.com^
 ||biesn.crossrope.com^
 ||big7.com^$third-party
@@ -8928,7 +8927,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cdzjqz.gratis.com.tr^
 ||ce.adsdomaintracking.com^
 ||ce.chi.com^
-||cedexis.com^$third-party
+||cedexis.com^
 ||cedli.brooklyncandlestudio.com^
 ||cedoau.reve21shop.co.jp^
 ||ceggfe.msc-kreuzfahrten.de^
@@ -9011,7 +9010,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||chart.dk^$third-party
 ||chartaca.com^$third-party
 ||chartbeat.com^$third-party
-||chartbeat.net^$third-party
+||chartbeat.net^
 ||chat.compassshield.com^
 ||chat.forddirectdealers.com^
 ||chatgpt4.gymmembersnow.co^
@@ -10170,7 +10169,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cptrack.de^$third-party
 ||cpvsm.evvy.com^
 ||cpwrbr.blindsgalore.com^
-||cpx.to^$third-party
+||cpx.to^
 ||cqaipi.cristaiscadoro.com^
 ||cqbbpf.geewiz.co.za^
 ||cqbkhv.anacapri.com.br^
@@ -10268,7 +10267,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cruiok.cavage.com.br^
 ||cruxep.vyprodej-slevy.cz^
 ||crvpqt.srrk.co.kr^
-||crwdcntrl.net^$third-party
+||crwdcntrl.net^
 ||crykue.muckbootcompany.co.uk^
 ||cryp-o.online^$all
 ||crypto-o.click^$all
@@ -14879,7 +14878,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||demandbase.com^$third-party
 ||demandgen.ptc.com^
 ||demandscience.com^$third-party
-||demdex.net^$third-party
+||demdex.net^
 ||demo-mktg.vodafone.com^
 ||demo.emaillpb.adobe.com^
 ||demo.ptbusinesscourses.com^
@@ -18141,6 +18140,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||flamingo.stacking-club.com^
 ||flash-counter.com^$third-party
 ||flash.primoflash.com^
+||flashtalking.com^
 ||flavg.drinkfreespirits.com^
 ||flbuhz.justlease.be^
 ||flcirh.kuvings.jp^
@@ -18904,7 +18904,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||geocompteur.com^$third-party
 ||geocontatore.com^$third-party
 ||geoedge.be^$third-party
-||geoplugin.net^$third-party
+||geoplugin.net^
 ||georiot.com^$third-party
 ||geotags.refinery89.com^
 ||geoysu.blingshop.co.kr^
@@ -18951,7 +18951,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||getbeacon.io^$third-party
 ||getcamtrix-ss.checkoutera.com^
 ||getcleanlix-ss.olladeals.com^
-||getclicky.com^$third-party
+||getclicky.com^
 ||getconnected.infor.com^
 ||getconversion.net^$third-party
 ||getdigiloop-ss.checkoutera.com^
@@ -25375,6 +25375,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||invoca.net^$third-party
 ||invoca.solutions^$third-party
 ||inzicht.cz.nl^
+||io.narrative.io^
 ||io.nodar.sa^
 ||ioaumy.pinkpanda.hr^
 ||iocnt.net^$third-party
@@ -26560,7 +26561,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||krt.trickovy.cz^
 ||krt.trickovy.sk^
 ||krurdm.spao.com^
-||krxd.net^$third-party
+||krxd.net^
 ||kryuej.empikbilety.pl^
 ||ks42zt.spec.fm^
 ||ksamarketing.sedgwick.com^
@@ -30719,7 +30720,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||lobhn.jacksonandperkins.com^
 ||lobster.justunderwear.com^
 ||lobup.whoiselijah.uk^
-||localytics.com^$third-party
+||localytics.com^
 ||locate.findfashionevents.com^
 ||location.cyou^$all
 ||lockview.cn^$third-party
@@ -31013,7 +31014,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||lp.wholetomato.com^
 ||lp01pg.ws13-dev.pocs.co.uk^
 ||lp3.dentsplysirona.com^
-||lp4.io^$third-party
+||lp4.io^
 ||lpage.email2.key.com^
 ||lpbhnv.nbcbayarea.com^
 ||lpbhnv.nbcboston.com^
@@ -32097,7 +32098,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||marketing.five-startech.com^
 ||marketing.five19creative.com^
 ||marketing.flaire.com^
-||marketing.flashtalking.com^
 ||marketing.fleetfeetorlando.com^
 ||marketing.fleetfeetraleigh.com^
 ||marketing.fleetone.com^
@@ -33252,7 +33252,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||mat.aegps.com^
 ||mateti.net^$third-party
 ||matheranalytics.com^$third-party
-||mathtag.com^$third-party
+||mathtag.com^
 ||mato.clanto.cloud^
 ||matomo-demo-*.amazonaws.com^
 ||matomo.akbal.dev^
@@ -35780,7 +35780,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||mpglie.apartmentguide.com^
 ||mpgtft.zoobeauval.com^
 ||mphdd.multipharma.be^
-||mpianalytics.com^$third-party
+||mpianalytics.com^
 ||mpibbc.cotswoldoutdoor.com^
 ||mpjtif.viabovag.nl^
 ||mpkip.boostmediagroup.com^
@@ -36858,7 +36858,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||np.uposhomb.xyz^
 ||np.uposhombd.com^
 ||np.uposhombd.shop^
-||npario-inc.net^$third-party
+||npario-inc.net^
 ||npczil.maxandco.com^
 ||npfopn.mix.tokyo^
 ||npjgm.petersheppard.com.au^
@@ -37661,7 +37661,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||onnnn.vievebeauty.com^
 ||onoztg.ultimate-guitar.com^
 ||onsgp.tryrecoverx.com^
-||onthe.io^$third-party
+||onthe.io^
 ||ontxgr.hofer-reisen.at^
 ||onupnu.edreams.com.au^
 ||onvas.katespadeoutlet.com^
@@ -37698,7 +37698,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||openinstall.io^
 ||openinternetexchange.com^$third-party
 ||openinternetexchange.net^$third-party
-||openstat.net^$third-party
+||openstat.net^
 ||openstats.co^
 ||opentracker.net^$third-party
 ||opfjj.vivobarefoot.com^
@@ -39046,7 +39046,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||pinvf.australianopaldirect.com^
 ||pionevia.com^
 ||pipedream.wistia.com^
-||pippio.com^$third-party
+||pippio.com^
 ||pipujp.titaneyeplus.com^
 ||piq4.inseec.education^
 ||piranha.jsmobiledev.com^
@@ -40328,7 +40328,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||qualaroo.com^
 ||quality.bedrockquartz.com^
 ||quant.jp^$third-party
-||quantcount.com^$third-party
+||quantcount.com^
 ||quantserve.com^$~object,third-party
 ||quantumdex.io^$third-party
 ||quantummetric.com^$third-party
@@ -47271,7 +47271,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||simplereach.com^$third-party
 ||simpletopay.americanexpress.co.uk^
 ||simplewebanalysis.com^$third-party
-||simpli.fi^$third-party
+||simpli.fi^
 ||simplify.razorsync.com^
 ||simplycast.us^$third-party
 ||simplymeasured.com^$third-party
@@ -63620,7 +63620,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||the.tukitakibazar.com^
 ||the.uuralmart.com^
 ||the7daygenius.com^
-||theadex.com^$third-party
+||theadex.com^
 ||thebestlinks.com^$third-party
 ||thecounter.com^$third-party
 ||thedoc.doctronic.ai^
@@ -68614,7 +68614,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||up-rank.com^$third-party
 ||up.juicysneakers.com.br^
 ||up.urbanpadel.fr^
-||upalytics.com^$third-party
+||upalytics.com^
 ||upcgu.untamedego.com^
 ||upcqgl.idrive.com^
 ||update-edgekeydrupal.net.easyjet.com^
@@ -68663,7 +68663,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||uqpvd.nakie.co^
 ||uqzns.lovisa.com^
 ||uqztj.umbrellasource.com^
-||urbanairship.com^$third-party
+||urbanairship.com^
 ||urcaq.eberjey.com^
 ||urdap.forever21.com^
 ||urehgr.halekulani.com^
@@ -69913,7 +69913,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||w3counter.com^$third-party
 ||w4.air-worldwide.com^
 ||w4h5ae.ru^
-||w55c.net^$third-party
+||w55c.net^
 ||w7.berlin.de^
 ||w88.abc.com^
 ||w88.disney.ru^
@@ -71480,7 +71480,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||xpcpmr.gsm55.com^
 ||xpleza.dek-d.com^
 ||xpleza.eatsmarter.com^
-||xplosion.de^$third-party
+||xplosion.de^
 ||xprt.afzuigkapfilterexpert.nl^
 ||xprt.dunstabzugshauben-ersatzfilter.de^
 ||xprt.neue-wasserfilter.de^
@@ -71657,7 +71657,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||y4e04gql5o1b.www.nookgaming.com^
 ||y5qhzz3q.designdetails.fm^
 ||y8hxgv9m.kobetsu.co.jp^
-||yadro.ru^$third-party
+||yadro.ru^
 ||yadtbk.blacks.co.uk^
 ||yaixpd.modyf.fr^
 ||yaizkr.168cm.kr^
@@ -72112,7 +72112,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||zcvtu.fitssock.com^
 ||zcwcep.lojasrede.com.br^
 ||zcwqpk.suttons.co.uk^
-||zdbb.net^$third-party
+||zdbb.net^
 ||zdbbqb.mancrates.com^
 ||zdcjts.asics.com^
 ||zdcmxy.toute-la-franchise.com^
@@ -119618,7 +119618,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||acr-*-prd.samsungcloud.tv^
 ||ad*.ettoday.net^
 ||ad-bls-tracking.lemino.docomo.ne.jp^
-||ad-events.flashtalking.com^
 ||ad-log.wemakeprice.com^
 ||ad.bench.utorrent.com^
 ||ad.dl.mz.de^
@@ -119821,7 +119820,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.languagetoolplus.com^
 ||analytics.lasegunda.ecn.cl^
 ||analytics.livestream.com^
-||analytics.localytics.com^
 ||analytics.lunarclientprod.com^
 ||analytics.lunaweb.cloud^
 ||analytics.luogu.me^
@@ -120308,7 +120306,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||counter.top.ge^
 ||counter.ukr.net^
 ||counter.web.money^
-||counter.yadro.ru^
 ||counter.zerohedge.com^
 ||counter1.fc2.com^
 ||counter24.luxnet.ua^
@@ -121608,6 +121605,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sayac.tmgrup.com.tr^
 ||sb1.mangataro.org^
 ||sbeacon.sina.com.cn^
+||scdata.51job.com^
 ||sci.intuit.com^
 ||scripts-repo.reelevant.com^
 ||sdata.wiley.com^
@@ -124089,7 +124087,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api-godavari.sonyliv.com/beacon
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com/engage/?
-||api-js.mixpanel.com/track/?
 ||api-kit.snapchat.com/com.snap.camerakit.v3.Metrics^
 ||api-onedio-lambda-production.onedio.com/srv/counters/
 ||api-register.ujoygames.com/logs/
@@ -125903,7 +125900,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||investigationdiscovery.com/events/
 ||inzynieria.com/addStats
 ||io-tech.fi/io/www/delvr/lokiz.php
-||io.narrative.io/?$third-party
 ||ioam.de/?
 ||ioam.de/aid.io?
 ||ioam.de/tx.io?
@@ -125914,6 +125910,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ipada.cafe.naver.com^$xmlhttprequest
 ||iphonelife.com/_app/immutable/chunks/TrackingParamsFormInputs.
 ||iphonesoft.fr/js/analytics
+||ipleaks.io/public/google/gtag.js
 ||ipokabu.net/js/analytics.js
 ||iptv-web.app/__/tracking.astro_astro_type_script_index_
 ||iqiyi.com/pixel
@@ -126330,6 +126327,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||misumi-ec.com/vcommon/common/js/karte.js
 ||mixi.net/static/js/build/mixi-analysis
 ||mixnews.lv/wp-content/uploads/perfmatters/gtagv*.js
+||mixpanel.com/track
 ||ml314.com/csync.ashx^
 ||mlstatic.com/analytics/
 ||mmcdn.com/events/
@@ -127271,7 +127269,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||spankbang.com/api/*/track-impression
 ||sparkasse.de/frontend/setTrackingCookie.html
 ||spclient.wg.spotify.com/ad-logic/
-||spclient.wg.spotify.com/ads/
 ||spclient.wg.spotify.com/gabo-receiver-service*/v3/events/
 ||spcs.*/api/common/beacon/
 ||spdn.splice.com/next-integrations/integrations/google-tag-manager/
@@ -127293,6 +127290,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sportsseoul.com/news/site_log/
 ||spot.im/analytics/analytics.js
 ||spot.im/api/tracker/
+||spotify.com/ads/
 ||spotifycdn.com/cdn/js/gtm.
 ||spox.com/pub/js/track.js
 ||sprinklr.com/api/livechat/prompt/browse/event
@@ -127360,6 +127358,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static-img.threatbook.cn/zhugeio/zhuge.js
 ||static-immobilienscout24.de/web-metrics/
 ||static-lvlt.xhcdn.com/js/track.min.js
+||static-web.grammarly.com/web-heartbeat/
 ||static.actu.fr/assets/js/smarttag*.js
 ||static.airbridge.io/sdk/
 ||static.bbci.co.uk/bbcdotcom/*/script/av/emp/analytics.js
@@ -129747,7 +129746,6 @@ xfree.com$cookie=anonymous
 ||sportskeeda.com^$cookie=keeda-session-uuid
 ||sportskeeda.com^$cookie=unique-browser-id
 ||sportskeeda.com^$cookie=unique-user-id
-||spotify.com/ads/
 ||stat.y.qq.com^
 ||stats.appsflyer.com^
 ||stats.grafana.org^
@@ -129868,7 +129866,6 @@ xfree.com$cookie=anonymous
 d4?appid*type*
 ||*-datareceiver.aki-game.net^
 ||103.41.167.237/v2/resolv?host=
-||33across.com^
 ||4seeresults.com^
 ||a.appbaqend.com^
 ||ab.servogram.io^
@@ -129900,15 +129897,12 @@ d4?appid*type*
 ||adtracker.jpchd.veraxen.com^
 ||adtracker.mkjigsaw.com^
 ||adtracker.oilpainting.colorbynumber.veraxen.com^
-||advangelists.com^
 ||advmob.cn^
 ||adx-in.ads.heytapmobile.com^
 ||aff-policy.lbesecapi.com^
 ||aff-report.lbesecapi.com^
 ||aftonbladetnya.sc.omtrdc.net^
-||agkn.com^
 ||airlytics.airlock.twcmobile.weather.com^
-||akstat.io^
 ||alexa-mobile-analytics-configuration-prod.s3.amazonaws.com^
 ||ali-bj-pcdn-*.biliapi.net^
 ||ali-stats.jpush.cn^
@@ -130053,11 +130047,9 @@ d4?appid*type*
 ||beacons-prod.fubo.tv^
 ||beacons.ads.fubo.tv^
 ||beha.ksmobile.com^
-||bfmio.com^
 ||bi.manhuaren.com^
 ||bidder.dsp.outfit7.com^
 ||bidder.mdspinc.com^
-||bidswitch.net^
 ||bisrtb.vidazoo.com^
 ||bitmango.com/log
 ||books-analytics-events.apple.com^
@@ -130076,11 +130068,9 @@ d4?appid*type*
 ||cdn-adn.rayjump.com^
 ||ced-ns.sascdn.com^
 ||cedexis-radar.net^
-||cedexis.com^
 ||census-app.scorecardresearch.com^
 ||cfg.cml.ksmobile.com^
 ||cgicol.amap.com^
-||chartbeat.net^
 ||click.oneplus.cn^
 ||click.oneplus.com^
 ||client-telemetry.hingeprod.net^
@@ -130119,12 +130109,10 @@ d4?appid*type*
 ||costco-adbutler.com^
 ||counters.booking.com^
 ||countly.globaldelight.net^
-||cpx.to^
 ||crasheye.cn^
 ||crittercism.com/api/
 ||crs-event.line.me^
 ||crs-hometab-event.line.me^
-||crwdcntrl.net^
 ||csplog.kwai-pro.com^
 ||cws-hulu.conviva.com^
 ||d.applvn.com^
@@ -130140,7 +130128,6 @@ d4?appid*type*
 ||dc.dqa.samsung.com^
 ||de01.rayjump.com^
 ||decide.mixpanel.com^
-||demdex.net^
 ||detect.rayjump.com^
 ||dev-apigw.samsungdmroute.com^
 ||device-metrics-*.amazon.com^
@@ -130222,7 +130209,6 @@ d4?appid*type*
 ||experiment.pixverse.ai^
 ||f-log-*.grammarly.io^
 ||facebook.com/rtb_impression/?tr=
-||flashtalking.com^
 ||flurry.agentportal-*.yahoodns.net^
 ||flurry.agentportal.*.yahoodns.net^
 ||fm-analytics-api.pocketfm.com^
@@ -130244,8 +130230,6 @@ d4?appid*type*
 ||geoinfo.i2w.io^
 ||geoip.fotoable.net^
 ||geoip.ifunny.co^
-||geoplugin.net^
-||getclicky.com^
 ||gjapplog.uc.cn^
 ||gjapplog.ucweb.com^
 ||global.cmcs.service.amazonsilk.com/metrics
@@ -130296,7 +130280,6 @@ d4?appid*type*
 ||int.vlancaa.site^
 ||intlsucus.ucweb.com^
 ||invenio_tracking_*.sgnapps.com^
-||io.narrative.io^
 ||ios.bugly.qq.com^
 ||iot-eu-logser.realme.com^
 ||iot-in-logser.realme.com^
@@ -130305,13 +130288,11 @@ d4?appid*type*
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\bg_video_quality_privilege.gif
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\video_accelerate_guide_new.gif
 ||jpush.io^
-||krxd.net^
 ||lepodownload.mediatek.com^
 ||lg-release-tracking-8080.gcld-line.com^
 ||line1-log.biligame.net^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||loadus.exelator.com^
-||localytics.com^
 ||log*-*.tiktokv.com^
 ||log*-misc-lf.amemv.com^
 ||log*-normal-*.tiktokv.us^
@@ -130400,14 +130381,12 @@ d4?appid*type*
 ||logservice1.dbankcloud.cn^
 ||logservice1.hicloud.com^
 ||logsink.zedge.net^
-||lp4.io^
 ||m.vk.com/counters.php
 ||m.vpadn.com^
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
 ||m5.amap.com/ws/shield/location/collection/autodata/stat^
 ||maas-*.phunware.com^
 ||mapi-log.qoo*.jp^
-||mathtag.com^
 ||mcs-va-*.tiktokv.com^
 ||mcs-va.tiktokv.com^
 ||mcs.*.tiktok.com^
@@ -130435,7 +130414,6 @@ d4?appid*type*
 ||minor-api-os.hoyoverse.com^
 ||mintegral.net^
 ||misc.api.snaptube.app^
-||mixpanel.com/track
 ||mlb.did.ijinshan.com^
 ||moa-upload-online.coloros.com^
 ||moai-dev-samsung.com^
@@ -130469,7 +130447,6 @@ d4?appid*type*
 ||monitoring-sdk.experimentation.intuit.com^
 ||monsetting.toutiao.com^
 ||mosspf.net^
-||mpianalytics.com^
 ||ms.cmcm.com^
 ||msg-intl.qy.net^
 ||msg.simeji.baidu.jp^
@@ -130489,7 +130466,6 @@ d4?appid*type*
 ||node.aibeacon.jp^
 ||notes-analytics-events.apple.com^
 ||notes-analytics-events.news.apple-dns.net^
-||npario-inc.net^
 ||nr.bidderstack.com^
 ||nrc.tapas.net^
 ||nsclickvideo.xiaodutv.com^
@@ -130498,10 +130474,8 @@ d4?appid*type*
 ||omes-sec.heytapmobile.com^
 ||omni-ads.omni.news^
 ||online-metrix.net^
-||onthe.io^
 ||open.oneplus.net^
 ||openlog.tapapis.cn^
-||openstat.net^
 ||opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io^
 ||overseauspider.yuanshen.com:8888/log^
 ||overseauspider.yuanshen.com^
@@ -130520,7 +130494,6 @@ d4?appid*type*
 ||pingma.qq.com^
 ||pingtas.qq.com^
 ||pinkoi.com/_log/
-||pippio.com^
 ||pixel.magentamarketing.com^
 ||plankton-gtm.a.autoscout24.com^
 ||plausible.io^$app=jp.gocro.smartnews.android
@@ -130550,7 +130523,6 @@ d4?appid*type*
 ||qa-events-schema.viacom.tech^
 ||qcloud-sg-datareceiver.kurogame.xyz^
 ||qmds-dev-samsung.com^
-||quantcount.com^
 ||r-log.dable.io^
 ||r.apkpure.net^
 ||rabbit.meitustat.com^
@@ -130614,7 +130586,6 @@ d4?appid*type*
 ||sg.log.ulivetv.net^
 ||sg01.rayjump.com^
 ||sia.internet.apps.samsung.com^
-||simpli.fi^
 ||smartcard.apps.coloros.com^
 ||smetrics.cnn.com^
 ||smetrics.discover.com^
@@ -130682,7 +130653,6 @@ d4?appid*type*
 ||telemetry.voxeet.com^
 ||teleport.soom.la^
 ||tenant-content.apm.appfolio-analytics.com^
-||theadex.com^
 ||tjinit-event.babybus.com^
 ||tjinit-global-register.babybus.com^
 ||tknet.rayjump.com^
@@ -130796,10 +130766,8 @@ d4?appid*type*
 ||umengacs.m.taobao.com^
 ||umengjmacs.m.taobao.com^
 ||up-hl.3g.qq.com^
-||upalytics.com^
 ||upoll.umengcloud.com^
 ||ups.ksmobile.net^
-||urbanairship.com^
 ||us-east-1.paa-reporting-advertising.amazon^
 ||us-events.api.iheart.com^
 ||us-tracking.nextdoor.com^
@@ -130820,7 +130788,6 @@ d4?appid*type*
 ||viva.api.xiaoying.co^
 ||vk-analytics.ru^
 ||volceapplog.com^
-||w55c.net^
 ||weather-analytics-events.apple.com^
 ||weather-analytics-events.news.apple-dns.net^
 ||webmetrics.mayoclinic.org^
@@ -130837,13 +130804,10 @@ d4?appid*type*
 ||xlog-va.tiktokv.com^
 ||xlog.byteoversea.com^
 ||xlog.tiktokv.com^
-||xplosion.de^
-||yadro.ru^
 ||ye.dun.163yun.com^
 ||ymtracking.com^
 ||ys-log-upload-os.hoyoverse.com^
 ||yun-hl.3g.qq.com^
-||zdbb.net^
 ||zml-apm-prd.dbv4.noncd.db.de^
 ||ztevents.zaloapp.com^
 ! ### Temporary ###
@@ -131002,7 +130966,7 @@ elahmad.com##body > div[id^="ads"]
 elahmad.com#%#//scriptlet('prevent-fetch', 'pahtag.tech')
 larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript', 'noopFunc')
 larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFunc')
-||85po.com/player/stats.php?event=$image,redirect=1x1-transparent.gif,domain=85po.com
+||85po.com/player/stats.php?event=$image,redirect=1x1-transparent.gif,domain=85po.com|85po.net|85xo.com
 ! + PLATFORM(windows, mac, android)
 @@||api.sprig.com/sdk/$domain=paypal.com
 @@||birdflock.unipus.cn/ufe/third/sensorsdata/*/sensorsdata.min.js$domain=ucloud.unipus.cn
@@ -132908,6 +132872,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cubchannel.com^
 ||cubepins.com^
 ||cuddlycake.com^
+||cuddlylab.com^
 ||cuddlylunchroom.com^
 ||culturedcamera.com^
 ||culturedfeather.com^
@@ -133256,6 +133221,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||haikusoap.com^
 ||halcyoncanyon.com^
 ||halcyonsculpture.com^
+||halocolor.com^
 ||haltingbadge.com^
 ||haltingdivision.com^
 ||hammerhearing.com^
@@ -133500,6 +133466,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||melodiousharmony.com^
 ||melodioussymphony.com^
 ||meltmilk.com^
+||memeorigin.com^
 ||memolight.com^
 ||memopilot.com^
 ||memorizematch.com^
@@ -133617,6 +133584,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||operationchicken.com^
 ||operationnail.com^
 ||optimallimit.com^
+||optionsnomad.com^
 ||opulentsylvan.com^
 ||orangebirdie.com^
 ||orientedargument.com^
@@ -134054,6 +134022,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||specialscissors.com^
 ||specialsnake.com^
 ||spectacularstamp.com^
+||spellingthoughts.com^
 ||spellknight.com^
 ||spellmist.com^
 ||spellsalsa.com^
@@ -134151,6 +134120,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||subseasecurity.com^
 ||subsequentstew.com^
 ||substantialgrade.com^
+||successbuffet.com^
 ||successfuelevents.com^
 ||suddensoda.com^
 ||suggestionbridge.com^
@@ -134180,6 +134150,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||syllablesight.com^
 ||synonymoussticks.com^
 ||synthesizescarecrow.com^
+||systemssummit.com^
 ||tabcarts.com^
 ||tackytrains.com^
 ||tacojournal.com^
@@ -134391,6 +134362,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||wildwoodavenue.com^
 ||wirecomic.com^
 ||wiredforcoffee.com^
+||wirenewsletter.com^
 ||wirypaste.com^
 ||wisedotcom.com^
 ||wispycity.com^
@@ -134582,6 +134554,11 @@ $removeparam=i3-ord,domain=dmm.co.jp|dmm.com
 $removeparam=i3-ref,domain=dmm.co.jp|dmm.com
 $removeparam=ici,domain=shein.co.uk|shein.com
 $removeparam=iclid
+$removeparam=int-campaign
+$removeparam=int-content
+$removeparam=int-medium
+$removeparam=int-source
+$removeparam=int-term
 $removeparam=ir-adid
 $removeparam=ir-campaignid
 $removeparam=ir-partnerid
@@ -135581,6 +135558,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||sportsbull.jp^$removeparam=vktop
 ||sportschosun.com^$removeparam=f-url
 ||sprinklr.com/api/livechat/event/$removeparam=cursor
+||sravni.ru^$removeparam=rubricalias
 ||stacksocial.com/*/*&partnerid=$removeparam=partnerid
 ||stacksocial.com^$removeparam=aid
 ||stacksocial.com^$removeparam=rid
@@ -135638,7 +135616,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||target.com^$removeparam=ref
 ||target.com^$removeparam=targetid
 ||tcgplayer.com^$removeparam=source
-||tech.onliner.by^$removeparam=int-source
 ||techbook.de^$removeparam=dtp
 ||techbook.de^$removeparam=ref
 ||techbook.de^$removeparam=tbl
@@ -136325,7 +136302,6 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||microsoft.msafflnk.net^$removeparam=sharedid
 ||mioga.de^$removeparam=idealoid
 ||mioga.de^$removeparam=pl
-||mirror.co.uk^$removeparam=int-source
 ||mirtesen.ru^$removeparam=ad
 ||mirtesen.ru^$removeparam=bvuuid
 ||mirtesen.ru^$removeparam=nvuuid
