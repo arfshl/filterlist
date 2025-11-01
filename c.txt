@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202510310202
+! Version: 202511010206
 ! Title: Personal Filter
-! Last Modified: 31 Oct 2025 02:02 UTC
+! Last Modified: 01 Nov 2025 02:06 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3793,6 +3793,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||alpaca.thesocialmedwork.com^
 ||alpaca.wingmantracker.com^
 ||alpha.bestloan.ai^
+||alphaupsell.s3.ap-northeast-2.amazonaws.com^
 ||alpixtrack.com^$third-party
 ||alpwclk.alphatonicworks.site^
 ||alquiler.carflex.es^
@@ -40836,6 +40837,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||res.rbl.ms^$third-party
 ||res.swedishnomad.com^
 ||res.t18.fr^
+||rescuerhino.com^
 ||research-artisan.com^$third-party
 ||research-int.se^$third-party
 ||research-tool.com^$third-party
@@ -121036,9 +121038,11 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||log.zingnews.vn^
 ||log.znews.vn^
 ||log000.goo.ne.jp^
+||log1.wanmei.com^
 ||log1.wtlogin.qq.com^
 ||log2.musical.ly^
 ||log2.radiko.jp^
+||log2.wanmei.com^
 ||logapi.kt.com^
 ||logapi.sooplive.com^
 ||logapi.tv.naver.com^
@@ -121933,6 +121937,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.debatdirect.tweedekamer.nl
 ||stats.dnaindia.com^
 ||stats.emol.com^
+||stats.externulls.com^
 ||stats.firedrive.com^
 ||stats.g.doubleclick.net^
 ||stats.habr.com^
@@ -121976,6 +121981,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.shopify.com^
 ||stats.slideshare.net^
 ||stats.someecards.com^
+||stats.spottedlublin.pl^
 ||stats.stylight.de^
 ||stats.suite101.com^
 ||stats.tehila.gov.il^
@@ -124287,6 +124293,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||app.watchthem.live/pixel-track/
 ||app.writesonic.com/mp/track?
 ||appdynamics.com/geo/$third-party
+||apple.com/assets/mt-metricskit-
 ||apple.com/metrics/
 ||appmifile.com^*/stat/
 ||appront.net/click.js
@@ -124756,6 +124763,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatgpt.com/ces/*/b|$xmlhttprequest
 ||chatgpt.com/ces/statsc/
+||chatgpt.com/ces/v1/i^
 ||chatgpt.com/ces/v1/p|
 ||chatgpt.com/ces/v1/t
 ||chaturbate.com/api/adblocker/
@@ -125711,6 +125719,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hobbygames.ru/?route=product/product/visit
 ||hogangnono.com/api/*/activity-logs/collect
 ||hogangnono.com/collect?
+||holistic.news/3unw/
 ||hombex.com/assets/js/component/analytics.js
 ||home.ebs.co.kr/ebsnews/logProce/logAjax
 ||homemate.co.jp/common/js/beacon/real_estate_detail.js
@@ -125946,6 +125955,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||joggo.run/api/events
 ||join.protonvpn.com/api/data/v1/metrics
 ||jooble.org/spa-metrics
+||joymadam.com/app/Eclog/
 ||joymaxtr.net/jc/gtm.js
 ||jr-cross.co.jp/lib/js/ekinakaPotal-ga.js
 ||js*.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
@@ -126719,7 +126729,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||pocketpc.ch/mrf4u/*/js/ps/sb.scorecardresearch.com/beacon.js
 ||pocketpc.ch/mrf4u/*/js/ps/secure.quantserve.com/quant.js
 ||poco.de/api/tracking
-||podcasts.apple.com/assets/mt-metricskit-
 ||poder360.com.br/_tracker
 ||poe.com/api/ping
 ||polsatsport.pl/templates/interiaStats/psport2019/interiaStats.js
@@ -127260,6 +127269,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||soundcloud.com/v*/events
 ||sovetnik.net/count
 ||sozcu.com.tr/aip/aip2Analytics.js
+||sp-cdn.linux-magazin.de/wrapper/metrics/
 ||sp.cargurus.com/i?stm=
 ||sp.fanatical.com/i?cd_c=*&aid=
 ||sp.pluto.tv/com.snowplowanalytics.
@@ -127361,6 +127371,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static-web.grammarly.com/web-heartbeat/
 ||static.actu.fr/assets/js/smarttag*.js
 ||static.airbridge.io/sdk/
+||static.alphwidget.com/script/Common-Script/PRODUCTION/alphacore_alpha_data.js
+||static.alphwidget.com/script/Push-Script/PRODUCTION/alphapush_GA.js
 ||static.bbci.co.uk/bbcdotcom/*/script/av/emp/analytics.js
 ||static.canal-plus.net/*/trcking.min.js
 ||static.cdn-cian.ru/frontend/ca/ca.js
@@ -128087,6 +128099,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||wish.com/api/log/
 ||wish.com/api/mobile/log-
 ||withnews.jp/assets/js/bcon.js
+||wivismall.com/ux/js/comGroobee.js
 ||wiwo.de/js/*/webtrekk
 ||wix.com/_api/blog-social-counters/
 ||wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope
@@ -128543,6 +128556,8 @@ jump.refinery29.com$image
 launchbit.com/taz-pixel$image
 liens.newsletters.jeuxvideo.com%2Fm%2Fopening%2F$image
 liens.newsletters.jeuxvideo.com/m/opening/$image
+line.my.salesforce.com%2Fservlet%2Fservlet.ImageServer%3Foid=*%26esid=$image
+line.my.salesforce.com/servlet/servlet.ImageServer?oid=*&esid=$image
 link.cnbc.com$image
 link.dissh.com%2Fmo%2F$image
 link.dissh.com/mo/$image
@@ -132496,6 +132511,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 ||2znp09oa.com^
+||3rdspacetech.com^
 ||4jnzhl0d0.com^
 ||82o9v830.com^
 ||abilityscale.com^
@@ -132704,6 +132720,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||burlywhistle.com^
 ||burnbubble.com^
 ||bushesbag.com^
+||businessupdater.com^
 ||bustlingbook.com^
 ||butterbulb.com^
 ||butterburst.com^
@@ -133789,6 +133806,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||rentinfinity.com^
 ||repeatsweater.com^
 ||replaceroute.com^
+||rescuerhino.com^
 ||resonantbrush.com^
 ||resonantrock.com^
 ||respectrain.com^
@@ -133984,6 +134002,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||snakeslang.com^
 ||snappyreport.com^
 ||snapsgate.com^
+||snazzypoodle.com^
 ||sneakwind.com^
 ||sneakystew.com^
 ||sneezecovers.com^
@@ -134286,6 +134305,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||unwieldyhealth.com^
 ||unwieldyimpulse.com^
 ||unwieldyplastic.com^
+||upgradeyoga.com^
 ||uppitytime.com^
 ||upscaledigest.com^
 ||urbanlaurel.com^
