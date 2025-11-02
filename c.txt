@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511010206
+! Version: 202511020209
 ! Title: Personal Filter
-! Last Modified: 01 Nov 2025 02:06 UTC
+! Last Modified: 02 Nov 2025 02:09 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -40837,7 +40837,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||res.rbl.ms^$third-party
 ||res.swedishnomad.com^
 ||res.t18.fr^
-||rescuerhino.com^
 ||research-artisan.com^$third-party
 ||research-int.se^$third-party
 ||research-tool.com^$third-party
@@ -120862,6 +120861,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||iot.skywayplatform.com^
 ||ipcc.vnpt.com.vn^
 ||ipgeolocation.abstractapi.com^
+||ipm.adblockplus.dev^
 ||iptracker-lb-*.amazonaws.com^
 ||iq.afterpay.com^
 ||irqs.ioam.de^
@@ -123057,7 +123057,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /omniture_tracking.
 /onetag/*
 /oo/*/l.js|$~third-party
-/oo/*/lsync.js$~third-party
+/oo/*/lsync.$~third-party
 /oo/cl*.js?rd=$~third-party
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
@@ -123157,6 +123157,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /senddata?site=inpage
 /sensorsdata.min.js
 /set_tracking.js
+/sftouch?branchId=
 /share/js/gAnalytics.js
 /shareCounts.
 /shared-content/art/stats/common/tracker.js
@@ -123527,6 +123528,7 @@ borfilm.com,hronika.info##.count
 brasil247.com###taboola-mid-article-leia-mais
 briefly.co.za#%#//scriptlet('set-local-storage-item', '/^recommendation_uuid/', '$remove$')
 bunshun.jp##.recommend-articles:has( > div[class^="taboola"])
+business.nikkei.com###pianoRecommendBottom
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
@@ -126081,6 +126083,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||leadberry.com/trackers/$third-party
 ||leadpages.net/*/tracking.js
 ||learning.linkedin.com/fizzy/admin
+||leboncoin.fr/piano-analytics/
 ||lecturas.com/Content/*/js/trackPopup.js
 ||lego.com/api/dl-event-ingest
 ||lemonde.fr/*?s=$ping,xmlhttprequest
@@ -127251,6 +127254,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||snva.jp^*/beacon.js
 ||so-zou.jp/js/ga.js
 ||sobaka.ru/assets/*/countersApi.js
+||softonic.jp/web-stats
 ||softportal.com/js/metrika.js
 ||sohu.com/clk.gif?
 ||sohu.com/pv.js
@@ -129899,6 +129903,7 @@ d4?appid*type*
 ||adfuture.cn^
 ||adj.st^
 ||admob-app-id-*.firebaseio.com^
+||ads-api.x.com^
 ||ads-image.production-public.tubi.io^
 ||ads-img-al.xhscdn.com^
 ||ads-privacy-api.prd.mz.internal.unity3d.com^
@@ -132909,6 +132914,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cushiondrum.com^
 ||cutecalculator.com^
 ||cutechin.com^
+||cyclinghere.com^
 ||cyclopsdial.com^
 ||damagedadvice.com^
 ||damageddistance.com^
@@ -133061,6 +133067,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||faithrowold.com^
 ||fakedisguise.com^
 ||fallaciousfifth.com^
+||fallingshoals.com^
 ||falseframe.com^
 ||falsesight.com^
 ||familiarrod.com^
@@ -134232,6 +134239,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||ticketssponge.com^
 ||ticklesign.com^
 ||tidymitten.com^
+||tidysprite.com^
 ||tightpowder.com^
 ||tinybluewhale.com^
 ||tinyswans.com^
@@ -134638,6 +134646,7 @@ $removeparam=outlink,domain=sedaily.com
 $removeparam=personaclick-input-query
 $removeparam=personaclick-search-query
 $removeparam=pg,domain=fnnews.com
+$removeparam=phfp,domain=proton.me|protonvpn.com
 $removeparam=phone-code,domain=shein.co.uk|shein.com
 $removeparam=pk-campaign
 $removeparam=pk-medium
@@ -134937,6 +134946,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
 ||cinematoday.jp^$removeparam=g-clk
+||cj.dotomi.com^$removeparam=/^\w=/
 ||click.redditmail.com^$removeparam=ref
 ||click.redditmail.com^$removeparam=ref-campaign
 ||click.redditmail.com^$removeparam=ref-source
@@ -135058,6 +135068,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||em.dynamicyield.com^$removeparam=tag-ids
 ||email.nationalgeographic.com^$removeparam=--du--
 ||email.nationalgeographic.com^$removeparam=--f--
+||emjcd.com^$removeparam=/^\w=/
 ||engage.cloud.microsoft/main/*thread$removeparam=allow-app-redirect
 ||engage.cloud.microsoft/main/*thread$removeparam=trk-ecs-etag
 ||engage.cloud.microsoft/main/*thread$removeparam=trk-email-type
@@ -135093,6 +135104,11 @@ rtkcid=*&clickid=$removeparam=clickid
 ||faphouse.com^$removeparam=vep
 ||faphouse.com^$removeparam=xhuserid
 ||fashion-press.net^$removeparam=media
+||fastmail.com^$removeparam=gspk
+||fastmail.com^$removeparam=gsxid
+||fastmail.com^$removeparam=ps-partner-key
+||fastmail.com^$removeparam=ps-xid
+||fastmail.com^$removeparam=pscd
 ||fikfapcams.com^$removeparam=affiliateid
 ||fikfapcams.com^$removeparam=realdomain
 ||fikfapcams.com^$removeparam=referrer
@@ -135365,6 +135381,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||newspicks.com^$removeparam=block
 ||newspicks.com^$removeparam=ref
 ||newspicks.com^$removeparam=ref-t
+||nextdns.io^$removeparam=from
 ||nikkansports.com^$removeparam=nsgid
 ||nikke-jp.com^$removeparam=pid
 ||nikke.onelink.me^$removeparam=pid
@@ -135372,6 +135389,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||nishispo.nishinippon.co.jp^$removeparam=rct
 ||nitter.net^$removeparam=referer
 ||nordot.app^$removeparam=ncmp
+||notebooklm.google.*$removeparam=icid
+||notebooklm.google.*$removeparam=original-referer
 ||nuuvem.com^$removeparam=raneaid
 ||nuuvem.com^$removeparam=ranmid
 ||nuuvem.com^$removeparam=ransiteid
@@ -135440,6 +135459,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||promote.betcity.ru^$removeparam=icm
 ||promote.betcity.ru^$removeparam=refcode
 ||promote.betcity.ru^$removeparam=widget-id
+||proton.me^$removeparam=url-id
 ||protonvpn.com^$removeparam=plan
 ||protonvpn.com^$removeparam=ref
 ||protonvpn.com^$removeparam=url-id
@@ -135488,6 +135508,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||realtor.com^$removeparam=flow
 ||realtor.com^$removeparam=rdc-visitor-id
 ||record.pt^$removeparam=ref
+||redbull.com^$removeparam=ldtag-cl
+||redbull.com^$removeparam=lt-r
 ||reddit.com^$removeparam=%243p
 ||reddit.com^$removeparam=%24deep-link
 ||reddit.com^$removeparam=correlation-id
@@ -135824,7 +135846,7 @@ $removeparam=ocid,domain=bbc.co.uk|bbc.com
 $removeparam=oref,domain=defenseone.com|govexec.com|nextgov.com|route-fifty.com
 $removeparam=promotionid,domain=shopee.co.id|shopee.co.th|shopee.ph
 $removeparam=publish-id,domain=shopee.co.id|shopee.co.th|shopee.ph
-$removeparam=ref,domain=2chblog.jp|animember.net|bipblog.com|blog.jp|blog.livedoor.jp|jin115.com|sbbit.jp
+$removeparam=ref,domain=2chblog.jp|animember.net|bipblog.com|blog.jp|blog.livedoor.jp|coincards.com|jin115.com|sbbit.jp|startmail.com
 $removeparam=ref-src,domain=twitter.com|x.com
 $removeparam=ref-url,domain=twitter.com|x.com
 $removeparam=refsrc,domain=twitter.com|x.com
