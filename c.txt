@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511020209
+! Version: 202511030208
 ! Title: Personal Filter
-! Last Modified: 02 Nov 2025 02:09 UTC
+! Last Modified: 03 Nov 2025 02:08 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -61,6 +61,7 @@ cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAna
 cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.track', 'noopFunc')
 cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.use', 'noopFunc')
 convertcase.net,issuya.com,topstarnews.net,islamicfinder.org,secure-signup.net#%#//scriptlet('remove-node-text', 'script', 'error-report.com')
+coupang.com#%#//scriptlet('json-prune-xhr-response', 'tracking', 'feeds', 'n-api/recommend/feeds')
 delta.com#%#//scriptlet('set-constant', 'TrackJS', 'emptyObj')
 delta.com#%#//scriptlet('set-constant', 'TrackJS.install', 'noopFunc')
 discover.hubpages.com#%#//scriptlet('adjust-setTimeout', 'beacon failed', '*', '0.001')
@@ -124054,6 +124055,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||amazonpay.com/customerInsight?
 ||amd.com/js/analytics/
 ||amd.sellingsimplified.net/wt/resource/js/track.js
+||americantourister.co.kr/on/demandware.static/Sites-AmericanTouristerKR-Site/*/internal/jscript/dwac-*.js
 ||ampere.shop/apps/multipixel/v1/a/ampere-tech.myshopify.com/PageView
 ||amplify.outbrain.com/cp/obtp.js
 ||amzgame.com/home/CreateAnalytics.js
@@ -127387,6 +127389,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.cotemaison.fr/min/js/request_tracker
 ||static.cotemaison.fr/min/js/tagcommander_
 ||static.crunchyroll.com/analytics/
+||static.danawa.com/globaljs/com/danawa/common/uxlog/
+||static.danawa.com/globaljs/static/bdl/dsac.min.js
+||static.danawa.com/globaljs/static/targetPush/targetPushTracking.js
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.developer.riotgames.com/js/rgea.min.js
 ||static.ex.co/cdn/content/monetization/pixel-sdk/
@@ -131135,6 +131140,7 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it
 @@||l.logly.co.jp/lift$script,domain=sponichi.co.jp
 @@||log.mmstat.com/eg.js$domain=youku.tv
+@@||login.coupang.com/resources/*/app-common/js/fingerprint/fingerprint.js$script
 @@||logly.co.jp/recommend/$image,domain=sponichi.co.jp
 @@||mailingtechnology.com/tracking/tracking_$~third-party
 @@||manage.wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope?scope=vod$domain=editor.wixapps.net
@@ -131233,7 +131239,6 @@ globo.com#%#//scriptlet('trusted-set-constant', 'libAnalytics', '{"status":{"dat
 globo.com#%#//scriptlet('trusted-set-cookie', '_ga', '1.1')
 jooble.org#%#//scriptlet('google-analytics')
 kgm-actyon.co.kr#%#//scriptlet('set-constant', 'kakaoPixel', 'noopFunc')
-login.coupang.com#%#//scriptlet('prevent-element-src-loading', 'script', 'app-common/js/fingerprint/fingerprint.js')
 mustar.meitetsu.co.jp#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 newton.by#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 newton.by#%#//scriptlet('set-constant', 'yaCounter22339861.reachGoal', 'noopFunc')
