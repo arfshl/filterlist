@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511130206
+! Version: 202511140204
 ! Title: Personal Filter
-! Last Modified: 13 Nov 2025 02:06 UTC
+! Last Modified: 14 Nov 2025 02:04 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -38158,6 +38158,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||nlmjg.thelooplair.com^
 ||nlmnap.lagreentouch.fr^
 ||nlobp.champssports.ca^
+||nlog.instajob.ai^
 ||nlp-japan.life-and-mind.com^
 ||nlpd.alfavin.ch^
 ||nlpd.borel-barbey.ch^
@@ -114647,6 +114648,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.tedium.co^
 ||analytics.teespring.com^
 ||analytics.tempmail100.com^
+||analytics.thekrazycouponlady.com^
 ||analytics.thenest.com^
 ||analytics.thenewslens.com^
 ||analytics.theta360.com^
@@ -115177,6 +115179,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||d9jj3mjthpub.cloudfront.net^
 ||dadispapi.gmarket.co.kr^
 ||daq0d0aotgq0f.cloudfront.net^
+||darnuid.netflix.com^
 ||data-collector.wefi.com^
 ||data-ingestion.flowgpt.com^
 ||data-track*.yingxiong.com^
@@ -116471,6 +116474,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sp-trk.com^$third-party
 ||sp.app.com^
 ||sp.argusleader.com^
+||sp.aviasales.ru^
 ||sp.azcentral.com^
 ||sp.battlecreekenquirer.com^
 ||sp.bucyrustelegraphforum.com^
@@ -118164,7 +118168,6 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /^https:\/\/www\.lowes\.com\/[a-zA-Z0-9-_]+\/[a-z]+\/[a-zA-Z0-9-_]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+$/$method=post,xmlhttprequest,domain=lowes.com
 /^https:\/\/www\.purevpn\.[a-z]+\/[a-z0-9]{7}\/$/$script
 /^https:\/\/www\.totaljobs\.com\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+/$script,xmlhttprequest,domain=totaljobs.com
-/access.html$domain=2jigiri.net
 /analytics.js$domain=amiunique.org|bolgehastanesi.com|city.kushiro.lg.jp|edit.ing|emarat-news.ae|emeraldbridal.com.au|ewtc.de|freexcafe.com|imobie.jp|imore.com|inbox.lv|jrkyushu.co.jp|konami.com|kopeda.com|lun.com|nakubani.ru|newsdig.tbs.co.jp|newsmax.com|resumes.breakdownexpress.com|rusvideos.day|songsara.net|techcult.com|tikla.com.tr|tokyometro.jp
 /apc/trans.gif?$domain=live.com|office.com
 /api/analytics$domain=fansonlinehub.com|hotmediahub.com|teraearn.com|teralink.me|terashare.co|terashare.me
@@ -118181,6 +118184,8 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /Avada-Child-Theme/js/GA.*js$domain=allurekorea.com|vogue.co.kr
 /banalytics.js$domain=cnnturk.com|fanatik.com.tr|gazetevatan.com|hurriyet.com.tr|kanald.com.tr|milliyet.com.tr|posta.com.tr|teve2.com.tr
 /bcommon/js/trckUtil.min.js$domain=buffed.de|gamesaktuell.de|gamezone.de|pcgames.de|pcgameshardware.de|videogameszone.de
+/cdn/qualtrics.js$domain=fredmeyer.com|frysfood.com|ralphs.com|smithsfoodanddrug.com
+/clickstream/*$domain=fredmeyer.com|frysfood.com|ralphs.com|smithsfoodanddrug.com
 /counter?$domain=amazon.com|amazon.com.tr|amazon.de|amazon.it
 /emirates\.com\/([A-Za-z0-9]+\/){4,}[A-Za-z0-9]{4,}$/$domain=emirates.com
 /exp-metrika.js$domain=russia-tv.online
@@ -118407,7 +118412,7 @@ infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.livei
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
 insider.com,israelnationalnews.com##.taboola
-itmedia.co.jp,mag.osdn.jp##div[id^="logly-lift-"]
+itmedia.co.jp##div[id^="logly-lift-"]
 ixbt.com##.block__recommend
 j-cast.com###cxRelatedEntry
 j-cast.com###sp_j-cast_kiji_recommend_1
@@ -118513,6 +118518,7 @@ pw.live#%#//scriptlet('set-local-storage-item', 'uuid', '$remove$')
 qiita.com#?#div[class^="css"] > div > div[id^="logly-"]:upward(2)
 radioprofusion.com##.revolvermaps
 radioprofusion.com##footer > div.counter
+ralphs.com,smithsfoodanddrug.com,frysfood.com,fredmeyer.com#%#//scriptlet('set-local-storage-item', 'analytics-device', '$remove$')
 raycast.com#%#//scriptlet('set-local-storage-item', '/ph_phc_/', '$remove$')
 raycast.com#%#//scriptlet('set-session-storage-item', '/ph_phc_/', '$remove$')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href="#pixel"]
@@ -118548,6 +118554,8 @@ textologia.ru##.bot_right
 the-ans.jp##.side-reccomend
 thehill.com###block-thehill-blocks-amp-outbrain
 thehindu.com###sectiondivicymi
+thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '/^ab\.storage\./', '$remove$')
+thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 themirror.com##reach-topbox
 theplanet.ws##a[href="http://mycounter.com.ua/"]
 theqoo.net##.theqoo-counter
@@ -119045,7 +119053,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||app.inkind.com/api/*/events
 ||app.intercom.io/gtm_tracking/
 ||app.kulgacdn.com/js/script.js
-||app.launchdarkly.com/sdk/evalx/*/contexts/$domain=epicgames.com
 ||app.leadplan.ru/assets/img/1px.gif
 ||app.leadster.com.br/*/analytics/
 ||app.link/_r?sdk=*&callback=branch_callback
@@ -119604,7 +119611,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||clickstream.grubhub.com/event.gif?event=
 ||client-log.box.com/analytics-events/
 ||client.px-cloud.net/*/main.min.js?ver=
-||clientstream.launchdarkly.com/eval/
 ||clipkit.co/clipkit_assets/beacon-
 ||cloud.weborama.design/nonio.js
 ||cloudconvert.com/js/ga.js
@@ -120053,6 +120059,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||embed.sendtonews.com/player2/data_logging.php?
 ||embed.videosdemadurasx.com/js/u_hits_control.js
 ||embedly.com/widgets/xcomm.html^$third-party
+||embeds.beehiiv.com/attribution.js
 ||emea.flow.microsoft.com/providers/Internal.Telemetry
 ||emmi.jp/Scripts/tracker.js
 ||emp.de/on/demandware.store/*/__Analytics-Tracking
@@ -120239,6 +120246,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||francais.rt.com/nbc-stats/
 ||france24.com/bon.jour?
 ||franeski.net/js/lib.js
+||fredmeyer.com/static/*/collect?
 ||free.ranklet4.com/impression?
 ||freehostedscripts.net/ocounter.
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
@@ -120256,6 +120264,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||frog.wix.com^$ping,xmlhttprequest
 ||frontend-prod.healthline.com/api/metrics
 ||froomle.com/api/*/events
+||frysfood.com/assets/*/collect?
 ||fspark-ap.com/ft/analytics_log
 ||fstrk.net/api/tracker/
 ||fullstory.com/s/fs.js^
@@ -120421,6 +120430,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||gratis.com/ccstoreui/*/analytics/visitorsMetric
 ||greg.app/web/analytics/
 ||groceries.morrisons.com/events/
+||grok.com/_data/v1/events
 ||grok.com/api/log_metric
 ||grok.com/api/statsig/
 ||groupon.com/api/v*/logs
@@ -121671,6 +121681,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||raiplaysound.it/common/assets/js/theplayer/TheoPlayer/plugins/THEOplayerAkamaiSDK/THEOplayer_AkamaiMediaAnalytics.js
 ||rakuten-life.co.jp/rat/rat_customtracking.js
 ||rakuten.co.jp/com/js/omniture/
+||ralphs.com/resources/*/collect?
 ||rambler.ru/metrics/
 ||ranking.fc2.com/analyze.js
 ||ranking.fc2.com/count?
@@ -121726,6 +121737,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rem-track.bild.de^
 ||renotifier.miniclippt.com/rntracking.js
 ||report.23video.com/api/analytics/
+||report.23video.com/report-batch
 ||repost.aws/api/v*/content/markResourceViewed
 ||res-ga.smzdm.com/gtm.js
 ||res.cdn.office.net/owamail/*/resources/analytics-ping.js
@@ -121913,6 +121925,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sdk-service.nsureapi.com/events
 ||sdk.nsureapi.com/sdk.js
 ||seaart.ai/log/
+||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getCustomTrackingId.js
 ||search-api.joongna.com/v*/ga/log|
 ||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
 ||search.yahoo.com/beacon
@@ -122052,6 +122065,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||smassets.net/assets/anonweb/anonweb-click-logger-bundle-
 ||smetrics.washingtonpost.com^
 ||smg.com/Etrack/
+||smithsfoodanddrug.com/public/*/collect?
 ||smp.sankei.co.jp/js/analytics^
 ||smutty.com/ajax/trcking/
 ||snanews.de/js/sw/analytics.js
@@ -124069,6 +124083,7 @@ $cookie=ytrackvisit
 ||dmm.com^$cookie=top-pv-uid
 ||dropbox.com^$cookie=dbx-js-analytics-id
 ||eneba.com^$cookie=userid
+||epicgames.com^$cookie=visitor-uuid
 ||expressvpn.com^$cookie=/gtm/
 ||expressvpn.com^$cookie=xvid
 ||fanatical.com^$cookie=affiliate-source
@@ -124225,6 +124240,7 @@ $cookie=ytrackvisit
 ||temu.com^$cookie=-nano-fp
 ||temu.com^$cookie=-ttc
 ||terra.com.br^$cookie=x-xact-id
+||thekrazycouponlady.com^$cookie=/^ab\.storage\./
 ||time.is^$cookie=c
 ||titulky.com^$cookie=adbwshown
 ||titulky.com^$cookie=sid
@@ -124938,6 +124954,7 @@ d4?appid*type*
 ||cgicol.amap.com^
 ||click.oneplus.cn^
 ||click.oneplus.com^
+||client-events-ingress.bookbub.com^
 ||client-log.box.com^
 ||client-telemetry.hingeprod.net^
 ||clientlog.perfectworldgames.com^
@@ -124960,6 +124977,7 @@ d4?appid*type*
 ||collect.media.jio.com^
 ||collect.serious.li^
 ||collect.ureca-lab.com^
+||collect.wehearfm.com^
 ||collector-sbanking.shb-pelib.com^
 ||collector.brandify.com^
 ||collector.scopely.io^
@@ -125078,6 +125096,7 @@ d4?appid*type*
 ||experiment.pixverse.ai^
 ||f-log-*.grammarly.io^
 ||facebook.com/rtb_impression/?tr=
+||fcm-collect-api.alyac.com^
 ||flurry.agentportal-*.yahoodns.net^
 ||flurry.agentportal.*.yahoodns.net^
 ||fm-analytics-api.pocketfm.com^
@@ -125157,6 +125176,7 @@ d4?appid*type*
 ||ip.chinaz.com^$app=com.apkpure.aegon
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\bg_video_quality_privilege.gif
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\video_accelerate_guide_new.gif
+||itracking.ikameglobal.com^
 ||jdlog.uu.cc^
 ||jpush.io^
 ||lepodownload.mediatek.com^
@@ -125323,6 +125343,7 @@ d4?appid*type*
 ||monitoring-sdk.experimentation.intuit.com^
 ||monsetting.toutiao.com^
 ||mosspf.net^
+||mossturbo.com^
 ||ms-report.uu.cc^
 ||ms.cmcm.com^
 ||msg-intl.qy.net^
@@ -125453,12 +125474,15 @@ d4?appid*type*
 ||sdk-monitoring.ogury.co^
 ||sdk-orion.appboy.com^
 ||sdk.appbrain.com/api/
+||sdk.fra-*.braze.eu^
+||sdk.out.usbla.net^
 ||sdk.stats-locations.com^
 ||sdks.stats-locations.com^
 ||seller-log-collector.shopee.
 ||sensors.snappea.com^
 ||sensors.snaptube.app^
 ||sentry.eks.hoyoverse.com^
+||service-api.flarelane.com^
 ||sf16-static.i18n-pglstatp.com^
 ||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
 ||sg-public-data-api.hoyoverse.com^
@@ -127678,6 +127702,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cleanhaircut.com^
 ||climbingright.com^
 ||cloisteredcurve.com^
+||cloudchickens.com^
 ||cloudguppy.com^
 ||cloudhustles.com^
 ||cloudjumbo.com^
@@ -127849,6 +127874,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||dogcollarfavourbluff.com^
 ||doggieshome.com^
 ||dollardelta.com^
+||dollarthrill.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
 ||dq95d35.com^
@@ -129554,6 +129580,7 @@ $removeparam=pk-medium
 $removeparam=pk-source
 $removeparam=pk-vid
 $removeparam=plink,domain=sbs.co.kr
+$removeparam=promo,domain=vjav.com|vjav.tube
 $removeparam=rb-clickid
 $removeparam=recom,domain=vk.com|vk.ru
 $removeparam=recommended-by
@@ -130159,6 +130186,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||japan.cnet.com^$removeparam=tag
 ||jetbrains.com^$removeparam=from
 ||jiji.com^$removeparam=m
+||jiji.com^$removeparam=ref
 ||jlcpcb.com^$removeparam=from
 ||join.worldoftanks.eu^$removeparam
 ||joshi-spa.jp^$removeparam=cx-clicks-art-mdl
@@ -130267,6 +130295,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||muskelmacher-shop.de$removeparam=sv1
 ||myaccount.google.com^$removeparam=source
 ||myoji-kamon.net^$removeparam=from
+||myoji-yurai.net^$removeparam=from
 ||mypage.otsuka-shokai.co.jp^$removeparam=oiid
 ||myprotein.jp^$removeparam=affil
 ||n11.com^$removeparam=/pfx|adj/
@@ -130330,6 +130359,10 @@ rtkcid=*&clickid=$removeparam=clickid
 ||ozon.ru^$removeparam=from-url
 ||ozon.ru^$removeparam=keywords
 ||ozon.ru^$removeparam=origin-referer
+||p-bandai.com^$removeparam=eccid
+||p-bandai.com^$removeparam=ectag
+||p-bandai.com^$removeparam=ecuid
+||p-bandai.com^$removeparam=octid
 ||p.liadm.com/click?s=$removeparam=-lc2-fpi
 ||p.liadm.com/click?s=$removeparam=i6
 ||p.liadm.com/click?s=$removeparam=li
