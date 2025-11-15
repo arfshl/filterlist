@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511140204
+! Version: 202511150200
 ! Title: Personal Filter
-! Last Modified: 14 Nov 2025 02:04 UTC
+! Last Modified: 15 Nov 2025 02:00 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -9012,6 +9012,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cdn.byjema.dk^
 ||cdn.coastoutdoors.ca^
 ||cdn.cohesionapps.com^$third-party
+||cdn.connectif.cloud^$third-party
 ||cdn.counter.dev^$third-party
 ||cdn.czx5eyk0exbhwp43ya.biz^
 ||cdn.ddmanager.ru^$third-party
@@ -10058,7 +10059,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||connected.integrationpoint.com^
 ||connected.technologies.jci.com^
 ||connected.verical.com^
-||connectif.cloud^$third-party
 ||connection.arrow.com^
 ||connection.spartathletics.com^
 ||connection.verical.com^
@@ -119699,6 +119699,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||connatix.com^*/pixel?
 ||connect.facebook.net/*/fbds.js$third-party
 ||connecteam.com/bi/api/ReportHit/
+||connectif.cloud/integration-type/
 ||consent.api.osano.com/record
 ||consent.trustarc.com/analytics?
 ||consent.trustarc.com/log?
@@ -120163,6 +120164,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||facebook.com^*/impression_logging/
 ||facebook.com^*/logging/
 ||fafvertizing.crazygames.com/*-prebid-
+||famil.ru/bitrix/templates/aspro_max/js/yandex_metrika_
 ||familydollar.com/ccstoreui/*/analytics/
 ||fanfictionero.com/srv/statistics/
 ||fanp.me/*/silveregg_tracking.html
@@ -120641,6 +120643,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||img.sputnik.*/min/js/libs/ria.analytics.js
 ||img.sputniknews.com/min/js/plugins/video-counters.js
 ||img.syosetu.org/js/c_
+||img1.wsimg.com/traffic-assets/js/tccl.min.js
 ||img2-digitouch.mncdn.com/include/dynamic_click_tag.js
 ||imgsmail.ru/gstat?
 ||imgssl.constantcontact.com/letters/images/sys/S.gif
@@ -121254,6 +121257,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||netflix.com^*/homepagePing?
 ||netquattro.com/stats/
 ||netzwelt.de/log
+||neuron.cbssports.cloud/client.js?platform=tracking-manager
 ||news.chosun.com/dhtm/*/collecter.js
 ||news.chosun.com/svc/fb_count.html
 ||news.cn/webdig.js
@@ -125018,7 +125022,6 @@ d4?appid*type*
 ||device-metrics-*.amazon.com^
 ||devlog-upload-os.hoyoverse.com^
 ||dex50.deteql.net^
-||df.afafb.com^
 ||dfe.mic.mob.com^
 ||dflow.log.hunantv.com^
 ||diagmon-serviceapi.samsungdm.com^
@@ -125048,7 +125051,6 @@ d4?appid*type*
 ||e-ssl.apsalar.com^
 ||eats-ads-event-capture.coupang.com^
 ||ec.adadapted.com^
-||ecpm.afafb.com^
 ||edith-seb.xiaohongshu.com^
 ||edmanalytics.pandahall.com^
 ||elephantdata.net^
@@ -125097,6 +125099,7 @@ d4?appid*type*
 ||f-log-*.grammarly.io^
 ||facebook.com/rtb_impression/?tr=
 ||fcm-collect-api.alyac.com^
+||federatedcompute-pa.googleapis.com^
 ||flurry.agentportal-*.yahoodns.net^
 ||flurry.agentportal.*.yahoodns.net^
 ||fm-analytics-api.pocketfm.com^
@@ -125105,7 +125108,6 @@ d4?appid*type*
 ||fraud.adjoe.zone^
 ||fraudmetrix.cn^
 ||g.analytics.versa-ai.com^
-||gamedot.afafb.com^
 ||gamestats.easybrain.com^
 ||gateway.bingviz.microsoftapp.net^$app=com.microsoft.bing
 ||gcm.ksmobile.com^
@@ -125287,7 +125289,6 @@ d4?appid*type*
 ||mcs.tiktokv.us^
 ||mcs.tiktokw.us^
 ||mcs16-normal-us-ttp.capcutapi.us^
-||mediation-receiver.afafb.com^
 ||mediation-tracking.prd.mz.internal.unity3d.com^
 ||mediation.mwmadnetworks.com^
 ||meitustat.com^
@@ -125304,7 +125305,6 @@ d4?appid*type*
 ||metrics.timewarnercable.com^
 ||mgbsdk*.matrix.easebar.com^
 ||mgs123.com^
-||middle-defend.afafb.com^
 ||minor-api-os.hoyoverse.com^
 ||mintegral.net^
 ||misc.api.snaptube.app^
@@ -125538,7 +125538,6 @@ d4?appid*type*
 ||t.castle.io^
 ||t.ndemiccreations.com/*/*?tv=*&uid=
 ||t.usermaven.com/lib.js$redirect=noop.js,script,domain=revisemsra.com
-||tadata.afafb.com^
 ||tagdelivery.mayoclinic.org.pc-mc.greylabeldelivery.com^
 ||tagdelivery.mayoclinic.org^
 ||tags.creditkarma.com^
@@ -125735,6 +125734,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=cashier.dmm.co.jp|cashier.dmm.com|sferis.pl|tauron.pl
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
+@@||siteintercept.qualtrics.com^$domain=idealo.*
 @@||static.vocstatic.com/voonto2/latest/voonto.js$domain=diariosur.es
 @@||tags.stepstone.com/utag/de/prod/utag.js$domain=stepstone.de
 @@||teenage.engineering/store/assets/tracking-pixel.*.js$domain=teenage.engineering
@@ -127625,6 +127625,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||buttonladybug.com^
 ||buzzaoutlet.com^
 ||cafefrench.com^
+||cafescampfires.com^
 ||cakeagenda.com^
 ||cakesdrum.com^
 ||calculatingcircle.com^
@@ -127875,9 +127876,11 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||doggieshome.com^
 ||dollardelta.com^
 ||dollarthrill.com^
+||doomhedge.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
 ||dq95d35.com^
+||dragonbats.com^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
@@ -129891,6 +129894,10 @@ rtkcid=*&clickid=$removeparam=clickid
 ||clubi.cc/*?t=$removeparam=c
 ||clubi.cc/*?t=$removeparam=s
 ||clubi.cc/*?t=$removeparam=t
+||cmoa.jp^$removeparam=adme5101
+||cmoa.jp^$removeparam=cmoa
+||cmoa.jp^$removeparam=cmoa-pg
+||cmoa.jp^$removeparam=site
 ||cmswire.com^$removeparam=source
 ||cnbc.com^$removeparam=--source
 ||cnbc.com^$removeparam=par
@@ -130268,6 +130275,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||meetup.com^$removeparam=recsource
 ||meetup.com^$removeparam=searchid
 ||megaknihy.cz^$removeparam=/param[0-9]{1}|utm-si|matchtype|device|creative|keyword|placement|adposition|campaignid|adgroupid|feeditemid|targetid|loc-|searchtype|network|search-pos|cat-pos|block|position/
+||mel.fm^$removeparam=infnews
 ||metro.*$removeparam=cnxclid
 ||mgstage.com^$removeparam=form
 ||microsoft.com^$removeparam=ocid
