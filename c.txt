@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511150200
+! Version: 202511160211
 ! Title: Personal Filter
-! Last Modified: 15 Nov 2025 02:00 UTC
+! Last Modified: 16 Nov 2025 02:11 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -121498,6 +121498,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||pinterest.com/*/ContextLogResource/
 ||pinterest.com/*/StatsLogResource/
 ||pinterest.com/*/UserRegisterTrackActionResource/
+||pinterest.com/_/_/csp_report/
 ||pinterest.com/_/_/logClientError/
 ||pinterest.com/_/_/report/
 ||pinterest.com/_/_/storage_report/
@@ -123312,8 +123313,8 @@ cp.edison.tech%2Fapi%2Fmailer%2Fm%2Fimg%2F$image
 cp.edison.tech/api/mailer/m/img/$image
 ct.klclick.com$image
 ct.sendgrid.net$image
-ctrk.klclick2.com%2Fo%2F$image
-ctrk.klclick2.com/o/$image
+ctrk.klclick*.com%2Fo%2F$image
+ctrk.klclick*.com/o/$image
 data-cdn.theatlantic.com/email.gif
 demdex.net%2Fevent%3Fd_event%3D$image
 demdex.net%2Fevent%3Fd_src%3D$image
@@ -123572,6 +123573,8 @@ tripadvisor.com%2Fimg%2Fcdsi%2Fpartner%2Ftransparent_pixel$image
 tripadvisor.com%2FMptUrl%3Fp%3D$image
 tripadvisor.com/img/cdsi/partner/transparent_pixel$image
 tripadvisor.com/MptUrl?p=$image
+trk.*.com%2Fo%2F$image
+trk.*.com/o/$image
 tucsontopia.com/?mailpoet_router$image
 twitter.com%2Fscribe%2Fibis%3Ft%3D$image
 twitter.com/scribe/ibis?t=$image
@@ -124931,6 +124934,7 @@ d4?appid*type*
 ||beacons-prod.fubo.tv^
 ||beacons.ads.fubo.tv^
 ||beha.ksmobile.com^
+||bi-tracker-global.rivergame.net^
 ||bi.manhuaren.com^
 ||bidder.dsp.outfit7.com^
 ||bidder.mdspinc.com^
@@ -125276,6 +125280,7 @@ d4?appid*type*
 ||logservice1.dbankcloud.cn^
 ||logservice1.hicloud.com^
 ||logsink.zedge.net^
+||lw-c-log.lastwarapp.com^
 ||m.vk.com/counters.php
 ||m.vpadn.com^
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
@@ -125637,6 +125642,7 @@ d4?appid*type*
 ||trckr.contextualadv.com^
 ||trk.pinterest.com^
 ||trk2.pinterest.com^
+||trkapi.impact.com^
 ||trusted-collector-bk.tmocce.com^
 ||ts.line-apps.com^
 ||tumblr.com/services/cslog
@@ -127608,6 +127614,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||brotherslocket.com^
 ||brownboxgroup.com^
 ||bruisebaseball.com^
+||bubblyaction.com^
 ||bugpizza.com^
 ||buildingknife.com^
 ||bulbbait.com^
@@ -128262,6 +128269,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||jamexport.com^
 ||jazzstadium.com^
 ||jazzwholesale.com^
+||jellyfinstream.com^
 ||jetskiscovers.com^
 ||jewelryforest.com^
 ||jewelrysprings.com^
