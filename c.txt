@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511180204
+! Version: 202511190204
 ! Title: Personal Filter
-! Last Modified: 18 Nov 2025 02:04 UTC
+! Last Modified: 19 Nov 2025 02:04 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -41422,6 +41422,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tags.theklovestory.com^
 ||tags.tiq.rbcinsurance.com^
 ||tags.tiq.rbcprivateinsurance.com^
+||tags.tiqcdn.com^
 ||tags.toitpourtoi.fr^
 ||tags.tommy.com^
 ||tags.tryg.dk^
@@ -42630,6 +42631,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||touch.multitaction.com^
 ||touch.thenavisway.com^
 ||touchclarity.com^$third-party
+||toup.net^$third-party
 ||tourism.visitorlando.com^
 ||tovery.net^$third-party
 ||tp.ackermann.ch^
@@ -70763,6 +70765,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.3c5.com^
 ||analytics.74.ru^
 ||analytics.adfreetime.com^
+||analytics.adjust.io^
 ||analytics.adoffice.11st.co.kr^
 ||analytics.adultempire.com^
 ||analytics.afirstsoft.cn^
@@ -74175,6 +74178,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /plugins/wp-rocket/assets/js/lcp-beacon.
 /plugins/wp-rocket/assets/js/wpr-beacon.
 /pmc-google-universal-analytics/*
+/posthog/ingest/*
 /prod/dfm/g2i.min.js
 /prod/dfm/t8y9347t.min.js
 /providers/atLabel/load|
@@ -75186,6 +75190,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.biz.sbs.co.kr/statistics/
 ||api.blockchain.info/events/tracking/consent
 ||api.brunch.co.kr/v1/front-log
+||api.builtin.com/track/client-events
 ||api.bunjang.co.kr/api/log/
 ||api.cgyx.tv:66/tj/tongji.js
 ||api.channel.io/*/events
@@ -77163,6 +77168,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kt.com/js/json/*_logUse_html.js
 ||kts-tv.co.jp/common/js/analytics.js
 ||kurier.at/adblock
+||kyivstar.ua/api/public/prometheus/collect-cookies-popup-metric
 ||l.aaxads.com/log^
 ||l.iplsc.com/logger/
 ||l.ivi.ru/logger/
@@ -77690,6 +77696,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ozone.ru/graphics/client-metrics/
 ||p.brid.tv/player/build/plugins/googleanalytics/
 ||p.flipp.com/beacons
+||p.kulp.in/api/event
 ||p.sfx.ms/is/invis.gif
 ||p.typekit.net/p.gif
 ||p1.parsely.com/plogger/
@@ -81184,6 +81191,8 @@ d4?appid*type*
 ||apm-native.xiaohongshu.com^
 ||apm-track.xiaohongshu.com^
 ||app-analytics-services.com^
+||app-log-oversea.immomo.com^
+||app-monitor.spacecape.com^
 ||app-tracking.hlogo.de^
 ||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android
 ||appanalysis*.banggood.com^
@@ -81310,6 +81319,7 @@ d4?appid*type*
 ||dc.dqa.samsung.com^
 ||de01.rayjump.com^
 ||decide.mixpanel.com^
+||detaillog-global-dual.coolhcloud.com^
 ||detect.rayjump.com^
 ||dev-apigw.samsungdmroute.com^
 ||device-metrics-*.amazon.com^
@@ -81433,6 +81443,7 @@ d4?appid*type*
 ||hilton.data.adobedc.net^
 ||hit.gemius.pl^
 ||hkrpg-log-upload-os.hoyoverse.com^
+||hlog.hiido.com^
 ||hw-sh-pcdn-*.biliapi.net^
 ||hwstats.unity3d.com^
 ||hz-telemetry.adobe.io^
@@ -81444,6 +81455,7 @@ d4?appid*type*
 ||imp-*.jampp.com^
 ||imp.startappservice.com^
 ||impression.link^
+||infinario.com^
 ||innovads-server.poster.appsinnova.com^
 ||insight.ucweb.com^
 ||insights-categorizer-noneu.truecaller.com^
@@ -81487,6 +81499,7 @@ d4?appid*type*
 ||log*.byteoversea.com^
 ||log-boot.capcutapi.com^$app=com.xt.retouchoversea
 ||log-collector.shopee.
+||log-mediation.easemobi.net^
 ||log-music-data.line-apps.com^
 ||log-pub-hk.aoshitang.com^
 ||log-sdk.ksapisrv.com^
@@ -81524,21 +81537,25 @@ d4?appid*type*
 ||log.hiapkdownload.com^
 ||log.isnssdk.com^
 ||log.jackpotmasterslots.com^
+||log.lnk.events^
 ||log.m.sm.cn^
 ||log.make50.com^
 ||log.mgtv.com^
 ||log.mmstat.com^
 ||log.oceanzz.xyz^
 ||log.pdfviewerscannerstore.live^
+||log.phonefreshfix.live^
 ||log.pngindir.com^
 ||log.pullcenter.live^
 ||log.pvpgang.com^
 ||log.snow.me^
+||log.suddenclean.com^
 ||log.talkie-ai.com^
 ||log.tiktokv.com^
 ||log.tpns.tencent.com^
 ||log.ultimatecleaner.pro^
 ||log.umsns.com^
+||log.wigoliv.work^
 ||log.yougameover.com^
 ||log1.apkomega.com^
 ||log1.perfectworldgames.com^
@@ -81547,10 +81564,12 @@ d4?appid*type*
 ||log5.interactive-circle.jp^
 ||logapi-and.zhipin.com^
 ||logbak.hicloud.com^
+||logcollection.ronghub.com^
 ||logend.cookpad.com^
 ||logger.cloudmobi.net^
 ||logger.growstarry.com^
 ||logging.api.intuit.com^
+||logreport-global-dual.coolhcloud.com^
 ||logs-*.rebxgame.com^
 ||logs-ingress.svc.vinted.com^
 ||logs-sg.rebxgame.com^
@@ -81569,6 +81588,7 @@ d4?appid*type*
 ||logservice1.dbankcloud.cn^
 ||logservice1.hicloud.com^
 ||logsink.zedge.net^
+||logz.tekiusa.com^
 ||lw-c-log.lastwarapp.com^
 ||m.vk.com/counters.php
 ||m.vpadn.com^
@@ -81796,6 +81816,7 @@ d4?appid*type*
 ||startappservice.com/tracking/
 ||stat-analytics.mediavitrina.ru^
 ||stat-in.dc.oppomobile.com^
+||stat.dp.vocalbeats.com^
 ||stat.duokanbox.com^
 ||stat.gspaceteam.com^
 ||stat.m.360.cn^
@@ -81810,6 +81831,7 @@ d4?appid*type*
 ||stats-a.maxthon.com^
 ||stats-proto.pandora.com^
 ||stats-sg.ganymede.eu^
+||stats.*.rongnav.com^
 ||stats.abbi.io^
 ||stats.calldorado.com^
 ||stats.fifthstarlabs.io^
@@ -81849,6 +81871,7 @@ d4?appid*type*
 ||telemetry.voxeet.com^
 ||teleport.soom.la^
 ||tenant-content.apm.appfolio-analytics.com^
+||tencentcs.com/structuredlog?
 ||tjinit-event.babybus.com^
 ||tjinit-global-register.babybus.com^
 ||tknet.rayjump.com^
@@ -81916,6 +81939,7 @@ d4?appid*type*
 ||tracking-service.glority.com^
 ||tracking-widget.fillr.com^
 ||tracking.aatkit.com^
+||tracking.affattr.com^
 ||tracking.aldi-international.com^
 ||tracking.carbonatixaudio.com^
 ||tracking.directservices.it^
@@ -81938,6 +81962,7 @@ d4?appid*type*
 ||tunein.adswizz.com^
 ||tunion-api.m.taobao.com^
 ||twns.p2ptun.qq.com^
+||tycollectproxy.tiyalive.com^
 ||uaid.vtwenty.com^
 ||ub-xjp.vvbrd.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
