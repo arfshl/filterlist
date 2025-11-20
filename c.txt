@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511190204
+! Version: 202511200202
 ! Title: Personal Filter
-! Last Modified: 19 Nov 2025 02:04 UTC
+! Last Modified: 20 Nov 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -113,6 +113,7 @@ sahibinden.com#%#//scriptlet('set-constant', 'gaTrackData', 'trueFunc')
 seorinexpress.com#%#//scriptlet('set-constant', 'AM_PRODUCT', 'noopFunc')
 slobodnadalmacija.hr,meconomynews.com,brandbrief.co.kr,motorgraph.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeURIComponent(escape(window.atob("KCgpPT5')
 slobodnadalmacija.hr,meconomynews.com,brandbrief.co.kr,motorgraph.com#%#//scriptlet('prevent-eval-if', '/07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/')
+southpark.*,southparkstudios.*#%#//scriptlet('set-constant', 'vtg', 'emptyObj')
 spletnik.ru#%#//scriptlet('set-local-storage-item', '/^_ym/', '$remove$')
 spletnik.ru#%#//scriptlet('set-local-storage-item', 'adrcid', '$remove$')
 tangiblewp.com#%#//scriptlet('set-constant', 'fathom', 'emptyObj')
@@ -8873,6 +8874,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cv.2jikaikun.com^
 ||cv.a-cial.com^
 ||cv.a-hikkoshi.com^
+||cv.aedi.ai^
 ||cv.ag.cybersecurity-jp.com^
 ||cv.agent-sana.com^
 ||cv.aqua-style.jp^
@@ -20394,6 +20396,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||lbv5.mperf.com^
 ||lc.caravanyou.com^
 ||lc.manhealthsolutions.com^
+||lc.recopick.com^
 ||lc.romegods.com^
 ||lc.taintedlovetoday.com^
 ||lc.thebugblues.com^
@@ -71551,6 +71554,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ea.vente-unique.ch^
 ||ea.vente-unique.com^
 ||ea.warnerbros.fr^
+||ebm.lfmall.co.kr^
 ||eclick.baidu.com^
 ||ecsv2.roblox.com^
 ||edge.quantserve.com^
@@ -75647,6 +75651,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||buy-eu.piano.io/checkout/offer/trackShow$domain=lalibre.be
 ||buyon.it/assets/js/sailcheck.
 ||byjus.com/byjusweb/js/tracking-2.min.js
+||byn.kr/main/exec.php?*exec_file=
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-rings.net^$script,third-party
 ||c.aaxads.com/aax.js^
@@ -75703,6 +75708,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cc.loginfra.com/cc?a=$image
 ||cc.naver.com/cc$image,redirect=2x2-transparent.png
 ||cc.naver.com/cc$other,ping
+||ccc.eu/*/api/Events/Publish
 ||ccp.digitaltrends.com/scripts/cc-tracking.js
 ||ccpa.sp-prod.net/ccpa.js
 ||cd-ladsp-com.s3.amazonaws.com/script/pixel.js
@@ -75860,6 +75866,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||check24.*/files/give_png.php
 ||check24.*/gif/*/info.gif
 ||check24.*/misc/tracking_gif.php
+||checkmal.com/_res/js/Beusable.js
+||checkmal.com/_res/js/Naver.PremiumLog.js
 ||checkout-blocks.shopifyapps.com/api/extensions/*/event
 ||checkoutshopper-live.adyen.com/checkoutshopper/*/analytics
 ||cheerup.jp/js/analytics_
@@ -77860,6 +77868,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||pornozot.com/js/tracker.min.js
 ||porntube.com^*/track
 ||portalcms.bm5.pl/Stat/statystyki.aspx
+||portalrwd.bm5.pl/Ajax/GetIloscWyswietlen.aspx
+||portalrwd.bm5.pl/Stat/statystyki.aspx
 ||porzo.com/js/analytics
 ||postback.affiliateport.eu/track.js
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
@@ -79128,6 +79138,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||voorkeuren.tvgids.nl/v1/_|
 ||vortex.data.microsoft.com/collect
 ||vost.com.ua/count.js
+||vox.com/blaize/datalayer
+||vox.com/SendEventData
 ||voxmedia.com/beacon-min.js
 ||vs4.com/impr.php
 ||vtex.com.br/rc/rc.js
@@ -80383,6 +80395,8 @@ $cookie=ytrackvisit
 ||dmm.com^$cookie=top-dummy
 ||dmm.com^$cookie=top-pv-uid
 ||dropbox.com^$cookie=dbx-js-analytics-id
+||emart.ssg.com^$cookie=/^rc-/
+||emart.ssg.com^$cookie=pcid
 ||eneba.com^$cookie=userid
 ||epicgames.com^$cookie=visitor-uuid
 ||expressvpn.com^$cookie=/gtm/
@@ -81549,6 +81563,7 @@ d4?appid*type*
 ||log.pullcenter.live^
 ||log.pvpgang.com^
 ||log.snow.me^
+||log.stickflow.xyz^
 ||log.suddenclean.com^
 ||log.talkie-ai.com^
 ||log.tiktokv.com^
@@ -81560,6 +81575,7 @@ d4?appid*type*
 ||log1.apkomega.com^
 ||log1.perfectworldgames.com^
 ||log16-normal-us-ttp.capcutapi.us^
+||log2.ihubgo.info^
 ||log2.perfectworldgames.com^
 ||log5.interactive-circle.jp^
 ||logapi-and.zhipin.com^
@@ -81842,6 +81858,7 @@ d4?appid*type*
 ||stats.sg-light-edge.com^
 ||stats.studyquicks.com^
 ||stats.sxp.smartclip.net^
+||stats.us-light-edge.com^
 ||stbid.ru^
 ||stg-apigw.samsungdmroute.com^
 ||stocks-analytics-events.apple.com^
@@ -83875,6 +83892,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||billowybelief.com^
 ||billtable.com^
 ||binarycrest.com^
+||binarykite.com^
 ||binspiredtees.com^
 ||birthdaybelief.com^
 ||blackbrake.com^
@@ -84082,6 +84100,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||copyfranchise.com^
 ||copyrightaccesscontrols.com^
 ||copyvibes.com^
+||coralcranes.com^
 ||coralreverie.com^
 ||corgibeachday.com^
 ||cornershirts.com^
@@ -84231,6 +84250,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||effervescentvista.com^
 ||effulgentnook.com^
 ||effulgenttempest.com^
+||eightgreens.com^
 ||elasticchange.com^
 ||elderlybean.com^
 ||elderlytown.com^
@@ -84346,6 +84366,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||flimsycircle.com^
 ||flimsythought.com^
 ||flippedfunnel.com^
+||floodedpixel.com^
 ||floodprincipal.com^
 ||flourishingcollaboration.com^
 ||flourishingendeavor.com^
@@ -86010,7 +86031,8 @@ $removeparam=ysclid
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
-*$removeparam=ldtag-cl,domain=fsa.go.jp|gu-global.com|jpcast.japanpost.jp
+*$removeparam=ldtag-cl,domain=fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp
+*$removeparam=lt-r,domain=fukushima-hook.jp
 *$removeparam=service-id,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=siteno,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=spartner,domain=easynotebooks.de|notebook.de
@@ -86147,6 +86169,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||brazzers.com^$removeparam=ats
 ||bunshun.jp^$removeparam=ref
 ||buydomains.com/lander/*?domain=$removeparam
+||byn.kr^$removeparam=rurl
 ||ca.indeed.com/cmp^$removeparam=attributionid
 ||ca.indeed.com/cmp^$removeparam=from
 ||ca.indeed.com/cmp^$removeparam=fromjk
@@ -86605,6 +86628,11 @@ rtkcid=*&clickid=$removeparam=clickid
 ||meetup.com^$removeparam=searchid
 ||megaknihy.cz^$removeparam=/param[0-9]{1}|utm-si|matchtype|device|creative|keyword|placement|adposition|campaignid|adgroupid|feeditemid|targetid|loc-|searchtype|network|search-pos|cat-pos|block|position/
 ||mel.fm^$removeparam=infnews
+||metlife.co.jp^$removeparam=-ly-c
+||metlife.co.jp^$removeparam=-ly-r
+||metlife.co.jp^$removeparam=bannercode
+||metlife.co.jp^$removeparam=page
+||metlife.co.jp^$removeparam=yj-r
 ||metro.*$removeparam=cnxclid
 ||mgstage.com^$removeparam=form
 ||microsoft.com^$removeparam=ocid
@@ -86877,6 +86905,13 @@ rtkcid=*&clickid=$removeparam=clickid
 ||smartrecruiters.com^$removeparam=km-adgroup
 ||smartrecruiters.com^$removeparam=km-matchtype
 ||smartrecruiters.com^$removeparam=km-partner
+||smbc.co.jp^$removeparam=-ly-c
+||smbc.co.jp^$removeparam=-ly-r
+||smbc.co.jp^$removeparam=aff
+||smbc.co.jp^$removeparam=um
+||smbc.co.jp^$removeparam=us
+||smbc.co.jp^$removeparam=yclid
+||smbc.co.jp^$removeparam=yj-r
 ||smocca.jp^$removeparam=cb-ref-code
 ||smotreshka.tv^$removeparam=from
 ||sport.sky.it^$removeparam=share-id
