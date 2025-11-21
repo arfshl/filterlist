@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511200202
+! Version: 202511210203
 ! Title: Personal Filter
-! Last Modified: 20 Nov 2025 02:02 UTC
+! Last Modified: 21 Nov 2025 02:03 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -6087,6 +6087,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||asset-app.discover.jll.com^
 ||asset-protection-pages.protective.com^
 ||asset.americanexpress.ca^
+||assets.9gtb.com^
 ||assets.ayp.vn^
 ||assets.cargoboard.com^
 ||assets.comparitech.com^
@@ -7680,6 +7681,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cdn.granify.com^$third-party
 ||cdn.kaizenplatform.net^
 ||cdn.listrakbi.com^$third-party
+||cdn.logbase.io^
 ||cdn.logrocket.com^$third-party
 ||cdn.mediatradecraft.com^$third-party
 ||cdn.memo.co^$third-party
@@ -12140,6 +12142,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||data.testing.alditalk-kundenbetreuung.de^
 ||data.testing.o2.de^
 ||data.testing.whatsappsim.de^
+||data.thoughtmetric.io^
 ||data.tm-awx.com^
 ||data.tmail.northeast.aaa.com^
 ||data.todoalicante.es^
@@ -71311,6 +71314,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||conf.international.baidu.com^
 ||config.sdk.kochava.dewrain.life^
 ||connect.blockboardtech.com^
+||conversionsapigateway.com^
 ||cookiemon-analytics.azurewebsites.net^
 ||copilot-telemetry.githubusercontent.com^
 ||core.airbridge.io^
@@ -74704,6 +74708,7 @@ infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.livei
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
 insider.com,israelnationalnews.com##.taboola
+itmedia.co.jp###endlinkConnection
 itmedia.co.jp##div[id^="logly-lift-"]
 ixbt.com##.block__recommend
 j-cast.com###cxRelatedEntry
@@ -75157,6 +75162,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||aol.com/ping?
 ||aol.com/track/
 ||aoneroom.com/sdk/athena-unify.js
+||aosom.*/track/do
 ||apartmenttherapy.com/*/xhr/api/*/collector
 ||apartmenttherapy.com/*/xhr/b/s
 ||apay-us.amazon.com/cs/uedata
@@ -75732,6 +75738,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.amplitude.com/libs/analytics-browser-*-min.js
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
+||cdn.aosomcdn.com/upload/js/dataflux-rum.js
 ||cdn.ap.bittorrent.com^$app=utorrent.exe
 ||cdn.appdynamics.com/adrum
 ||cdn.awsli.com.br/production/static/analytics/owa.min.js
@@ -75751,6 +75758,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
+||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$redirect=noop.js,script
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.fugu-it.com/web/script.js
 ||cdn.gamedock.io/gamedock-web-tracker/
@@ -75875,6 +75883,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||chess.com/service/user-activity/chesscom.user_activity
 ||chesterstandard.co.uk/resources/static/standard/texts/js/VisitorAPI.js
 ||chewy.com/api/event/
+||chickencoopcompany.com/api/collect
 ||chil-chil.net/cpAdShow/
 ||chimpstatic.com/mcjs-connected/js/
 ||chronicle.com/_track
@@ -76412,7 +76421,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||events.genndi.com/tracker
 ||eventsproxy.gargantuan.futureplc.com/future.adtech.freyr.v1.PageViewEvent
 ||everyplate.com/gw/otlp/traces
-||evgnet.com/beacon/
 ||ewaline.su/stats.js
 ||execute-api*.amazonaws.com/pixel-prod/
 ||execute-api.*.amazonaws.com/current/events?
@@ -77018,6 +77026,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||intersc.igaming-service.io/hltv.org.js
 ||inthenews.co.kr/weblog/gtracker.
 ||intuitcdn.net/analytics/
+||inven.co.kr/api/banner_tracking/banner_view.php
 ||investigationdiscovery.com/events/
 ||inzynieria.com/addStats
 ||io-tech.fi/io/www/delvr/lokiz.php
@@ -77704,6 +77713,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ozone.ru/graphics/client-metrics/
 ||p.brid.tv/player/build/plugins/googleanalytics/
 ||p.flipp.com/beacons
+||p.hentaiforce.net/api/event
 ||p.kulp.in/api/event
 ||p.sfx.ms/is/invis.gif
 ||p.typekit.net/p.gif
@@ -79902,11 +79912,11 @@ yamm-track.appspot$image
 |mailgun.org^$third-party
 ||bing.com/fd/ls/
 ||mkto-*.com^$third-party
-! + PLATFORM(windows, mac, android, ios) NOT_OPTIMIZED
+! + PLATFORM(windows, mac, android, cli, ios) NOT_OPTIMIZED
 adguard.app,adguard.com,adguard.info##.hello_from_adguard_tracking_protection_app
-! + PLATFORM(windows, mac, android, ios) NOT_OPTIMIZED
+! + PLATFORM(windows, mac, android, cli, ios) NOT_OPTIMIZED
 adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
-! + PLATFORM(windows, mac, android) NOT_OPTIMIZED
+! + PLATFORM(windows, mac, android, cli) NOT_OPTIMIZED
 $cookie,domain=ads.stickyadstv.com
 $cookie=---nrbi
 $cookie=---nrbic
@@ -81306,6 +81316,7 @@ d4?appid*type*
 ||conff.dc.oppomobile.com^
 ||config.jpush.cn^
 ||config.safedk.com^
+||config.toto.zipoapps.com^
 ||config.uca.cloud.unity3d.com^
 ||config2.mparticle.com^
 ||consent-manager-events.ogury.io^
@@ -81329,6 +81340,7 @@ d4?appid*type*
 ||data.terabox.com/issue/terabox/TeraBox_cdn_resource\pic\video_accelerate_guide_new.gif
 ||datacollector-*.dt.dbankcloud.cn^
 ||datacollector-drru.dt.dbankcloud.ru^
+||datarangers-event.myrightone.com^
 ||dc.di.atlas.samsung.com^
 ||dc.dqa.samsung.com^
 ||de01.rayjump.com^
@@ -81847,12 +81859,14 @@ d4?appid*type*
 ||stats-a.maxthon.com^
 ||stats-proto.pandora.com^
 ||stats-sg.ganymede.eu^
+||stats.*.ronghub.com^
 ||stats.*.rongnav.com^
 ||stats.abbi.io^
 ||stats.calldorado.com^
 ||stats.fifthstarlabs.io^
 ||stats.oilpainting.colorbynumber.veraxen.com^
 ||stats.popcap.com^
+||stats.rong-edge.com^
 ||stats.rustore.ru^
 ||stats.samsungpass.com^
 ||stats.sg-light-edge.com^
@@ -81962,6 +81976,7 @@ d4?appid*type*
 ||tracking.directservices.it^
 ||tracking.i2w.io^
 ||tracking.iwhop.cn^
+||tracking.ksztone.com^
 ||tracking.lenzmx.com^
 ||tracking.prd.mz.internal.unity3d.com^
 ||tracking.purchasely.io^
@@ -83749,6 +83764,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||4jnzhl0d0.com^
 ||82o9v830.com^
 ||abilityscale.com^
+||abilitytoucan.com^
 ||abjectattempt.com^
 ||aboardamusement.com^
 ||aboardlevel.com^
@@ -84856,6 +84872,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||oafishobservation.com^
 ||objecthero.com^
 ||objectsnetwork.com^
+||oblivionfleet.com^
 ||obscenesidewalk.com^
 ||octaneblood.com^
 ||offerniche.com^
@@ -86031,8 +86048,8 @@ $removeparam=ysclid
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
-*$removeparam=ldtag-cl,domain=fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp
-*$removeparam=lt-r,domain=fukushima-hook.jp
+*$removeparam=ldtag-cl,domain=chiba-helmet.jp|fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp|k-ty.com
+*$removeparam=lt-r,domain=chiba-helmet.jp|fukushima-hook.jp|k-ty.com
 *$removeparam=service-id,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=siteno,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=spartner,domain=easynotebooks.de|notebook.de
@@ -86114,6 +86131,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||announcements.bybit.com^$removeparam=sa-utm-channel
 ||announcements.bybit.com^$removeparam=sa-utm-ci
 ||announcements.bybit.com^$removeparam=sa-utm-tcn
+||app.hireroo.io^$removeparam=-ly-c
+||app.hireroo.io^$removeparam=-ly-r
+||app.hireroo.io^$removeparam=yj-r
 ||app.startpage.com^$removeparam=source
 ||asahi.com^$removeparam=cid
 ||asahi.com^$removeparam=iref
@@ -86225,6 +86245,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chemistwarehouse.com.au^$removeparam=raneaid
 ||chemistwarehouse.com.au^$removeparam=ranmid
 ||chemistwarehouse.com.au^$removeparam=ransiteid
+||chickencoopcompany.com/services/$removeparam=analytics-context
+||chickencoopcompany.com/services/$removeparam=analytics-trace-id
 ||chitai-gorod.ru^$removeparam=partnerid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
@@ -86870,6 +86892,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||shimotsuke.co.jp^$removeparam=top
 ||shop.adidas.jp^$removeparam=shortlink
 ||shop.adidas.jp^$removeparam=source-caller
+||shop.app/accounts/$removeparam=analytics-trace-id
 ||shop.asus.com^$removeparam=ad-id
 ||shop.asus.com^$removeparam=campaign-id
 ||similarweb.com^$removeparam=from-ext
@@ -87938,9 +87961,9 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||zestradar.com^$removeparam=adclid
 ! + NOT_OPTIMIZED
 adguard.app,adguard.com,adguard.info##.hello_from_adguard_tracking_params
-! + PLATFORM(windows, mac, android, ios) NOT_OPTIMIZED
+! + PLATFORM(windows, mac, android, cli, ios) NOT_OPTIMIZED
 adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
-! + PLATFORM(windows, mac, android) NOT_OPTIMIZED
+! + PLATFORM(windows, mac, android, cli) NOT_OPTIMIZED
 @@||a8cv.amiami.jp/click/$removeparam=a8
 @@||adj.st^$removeparam=adj-t
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
