@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511210203
+! Version: 202511220159
 ! Title: Personal Filter
-! Last Modified: 21 Nov 2025 02:03 UTC
+! Last Modified: 22 Nov 2025 01:59 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -40914,6 +40914,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||t.hoood.info^
 ||t.hornetsports.com^
 ||t.huskers.com^
+||t.hyros.com^
 ||t.impact.duke.edu^
 ||t.influ2.com^
 ||t.info.gonzaga.edu^
@@ -75462,6 +75463,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||atlas.rambler.ru/metrics
 ||atlassian.com/gateway/api/*/batch
 ||ats.20min.ch/__global/att/prod/latest/ats-tm.js
+||ats.vert.sh/js/script.js
 ||att.com/ssaf/ssafc/v1/controllerdata
 ||atv-ps.amazon.com/swift/page/xrayVOD?deviceID=
 ||auction.co.kr/*/GetHashedCguid|$xmlhttprequest
@@ -79442,6 +79444,12 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 mediamarkt.de#%#//scriptlet('abort-on-property-write', 'ftr__startScriptLoad')
 ||deezer.com/ajax/gw-light.php?method=log.listen
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
+||track.effiliation.com/servlet/effi.redir$urltransform=/%3a/:/
+! + NOT_VALIDATE PLATFORM(windows, mac, android)
+||track.effiliation.com/servlet/effi.redir$urltransform=/%2f/\//
+! + NOT_VALIDATE PLATFORM(windows, mac, android)
+||track.effiliation.com/servlet/effi.redir$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?track\.effiliation\.com.*[?&]url=(.+)$/\$1/
+! + NOT_VALIDATE PLATFORM(windows, mac, android)
 ||dealabs*.digidip.net/visit?url=$urltransform=/%3a/:/
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
 ||dealabs*.digidip.net/visit?url=$urltransform=/%2f/\//
@@ -81345,6 +81353,7 @@ d4?appid*type*
 ||dc.dqa.samsung.com^
 ||de01.rayjump.com^
 ||decide.mixpanel.com^
+||detaillog-global-dual.coolbcloud.com^
 ||detaillog-global-dual.coolhcloud.com^
 ||detect.rayjump.com^
 ||dev-apigw.samsungdmroute.com^
@@ -81374,6 +81383,7 @@ d4?appid*type*
 ||dt.beyla.site^
 ||dtcollect.newsbang.com^
 ||dualstack-cgicol.amap.com^
+||dualstack-collection.rong-edge.com^
 ||dualstack-logs.amap.com^
 ||dutils.com^
 ||dxp.baidu.com^
@@ -81593,10 +81603,12 @@ d4?appid*type*
 ||logapi-and.zhipin.com^
 ||logbak.hicloud.com^
 ||logcollection.ronghub.com^
+||logdata.hatspotlight.asia^
 ||logend.cookpad.com^
 ||logger.cloudmobi.net^
 ||logger.growstarry.com^
 ||logging.api.intuit.com^
+||logreport-global-dual.coolbcloud.com^
 ||logreport-global-dual.coolhcloud.com^
 ||logs-*.rebxgame.com^
 ||logs-ingress.svc.vinted.com^
@@ -81821,6 +81833,7 @@ d4?appid*type*
 ||sdk.stats-locations.com^
 ||sdks.stats-locations.com^
 ||seller-log-collector.shopee.
+||sensor.emolm.com^
 ||sensors.snappea.com^
 ||sensors.snaptube.app^
 ||sentry.eks.hoyoverse.com^
@@ -82051,6 +82064,7 @@ d4?appid*type*
 ||wompanalytics.azurewebsites.net^
 ||woodpecker.uc.cn^
 ||ws.ksmobile.net^
+||wslog-global-dual.coolccloud.com^
 ||wsmetrics.batch.com^
 ||www-google-analytics.l.google.com^
 ||wzrkt.com^
