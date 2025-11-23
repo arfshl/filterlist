@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511220159
+! Version: 202511230224
 ! Title: Personal Filter
-! Last Modified: 22 Nov 2025 01:59 UTC
+! Last Modified: 23 Nov 2025 02:24 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -74709,7 +74709,6 @@ infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.livei
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
 insider.com,israelnationalnews.com##.taboola
-itmedia.co.jp###endlinkConnection
 itmedia.co.jp##div[id^="logly-lift-"]
 ixbt.com##.block__recommend
 j-cast.com###cxRelatedEntry
@@ -81792,6 +81791,7 @@ d4?appid*type*
 ||report-stats.ad.jiguang.cn^
 ||report.*.gbqofs.io^
 ||report.*.qq.com^
+||report.1-1.io^
 ||report.apkpure.net^
 ||report.pixverse.ai^
 ||reporting.aatkit.com^
@@ -81868,6 +81868,7 @@ d4?appid*type*
 ||statclick.nate.com^
 ||static.fengkongcloud.com^
 ||statistic-overseas.yunxinfw.com^
+||statistic.live.126.net^
 ||statistical-report.djiservice.org^
 ||stats-a.maxthon.com^
 ||stats-proto.pandora.com^
@@ -82100,7 +82101,7 @@ d4?appid*type*
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||google-analytics.com/analytics.js$redirect=google-analytics,script,domain=mond.how
 @@||googletagmanager.com/gtag/js$domain=mond.how
-@@||googletagmanager.com/gtm.js$domain=cashier.dmm.co.jp|cashier.dmm.com|sferis.pl|tauron.pl
+@@||googletagmanager.com/gtm.js$domain=cashier.dmm.co.jp|cashier.dmm.com|gillette.de|sferis.pl|tauron.pl
 @@||i.snssdk.com/video/drm/v1/play_licenses$domain=douyin.com
 @@||play.*.com/vendor/VisitorAPI.js$domain=play.aetv.com|play.mylifetime.com
 @@||siteintercept.qualtrics.com^$domain=idealo.*
@@ -84412,6 +84413,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||flutteringfireman.com^
 ||foambench.com^
 ||followborder.com^
+||fontserif.com^
 ||foodczar.com^
 ||foodfunfestivals.com^
 ||forecasttiger.com^
@@ -84770,6 +84772,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||materialparcel.com^
 ||materialplayground.com^
 ||maxcruisers.com^
+||maybetony.com^
 ||meadowlullaby.com^
 ||measlymiddle.com^
 ||meatydime.com^
@@ -85044,6 +85047,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||quantumshine.com^
 ||queenjam.com^
 ||queenskart.com^
+||questionate.com^
 ||quicklyedit.com^
 ||quicksandear.com^
 ||quietknowledge.com^
