@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511230224
+! Version: 202511240218
 ! Title: Personal Filter
-! Last Modified: 23 Nov 2025 02:24 UTC
+! Last Modified: 24 Nov 2025 02:18 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -73690,6 +73690,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||web-ivcbrasil-tag.s3.us-west-2.amazonaws.com^
 ||web-sdk-cdn.singular.net^
 ||web-vitals.booking.com^
+||web.analytics.metrobyt-mobile.com^
 ||webc2s.pubgw.yahoo.com^
 ||webed.dm-event.net^
 ||webid.ad.daum.net^
@@ -77440,6 +77441,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||metro.co.uk/wp-content/themes/metro-parent/dist/components/measurement.min.js
 ||metro.tokyo.lg.jp/shared/js/g_tag.js
 ||metro.tokyo.lg.jp/shared/js/gtag.js
+||metrobyt-mobile.com/self-service-metro/v1/logging
 ||mgntrn.nl/api/event
 ||mhealth.ru/_stat/log/
 ||mhevent.segye.com/mbi/pvcount
@@ -81877,6 +81879,7 @@ d4?appid*type*
 ||stats.*.rongnav.com^
 ||stats.abbi.io^
 ||stats.calldorado.com^
+||stats.cn.ronghub.com^
 ||stats.fifthstarlabs.io^
 ||stats.oilpainting.colorbynumber.veraxen.com^
 ||stats.popcap.com^
@@ -85261,6 +85264,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||shockinggrass.com^
 ||shockingship.com^
 ||showsteel.com^
+||shredform.com^
 ||shredquiz.com^
 ||shrewsburyshow.com^
 ||shrillspoon.com^
