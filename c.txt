@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511250205
+! Version: 202511260206
 ! Title: Personal Filter
-! Last Modified: 25 Nov 2025 02:05 UTC
+! Last Modified: 26 Nov 2025 02:06 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -17295,6 +17295,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||habib.miaziledstump.com^
 ||habib.salamelectronic.com^
 ||haccz.moonglow.com^
+||hackle.io^$third-party
 ||hacx60.com^
 ||haddock.jeffreyknox.dev^
 ||haddock.simgenie.app^
@@ -73896,6 +73897,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||poznamka.ru/ametrix.js
 ||pps.rokt.com/v1/timings/events
 ||practicequiz.com/responsive/js/ga.js
+||pravilamag.ru/_stat/
 ||pravo.ru/assets/*/js/event.js
 ||preis24.de/js/webtrekk.js
 ||prettylittlething.us/api/*/event/
@@ -74355,6 +74357,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sight.ewp.gg/track/
 ||sign.ing/libs/martech/analytics.js
 ||signal-collector.gemaltodigitalbankingidcloud.com^$script
+||signals.turkcell.com.tr/r|
 ||signin.ebay.com/t_n.html
 ||sim-technik.de^*&uniqueTrackId=
 ||similarweb.com/scripts/lite-app/client/dist/tracking.min.js
@@ -76571,6 +76574,7 @@ $cookie=ytrackvisit
 ||spankbang.com^$cookie=ana-sid
 ||spankbang.com^$cookie=ana-vid
 ||spbvedomosti.ru^$cookie=/^bitrix-/
+||spooncast.net^$cookie=/^-hackle-/
 ||sport-express.ru^$cookie=-se-site-counter
 ||sravni.ru^$cookie=-fp-
 ||superhuman.com^$cookie=web-device
@@ -78096,6 +78100,10 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
+@@||widget.fitanalytics.com/widget/api/$domain=modivo.*
+@@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
+! + PLATFORM(windows, mac, android, cli)
 @@||analytics.prensaiberica.es/api/delivery/recommendations$domain=farodevigo.es
 @@||api.cxense.com/public/widget/$domain=farodevigo.es
 @@||api.cxense.com/public/widget/data?json=$domain=onetz.de
@@ -78121,6 +78129,7 @@ d4?appid*type*
 @@||was.vodafone.de/ee/*/privacy/set-consent
 telex.hu#%#//scriptlet('set-constant', 'pp_gemius_hit', 'noopFunc')
 ||ct.pinterest.com^$redirect=noop.html,subdocument
+||wpfc.ml/b.gif$image,redirect=1x1-transparent.gif
 ! + PLATFORM(android)
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru|id.x5.ru
 ! + PLATFORM(windows, mac, android)
@@ -80840,6 +80849,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||motionflowers.com^
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
+||mountedbattery.com^
 ||movemeal.com^
 ||mowgoats.com^
 ||muddledaftermath.com^
@@ -80894,6 +80904,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||nowaymail.com^
 ||nudgeduck.com^
 ||nullnorth.com^
+||nullradar.com^
 ||numerousnest.com^
 ||nutritiousbean.com^
 ||oafishchance.com^
@@ -81299,6 +81310,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||sinkportal.com^
 ||sixauthority.com^
 ||sixpants.com^
+||sixquickrun.com^
 ||sixscissors.com^
 ||sizzlingsmoke.com^
 ||sketchpals.com^
@@ -82076,19 +82088,19 @@ $removeparam=ysclid
 &af_xp=$removeparam=pid
 &nbt=nb%3A$removeparam=nbt
 &uclick=*&uclickhash=$removeparam
-*$removeparam=-ly-c,domain=app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|zurichlife.co.jp
-*$removeparam=-ly-r,domain=app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|zurichlife.co.jp
+*$removeparam=-ly-c,domain=and-pro.jp|app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
+*$removeparam=-ly-r,domain=and-pro.jp|app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
-*$removeparam=ldtag-cl,domain=chiba-helmet.jp|fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp|k-ty.com
-*$removeparam=lt-r,domain=chiba-helmet.jp|fukushima-hook.jp|k-ty.com
+*$removeparam=ldtag-cl,domain=chiba-helmet.jp|fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp|k-ty.com|mochida.co.jp
+*$removeparam=lt-r,domain=chiba-helmet.jp|fukushima-hook.jp|japanpost.jp|k-ty.com|mochida.co.jp
 *$removeparam=service-id,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=siteno,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=spartner,domain=easynotebooks.de|notebook.de
 *$removeparam=t-src,domain=tuta.com|tutanota.com
 *$removeparam=yclid,domain=smbc.co.jp
-*$removeparam=yj-r,domain=app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|zurichlife.co.jp
+*$removeparam=yj-r,domain=and-pro.jp|app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
 /?affijet-click=$removeparam
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
@@ -82162,6 +82174,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||americanas.com.br^$removeparam=pfm-page
 ||americanas.com.br^$removeparam=pfm-pos
 ||americanas.com.br^$removeparam=pfm-type
+||and-pro.jp^$removeparam=waad
 ||announcements.bybit.com^$removeparam=pid
 ||announcements.bybit.com^$removeparam=sa-utm-channel
 ||announcements.bybit.com^$removeparam=sa-utm-ci
@@ -82529,6 +82542,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||hbol.jp^$removeparam=cx-clicks-art-mdl
 ||headlines.peta.org^$removeparam=en-txn7
 ||health.tvbs.com.tw^$removeparam=from
+||healthgrades.com^$removeparam=referrersource
 ||hepsiburada.com^$removeparam=ftid
 ||hepsiburada.com^$removeparam=shortlink
 ||hepsiburada.com^$removeparam=url-src
