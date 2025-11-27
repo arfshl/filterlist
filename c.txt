@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511260206
+! Version: 202511270203
 ! Title: Personal Filter
-! Last Modified: 26 Nov 2025 02:06 UTC
+! Last Modified: 27 Nov 2025 02:03 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -48816,6 +48816,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||yesss-a1at.mno.link^
 ||yewrcd.govoyages.com^
 ||yext-pixel.com^$third-party
+||yext.com^$third-party
 ||yezztf.pinkelephant.co.kr^
 ||yf5.voyage-prive.at^
 ||yfaygn.natureetdecouvertes.com^
@@ -66758,6 +66759,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics-mkt.wemakeprice.com^
 ||analytics-op.streak.ninja^
 ||analytics-prd.aws.wehaa.net^
+||analytics-prod.readtheory.org^
 ||analytics-production.hapyak.com^
 ||analytics-rollout-*.amazonaws.com^
 ||analytics-sdk.yle.fi^
@@ -66807,6 +66809,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.code.illusion.jp^
 ||analytics.codigo.se^
 ||analytics.cookiefirst.dev^
+||analytics.cosmicstack.org^
 ||analytics.cosmonova.net^
 ||analytics.cosmopolitanmag.com.tr^
 ||analytics.crea.ca^
@@ -67138,6 +67141,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||c.webp2p.letv.com^
 ||c.wort-suche.com^
 ||c.x.oanda.com^
+||c.ypcdn.com^
 ||c0.adalyser.com^
 ||c00.adobe.com^
 ||c1-stats.shopifysvc.com^
@@ -68260,6 +68264,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||metrika.lookmovie2.to^
 ||metrika.myseldon.com^
 ||mevents.trusteer.com^
+||mgs.instacart.com^
 ||middleware.p7s1.io^
 ||minerva.devices.a2z.com^
 ||mixpanel-proxy.ted.com^
@@ -69736,6 +69741,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||xy33.smallable.com^
 ||y.one.impact-ad.jp^
 ||y000.wyff4.com^
+||y194.asics.com^
 ||y197.standardspeaker.com^
 ||y494.wdsu.com^
 ||y738.nhregister.com^
@@ -71748,6 +71754,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.boostcommerce.io/analytic/
 ||cdn.branch.io^$script
 ||cdn.builder.io/api/v1/pixel
+||cdn.calibermind.com/a.js
 ||cdn.calltrk.com/companies/
 ||cdn.clerk.io/clerk.js
 ||cdn.cohesionapps.com/cohesion/xs1.html?xsid=
@@ -72033,6 +72040,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cope.es/stats/services/recordEvent
 ||copilot.microsoft.com/fd/ls/
 ||coral.diks.fi/assets/js/count.js
+||coraltravel.ua/endpoints/analytics/
 ||core.bunchbox.co/geo.js^
 ||core.helloretail.com/serve/collect/pageview^
 ||cornelsen.de/*/tracking.min.js
@@ -72375,6 +72383,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||embedly.com/widgets/xcomm.html^$third-party
 ||embeds.beehiiv.com/attribution.js
 ||emea.flow.microsoft.com/providers/Internal.Telemetry
+||emma-matratze.de/metrics/
 ||emmi.jp/Scripts/tracker.js
 ||emp.de/on/demandware.store/*/__Analytics-Tracking
 ||empa.flixbus.de/acv^
@@ -75370,6 +75379,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||yastatic.net/s*/milab/js/metrika-counter.js
 ||yastatic.net/s3/distribution/yanalytics/yanalytics.js
 ||yazilim.net/alexa/
+||yellowpages.com/*/impression
 ||yelp.*/ad_acknowledgment
 ||yelp.*/ad_syndication_user_tracking
 ||yelp.*/bunsen/api/bunsen/events/
@@ -75403,6 +75413,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
+||ypcdn.com/ypu/js/compiled/srp_adsense.js
+||ypcdn.com/ypu/vendor/VisitorAPI.js
 ||yqzhishen.me/Statistics/statistics.
 ||ytn.co.kr/_comm/yct.js
 ||ytn.co.kr/_comm/ylog.php?
@@ -75461,20 +75473,20 @@ mediamarkt.de#%#//scriptlet('abort-on-property-write', 'ftr__startScriptLoad')
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
 ||track.effiliation.com/servlet/effi.redir$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?track\.effiliation\.com.*[?&]url=(.+)$/\$1/
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
-||dealabs*.digidip.net/visit?url=$urltransform=/%3a/:/
+||digidip.net/visit?url=$urltransform=/%3a/:/
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
-||dealabs*.digidip.net/visit?url=$urltransform=/%2f/\//
+||digidip.net/visit?url=$urltransform=/%2f/\//
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
-||dealabs*.digidip.net/visit?url=$urltransform=/%3f/?/
+||digidip.net/visit?url=$urltransform=/%3f/?/
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
-||dealabs*.digidip.net/visit?url=$urltransform=/%3d/=/
+||digidip.net/visit?url=$urltransform=/%3d/=/
 ! + NOT_VALIDATE PLATFORM(windows, mac, android)
 dzen.ru#%#//scriptlet('json-prune', 'ssrData.exportResponse.feedData.adPixelsData')
 dzen.ru#%#//scriptlet('json-prune', 'ssrData.exportResponse.feedData.adPixelsLink')
-||*dealabs*.digidip.net/visit?url=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?(?:dealabs|dealabs2de)\.digidip\.net.*url=([^&]*).*/\$1/
 ||cdn.dzen.ru/pingx
 ||clck.dzen.ru/click/$ping
 ||clck.dzen.ru/click|
+||digidip.net/visit?url=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.digidip\.net.*url=([^&]*).*/\$1/
 ||suggest.sso.dzen.ru/clck/$image,ping
 ||yandex.ru/ads/zen_audit
 ! + PLATFORM(windows, mac, android)
@@ -76623,6 +76635,7 @@ $cookie=ytrackvisit
 ||xraws.com^$cookie=client-id
 ||yahoo.com^$cookie=apidts
 ||yahoo.com^$cookie=guc
+||yellowpages.com^$cookie=vrid
 ||youdo.com^$cookie=/^-utm-/
 ||youdo.com^$cookie=/id/
 ! + NOT_PLATFORM(ext_ff)
@@ -78100,6 +78113,7 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=cava.tw
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
 @@||widget.fitanalytics.com/widget/api/$domain=modivo.*
 @@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
@@ -80584,6 +80598,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||hellounbox.com^
 ||helpcollar.com^
 ||helpflame.com^
+||helpingbits.com^
 ||hertechlife.com^
 ||hfc195b.com^
 ||highfalutinbox.com^
@@ -81024,6 +81039,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||precisear.com^
 ||predictplate.com^
 ||prepareplanes.com^
+||prepaymint.net^
 ||presetrabbits.com^
 ||presscoder.com^
 ||prettyeasycafe.com^
@@ -82088,8 +82104,8 @@ $removeparam=ysclid
 &af_xp=$removeparam=pid
 &nbt=nb%3A$removeparam=nbt
 &uclick=*&uclickhash=$removeparam
-*$removeparam=-ly-c,domain=and-pro.jp|app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
-*$removeparam=-ly-r,domain=and-pro.jp|app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
+*$removeparam=-ly-c,domain=and-pro.jp|app.hireroo.io|cmoa.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
+*$removeparam=-ly-r,domain=and-pro.jp|app.hireroo.io|cmoa.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
@@ -82100,7 +82116,7 @@ $removeparam=ysclid
 *$removeparam=spartner,domain=easynotebooks.de|notebook.de
 *$removeparam=t-src,domain=tuta.com|tutanota.com
 *$removeparam=yclid,domain=smbc.co.jp
-*$removeparam=yj-r,domain=and-pro.jp|app.hireroo.io|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
+*$removeparam=yj-r,domain=and-pro.jp|app.hireroo.io|cmoa.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
 /?affijet-click=$removeparam
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
@@ -82147,6 +82163,12 @@ rtkcid=*&clickid=$removeparam=clickid
 ||accounts.adblockplus.org^$removeparam=pv
 ||accounts.adblockplus.org^$removeparam=s
 ||action.metaffiliation.com$removeparam=argsite
+||ad.doubleclick.net/ddm/clk/$removeparam=/^\\$ja=/
+||ad.doubleclick.net/ddm/clk/$removeparam=/^utm-custom\d+/
+||ad.doubleclick.net/ddm/clk/$removeparam=clickid
+||ad.doubleclick.net/ddm/clk/$removeparam=clickorigin
+||ad.doubleclick.net/ddm/clk/$removeparam=deeplink
+||ad.doubleclick.net/ddm/clk/$removeparam=pid
 ||ads.tiktok.com/*/signup$removeparam=-source-
 ||ads.tiktok.com/*/signup$removeparam=cachesdk
 ||ads.tiktok.com/*/signup$removeparam=region
@@ -82296,7 +82318,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
 ||cinematoday.jp^$removeparam=g-clk
-||cj.dotomi.com^$removeparam=/^\w=/
 ||click.redditmail.com^$removeparam=ref
 ||click.redditmail.com^$removeparam=ref-campaign
 ||click.redditmail.com^$removeparam=ref-source
@@ -82312,9 +82333,12 @@ rtkcid=*&clickid=$removeparam=clickid
 ||clubi.cc/*?t=$removeparam=c
 ||clubi.cc/*?t=$removeparam=s
 ||clubi.cc/*?t=$removeparam=t
+||cmoa.jp^$removeparam=adef1043
 ||cmoa.jp^$removeparam=adme5101
 ||cmoa.jp^$removeparam=cmoa
 ||cmoa.jp^$removeparam=cmoa-pg
+||cmoa.jp^$removeparam=lp-fol
+||cmoa.jp^$removeparam=pg
 ||cmoa.jp^$removeparam=site
 ||cmswire.com^$removeparam=source
 ||cnbc.com^$removeparam=--source
@@ -82425,7 +82449,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||em.dynamicyield.com^$removeparam=tag-ids
 ||email.nationalgeographic.com^$removeparam=--du--
 ||email.nationalgeographic.com^$removeparam=--f--
-||emjcd.com^$removeparam=/^\w=/
 ||engage.cloud.microsoft/main/*thread$removeparam=allow-app-redirect
 ||engage.cloud.microsoft/main/*thread$removeparam=trk-ecs-etag
 ||engage.cloud.microsoft/main/*thread$removeparam=trk-email-type
@@ -82894,6 +82917,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||redtube.com^$removeparam=from
 ||ref.digital.pumb.ua^$removeparam
 ||rentio.jp^$removeparam=click-from
+||research-panel.jp^$removeparam=aid
 ||researchgate.net^$removeparam=-tp
 ||roboform.com^$removeparam=a
 ||roboform.com^$removeparam=affid
@@ -82975,6 +82999,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||smbc.co.jp^$removeparam=us
 ||smocca.jp^$removeparam=cb-ref-code
 ||smotreshka.tv^$removeparam=from
+||sonybank.jp^$removeparam=cid
+||sonybank.jp^$removeparam=kid
 ||sport.sky.it^$removeparam=share-id
 ||sport.sky.it^$removeparam=social
 ||sportbank.ua^$removeparam=ref
@@ -82986,6 +83012,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||stacksocial.com^$removeparam=aid
 ||stacksocial.com^$removeparam=rid
 ||stanby.com^$removeparam=sr-fr
+||status.medium.com^$removeparam=source
 ||steiledema.boxnow.gr^$removeparam=/^lkws-/
 ||store.shopping.yahoo.co.jp^$removeparam=sc-i
 ||streamable.com^$removeparam=src-internal
