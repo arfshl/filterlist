@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511270203
+! Version: 202511280202
 ! Title: Personal Filter
-! Last Modified: 27 Nov 2025 02:03 UTC
+! Last Modified: 28 Nov 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -14074,6 +14074,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||evnzcl.ranking.ac^
 ||evolationst.mywellnessoffer.com^
 ||evolu.adsdomaintracking.com^
+||evorra.net^
 ||evt.urbanevent.fr^
 ||evtai.coegawear.com^
 ||evthz.maisonmiru.com^
@@ -20056,6 +20057,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||l.vietnhat.tv^
 ||l.yoka-yoka.jp^
 ||l2i.qualityinnlevis.com^
+||l5id.com^
 ||lab.analyticspodium.com^
 ||lab.lendela.com^
 ||lab.sensilia.com^
@@ -28812,6 +28814,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||rajyiv.kimyoung.co.kr^
 ||rakutenadvertising.io^$third-party
 ||rakwkm.leefiori.com^
+||rampanel.com^$third-party
 ||rampmetrics.com^$third-party
 ||randiul.com^$third-party
 ||random.amuuzbouche.com^
@@ -42341,6 +42344,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tnative.ru^$third-party
 ||tnbjek.indekskitap.com^
 ||tnc*.zijieapi.com^
+||tncid.app^
 ||tncpzu.marelbo.com^
 ||tnfeb.lights4fun.co.uk^
 ||tnhcsf.holzkern.com^
@@ -70255,6 +70259,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /solid.gif?z=
 /sr.gif?
 /sranalytics.
+/srpc.js?ssss
 /stat.gif?
 /stat/dspixel.js
 /static/js/analytics-helper.js
@@ -70539,6 +70544,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /universal_analytics.$domain=foerde-sparkasse.de|sparkasse-dachau.de|sparkasse-hochfranken.de|sparkasse-mittelfranken-sued.de
 /uvpjs-rv/*/lib/tracking/*$domain=cnet.com
 /video_stats_views$domain=d3f6gjnauy613m.cloudfront.net|studyflix.de
+/webruntime/log/*$domain=help.disneyplus.com|help.hulu.com
 /wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=musicman.co.jp|vitacig.eu.com|wilfmovies.com|xpornass.com
 /wp-content/plugins/pmc-plugins/pmc-social-share-bar/build/tracking.js$domain=billboard.com|deadline.com
 /yandex-metrika.js$domain=russia-tv.online
@@ -70731,6 +70737,7 @@ kanobu.ru##a[href^="https://www.liveinternet.ru/click"]
 kari.com#%#//scriptlet('set-local-storage-item', 'device_id', '$remove$')
 kari.com#%#//scriptlet('set-local-storage-item', 'rees46_device_id', '$remove$')
 kerch.com.ru##a[href^="http://www.kerch.net/counter/"]
+kf.qq.com#%#//scriptlet('set-constant', 'Aegis', 'noopFunc')
 kino-zeit.de##.vgwort-metis-marker
 kinotan.ru,kinotochka.club,legend.az##.counts
 kobe-np.co.jp#?#section.sec:has( > #piano_recs_inline_title)
@@ -70993,6 +71000,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||aa.avvo.com/1/collect?*&events=
 ||aa.com/aileron/api/log|
 ||aachener-zeitung.de/zva/pc/zaehler.php
+||aawsat.com/pageview/
+||aawsat.com/srpc.js
 ||aax-us-iad.amazon.com/e/xsp/imp?
 ||ab-in-den-urlaub.de/nocacheTracking.php
 ||ab-in-den-urlaub.de/resources/cjs/tracking
@@ -71346,6 +71355,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||apnews.com/blaize/datalayer
 ||apnews.com/newrelic/newrelic.browser.prod.js
 ||app-bnkr.b-cdn.net/js/lv.js
+||app-de-na1.niceincontact.com/logger-public
 ||app.avada.io/scripttag/tracking/avada-track.min.js
 ||app.brightinfo.com/bi.aspx$third-party
 ||app.call-tracking.by/scripts/calltracking.js
@@ -71393,6 +71403,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||apps.emol.com/bt/pingCommentsAd
 ||apps.emol.com/bt/pongAudience
 ||apps.emol.com/bt/rdb.pram.
+||arabnews.com/srpc.js
 ||araskargo.com.tr/tr/jv_google_analytics.js
 ||arc.msn.com/*/Impression?PID=
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
@@ -71423,7 +71434,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|assets.adobedtm.com|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
+||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|assets.adobedtm.com|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|eadt.co.uk|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -72326,6 +72337,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||e.m6web.fr/events
 ||e.pcloud.com/trackopen
 ||e1.ru/api/metrics/
+||eadt.co.uk/resources/responsive-static/vendor/
 ||eapi.pcloud.com/loganalyticsevent
 ||early-birds.fr/tracker/
 ||earthly.dev/blog/assets/js/analytics.js
@@ -73667,7 +73679,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ok.ru/web-api/pixel?
 ||olegmakarenko.ru/ljcounter/
 ||olympiaverlag.sc.omtrdc.net/b/ss/
-||olympics.com/ddna-event-router/ddna-analytics.js
 ||om.lds.org/id*AnalyticsFields
 ||omniture.chip.de/b/ss/
 ||omt.shinobi.jp/pv^
@@ -74651,6 +74662,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||stmg-prod.mirror.co.uk/analytics.config.json
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js
 ||storage.googleapis.com/rasin/*/hm.js
+||storage.googleapis.com/shufoo-prod-imp-gif/
 ||storage.googleapis.com/widget.kenect.com/resources/scripts/newRelic.js.gz
 ||storage.syncmedia.io/libs/sm_capture_
 ||store.lixil.co.jp/*/Amasty_Xsearch/js/widgets/analytics-data-collector.js
@@ -75341,6 +75353,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||xp.apple.com/config/*/report/
 ||xp.apple.com/report/
 ||xp2023-pix.s3.amazonaws.com/px_rgKuV.js
+||xplay.gg/api/server/analytics/mixpanel
 ||xserver.ne.jp/analytics?
 ||xsplit.com/_gtm.js
 ||xsrv.jp/ga/
@@ -80444,6 +80457,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||floweryoperation.com^
 ||flushingbeast.com^
 ||flutteringfireman.com^
+||flystranger.com^
 ||foambench.com^
 ||followborder.com^
 ||fontserif.com^
@@ -82109,6 +82123,7 @@ $removeparam=ysclid
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
+*$removeparam=from,domain=rbc.ru|rbclifemedia.ru
 *$removeparam=ldtag-cl,domain=chiba-helmet.jp|fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp|k-ty.com|mochida.co.jp
 *$removeparam=lt-r,domain=chiba-helmet.jp|fukushima-hook.jp|japanpost.jp|k-ty.com|mochida.co.jp
 *$removeparam=service-id,domain=emart.ssg.com|m-emart.ssg.com
@@ -82672,7 +82687,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||lenovo.com^$removeparam=run-key
 ||lenta.ru^$removeparam=es
 ||lidea.today^$removeparam=from
-||liferbc.ru^$removeparam=from
 ||linkbux.com/track/$removeparam=uid
 ||linkedin.com/feed/update$removeparam=origin
 ||lite.qwant.com/redirect/$removeparam=ad
@@ -82867,6 +82881,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||qianfan.cloud.baidu.com^$removeparam=track
 ||qjweb.jp^$removeparam=from
 ||qms.ru^$removeparam=src
+||qoo10.jp^$removeparam=--da-seqno
+||qoo10.jp^$removeparam=flowpath-page-no
+||qoo10.jp^$removeparam=flowpath-page-value
 ||querie.me^$removeparam=timestamp
 ||quizangel.com^$removeparam=utm-site-campaign
 ||quizangel.com^$removeparam=utm-site-medium
@@ -82877,7 +82894,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||rakumachi.jp^$removeparam=uiaid
 ||rapidgator.net^$removeparam=referer
 ||raretech.site^$removeparam=from
-||rbc.ru^$removeparam=from
 ||rd.bizrate.com$removeparam=af-assettype-id
 ||rd.bizrate.com$removeparam=af-creative-id
 ||rd.bizrate.com$removeparam=af-id
