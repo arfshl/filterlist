@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202511300223
+! Version: 202512010232
 ! Title: Personal Filter
-! Last Modified: 30 Nov 2025 02:23 UTC
+! Last Modified: 01 Dec 2025 02:32 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -68941,7 +68941,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stat.download.xunlei.com^
 ||stat.eagleplatform.com^
 ||stat.gc.my.games^
-||stat.i3.dmm.com^
 ||stat.indidata.com^
 ||stat.kbs.co.kr^
 ||stat.kununu.cz^
@@ -72095,6 +72094,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||crm.a1.by/upload/crm/tag/call.tracker.js
 ||crm.zoho.com/crm/javascript/zcga.js
 ||crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?
+||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
 ||crowdtwist.com/trck/
 ||crozdesk.com/tracker/
 ||crunchbase.com/*/collector|
@@ -73047,6 +73047,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||inq.com^*/onEvent?_
 ||inshokuten.com/accessTracking/
 ||insider.com/chunks/scripts/datadog-
+||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||instadp.com/track
 ||instagram.com/ajax/bz
 ||instagram.com/ajax/qm/?__
@@ -78141,6 +78142,7 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=cava.tw
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
 @@||tags.tiqcdn.com/utag/pch/*/prod/utag.js$domain=pch.com
@@ -80379,6 +80381,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||epicoldschool.com^
 ||epicswimming.com^
 ||equablekettle.com^
+||essaygiants.com^
 ||essayspin.com^
 ||etherealbamboo.com^
 ||ethereallagoon.com^
@@ -80573,6 +80576,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||gravitykick.com^
 ||grayoranges.com^
 ||grayreceipt.com^
+||grayscaleart.com^
 ||greasegarden.com^
 ||greasysquare.com^
 ||gridbelow.com^
@@ -80979,6 +80983,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||optionsnomad.com^
 ||opulentsylvan.com^
 ||orangebirdie.com^
+||orgbackups.com^
 ||orientedargument.com^
 ||originblocks.com^
 ||orionember.com^
@@ -81283,6 +81288,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||scrollservice.com^
 ||scrubswim.com^
 ||sealtravels.com^
+||seamlesssalon.com^
 ||seatsmoke.com^
 ||secondhandfall.com^
 ||secretivesheep.com^
@@ -82139,8 +82145,8 @@ $removeparam=ysclid
 &af_xp=$removeparam=pid
 &nbt=nb%3A$removeparam=nbt
 &uclick=*&uclickhash=$removeparam
-*$removeparam=-ly-c,domain=and-pro.jp|app.hireroo.io|cmoa.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
-*$removeparam=-ly-r,domain=and-pro.jp|app.hireroo.io|cmoa.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
+*$removeparam=-ly-c,domain=and-pro.jp|apagardpre.com|app.hireroo.io|cmoa.jp|disease.jp.lilly.com|e-naviya.com|frontier-direct.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|shopping.yahoo.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|teinei.co.jp|tghd.co.jp|zurichlife.co.jp
+*$removeparam=-ly-r,domain=and-pro.jp|apagardpre.com|app.hireroo.io|cmoa.jp|disease.jp.lilly.com|e-naviya.com|frontier-direct.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|shopping.yahoo.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|teinei.co.jp|tghd.co.jp|zurichlife.co.jp
 *$removeparam=apppopyn,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
@@ -82152,7 +82158,7 @@ $removeparam=ysclid
 *$removeparam=spartner,domain=easynotebooks.de|notebook.de
 *$removeparam=t-src,domain=tuta.com|tutanota.com
 *$removeparam=yclid,domain=smbc.co.jp
-*$removeparam=yj-r,domain=and-pro.jp|app.hireroo.io|cmoa.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|tghd.co.jp|zurichlife.co.jp
+*$removeparam=yj-r,domain=and-pro.jp|apagardpre.com|app.hireroo.io|cmoa.jp|disease.jp.lilly.com|e-naviya.com|frontier-direct.jp|hisamitsu.co.jp|metlife.co.jp|nitori-net.jp|research-panel.jp|sbisec.co.jp|shopping.yahoo.co.jp|smbc.co.jp|sompo-direct.co.jp|sonybank.jp|store.mens-null.net|teinei.co.jp|tghd.co.jp|zurichlife.co.jp
 /?affijet-click=$removeparam
 /?r=dir&zoneid=$removeparam
 /?rb=*&zoneid=$removeparam
@@ -82560,6 +82566,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||foodpanda.$removeparam=src
 ||forbes.com^$removeparam=sh
 ||freebies.indiegala.com^$removeparam=ref
+||frontier-direct.jp^$removeparam=argument
+||frontier-direct.jp^$removeparam=dmai
 ||game-i.daa.jp/?cmd=ad_mode$removeparam=cmd
 ||game.hiroba.dpoint.docomo.ne.jp^$removeparam=mks-referer-event
 ||gamersgate.com^$removeparam=caff
@@ -83112,6 +83120,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||techbook.de^$removeparam=dtp
 ||techbook.de^$removeparam=ref
 ||techbook.de^$removeparam=tbl
+||teinei.co.jp^$removeparam=camp-no
+||teinei.co.jp^$removeparam=ref
+||teinei.co.jp^$removeparam=rmai
 ||teknosa.com^$removeparam=adj-adgroup
 ||teknosa.com^$removeparam=adp-cid
 ||teknosa.com^$removeparam=adp-oid
