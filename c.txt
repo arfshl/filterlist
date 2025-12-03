@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512020207
+! Version: 202512030207
 ! Title: Personal Filter
-! Last Modified: 02 Dec 2025 02:07 UTC
+! Last Modified: 03 Dec 2025 02:07 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -41456,6 +41456,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tags.mattressfirm.com^
 ||tags.microbank.com^
 ||tags.mindbodyonline.com^
+||tags.mlytics.com^
 ||tags.moneytopay.com^
 ||tags.mutua.es^
 ||tags.mwg.aaa.com^
@@ -67289,6 +67290,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||adtima-media.zascdn.me^
 ||adtracking.smartmediarep.com^
 ||adv-sv-stat.focus.cn^
+||advancedanalytics-websocket-pri-001.hexaglobe.net^
 ||aegis.qq.com^
 ||aem-collector.daumkakao.io^
 ||aem-kakao-collector.onkakao.net^
@@ -69286,7 +69288,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||segment-api.goodrx.com^
 ||segment-cdn.producthunt.com^
 ||segments.adap.tv^
-||sensor.grubhub.com^
 ||sensorsdata*.read.duokan.com^
 ||sensorsdata.glowapp.vip^
 ||sentry01.zerg.rambler.ru^
@@ -71354,6 +71355,7 @@ kt.com#%#//scriptlet('set-constant', 'KT_trackClicks', 'noopFunc')
 kuow.org#?#.story-content-wrapper > div.embed_block:has( > div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has( > script:contains(window.usabilla))
 kuruma-news.jp##.recommend-container
+lastminute.com.au/api/uisprime/track
 ldblog.jp,livedoor.biz#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 lessentiel.lu#%#//scriptlet('set-local-storage-item', 'clientId', '$remove$')
 letterboxd.com#%#//scriptlet('href-sanitizer', 'a[href^="https://click.justwatch.com/"]', '?r')
@@ -72091,6 +72093,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||att.com/ssaf/ssafc/v1/controllerdata
 ||atv-ps.amazon.com/swift/page/xrayVOD?deviceID=
 ||auction.co.kr/*/GetHashedCguid|$xmlhttprequest
+||audiocircuit.dk/koko-analytics-collect.php
 ||audiorelay.net/cf/js/plsbl.outbound-links.js
 ||auto-bild.de/*/gaEvents
 ||auto-motor-und-sport.de/js/sophus3/logging.js
@@ -73777,6 +73780,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kazus.ru/js/*/log_trackjs.htm
 ||kbb.com/pixall/
 ||kccsrecommend.site/torimochi_log/
+||kcdn.online/empty.gif?r=
 ||kebhana.com/cont/common/js/tag_hana.js
 ||keirin.netkeiba.com/ndtracker/
 ||kenga.tech/heatmaps-
@@ -73812,6 +73816,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||kodik.info/stats|
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||kolayik.com/gjyo/
+||kolesa.kz/ms/rum/v1/send
 ||konami.com/games/s/common/js/analytics.js
 ||konturnovosti.com/packs/js/opm.js
 ||kookbang.dema.mil.kr/newspaper/js/nlogger.js
@@ -76186,6 +76191,7 @@ link.gmapp*.net$image
 %2Fvia%2Fo%3Fh%3D
 %2Fwf%2Fopen%3Fupn%3D$image
 %3A%2F%2Fe.*%2Fopen%3F$image
+%3A%2F%2Ft.paypal.com%2Fts%3Fv%3D$image
 .awstrack.me$image
 .bzzgroup.cn$image
 .com%2F_t%2Fopen%2F$image
@@ -76233,6 +76239,7 @@ link.gmapp*.net$image
 33mail.com/page/opened$image
 ://e.*/open?$image
 ://s-links.producthunt.com/oo/*/e.gif
+://t.paypal.com/ts?v=$image
 ://t1.*.sbs.com.au/r/$image
 aa.agkn.com$image
 ablink.hi.channel4.com$image
@@ -76323,6 +76330,8 @@ elink.clickdimensions.com$image
 email-link.adtidy.org%2Fopen%2F$image
 email-link.adtidy.org/open/$image
 email-links.buffer.com$image
+email.*.com%2Fo%2F$image
+email.*.com/o/$image
 email.123formbuilder.com$image
 email.aol.net$image
 email.azurareborn.com$image
@@ -78570,6 +78579,7 @@ d4?appid*type*
 ||tatrack.thinkyeah.com^
 ||taurus.iad.appboy.com^
 ||tc.mnbvcxzq.com^
+||tc.vbnmhjlp.com^
 ||tc.weszxdrf.com^$app=com.apkpure.aegon
 ||tdid.m.qq.com^
 ||tealand.cmcm.com^
@@ -78756,6 +78766,7 @@ d4?appid*type*
 @@||tags.tiqcdn.com/utag/pch/*/prod/utag.js$domain=pch.com
 @@||widget.fitanalytics.com/widget/api/$domain=modivo.*
 @@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
+||tms.post.ch/*gtm.js|$redirect=google-analytics,script
 ! + PLATFORM(windows, mac, android, cli)
 @@||analytics.prensaiberica.es/api/delivery/recommendations$domain=farodevigo.es
 @@||api.cxense.com/public/widget/$domain=farodevigo.es
@@ -82607,9 +82618,12 @@ $removeparam=itm-content
 $removeparam=itm-medium
 $removeparam=itm-source
 $removeparam=itm-term
+$removeparam=janet
 $removeparam=jmtyclid
+$removeparam=ldtag-cl
 $removeparam=line-uid
 $removeparam=loclid
+$removeparam=lt-r
 $removeparam=maf
 $removeparam=mallcode,domain=shein.co.uk|shein.com
 $removeparam=mc-cid
@@ -82680,6 +82694,7 @@ $removeparam=source-ve-path,domain=youtube-nocookie.com|youtube.com|youtubekids.
 $removeparam=spot-im-redirect-source
 $removeparam=src-module,domain=shein.co.uk|shein.com
 $removeparam=src-tab-page-id,domain=shein.co.uk|shein.com
+$removeparam=srclt
 $removeparam=srsltid
 $removeparam=sscid
 $removeparam=sub-rt,domain=comemo.nikkei.com|diehardtales.com|greenplanet.kaneka.co.jp|j-yokatsu2.edu.city.uruma.okinawa.jp|labo.rheos.jp|note-harumi.sbfoods.co.jp|note.basicinc.jp|note.bcnretail.com|note.calbee.jp|note.com|note.gallery.intage.com|note.jp|note.kogakuin.ac.jp|note.minne.com|note.montblanc.design|note.nhkso.or.jp|note.pokkasapporo-fb.jp|note.roxx.co.jp|note.smartnews-ads.com|note.universal-music.co.jp|note.yamap.com|note.zochang.com|refalover-note.mainichi.jp|shanaiho.itandi.co.jp|uragawa-note.jpn.panasonic.com|webtripper.jp
@@ -82764,8 +82779,6 @@ $removeparam=ysclid
 *$removeparam=channable,domain=easynotebooks.de|notebook.de
 *$removeparam=ckwhere,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=from,domain=rbc.ru|rbclifemedia.ru
-*$removeparam=ldtag-cl,domain=chiba-helmet.jp|fsa.go.jp|fukushima-hook.jp|gu-global.com|jpcast.japanpost.jp|k-ty.com|mochida.co.jp|shingaku.mynavi.jp
-*$removeparam=lt-r,domain=chiba-helmet.jp|fukushima-hook.jp|japanpost.jp|k-ty.com|mochida.co.jp|shingaku.mynavi.jp
 *$removeparam=service-id,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=siteno,domain=emart.ssg.com|m-emart.ssg.com
 *$removeparam=spartner,domain=easynotebooks.de|notebook.de
@@ -82999,6 +83012,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||cnbc.com^$removeparam=--source
 ||cnbc.com^$removeparam=par
 ||cnn.co.jp^$removeparam=ref
+||coca-cola.com^$removeparam=openexternalbrowser
 ||code-wallets.com^$removeparam=tw-adid
 ||coloso.co.kr^$removeparam=fb-asc
 ||column.sp.baseball.findfriends.jp^$removeparam=from
@@ -83507,6 +83521,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||productcatalog.channeladvisor.com^$document,removeparam=pcat-vnexttracking-retailerscoring
 ||productcatalog.channeladvisor.com^$document,removeparam=profileid
 ||productcatalog.channeladvisor.com^$document,removeparam=uniqueuserid
+||promo-search.yahoo.co.jp^$removeparam=fr
 ||promote.betcity.ru^$removeparam=icm
 ||promote.betcity.ru^$removeparam=refcode
 ||promote.betcity.ru^$removeparam=widget-id
@@ -83561,8 +83576,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||realtor.com^$removeparam=flow
 ||realtor.com^$removeparam=rdc-visitor-id
 ||record.pt^$removeparam=ref
-||redbull.com^$removeparam=ldtag-cl
-||redbull.com^$removeparam=lt-r
 ||reddit.com^$removeparam=%243p
 ||reddit.com^$removeparam=%24deep-link
 ||reddit.com^$removeparam=correlation-id
@@ -83622,6 +83635,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||shop.app/accounts/$removeparam=analytics-trace-id
 ||shop.asus.com^$removeparam=ad-id
 ||shop.asus.com^$removeparam=campaign-id
+||shop.tsukumo.co.jp/goods/$removeparam=cid
 ||similarweb.com^$removeparam=from-ext
 ||simplelogin.io^$removeparam=slref
 ||sincode.ai^$removeparam=via
