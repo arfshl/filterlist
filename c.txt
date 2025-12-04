@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512030207
+! Version: 202512040208
 ! Title: Personal Filter
-! Last Modified: 03 Dec 2025 02:07 UTC
+! Last Modified: 04 Dec 2025 02:08 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -17293,7 +17293,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||habib.miaziledstump.com^
 ||habib.salamelectronic.com^
 ||haccz.moonglow.com^
-||hackle.io^$third-party
 ||hacx60.com^
 ||haddock.jeffreyknox.dev^
 ||haddock.simgenie.app^
@@ -44475,6 +44474,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tracker.xgen.dev^
 ||tracker.yolo247.com^
 ||tracker.zenia7.com^
+||tracker.zmaticoo.com^
 ||trackerapi.ebxcdn.com^
 ||trackerhqu.com^$third-party
 ||trackerscript.sqreemtech.com^$third-party
@@ -69771,6 +69771,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tag.panorama.ai^
 ||tag.researchnow.com^
 ||tag.rmp.rakuten.com^
+||tagbridge.vlp.cz^
 ||tagger.ope.scmp.com^
 ||tagger.opecloud.com^
 ||tagging.040fit.nl^
@@ -74950,6 +74951,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sex-studentki.pro/system/stat/
 ||sexhd.pics/x/x.js
 ||sexu.com/api/ttrack
+||sexyrealsexdolls.com/api/collect
 ||seyredelim.com/lib/ajax/track.php
 ||seznam.cz/*/hit/?
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
@@ -75888,6 +75890,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||weltsport.appspot.com/hstrck-detect.js^
 ||weser-kurier.de/REST/frontend/itemstatistics^
 ||westjr.co.jp/*/analyze_tag.js
+||wheelify-front.carecart.io/postimpression
 ||where-to-buy.co/libraries/ca/tracking/
 ||wherewindsmeetgame.com/*/api/upload/log
 ||whirlpool-cdn.thron.com/shared/plugins/tracking/current/sp.js
@@ -76172,6 +76175,7 @@ link.gmapp*.net$image
 %2F%2Flinks.*.com%2Fe%2Feo%3F_t%3D$image
 %2F%2Flinks1.*.com%2Fq%2F*$image
 %2F%2Fp.liadm.com%2Fimp%3Fs%3D$image
+%2Famsweb.php%3F
 %2FCI0%2F0$image
 %2Fe3t%2FCto%2FRK$image
 %2Feos%2Fv1%2F$image
@@ -76215,6 +76219,7 @@ link.gmapp*.net$image
 .pulse-stat.com$image
 .sendibm1.com%2Fmk%2Fop%2F$image
 .sendibm1.com/mk/op/$image
+/amsweb.php?$image
 /CI0/0$image
 /e3t/Cto/RK$image
 /eos/v1/*$image
@@ -80697,6 +80702,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||canvasandsocks.com^
 ||capablecup.com^
 ||capriciouscorn.com^
+||captainstick.com^
 ||captivatingcanyon.com^
 ||captivatingillusion.com^
 ||captivatingpanorama.com^
@@ -80924,6 +80930,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||dinnerquartz.com^
 ||direfuldesk.com^
 ||disagreeabledrop.com^
+||discopond.com^
 ||discreetfield.com^
 ||discreetquarter.com^
 ||distributionpocket.com^
@@ -81081,6 +81088,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||fixedfold.com^
 ||flakyfeast.com^
 ||flameuncle.com^
+||flashtexting.com^
 ||fleetbegin.com^
 ||flimsycircle.com^
 ||flimsythought.com^
@@ -81187,6 +81195,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||gorgeousedge.com^
 ||gorillapage.com^
 ||gossamerwing.com^
+||gotlunched.com^
 ||gracefulmilk.com^
 ||grainmass.com^
 ||grandfatherguitar.com^
@@ -81512,6 +81521,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||modularmental.com^
 ||momentfilter.com^
 ||monacobeatles.com^
+||monkeyapes.com^
 ||monkeystyping.com^
 ||monstermemes.com^
 ||monthlyhat.com^
@@ -82862,6 +82872,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||americanas.com.br^$removeparam=pfm-page
 ||americanas.com.br^$removeparam=pfm-pos
 ||americanas.com.br^$removeparam=pfm-type
+||ana.co.jp^$removeparam=cid
 ||and-pro.jp^$removeparam=waad
 ||announcements.bybit.com^$removeparam=pid
 ||announcements.bybit.com^$removeparam=sa-utm-channel
