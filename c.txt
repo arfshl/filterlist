@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512040208
+! Version: 202512050208
 ! Title: Personal Filter
-! Last Modified: 04 Dec 2025 02:08 UTC
+! Last Modified: 05 Dec 2025 02:08 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -67408,6 +67408,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.castel.jp^
 ||analytics.ceneo.pl^
 ||analytics.cinematoday.jp^
+||analytics.claudelog.com^
 ||analytics.clic2buy.com^
 ||analytics.cloud.coveo.com^
 ||analytics.cloudevo.ai^
@@ -68480,6 +68481,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||hummingbird.mavencoalition.io^
 ||hwa.his.huawei.com^
 ||i.bigin.io^
+||i.go.sohu.com^
 ||i368.republicanherald.com^
 ||i867.journal-advocate.com^
 ||i953.greeleytribune.com^
@@ -71497,6 +71499,7 @@ usatoday.com##.story-taboola-related-module
 usnews.com###null-recommendations-widget
 valetudo.ru#?#.v_left > div.moduletable:has(script[src^="https://www.googletagmanager.com/"])
 versii.com##img[style="width: 88px; height: 31px; border: 0"]
+virgule.lu##section[id^="recirculationAside-ArticleGroup-Recommandé-pour-vous-"]
 vivi.tv#?#.section__inner:has( > #recommended-posts-result)
 vnexpress.net#%#//scriptlet('set-local-storage-item', '/^fosp_/', '$remove$')
 vnexpress.net#%#//scriptlet('set-local-storage-item', 'orig_aid', '$remove$')
@@ -73052,6 +73055,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||etsy.com/api/*/ajax/public/cheddar|
 ||etsy.com/bcn/beacon|
 ||eu.klarnaevt.com^$ping
+||eum.instana.rewe-group.com/eum
 ||euro.com.pl/log-customer-visit$redirect=noop.txt
 ||europe1.fr/build/e1/tracking.
 ||event-analytics.yesware.com/main.js
@@ -73776,6 +73780,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||karte.io/mirror-record/record?
 ||karte.io^$domain=delishkitchen.tv
 ||kartell.com/ccstoreui/*/analytics/
+||kaufland.de/_/perf/
+||kaufland.de/api/uts/events
 ||kayak.co.kr/s/vestigo/*/measure^
 ||kazi.co.jp/js/analytics.js
 ||kazus.ru/js/*/log_trackjs.htm
@@ -74735,6 +74741,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||revive-chat.io/js/tracking-min.js
 ||revocdn.revotas.com/trc/api/rvts*_tracker.js
 ||revopoint3d.com/api/collect
+||rewe.de/api/xrd/performance
+||rewe.de/api/xrd/web-vitals
 ||rezka.ag/setinfo/
 ||rfk.finishline.com/api/event-rfkj/
 ||rfksrv.com/rfk/$third-party
@@ -81320,6 +81328,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||inputicicle.com^
 ||inquisitiveice.com^
 ||inquisitiveinvention.com^
+||insectmacros.com^
 ||inspirebees.com^
 ||insulatech.com^
 ||intelligentscissors.com^
@@ -83024,6 +83033,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||cnbc.com^$removeparam=par
 ||cnn.co.jp^$removeparam=ref
 ||coca-cola.com^$removeparam=openexternalbrowser
+||coco.fun/share/$removeparam=d
+||coco.fun/share/$removeparam=m
+||coco.fun/share/$removeparam=share-to
 ||code-wallets.com^$removeparam=tw-adid
 ||coloso.co.kr^$removeparam=fb-asc
 ||column.sp.baseball.findfriends.jp^$removeparam=from
@@ -83314,6 +83326,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||index.hr^$removeparam=index-ref
 ||indianexpress.com^$removeparam=ref
 ||iotransfer.itopvpn.com^$removeparam=ref
+||irisplaza.co.jp^$removeparam=fd-bridge-id
 ||item.rakuten.co.jp^$removeparam=iasid
 ||japan.cnet.com^$removeparam=tag
 ||jetbrains.com^$removeparam=from
@@ -83425,6 +83438,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||mora.jp^$removeparam=fmid
 ||msn.com^$removeparam=ei
 ||msn.com^$removeparam=pc
+||music.amazon.co.jp^$removeparam=ref
 ||muskelmacher-shop.de$removeparam=sv-campaign-id
 ||muskelmacher-shop.de$removeparam=sv1
 ||myaccount.google.com^$removeparam=source
