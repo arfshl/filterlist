@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512050208
+! Version: 202512060202
 ! Title: Personal Filter
-! Last Modified: 05 Dec 2025 02:08 UTC
+! Last Modified: 06 Dec 2025 02:02 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -36003,6 +36003,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||sp.jrklein.com^
 ||sp.notifysonic.com^
 ||sp.pamklein.com^
+||sp.pcid.ca^
 ||sp.shopper.si^
 ||sp.solus.nu^
 ||sp.soniccares.com^
@@ -64326,6 +64327,7 @@ pop3.townsquaremedia.info$image
 portland.townsquaremedia.info$image
 poughkeepsie.townsquaremedia.info$image
 powerhousefamily.xyz$image
+prd.api.bleacherreport.com^
 pre.click.s11.sfmc-osl.com$image
 preferences.e.therealreal.com$image
 presqueisle.townsquaremedia.info$image
@@ -67809,6 +67811,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||clckdm.domclick.ru^
 ||click-performance.assets.rndtech.de^
 ||click.jasmin.com^
+||click.lenovo.com^
 ||click.udimg.com^
 ||click2.cafepress.com^
 ||clicks.dealer.com^
@@ -68253,6 +68256,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||events.cardsmobile.ru^
 ||events.framer.com^
 ||events.getsitectrl.com^
+||events.gfe.nvidia.com^
 ||events.jora.com^
 ||events.mercadolibre.com^
 ||events.newsroom.bi^
@@ -68426,6 +68430,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||gtr1.yes24.com^
 ||guq9.vente-unique.it^
 ||gw.stape.fr^
+||gx-target-experiments-frontend-api.gx.nvidia.com^
 ||h019.wtae.com^
 ||h031.familydollar.com^
 ||h353.ncadvertiser.com^
@@ -69048,6 +69053,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||pf.intuit.com^
 ||pf.newegg.com^
 ||pgt1.voyage-prive.es^
+||phaseshift.almagrow.com^
 ||ping.fastsimon.com^
 ||ping.getadblock.com^
 ||ping.hashnode.com^
@@ -69151,6 +69157,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||prod-collector.bigbasket.com^
 ||prod.event.mwm-asset-manager.mwmwebapis.com^
 ||prod.fennec.atp.fox^
+||prod.otel.kaizen.nvidia.com^
 ||prod.tahoe-analytics.publishers.advertising.a2z.com^
 ||proxima.midjourney.com^
 ||prudsys-rde.de^
@@ -69846,8 +69853,9 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tealium.cbsnews.com^
 ||ted.dailymail.co.uk^
 ||telegraf.detmir-stats.ru^
-||telegraph.prd.api.bleacherreport.com^
 ||telegraph.prd.api.discomax.com^
+||telegraph.prd.api.discoveryplus.com^
+||telegraph.prd.api.hbomax.com^
 ||telegraph.prd.api.max.com^
 ||telem.sre.gopuff.com^
 ||telemetry*.transcend.io^
@@ -69857,6 +69865,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||telemetry.art19.com^
 ||telemetry.battle.net^
 ||telemetry.dzen.ru^
+||telemetry.gfe.nvidia.com^
 ||telemetry.individual.githubcopilot.com^
 ||telemetry.insights.video.a2z.com^
 ||telemetry.jivosite.com^
@@ -71024,6 +71033,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 ://sgtm.*.js?
 ://signal.*/hardal
 ://signals.*/hardal
+://sp.*/sp/h|$xmlhttprequest
 ://ss.*.js?st=
 ://sst.*.js?id=GTM-
 ://tagging.*.js?aw=
@@ -75436,7 +75446,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||teenporn.ws/zaq/cron.php
 ||teknolojituru.com/api/tracking
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare*.js
-||telegraph.prd.api.hbomax.com/events
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?$image
@@ -76189,13 +76198,13 @@ link.gmapp*.net$image
 %2Feos%2Fv1%2F$image
 %2Fgp%2Fr.html%3FC%3D*%26ref_%3Dpe_*_open$image
 %2Fo.gif%3Fmi_u%3D$image
+%2Foo%2F*%2Fe.gif$image
 %2Fopen.aspx$image
 %2Fpixel%3Fc%3D$image
 %2Fpub%2Fas%3F_ri_%3D$image
 %2Fq%2F*~~%2F$image
 %2Fr%2F%3Fid%3D$image
 %2Fs%2Feo%2F$image
-%2Fs-links.producthunt.com%2Foo%2F*%2Fe.gif
 %2Fsenp.png%3F$image
 %2Fss%2Fo%2F*%2Fho.gif$image
 %2Ftf%2Fo%2F$image
@@ -76203,6 +76212,7 @@ link.gmapp*.net$image
 %2Fvia%2Fo%3Fh%3D
 %2Fwf%2Fopen%3Fupn%3D$image
 %3A%2F%2Fe.*%2Fopen%3F$image
+%3A%2F%2Fline.karte.io%2FCI0%2F$image
 %3A%2F%2Ft.paypal.com%2Fts%3Fv%3D$image
 .awstrack.me$image
 .bzzgroup.cn$image
@@ -76234,6 +76244,7 @@ link.gmapp*.net$image
 /gp/r.html?C=*&ref_=pe_*_open$image
 /mpss/o/*$image
 /o.gif?mi_u=$image
+/oo/*/e.gif$image
 /open.aspx$image
 /open.html?x=$image
 /pixel?c=$image
@@ -76251,7 +76262,7 @@ link.gmapp*.net$image
 33mail.com%2Fpage%2Fopened$image
 33mail.com/page/opened$image
 ://e.*/open?$image
-://s-links.producthunt.com/oo/*/e.gif
+://line.karte.io/CI0/$image
 ://t.paypal.com/ts?v=$image
 ://t1.*.sbs.com.au/r/$image
 aa.agkn.com$image
@@ -78776,6 +78787,7 @@ d4?appid*type*
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=cava.tw
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
+@@||tags.tiqcdn.com/utag/bofa/ml/prod/utag.js$domain=ml.com
 @@||tags.tiqcdn.com/utag/pch/*/prod/utag.js$domain=pch.com
 @@||widget.fitanalytics.com/widget/api/$domain=modivo.*
 @@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
