@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512060202
+! Version: 202512070223
 ! Title: Personal Filter
-! Last Modified: 06 Dec 2025 02:02 UTC
+! Last Modified: 07 Dec 2025 02:23 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -70090,6 +70090,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tracking-api.passeidireto.com^
 ||tracking-api.sub100.com.br^
 ||tracking-app.diginetica.net^
+||tracking-live.kr3m.com^
 ||tracking-rce.veeseo.com^
 ||tracking-sales-pop.carecart.io^
 ||tracking-v*.a.run.app^
@@ -82894,6 +82895,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||americanas.com.br^$removeparam=pfm-pos
 ||americanas.com.br^$removeparam=pfm-type
 ||ana.co.jp^$removeparam=cid
+||ana.co.jp^$removeparam=mall-cid
 ||and-pro.jp^$removeparam=waad
 ||announcements.bybit.com^$removeparam=pid
 ||announcements.bybit.com^$removeparam=sa-utm-channel
@@ -83351,6 +83353,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||jpsk.jp^$removeparam=click
 ||juicy-ai.com^$removeparam=ref
 ||k2s.cc^$removeparam=site
+||kaigonoshigoto.jp^$removeparam=scid
 ||kakaku.com^$removeparam=lid
 ||keepstreams.jp/thanks-for-using-$removeparam
 ||kickstarter.com$removeparam=ref
