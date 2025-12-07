@@ -50,5 +50,4 @@ bca-*.*
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
 
 ! Fix Microsoft Internet status
-
-23.53.118.114 msftconnecttest.com
+||msftconnecttest.com^$dnsrewrite=NOERROR;A;23.53.118.114
