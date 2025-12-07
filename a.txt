@@ -48,3 +48,7 @@ bca-*.*
 
 ! Microsoft Edge Extensions
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
+
+! Fix Microsoft Internet status
+
+23.53.118.114 msftconnecttest.com
