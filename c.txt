@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512070223
+! Version: 202512080209
 ! Title: Personal Filter
-! Last Modified: 07 Dec 2025 02:23 UTC
+! Last Modified: 08 Dec 2025 02:09 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -36,6 +36,8 @@ bca-*.*
 @@||skydrivesync.policies.live.net^
 ! Microsoft Edge Extensions
 @@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
+! Fix Microsoft Internet status
+||msftconnecttest.com^$dnsrewrite=noerror;a;23.53.118.114
 ! *** https://filters.adtidy.org/android/filters/3_optimized.txt ***
 ! + NOT_PLATFORM(ext_chromium_mv3)
 aceee.org#%#//scriptlet('prevent-canvas', '2d')
@@ -2881,7 +2883,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||advnn.laurageller.com^
 ||adwstats.com^
 ||adx.com.ru^$third-party
-||adx.promo^
 ||adxcel-ec2.com^
 ||adxlog-adnet.vivo.com.cn^
 ||adxwxw.kp.ru^
@@ -71282,6 +71283,7 @@ drive2.ru##.o-columns > .o-columns__side > [class] > [class][id] > [class][id]
 dvdrev.com#?#.side_menu:has( > div > div.plugin-freearea > div.ninja-recommend-block)
 elmundo.es#?#body > main[role="main"] > div.ue-l-article:has( > div.ue-l-article__inner > div.ue-l-article__main-column > aside > div[id^="taboola"])
 elperiodico.com##._mo_recs_tpi
+entapark.jp##div[id$="-pickup"][style^="height"]
 epicurious.com#%#//scriptlet('set-cookie', 'FP_visitorID', '1', '/', 'epicurious.com')
 erostopics.net###custom_html-137
 erostopics.net###custom_html-81
@@ -76493,6 +76495,8 @@ notifications.googleapis.com/email/t/*/a.gif
 nyb.soundestlink.com*track$image
 omeclk.com$image
 omni.soundestlink.com$image
+onelink.soundcloud.com%2Fv1%2Femailopen$image
+onelink.soundcloud.com/v1/emailopen$image
 open.convertkit-mail*.com$image
 openedlog.smart-bdash.com%2Fopened%3Faid%3D$image
 openedlog.smart-bdash.com/opened?aid=$image
