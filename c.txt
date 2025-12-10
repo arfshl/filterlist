@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512090208
+! Version: 202512100210
 ! Title: Personal Filter
-! Last Modified: 09 Dec 2025 02:08 UTC
+! Last Modified: 10 Dec 2025 02:10 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -66358,6 +66358,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.bauermedia.sk^
 ||analytics.bi.encuentra24.com^
 ||analytics.bigdata.samsung.com^
+||analytics.blender.org^
 ||analytics.bloomberg.com^
 ||analytics.brave.com^
 ||analytics.brunch.co.kr^
@@ -66925,6 +66926,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||counter.theconversation.com^
 ||counter.theconversation.edu.au^
 ||counter.tianjimedia.com^
+||counter.tldw.me^
 ||counter.top.ge^
 ||counter.ukr.net^
 ||counter.web.money^
@@ -66963,6 +66965,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||d.email.forbes.com^
 ||d.haberler.com^
 ||d.impactradius-event.com^
+||d.nordprotect.com^
 ||d.post-gazette.com^
 ||d.sondakika.com^
 ||d.tv-asahi.co.jp^
@@ -70187,7 +70190,6 @@ borfilm.com,hronika.info##.count
 brasil247.com###taboola-mid-article-leia-mais
 briefly.co.za#%#//scriptlet('set-local-storage-item', '/^recommendation_uuid/', '$remove$')
 bunshun.jp##.recommend-articles:has( > div[class^="taboola"])
-business.nikkei.com###pianoRecommendBottom
 business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
@@ -70304,6 +70306,8 @@ infokam.su#?#aside > section.bot-post:has( > center > a[href^="https://www.livei
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 inside-games.jp##.cx-subhead
 insider.com,israelnationalnews.com##.taboola
+itmedia.co.jp##.format--subheading:has( + .is-recommend:empty)
+itmedia.co.jp##.is-recommend:empty
 itmedia.co.jp##div[id^="logly-lift-"]
 ixbt.com##.block__recommend
 j-cast.com###cxRelatedEntry
@@ -70374,6 +70378,7 @@ nike.com#%#//scriptlet('set-local-storage-item', 'pi_pageview_count', '$remove$'
 nike.com#%#//scriptlet('set-local-storage-item', 'pi_visit_count', '$remove$')
 nike.com#%#//scriptlet('set-local-storage-item', 'pi_visit_track', '$remove$')
 nike.com#%#//scriptlet('set-local-storage-item', 'pulse_insights_udid', '$remove$')
+nikkei.com###pianoRecommendBottom
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colBoxClear
 norisoku.com###random
 notion.so#%#//scriptlet('prevent-fetch', 'http-inputs-notion.splunkcloud.com')
@@ -70467,6 +70472,7 @@ unilad.co.uk###sidebar > #text-64 > .block-title
 uniongang.net##a[href^="http://whos.amung.us/stats/"]
 uniongang.org#?#td[align="center"][height="27"]:contains(Счётчики)
 unn.com.ua##.b-footer-counters
+usatoday.com##.gnt_tb
 usatoday.com##.story-taboola-related-module
 usnews.com###null-recommendations-widget
 valetudo.ru#?#.v_left > div.moduletable:has(script[src^="https://www.googletagmanager.com/"])
@@ -73343,6 +73349,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||owata-net.com/js/ga.js
 ||owlcation.com/.bootscripts/hubPages*Tracker.min.js
 ||ozone.ru/graphics/client-metrics/
+||p-api.vortexgaming.io/api/log/
 ||p.brid.tv/player/build/plugins/googleanalytics/
 ||p.flipp.com/beacons
 ||p.hentaiforce.net/api/event
@@ -74685,6 +74692,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||us.web3-lab.com*/*/stats
 ||usa.asset.d5techs.com/script/track.min.js
 ||usa.asset.d5techs.com/script/utm.min.js
+||usconcealedcarry.com/api/events?
+||usconcealedcarry.com/scripts/bundles/deltaAnalytics/
 ||useinsider.com^$domain=francfranc.com
 ||usercentrics.eu/uct?$important
 ||userstatics.com/get/script.js
@@ -74789,6 +74798,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||voonik.com/analytics.min.js
 ||voorkeuren.tvgids.nl/v1/_|
 ||vortex.data.microsoft.com/collect
+||vortexgaming.io/ga_script.js
 ||vost.com.ua/count.js
 ||vox.com/blaize/datalayer
 ||vox.com/SendEventData
@@ -75022,6 +75032,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||youlead.pl/track?
 ||youronlinechoices.com/css/images/pixel.png
 ||youronlinechoices.com/images/pixel.png
+||youtrack.jetbrains.com/api/analytics
 ||youtube-nocookie.com/api/stats/atr?ns=
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/gen_204?
@@ -77752,8 +77763,11 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+! + PLATFORM(windows, mac, android, cli)
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
+@@||data.service.paypal.com^|
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
+@@||experience.ninetailed.co/v2/organizations/*/environments/main/profiles/$xmlhttprequest,domain=dkb.de
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=cava.tw
 @@||integrations.fitanalytics.com/shop/modivo/pdp.js$domain=modivo.*
 @@||st-eu.dynamicyield.com/st?sec=$domain=manor.ch
@@ -77762,6 +77776,7 @@ d4?appid*type*
 @@||tags.tiqcdn.com/utag/pch/*/prod/utag.js$domain=pch.com
 @@||widget.fitanalytics.com/widget/api/$domain=modivo.*
 @@||widget.fitanalytics.com/widget_pdp.js$domain=modivo.*
+||googletagmanager.com/ns.html$redirect=noop.html,subdocument,domain=dkb.de
 ||tms.post.ch/*gtm.js|$redirect=google-analytics,script
 ! + PLATFORM(windows, mac, android, cli)
 @@||analytics.prensaiberica.es/api/delivery/recommendations$domain=farodevigo.es
@@ -81578,6 +81593,7 @@ $removeparam=fbclid
 $removeparam=frm,domain=msearch.shopping.naver.com|search.shopping.naver.com
 $removeparam=from,domain=dojin-navi.com|doujinnomori.com|echiman.com|shinshi-manga.net
 $removeparam=from-country,domain=shein.co.uk|shein.com
+$removeparam=gad-campaignid
 $removeparam=gad-source
 $removeparam=gbraid
 $removeparam=gci
