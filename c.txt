@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512100210
+! Version: 202512110217
 ! Title: Personal Filter
-! Last Modified: 10 Dec 2025 02:10 UTC
+! Last Modified: 11 Dec 2025 02:17 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -67271,6 +67271,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||fe-go.letv.com^
 ||femetrics.grammarly.io^
 ||flask.us.nextdoor.com^
+||fls-na.amazon.com^
 ||flxr.myplan-c.com^
 ||fnl.quizizz.com^
 ||forecast.lemonde.fr^
@@ -68740,6 +68741,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tag.escalated.io^
 ||tag.havasedge.com^
 ||tag.panorama.ai^
+||tag.poomang.com^
 ||tag.researchnow.com^
 ||tag.rmp.rakuten.com^
 ||tagbridge.vlp.cz^
@@ -69934,6 +69936,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /web-pixel-*/pixel.modern.js
 /web-pixel-*/worker.modern.js
 /web-pixels@*/web-pixel-*/sandbox/modern/*
+/web-vitals-tracker.js
 /Web_JS_Stats.
 /webAnalytics/*$script,xmlhttprequest
 /webservices/remoteModulesTracker.php
@@ -70019,7 +70022,7 @@ directtrack.*.js
 ||cdn.amplitude.com/libs/plugin-session-replay-browser-$third-party
 ||google-analytics.com/analytics.js$redirect=google-analytics,script,domain=~banki.ru|~bigc.co.th|~hepsiburada.com|~olx.*|~sonos.com
 ||google-analytics.com/ga.js$redirect=google-analytics-ga,script,domain=~daj.jp
-||googletagmanager.com/gtm.js$redirect=google-analytics,script,third-party,domain=~bethesda.net|~corsair.com|~olx.*|~paddle.com|~simon.com
+||googletagmanager.com/gtm.js$redirect=google-analytics,script,third-party,domain=~bethesda.net|~corsair.com|~linodellefateresort.com|~olx.*|~paddle.com|~simon.com
 ||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest
 ||id.x5.ru^$referrerpolicy=origin
 ||mc.yandex.ru/metrika/tag.js$redirect=metrika-yandex-tag,script,domain=~aiondb.ru|~id.x5.ru
@@ -70585,6 +70588,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||a.sputniknews.com/js/sputnik.js
 ||a.utopia.de/a.gif
 ||a.wa.autodesk.com/asp.js
+||a0.awsstatic.com/eb-csr/*/orchestrate.js
+||a0.awsstatic.com/libra/*/vendor/require-marketo-munchkin.js
+||a0.awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js
 ||a24.biz/pixel/
 ||a2z.com/metric-batch
 ||aa.avvo.com/1/collect?*&events=
@@ -75071,6 +75077,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||zara.media01.eu/tm_js.aspx?trackid
 ||zatsubitown.com/mailfriend/kaiseki
 ||zaycev.net/clickmeter_
+||zdnet.co.kr/js/wl6.js
 ||zed.dev/_vercel/insights/view
 ||zed.dev/api/send_page_event|
 ||zeit.de/cre-*/tracking^
@@ -76043,6 +76050,10 @@ $cookie=ytrackvisit
 ||aamulehti.fi^$cookie=sa1pid
 ||agatameble.pl^$cookie=private-content-version
 ||allrecipes.com^$cookie=/^-sharedid/
+||amazon.com^$cookie=aws-target-data
+||amazon.com^$cookie=aws-target-session-id
+||amazon.com^$cookie=aws-target-visitor-id
+||amazon.com^$cookie=aws-vid
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^-snrs-/
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^vtex-search-/
 ||animegoods.co.kr^$cookie=/fb-/
@@ -77232,6 +77243,7 @@ d4?appid*type*
 ||log.bloodsugars.live^
 ||log.cleandesigner.live^
 ||log.cleanertoolboxonline.live^
+||log.cleansweepplu.com^
 ||log.documentmanagerpdfdocxlssale.live^
 ||log.down61.com^
 ||log.dramaboxdb.com^
@@ -77765,7 +77777,7 @@ d4?appid*type*
 ! #################
 ! + PLATFORM(windows, mac, android, cli)
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
-@@||data.service.paypal.com^|
+@@||data.service.paypal.com^
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||experience.ninetailed.co/v2/organizations/*/environments/main/profiles/$xmlhttprequest,domain=dkb.de
 @@||googletagservices.com/tag/js/gpt.js$redirect=googletagservices-gpt,script,xmlhttprequest,domain=cava.tw
@@ -79245,7 +79257,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 @@||olx.*/static/*/js/xgemius.js$domain=olx.kz|olx.pl|olx.ua
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
-@@||omtrdc.net^$domain=abbyy.ru|amazon.co.uk|amazon.com|amazon.de|geico.com|nydailynews.com|pcworld.com
+@@||omtrdc.net^$domain=abbyy.ru|geico.com|nydailynews.com|pcworld.com
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=argos.co.uk|att.com|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.com|ancestry.com.au|blogtalkradio.com
 @@||online-metrix.net/*/tags.js$domain=smartsource.com
