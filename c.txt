@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512110217
+! Version: 202512120212
 ! Title: Personal Filter
-! Last Modified: 11 Dec 2025 02:17 UTC
+! Last Modified: 12 Dec 2025 02:12 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -65,8 +65,6 @@ cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAna
 cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sensorsDataAnalytic201505.use', 'noopFunc')
 convertcase.net,issuya.com,topstarnews.net,islamicfinder.org,secure-signup.net#%#//scriptlet('remove-node-text', 'script', 'error-report.com')
 coupang.com#%#//scriptlet('json-prune-xhr-response', 'tracking', 'feeds', 'n-api/recommend/feeds')
-delta.com#%#//scriptlet('set-constant', 'TrackJS', 'emptyObj')
-delta.com#%#//scriptlet('set-constant', 'TrackJS.install', 'noopFunc')
 discover.hubpages.com#%#//scriptlet('adjust-setTimeout', 'beacon failed', '*', '0.001')
 faz.net#%#//scriptlet('set-local-storage-item', 'com.adobe.reactor.core.visitorTracking.pagesViewed', '$remove$')
 faz.net#%#//scriptlet('set-local-storage-item', 'com.adobe.reactor.core.visitorTracking.sessionCount', '$remove$')
@@ -67783,6 +67781,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||met.vgwort.de^
 ||metcon.hulu.com^
 ||meter-svc.nytimes.com^
+||metis.truecaller.com^
 ||metric*.rediff.com^
 ||metric.huya.com^
 ||metric.inetcore.com^
@@ -71406,6 +71405,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.lovense.com/front/web-analytics-sdk/bundle.js
 ||cdn.lr-in.com/logger-1.min.js
 ||cdn.lr-in.com/LogRocket.min.js
+||cdn.melhorplano.net/scripts/tracker/
 ||cdn.melhorplano.net/scripts/tracker/mpt.min.js
 ||cdn.mrkhub.com/sks/js/sks_track.js
 ||cdn.nwl1.megaknihy.cz/tr.js
@@ -74379,6 +74379,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||t.enuygun.com/assets/tracker.js
 ||t.insigit.com/assets/dct.js
 ||t.lolalytics.com/?a=
+||t.me/v/?views=
 ||t.oned.io/onedio-longvisit.img?_t=
 ||t.oned.io/onedio-visit.img?_t=
 ||t.paypal.com^$image
@@ -74429,6 +74430,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?$image
+||temu.com/*/conversion/*beacon$ping
 ||temu.com/api/adx/cm/pixel-xandr
 ||tend-table.com/cgi-bin/WebLog.dll
 ||terabox.app/api/analytics?
@@ -77094,6 +77096,7 @@ d4?appid*type*
 ||event.togothermany.com^
 ||eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com^
 ||eventgw.twilio.com^
+||events-api.lyrebirdstudio.net^
 ||events-api.soundcloud.com^
 ||events-api.towneers.prod.data.krmt.io^
 ||events-collector-api.viacom.tech^
@@ -77264,6 +77267,7 @@ d4?appid*type*
 ||log.mgtv.com^
 ||log.mmstat.com^
 ||log.oceanzz.xyz^
+||log.pdfbookeditor.live^
 ||log.pdfviewerscannerstore.live^
 ||log.phonefreshfix.live^
 ||log.pngindir.com^
@@ -77351,6 +77355,7 @@ d4?appid*type*
 ||mlb.did.ijinshan.com^
 ||moa-upload-online.coloros.com^
 ||moai-dev-samsung.com^
+||mob2.cactus-bp.com^
 ||mob2.healthapplines.com^
 ||mob2.healthtrackergroup.com^
 ||mob2.musicgostudio.com^
@@ -79622,6 +79627,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||bewilderedblade.com^
 ||bhcumsc.com^
 ||bidpapers.com^
+||bigfishapparel.com^
 ||bigworldfashion.com^
 ||bikepaws.com^
 ||bikesboard.com^
@@ -79645,6 +79651,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||blitzcampaigns.com^
 ||blockdial.com^
 ||blueeyedblow.com^
+||bluenest.net^
 ||bluevinebooks.com^
 ||blushingbeast.com^
 ||blushingbread.com^
@@ -81605,6 +81612,7 @@ $removeparam=fbclid
 $removeparam=frm,domain=msearch.shopping.naver.com|search.shopping.naver.com
 $removeparam=from,domain=dojin-navi.com|doujinnomori.com|echiman.com|shinshi-manga.net
 $removeparam=from-country,domain=shein.co.uk|shein.com
+$removeparam=ftag
 $removeparam=gad-campaignid
 $removeparam=gad-source
 $removeparam=gbraid
@@ -81753,6 +81761,8 @@ $removeparam=utm-channel
 $removeparam=utm-cid
 $removeparam=utm-content
 $removeparam=utm-creative
+$removeparam=utm-email
+$removeparam=utm-emailid
 $removeparam=utm-emcid
 $removeparam=utm-emmid
 $removeparam=utm-id
@@ -81761,6 +81771,7 @@ $removeparam=utm-journey-id
 $removeparam=utm-keyword
 $removeparam=utm-medium
 $removeparam=utm-name
+$removeparam=utm-newsletterid
 $removeparam=utm-place
 $removeparam=utm-product
 $removeparam=utm-pubreferrer
@@ -82043,6 +82054,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||cmswire.com^$removeparam=source
 ||cnbc.com^$removeparam=--source
 ||cnbc.com^$removeparam=par
+||cnet.com^$removeparam=medium
+||cnet.com^$removeparam=source
 ||cnn.co.jp^$removeparam=ref
 ||coca-cola.com^$removeparam=openexternalbrowser
 ||coco.fun/share/$removeparam=d
