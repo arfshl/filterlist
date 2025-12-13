@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512120212
+! Version: 202512130205
 ! Title: Personal Filter
-! Last Modified: 12 Dec 2025 02:12 UTC
+! Last Modified: 13 Dec 2025 02:05 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -12199,6 +12199,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||debjpy.globoshoes.com^
 ||decdna.net^$third-party
 ||decenthat.com^$third-party
+||decentriq.com^$third-party
 ||decibelinsight.net^$third-party
 ||decideinteractive.com^$third-party
 ||deck.versafloor.com^
@@ -12717,6 +12718,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||dsmun.foragehyperfoods.com^
 ||dsoxjxin5jji.controlconceptsusa.com^
 ||dsp-service.admatic.de^
+||dsp.groupminteraction.ru^
 ||dsparking.com^$third-party
 ||dspil.jcp.com^
 ||dsply.com^$third-party
@@ -26510,6 +26512,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||one.ledstrips.dk^
 ||one2.onestep.fr^
 ||onefeed.co.uk^$third-party
+||oneid.live^
 ||onelink.me^$third-party
 ||onelinksmartscript.appsflyer.com^
 ||onenet.gakujutsu.com^
@@ -41602,7 +41605,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tags.theklovestory.com^
 ||tags.tiq.rbcinsurance.com^
 ||tags.tiq.rbcprivateinsurance.com^
-||tags.tiqcdn.com^
 ||tags.toitpourtoi.fr^
 ||tags.tommy.com^
 ||tags.tryg.dk^
@@ -67821,6 +67823,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||metrics.kapa.ai^
 ||metrics.makemytrip.com^
 ||metrics.mdstrm.com^
+||metrics.media-amazon.com^
 ||metrics.motoblouz.com^
 ||metrics.mzstatic.com^
 ||metrics.n-tv.de^
@@ -70136,6 +70139,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /yandex-metrika.js$domain=russia-tv.online
 /yozons-lib/*$script,~third-party,domain=bradenton.com
 /~/tr/*$xmlhttprequest,domain=bio.to
+20min.ch#%#//scriptlet('set-local-storage-item', 'clientId', '$remove$')
 2gis.*#%#//scriptlet('set-local-storage-item', '/_ym/', '$remove$')
 2ndswing.com,goodcar.com#%#//scriptlet('set-local-storage-item', 'uw-uid', '$remove$')
 3dnews.ru##a[href^="http://metrika.yandex.ru/"]
@@ -70795,6 +70799,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api-web.pressplay.cc/marketing^
 ||api.*.com/p/report?$domain=bybit.com
 ||api.*.exponea.com^$domain=bogsfootwear.com|urbanstems.com
+||api.20min.ch/kaia/v*/persist
 ||api.270degrees.nl/*/log?apiKey=
 ||api.actagtracker.jp/tag|
 ||api.aio.media/stat?
@@ -71075,7 +71080,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ati-host.net/hit.xiti?s=
 ||atlas.rambler.ru/metrics
 ||atlassian.com/gateway/api/*/batch
-||ats.20min.ch/__global/att/prod/latest/ats-tm.js
 ||ats.vert.sh/js/script.js
 ||att.com/ssaf/ssafc/v1/controllerdata
 ||atv-ps.amazon.com/swift/page/xrayVOD?deviceID=
@@ -75187,6 +75191,7 @@ link.gmapp*.net$image
 %2Fo.gif%3Fmi_u%3D$image
 %2Foo%2F*%2Fe.gif$image
 %2Fopen.aspx$image
+%2Fpix.gif%3F$image
 %2Fpixel%3Fc%3D$image
 %2Fpub%2Fas%3F_ri_%3D$image
 %2Fq%2F*~~%2F$image
@@ -75194,6 +75199,7 @@ link.gmapp*.net$image
 %2Fs%2Feo%2F$image
 %2Fsenp.png%3F$image
 %2Fss%2Fo%2F*%2Fho.gif$image
+%2Ft%*%2Fa^$image
 %2Ftf%2Fo%2F$image
 %2Ftrack%2Fopen.php%3Fu%3D$image
 %2Fvia%2Fo%3Fh%3D
@@ -75234,6 +75240,7 @@ link.gmapp*.net$image
 /oo/*/e.gif$image
 /open.aspx$image
 /open.html?x=$image
+/pix.gif?$image
 /pixel?c=$image
 /pub/as?_ri_=$image
 /q/*~~/*$image
@@ -75241,6 +75248,7 @@ link.gmapp*.net$image
 /s/eo/*$image
 /senp.png?$image
 /ss/o/*/ho.gif$image
+/t/*/a^$image
 /tf/o/*$image
 /track/open.php?u=$image
 /via/o?h=
@@ -75300,12 +75308,15 @@ click.official.infomaniak.com%2Fo%2F
 click.official.infomaniak.com/o/$image
 click.redditmail.com$image
 click.revolut.com$image
+click.sender.yandex.ru%2Fpx%2F$image
+click.sender.yandex.ru/px/$image
 clicks.hungryroot.com$image
 clicks.meetup.com$image
 clicks.mlsend.com$image
 clicks.mlsend2.com$image
 client-data.knak.io$image
 close.io/email_opened$image
+cmail1.com%2Ft$image
 cmail1.com/t$image
 cnt.mail.netbk.co.jp$image
 contactmonkey.com/api/v1/tracker$image
@@ -75500,6 +75511,7 @@ preview.ab0.jp%2Fstatic%2Fstarbucks%2Fma%2F*%2Frewards_img%2F*scenario*img-*.gif
 preview.ab0.jp/static/starbucks/ma/*/rewards_img/*scenario*img-*.gif$image
 probe.zalando.com$image
 production.k-trk.com$image
+pstmrk.it%2Fopen$image
 pstmrk.it/open$image
 public-cis.exponea.com$image
 r.ml.reverso.net%2Ftr%2Fop$image
@@ -76912,7 +76924,7 @@ d4?appid*type*
 ||app-log-oversea.immomo.com^
 ||app-monitor.spacecape.com^
 ||app-tracking.hlogo.de^
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo
 ||appanalysis*.banggood.com^
 ||appcpi.net^
 ||applog*.matrix.easebar.com^
@@ -77090,6 +77102,7 @@ d4?appid*type*
 ||event-us.ssp.taxssp.com^
 ||event.*.karrotmarket.com^
 ||event.aimailhome.io^
+||event.bigkeyboardeasyphone.com^
 ||event.flareflow.tv^
 ||event.karrotmarket.com^
 ||event.meloshort.com^
@@ -77174,6 +77187,7 @@ d4?appid*type*
 ||iam-agof-app.irquest.com^
 ||ibd-as-api.iq.com^
 ||iemiq.com^
+||iguazu.doordash.com^
 ||ilyonanalytics.herokuapp.com^
 ||imp-*.jampp.com^
 ||imp.startappservice.com^
@@ -77212,6 +77226,7 @@ d4?appid*type*
 ||lepodownload.mediatek.com^
 ||lg-release-tracking-8080.gcld-line.com^
 ||line1-log.biligame.net^
+||live.ravelin.click^
 ||liveme-sensors-collect2-*.amazonaws.com^
 ||loadus.exelator.com^
 ||log*-*.tiktokv.com^
@@ -77421,6 +77436,7 @@ d4?appid*type*
 ||open.oneplus.net^
 ||openlog.tapapis.cn^
 ||opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io^
+||otel-mobile.doordash.com^
 ||overseauspider.yuanshen.com:8888/log^
 ||overseauspider.yuanshen.com^
 ||p.statp.com^
@@ -77433,6 +77449,7 @@ d4?appid*type*
 ||payload.adadapted.com^
 ||pendo-data-prod.box.com^
 ||perfsight.wetest.net^
+||perseus-productanalytics.deliveryhero.net^
 ||pgapi.ksmobile.com^
 ||phlic.top/log/
 ||piano_log.kingsoft.jp^
@@ -77549,6 +77566,7 @@ d4?appid*type*
 ||startappservice.com/tracking/
 ||stat-analytics.mediavitrina.ru^
 ||stat-in.dc.oppomobile.com^
+||stat.apfgexfusion.com^
 ||stat.dp.vocalbeats.com^
 ||stat.duokanbox.com^
 ||stat.gspaceteam.com^
@@ -77780,6 +77798,8 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
+@@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
 ! + PLATFORM(windows, mac, android, cli)
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
 @@||data.service.paypal.com^
@@ -79820,6 +79840,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||comfortablecheese.com^
 ||commonalmanac.com^
 ||comparereaction.com^
+||compilework.com^
 ||complexpixel.com^
 ||concretetom.com^
 ||condemnedcomb.com^
@@ -79948,6 +79969,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||detourgame.com^
 ||devilishdinner.com^
 ||dewdroplagoon.com^
+||dicecandies.com^
 ||dicemoments.com^
 ||difficultfog.com^
 ||digestiondrawer.com^
