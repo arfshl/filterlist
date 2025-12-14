@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512130205
+! Version: 202512140224
 ! Title: Personal Filter
-! Last Modified: 13 Dec 2025 02:05 UTC
+! Last Modified: 14 Dec 2025 02:24 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -69614,7 +69614,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /fbevents.js
 /fbevents.min.js
 /fbpix-events-
-/fingerprint.js
+/fingerprint.js^
 /fingerprint/iife.min.js
 /fingerprint2.js
 /fingerprint2.min.js^
@@ -71234,6 +71234,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||booking.com/js_tracking?
 ||booking.com/logo?
 ||bookitnow.lt/gtm/
+||bookoff.co.jp/assets/js/ac/tag-analyze.js
+||bookoffonline.co.jp/files/tracking/
 ||bookwalker.jp/ex/browser-viewer/unitag_bv.js
 ||boomplay.com/batchUploadLogs
 ||boostog.net/visitor/
@@ -75180,6 +75182,9 @@ link.gmapp*.net$image
 ! + NOT_PLATFORM(ios, ext_safari)
 ||ya.ru/clck/
 ! + NOT_PLATFORM(ios, ext_safari, ext_android_cb)
+%2Ft%*%2Fa^$image
+||bing.com/fd/ls/
+! + NOT_PLATFORM(ios, ext_safari)
 %2F%2Flinks.*.com%2Fe%2Feo%3F_t%3D$image
 %2F%2Flinks1.*.com%2Fq%2F*$image
 %2F%2Fp.liadm.com%2Fimp%3Fs%3D$image
@@ -75199,7 +75204,6 @@ link.gmapp*.net$image
 %2Fs%2Feo%2F$image
 %2Fsenp.png%3F$image
 %2Fss%2Fo%2F*%2Fho.gif$image
-%2Ft%*%2Fa^$image
 %2Ftf%2Fo%2F$image
 %2Ftrack%2Fopen.php%3Fu%3D$image
 %2Fvia%2Fo%3Fh%3D
@@ -75610,7 +75614,6 @@ yahoocs.my.salesforce.com/s.gif$image
 yamm-track.appspot$image
 |esv2.com^$third-party
 |mailgun.org^$third-party
-||bing.com/fd/ls/
 ||mkto-*.com^$third-party
 ! + PLATFORM(windows, mac, android, cli, ios) NOT_OPTIMIZED
 adguard.app,adguard.com,adguard.info##.hello_from_adguard_tracking_protection_app
@@ -80022,6 +80025,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||effulgentnook.com^
 ||effulgenttempest.com^
 ||eightgreens.com^
+||eighthlayer.net^
 ||elasticchange.com^
 ||elderlybean.com^
 ||elderlytown.com^
@@ -80346,6 +80350,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||hypnoticwound.com^
 ||hystericalcloth.com^
 ||hystericalfinger.com^
+||icywinter.com^
 ||idlecollect.com^
 ||idyllicjazz.com^
 ||illinvention.com^
@@ -81457,6 +81462,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||whisperingquasar.com^
 ||whisperingsummit.com^
 ||whispermeeting.com^
+||wholepagecache.com^
 ||whoogled.com^
 ||whymaze.com^
 ||wikiwhatwhere.com^
@@ -83894,8 +83900,10 @@ borneotrend.com##.cookie-consent
 theasianparent.com##.cookie-widget
 sasa.co.id##.cookie_consent
 yummy.co.id##.css-15k19pw.chakra-button
+popmama.com##.css-1rywi60
 yummy.co.id##.css-1yxywc5
 tokopedia.com##.css-6xix1i
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com##.css-cw25l4
 tokopedia.com##.css-f1hbq2
 tribunnews.com##.desk-bannerslide
 sindonews.com##.download-sindoapps
@@ -83914,6 +83922,8 @@ kapanlagi.com##.liputan6-mobileapp-widget
 kompas.id##.mb-8.pb-8.border-blue-10.border-b-2
 inilah.com##.mui-style-1tl651l.MuiStack-root
 inilah.com##.mui-style-46fqhp.MuiStack-root
+inilah.com##.mui-style-9iqj81.MuiStack-root
+inilah.com##.mui-style-fg8iht.MuiStack-root
 inilah.com##.mui-style-jsgj5i.MuiStack-root
 hukumonline.com##.my-2.d-flex.ps-ads-banner
 idxchannel.com##.outer-social-media-box
