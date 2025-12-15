@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512140224
+! Version: 202512150222
 ! Title: Personal Filter
-! Last Modified: 14 Dec 2025 02:24 UTC
+! Last Modified: 15 Dec 2025 02:22 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -22143,6 +22143,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||m6c4t9vmqarj.www.cefirates.com^
 ||m6r.eu^$third-party
 ||m6ulblxep4.execute-api.us-east-1.amazonaws.com^
+||ma-tag.com^
 ||ma.a3.se^
 ||ma.axiomatics.com^
 ||ma.blancspace.com^
@@ -69072,6 +69073,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tracking.bloomberg.com^
 ||tracking.bonnier.news^
 ||tracking.carsales.com.au^
+||tracking.cds.dmm.
 ||tracking.centerfield.com^
 ||tracking.chacha.com^
 ||tracking.channelsight.com^
@@ -80317,6 +80319,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||helpflame.com^
 ||helpingbits.com^
 ||hertechlife.com^
+||heycomputers.com^
 ||hfc195b.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
@@ -80501,6 +80504,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||madlysuccessful.com^
+||madoverrice.com^
 ||magicaljoin.com^
 ||magicminibox.com^
 ||majesticwaterscape.com^
@@ -82039,6 +82043,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||carousell.*$removeparam=t-source
 ||carousell.*$removeparam=t-tap-index
 ||carseven.co.jp^$removeparam=from
+||carviewform.yahoo.co.jp^$removeparam=src
 ||carwow.de^$removeparam=affiliate-ref
 ||carwow.de^$removeparam=impact-ad-id
 ||carwow.de^$removeparam=impact-click-id
