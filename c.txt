@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512160218
+! Version: 202512170207
 ! Title: Personal Filter
-! Last Modified: 16 Dec 2025 02:18 UTC
+! Last Modified: 17 Dec 2025 02:07 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -19037,7 +19037,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||jzyhcy.subwear.co.za^
 ||jzzdsu.piscineshop.com^
 ||k-analytix.com^$third-party
-||k-words.io^$third-party
 ||k.brandalley.es^
 ||k.brandalley.fr^
 ||k.flynas.com^
@@ -62993,6 +62992,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||a-da.invideo.io^
 ||a-reporting.nytimes.com^
 ||a.1gr.cz^
+||a.apkeditor.io^
 ||a.brack.ch^
 ||a.deadlinefunnel.com^
 ||a.flux.jp^
@@ -66523,6 +66523,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /oo/*/l.js|$~third-party
 /oo/*/lsync.$~third-party
 /oo/cl*.js?rd=$~third-party
+/oo/cl-$~third-party
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
 /openrtb2/auction
@@ -66973,6 +66974,7 @@ arstechnica.com###story-recommendations
 arstechnica.com#%#//scriptlet('set-local-storage-item', 'au/last_seen_pixels', '$remove$')
 arstechnica.com#%#//scriptlet('set-local-storage-item', 'permutive-app', '$remove$')
 arstechnica.com#%#//scriptlet('set-local-storage-item', 'permutive-data-misc', '$remove$')
+arte.tv#%#//scriptlet('set-local-storage-item', '/^oidc\./', '$remove$')
 artmoney.ru##a[href^="http://top.list.ru/"]
 artmoney.ru##a[href^="http://www.one.ru"]
 artmoney.ru##noindex > a
@@ -68448,6 +68450,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||content.garena.com/shopee/track_config/
 ||content.kaspersky-labs.com/public/analytics-scripts/analytical_functions.js
 ||content.mql5.com/tr?
+||contents.kyobobook.co.kr/resources/lib/kbb-js/kbb.stats.js
 ||contx.net/ingest/res/i/collect
 ||contx.net/ingest/res/i/tag/trk
 ||coocha.co.kr/assets/js/tracking.js
@@ -68525,6 +68528,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||d.bidmatic.io/tracking/
 ||d.line-cdn.net/*/torimochi.js/*/torimochi.js
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js
+||d.line-scdn.net/n/line_tag/$domain=full-count.jp
 ||d.mobilebanner.ru/p.gif
 ||d.rcmd.jp^$image
 ||d.sudouest.fr/logs^
@@ -69023,6 +69027,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||frysfood.com/assets/*/collect?
 ||fspark-ap.com/ft/analytics_log
 ||fstrk.net/api/tracker/
+||full-count.jp/ssc.min.js
 ||fullstory.com/s/fs.js^
 ||fulltrannytube.com/analytics.js
 ||fulltrannytube.com/stats.gif
@@ -79483,6 +79488,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||reddit.com^$removeparam=ref-campaign
 ||reddit.com^$removeparam=ref-source
 ||reddit.com^$removeparam=share-id
+||reddit.com^$removeparam=target-user
 ||redtube.com^$removeparam=from
 ||ref.digital.pumb.ua^$removeparam
 ||rentio.jp^$removeparam=click-from
