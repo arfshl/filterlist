@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512170207
+! Version: 202512180208
 ! Title: Personal Filter
-! Last Modified: 17 Dec 2025 02:07 UTC
+! Last Modified: 18 Dec 2025 02:08 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -64697,6 +64697,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||montelena.gmarket.co.kr^
 ||mormont.gamer-network.net^
 ||mp.cwtv.com^
+||mp.imgur.com^
 ||mp.theepochtimes.com^
 ||mpc.nicequest.com^
 ||mqqad.html5.qq.com^
@@ -66757,6 +66758,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /wp-content/plugins/flying-analytics/*
 /wp-content/plugins/google-analytics-for-wordpress/*
 /wp-content/plugins/google-analytics-premium/*
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
 /wp-content/plugins/pageviews-counter/*
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
@@ -66937,6 +66939,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /tracking.js$domain=deichmann.com|schoener-wohnen.de
 /universal_analytics.$domain=foerde-sparkasse.de|sparkasse-dachau.de|sparkasse-hochfranken.de|sparkasse-mittelfranken-sued.de
 /uvpjs-rv/*/lib/tracking/*$domain=cnet.com
+/v1/rgstr?k=client-$redirect=noop.json,xmlhttprequest,domain=chatgpt.com
 /video_stats_views$domain=d3f6gjnauy613m.cloudfront.net|studyflix.de
 /webruntime/log/*$domain=help.disneyplus.com|help.hulu.com
 /wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=musicman.co.jp|vitacig.eu.com|wilfmovies.com|xpornass.com
@@ -68296,9 +68299,13 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatgpt.com/ces/*/b|$xmlhttprequest
 ||chatgpt.com/ces/statsc/
+||chatgpt.com/ces/statsc/$redirect=noop.json,xmlhttprequest
 ||chatgpt.com/ces/v1/i^
+||chatgpt.com/ces/v1/i^$redirect=noop.json,xmlhttprequest
 ||chatgpt.com/ces/v1/p|
+||chatgpt.com/ces/v1/p|$redirect=noop.json,xmlhttprequest
 ||chatgpt.com/ces/v1/t
+||chatgpt.com/ces/v1/t$redirect=noop.json,xmlhttprequest
 ||chaturbate.com/api/adblocker/
 ||chaynikam.info/php/*pagestat.phtml
 ||cheaptickets.com/cl/2x2.gif?
@@ -72664,6 +72671,8 @@ $cookie=gaclientid
 $cookie=gam-ppid
 $cookie=gckp
 $cookie=gdyn
+$cookie=gl-gi10
+$cookie=gl-ui4
 $cookie=globalti-sid
 $cookie=gptrackcookie
 $cookie=gptrackpvid
@@ -72878,6 +72887,10 @@ $cookie=ytrackvisit
 ||4gamers.com.tw^$cookie=-pkc
 ||aamulehti.fi^$cookie=sa1pid
 ||agatameble.pl^$cookie=private-content-version
+||agoda.com^$cookie=agoda.analytics
+||agoda.com^$cookie=agoda.firstclicks
+||agoda.com^$cookie=agoda.lastclicks
+||agoda.com^$cookie=t-rc
 ||allrecipes.com^$cookie=/^-sharedid/
 ||amazon.com^$cookie=aws-target-data
 ||amazon.com^$cookie=aws-target-session-id
@@ -74643,7 +74656,7 @@ d4?appid*type*
 @@||canadiantire.tt.omtrdc.net/rest/$domain=canadiantire.ca|lequipeur.com|marks.com|partycity.ca|sportchek.ca
 @@||cdn.cxense.com/cx*.js$domain=farodevigo.es|onetz.de
 @@||cdn.cxense.com/sp*.html$domain=onetz.de
-@@||dev.visualwebsiteoptimizer.com^$script,xmlhttprequest,domain=dominos.jp
+@@||dev.visualwebsiteoptimizer.com^$script,xmlhttprequest,domain=dominos.com.my|dominos.com.sg|dominos.jp|dominoslk.com
 @@||exacttarget.com^$domain=pub.msg.smbc.co.jp
 @@||google-analytics.com/analytics.js$redirect=google-analytics,script,domain=mond.how
 @@||googletagmanager.com/gtag/js$domain=mond.how
@@ -76372,6 +76385,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||alikeaddition.com^
 ||aliveachiever.com^
 ||alloutdubstep.com^
+||allsunflowers.com^
 ||alltypo.com^
 ||alluringbucket.com^
 ||almondbuns.com^
@@ -76489,6 +76503,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||blissfullagoon.com^
 ||blitzcampaigns.com^
 ||blockdial.com^
+||bloomsend.com^
 ||blueeyedblow.com^
 ||bluenest.net^
 ||bluevinebooks.com^
@@ -76552,6 +76567,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||butterburst.com^
 ||buttonladybug.com^
 ||buzzaoutlet.com^
+||buzzfry.com^
 ||cafefrench.com^
 ||cafescampfires.com^
 ||cakeagenda.com^
@@ -76668,6 +76684,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||confesschairs.com^
 ||confidencetalks.com^
 ||configchain.com^
+||configcontrol.com^
 ||confirmglobal.com^
 ||confusedcart.com^
 ||connectashelf.com^
@@ -77238,6 +77255,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||jubilantwhisper.com^
 ||juicebard.com^
 ||juiceblocks.com^
+||juicingoasis.com^
 ||justconfig.com^
 ||justicejudo.com^
 ||justpickaname.com^
@@ -77697,6 +77715,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||rememberdiscussion.com^
 ||remixslot.com^
 ||rentinfinity.com^
+||rentpenny.com^
 ||repeatsweater.com^
 ||replaceroute.com^
 ||rescuerhino.com^
@@ -80617,6 +80636,7 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 @@||adj.st^$removeparam=adj-t
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||em.dynamicyield.com^$removeparam=cuid
+@@||metabase.com^$removeparam=utm-term
 @@||passport.jlcpcb.com^$removeparam=from
 @@||portal-portm.meituan.com/horn$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||tix.axs.com^$removeparam=irclickid
