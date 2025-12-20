@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512190211
+! Version: 202512200204
 ! Title: Personal Filter
-! Last Modified: 19 Dec 2025 02:11 UTC
+! Last Modified: 20 Dec 2025 02:04 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -2679,6 +2679,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||adex.naruko333.jp^
 ||adex.predear.com^
 ||adf.rettungshunde-sealdogs.com^
+||adfenix.com^$third-party
 ||adfox.ru^$third-party
 ||adfstat.yandex.ru^
 ||adg-data.kajicam.com^
@@ -7101,6 +7102,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||bok.sklepmedic.pl^
 ||bokbk.apothekary.co^
 ||bokzv.spanx.com^
+||boldmetrics.io^
 ||bolfep.prospin.com.br^
 ||bolshi.gorecon.com^
 ||bombrw.netshoes.com.br^
@@ -8413,10 +8415,11 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||collect2.cap.ch^
 ||collection.saga.co.uk^
 ||collector*.ex.co^
+||collector-*.px-cloud.net^
+||collector-*.pxchk.net^
 ||collector-*.tvsquared.com^
 ||collector-api.frspecifics.com^
 ||collector-pxebumdlwe.px-cdn.net^
-||collector-pxebumdlwe.px-cloud.net^
 ||collector-pxebumdlwe.pxchk.net^
 ||collector.betway.ca^
 ||collector.betway.com^
@@ -63214,6 +63217,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.gorillanation.com^
 ||analytics.grape.media^
 ||analytics.hashnode.com^
+||analytics.heistotron.uk^
 ||analytics.helpukrainewinwidget.org^
 ||analytics.histmag.org^
 ||analytics.htmedia.in^
@@ -63326,6 +63330,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.ubports.com^
 ||analytics.unand.ac.id^
 ||analytics.upworthy.com^
+||analytics.urban-vpn.com^
 ||analytics.us.archive.org^
 ||analytics.valotool.com^
 ||analytics.vedantu.com^
@@ -63650,7 +63655,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||collector-dev.cdp-dev.cnn.com^
 ||collector-hpn.ghostery.net^
 ||collector-pxdojv695v.protechts.net^
-||collector-pxdojv695v.px-cloud.net^
 ||collector-sbanking.shb-pelib.com^
 ||collector-statistics.nhn-commerce.com^
 ||collector.abc.net.au^
@@ -64075,8 +64079,10 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||fclog.baidu.com^
 ||fe-go.letv.com^
 ||femetrics.grammarly.io^
+||fingerprint.incodesmile.com^
 ||flask.us.nextdoor.com^
 ||fls-na.amazon.com^
+||fluffy-analytics.vercel.app^
 ||flxr.myplan-c.com^
 ||fnl.quizizz.com^
 ||forecast.lemonde.fr^
@@ -64600,6 +64606,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||metrics-a.wbx2.com^
 ||metrics-api.librato.com^
 ||metrics-broker.prod.p.tf1.fr^
+||metrics-config.icloud.com^
 ||metrics-ingress-web.svc.vinted.com^
 ||metrics.apartments.com^
 ||metrics.api.drift.com^
@@ -65425,6 +65432,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.propublica.org^
 ||stats.pusher.com^
 ||stats.rbc.ua^
+||stats.renet.io^
 ||stats.rustica.fr^
 ||stats.searchftps.net^
 ||stats.searchftps.org^
@@ -65443,6 +65451,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.townnews.com^
 ||stats.traffective.cloud^
 ||stats.travelask.ru^
+||stats.urban-vpn.com^
 ||stats.vidalytics.com^
 ||stats.video.globo.com^
 ||stats.videodelivery.net^
@@ -65646,6 +65655,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||telemetry.insights.video.a2z.com^
 ||telemetry.jivosite.com^
 ||telemetry.malwarebytes.com^
+||telemetry.microsoft.us^
 ||telemetry.nbcuott.com^
 ||telemetry.proton.me^
 ||telemetry.soundcloud.com^
@@ -67645,6 +67655,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.cian.ru/browser-telemetry/v*/send-stats/
 ||api.cian.ru/ebc-analytics/
 ||api.clerk.io/v*/log/
+||api.cmp.inmobi.com/?log=
 ||api.config-security.com/event
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
 ||api.contentpass.net/analytics
@@ -71253,6 +71264,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||teamtailor.com/pageview
 ||teamviewer.com/api/log/
 ||techcrunch.com/wp-json/wp/v*/tc_events
+||techlore.tech/public/ghost-stats.min.js
 ||technologynetworks.com/ApprovedGuid/
 ||techpowerup.com/__botcheck
 ||techraptor.net/sites/default/files/google_analytics/gtag.js
@@ -73692,6 +73704,7 @@ d4?appid*type*
 ||analytics.ad.daum.net^
 ||analytics.any.do^
 ||analytics.app.funnelish.com^
+||analytics.artworkout.net^
 ||analytics.baliusuperapp.xyz^
 ||analytics.cloud.unity3d.com^
 ||analytics.datasavannah.com^
@@ -73954,6 +73967,7 @@ d4?appid*type*
 ||event.flareflow.tv^
 ||event.karrotmarket.com^
 ||event.meloshort.com^
+||event.mwm-bs.com^
 ||event.togothermany.com^
 ||eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com^
 ||eventgw.twilio.com^
@@ -74138,6 +74152,7 @@ d4?appid*type*
 ||log.pngindir.com^
 ||log.pullcenter.live^
 ||log.pvpgang.com^
+||log.smartclearpro.com^
 ||log.snow.me^
 ||log.stickflow.xyz^
 ||log.suddenclean.com^
@@ -74285,6 +74300,7 @@ d4?appid*type*
 ||oldevent.togothermany.com^
 ||omes-sec.heytapmobile.com^
 ||omni-ads.omni.news^
+||onegg.site^
 ||online-metrix.net^
 ||open.oneplus.net^
 ||openlog.tapapis.cn^
@@ -76776,6 +76792,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cumbersomecake.com^
 ||cumbersomecarpenter.com^
 ||cupcakegem.com^
+||curatedtea.com^
 ||curbminers.com^
 ||curbneon.com^
 ||curiouschalk.com^
@@ -76865,6 +76882,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||dreamycanyon.com^
 ||driftingchef.com^
 ||driftpizza.com^
+||droidwiz.com^
 ||drollwharf.com^
 ||dustydime.com^
 ||dustyhammer.com^
@@ -78683,7 +78701,7 @@ $removeparam=utm-source-platform
 $removeparam=utm-supplier
 $removeparam=utm-swu
 $removeparam=utm-tag
-$removeparam=utm-term,domain=~metabase.com
+$removeparam=utm-term
 $removeparam=utm-umguk
 $removeparam=utm-userid
 $removeparam=utm-viz-id
@@ -78699,6 +78717,7 @@ $removeparam=wbraid
 $removeparam=wgexpiry,domain=decathlon.pl|ibood.com
 $removeparam=wgu,domain=decathlon.pl|ibood.com
 $removeparam=wickedid
+$removeparam=winflncrtag
 $removeparam=wt-mc
 $removeparam=xmt,domain=threads.com|threads.net
 $removeparam=xtor
@@ -79784,6 +79803,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||ubereats.com^$removeparam=marketing-visitor-id
 ||ubereats.com^$removeparam=sub-campaign
 ||undressher.app^$removeparam=ref
+||urban-vpn.com^$removeparam=cid
 ||ure.pia.co.jp^$removeparam=c
 ||urlshare.cn^$removeparam=apptype
 ||urlshare.cn^$removeparam=loginuin
@@ -80661,6 +80681,7 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 @@||adj.st^$removeparam=adj-t
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||em.dynamicyield.com^$removeparam=cuid
+@@||metabase.com^$removeparam=utm-term
 @@||passport.jlcpcb.com^$removeparam=from
 @@||portal-portm.meituan.com/horn$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||tix.axs.com^$removeparam=irclickid
@@ -80696,7 +80717,6 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 @@||glavnoe.life^$removeparam=utm-term
 @@||google.*/maps^$removeparam=utm-campaign
 @@||greenbuildingadvisor.com^$removeparam=oly-enc-id
-@@||img*.nga$removeparam=cmpid
 @@||insurancexblog.blogspot.com/?utm_source=$removeparam=utm-source
 @@||kommersant.ru^$removeparam=erid
 @@||komputerswiat.pl/*&srcc=ucs$removeparam=utm-source
