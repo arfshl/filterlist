@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512200204
+! Version: 202512210224
 ! Title: Personal Filter
-! Last Modified: 20 Dec 2025 02:04 UTC
+! Last Modified: 21 Dec 2025 02:24 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -2821,6 +2821,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||adsrvr.org^$third-party
 ||adst.asstylish.com^
 ||adst.citchenware.com^
+||adstk.io^
 ||adstryker.shajgharbd.com^
 ||adtarget.barcainnovationhub.com^
 ||adtarget.fcbarcelona.cat^
@@ -12956,6 +12957,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||elink.rushcopley.com^
 ||elink.serasaexperian.com.br^
 ||elite-s001.com^$third-party
+||elitebidder.com^
 ||eliteclng.ericksonbuilt.com^
 ||elitics.com^$third-party
 ||eljlai.japana.vn^
@@ -63046,6 +63048,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ads-trk.vidible.tv^
 ||ads.mozilla.org^
 ||adservice.google.
+||adservices.brandcdn.com^
 ||adstat.4u.pl^
 ||adstatistics.av380.net^
 ||adstax-cdn.adrtx.net^
@@ -63092,6 +63095,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||amplitude.chess.com^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
+||ams-beacons.xumo.com^
 ||an.mail.ru^
 ||an.reflektion.com^
 ||ana*.inews24.com^
@@ -63355,6 +63359,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analyticsnew.overwolf.com^
 ||analyticswritenew.xerevo.com^
 ||analyzer*.fc2.com^
+||android-tv-beacons.xumo.com^
 ||anon-stats.eff.org^
 ||anonym.data.funkedigital.de^
 ||ap.attainplatform.io^
@@ -65027,6 +65032,8 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||rta2.metro.co.uk^
 ||rta2.newzit.com^
 ||rtax.criteo.com^
+||rtb-trk4.linkedin.com^
+||rtb-us-east.linkedin.com^
 ||rtb.videonow.ru^
 ||rtm-tracking.zozo.jp^
 ||rtnl.bxcl.de^
@@ -72025,7 +72032,9 @@ link.gmapp*.net$image
 ! + NOT_PLATFORM(ios, ext_safari)
 ||ya.ru/clck/
 ! + NOT_PLATFORM(ios, ext_safari, ext_android_cb)
+%2Fa360%2Fpublic%2Fstatistic%2F$image
 %2Ft%*%2Fa^$image
+/a360/public/statistic/*$image
 ||bing.com/fd/ls/
 ! + NOT_PLATFORM(ios, ext_safari)
 %2F%2Flinks.*.com%2Fe%2Feo%3F_t%3D$image
@@ -72176,6 +72185,8 @@ ct.sendgrid.net$image
 ctrk.klclick*.com%2Fo%2F$image
 ctrk.klclick*.com/o/$image
 data-cdn.theatlantic.com/email.gif
+deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
+deepl.qualtrics.com/subscription/watermark.gif?
 demdex.net%2Fevent%3Fd_event%3D$image
 demdex.net%2Fevent%3Fd_src%3D$image
 demdex.net/event?d_event=$image
@@ -73618,6 +73629,7 @@ xfree.com$cookie=anonymous
 @@||google-analytics.com/analytics.js$domain=brownbagcoffee.co.kr|mediamarkt.nl|saturn.de|society6.com|uniqlo.com
 @@||google-analytics.com/gtm/js^$domain=brownbagcoffee.co.kr|uniqlo.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=mediamarkt.nl|saturn.de|society6.com
+@@||google-analytics.com^$app=com.backbone
 @@||google-analytics.com^$app=com.nttdocomo.android.caboneurecord
 @@||google-analytics.com^$app=jp.co.alc.eow
 @@||google-analytics.com^$app=jp.co.westjr.wester
@@ -76891,6 +76903,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||eagerflame.com^
 ||eagerknight.com^
 ||earnbaht.com^
+||earthlybuzz.com^
 ||earthups.com^
 ||eatablesquare.com^
 ||echoacloud.com^
@@ -76995,6 +77008,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||fearlesstramp.com^
 ||featherstage.com^
 ||feeblestamp.com^
+||feedandpurr.com^
 ||feedten.com^
 ||feignedfaucet.com^
 ||fewjuice.com^
