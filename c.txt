@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512230218
+! Version: 202512240210
 ! Title: Personal Filter
-! Last Modified: 23 Dec 2025 02:18 UTC
+! Last Modified: 24 Dec 2025 02:10 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -2831,6 +2831,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||adst.citchenware.com^
 ||adstk.io^
 ||adstryker.shajgharbd.com^
+||adsximg.com^
 ||adtarget.barcainnovationhub.com^
 ||adtarget.fcbarcelona.cat^
 ||adtarget.fcbarcelona.com^
@@ -8394,6 +8395,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||condor.oskarthoren.com^
 ||condor.stadttunnel-feldkirch.at^
 ||conductrics.com^$third-party
+||conduit-beacon-usw2.mtvnservices.com^
 ||conduit-beacon.mtvnservices.com^
 ||conferences.cigna.com^
 ||confgtm.lojinha.helpfisiobr.com^
@@ -22597,6 +22599,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||matomo-demo-*.amazonaws.com^
 ||matomo.akbal.dev^
 ||matomo.clanto.cloud^
+||matomo.stackvaults.com^
 ||matrk.pacificpower.net^
 ||matrk.rockymountainpower.net^
 ||matsubun.matsubun.com^
@@ -23543,6 +23546,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||module.pomelo.com.pl^
 ||module.sztosmenu.pl^
 ||moebel.medipax.de^
+||moengage.com^$third-party
 ||moigv.spartan.com^
 ||mojok.maxify.pro^
 ||mojoz.amishtables.com^
@@ -35807,6 +35811,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||static.herr.io^$third-party
 ||static.osalta.eu^
 ||static.target2sell.com^$third-party
+||static.terratraf.io^
 ||static.user-red.com^
 ||static0.hbl.baby^
 ||statistic.elkobraas.com^
@@ -42767,6 +42772,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||tvkfms.nta.co.jp^
 ||tvnwpb.ni.dk^
 ||tvnwpj.utensileriaonline.it^
+||tvp.tv^
 ||tvpgs.palmgolfco.com^
 ||tvpixel.com^
 ||tvsbb.representclo.com^
@@ -64240,6 +64246,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||marketinghub.zoho.eu^
 ||mastertag.effiliation.com^
 ||mastertag.kpcustomer.de^
+||matomo-prod.cgorod.pw^
 ||matomo.a1.by^
 ||matomo.aksorn.com^
 ||matomo.cloudfront.similarweb.io^
@@ -65726,6 +65733,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||utsgw.auction.co.kr^
 ||utsssl.auction.co.kr^
 ||uue2.destinia.ir^
+||uxlog-api.danawa.com^
 ||uxlog.next.koapp.com^
 ||v.oui.sncf^
 ||v063.4029tv.com^
@@ -66702,6 +66710,9 @@ business.nikkei.com##.cbCxense
 business.nikkei.com#?#.l-content_footer.recommendesInfomation:contains(あなたにオススメ)
 businessinsider.com##.bottom-recommended
 businessinsider.com##.rail-recommended
+businessinsider.com#%#//scriptlet('set-local-storage-item', 'anonymous_id', '$remove$')
+businessinsider.com#%#//scriptlet('set-local-storage-item', 'fenrir_anonymous_id', '$remove$')
+businessinsider.com#%#//scriptlet('set-local-storage-item', 'universal_id', '$remove$')
 businessinsider.jp##div[class^="article_specialFeature_"]
 businessinsider.jp##div[class^="displayhandler"]:has( > div[class^="premiumRecommend"])
 businessinsider.jp##div[class^="recommendArticlesList_recommend__"]
@@ -70535,6 +70546,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sitebooster.com/sb/wix/p?$third-party
 ||sitejabber.com/set-fingerprint/
 ||skalnik.pl/static/*/js/tracking.min.js
+||skat.com.ua/api/collect
 ||sketchfab.com/a/ramen
 ||skillshare.com/events/track
 ||skk.moe/*.js?$image
@@ -71142,6 +71154,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tv-tokyo.co.jp/index/scatalyst/
 ||tv.naver.com/resources/release/js_*/player*Logge
 ||tv3play.skaties.lv/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
+||tvchosun.com/dhitlog/
 ||tvid.in/log/
 ||tvigle.ru/track/
 ||tvn.pl/sweqevub.js
@@ -71774,7 +71787,7 @@ link.gmapp*.net$image
 /s/eo/*$image
 /senp.png?$image
 /ss/o/*/ho.gif$image
-/t/*/a^$image
+/t/*/a^$image,domain=~permies.com
 /tf/o/*$image
 /track/open.php?u=$image
 /via/o?h=
@@ -72619,6 +72632,9 @@ $cookie=ytrackvisit
 ||boundless.com^$cookie=-boundless-tracking-id
 ||bouyguestelecom.fr^$cookie=trackerid
 ||buildtheearth.net^$cookie=/^-pk-id./
+||businessinsider.com^$cookie=anonymous-id
+||businessinsider.com^$cookie=fenrir-anonymous-id
+||businessinsider.com^$cookie=universal-id
 ||businessinsider.jp^$cookie=mgppid
 ||businessinsider.jp^$cookie=ppid
 ||bybit.$cookie=/^sensorsdata/
@@ -73556,6 +73572,7 @@ d4?appid*type*
 ||collect.serious.li^
 ||collect.ureca-lab.com^
 ||collect.wehearfm.com^
+||collector-*.perimeterx.net^
 ||collector-sbanking.shb-pelib.com^
 ||collector.brandify.com^
 ||collector.scopely.io^
@@ -74355,6 +74372,7 @@ d4?appid*type*
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
+@@||collector-*.px-cloud.net^$xmlhttprequest,domain=ifood.com.br
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
 ! + PLATFORM(windows, mac, android, cli)
@@ -76740,6 +76758,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||forwardslashetc.com^
 ||fossilzero.com^
 ||fourpawsahead.com^
+||foxlagoon.com^
 ||foxtrotdata.com^
 ||frailfruit.com^
 ||framebanana.com^
@@ -76828,6 +76847,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||grayoranges.com^
 ||grayreceipt.com^
 ||grayscaleart.com^
+||graywords.net^
 ||greasegarden.com^
 ||greasysquare.com^
 ||gridbelow.com^
@@ -78198,6 +78218,12 @@ $removeparam=ebisother2
 $removeparam=ebisother3
 $removeparam=ebisother4
 $removeparam=ebisother5
+$removeparam=elq
+$removeparam=elqaid
+$removeparam=elqak
+$removeparam=elqat
+$removeparam=elqcampaignid
+$removeparam=elqtrackid
 $removeparam=embeds-referring-euri,domain=youtube-nocookie.com|youtube.com|youtubekids.com
 $removeparam=embeds-referring-origin,domain=youtube-nocookie.com|youtube.com|youtubekids.com
 $removeparam=emcs-t
@@ -80071,7 +80097,6 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||lotto.gmx.*^$removeparam=partnerid
 ||lotto.web.de^$removeparam=advertisementid
 ||lotto.web.de^$removeparam=partnerid
-||lp.sophos.com^$removeparam=elqtrackid
 ||mag2.com^$removeparam=trflg
 ||manga.nicovideo.jp^$removeparam=track
 ||market.yandex.$removeparam=clid
