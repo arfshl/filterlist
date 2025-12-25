@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512240210
+! Version: 202512250219
 ! Title: Personal Filter
-! Last Modified: 24 Dec 2025 02:10 UTC
+! Last Modified: 25 Dec 2025 02:19 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -8860,6 +8860,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cts.vresp.com^
 ||ctx.toponefutures.com^
 ||ctx.toponetrader.com^
+||ctxcollect.com^
 ||ctyjsf.cellphones.com.vn^
 ||ctzcqz.impromptugourmet.com^
 ||cuarb.cartersoshkosh.ca^
@@ -62988,6 +62989,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.starlink.com^
 ||analytics.streamfab.
 ||analytics.streamingworld.xyz^
+||analytics.t-mobile.com^
 ||analytics.tebilisim.com^
 ||analytics.tedium.co^
 ||analytics.teespring.com^
@@ -63739,6 +63741,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||exlogcollector.sooplive.co.kr^
 ||experience.contextly.com^
 ||ext.host-tracker.com^
+||external-api.impression-neo.naver.com^
 ||external-promo-metrics.yandex.net^
 ||f-log-*.grammarly.io^
 ||f023.bostonherald.com^
@@ -64628,6 +64631,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||publictelemetry.tophat.com^
 ||pumpkin.abine.com^
 ||push.zhanzhang.baidu.com^
+||pushd-android-logs.s3.amazonaws.com^
 ||pv.hd.sohu.com^
 ||pv.sohu.com^
 ||pvdpix.com^$third-party
@@ -64670,6 +64674,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||rake.11st.co.kr^
 ||rake.tmap.co.kr^
 ||ramp.purch.com^
+||raw.vidyard.com^
 ||rcm.shinobi.jp^
 ||rcu.skywayplatform.com^
 ||real-feedback.toros.daum.net^
@@ -65340,6 +65345,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||telemetry.microsoft.us^
 ||telemetry.nbcuott.com^
 ||telemetry.proton.me^
+||telemetry.sdk.inmobi.com^
 ||telemetry.soundcloud.com^
 ||telemetry.stytch.com^
 ||telemetry.svc.transifex.net^
@@ -65716,6 +65722,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||umami.spencerdevs.xyz^
 ||umami.subdavis.com^
 ||unidentifiedanalytics.web.app^
+||unif-id.ssp.inmobi.com^
 ||unified-ter-na.hismarttv.com^
 ||units.knotch.it^
 ||unl1zvy2zuyn.franchiseplus.nl^
@@ -66539,7 +66546,7 @@ directtrack.*.js
 ||plausible.io/api/event
 ||plausible.io/js/p.js
 ||t.*/v1/lst/universal-script?ph=$script
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|agoda.com|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|news.com.au|sibreal.org|yousee.dk
 ! + NOT_OPTIMIZED
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
@@ -67564,7 +67571,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/nano-ppc-media-tracking-YnuuQ.js
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/referral-insights.js
 ||assets.aliexpress-media.com/g/AWSC/fireyejs/*/fireyejs.js
+||assets.aliexpress-media.com/g/AWSC/uab/*/collina.js
 ||assets.aliexpress-media.com/g/AWSC/WebUMID/*/um.js
+||assets.aliexpress-media.com/g/lzd_sec/epssw/*/epssw.js
 ||assets.apollo.io/micro/website-tracker/
 ||assets.askdoctors.jp/*/event-tracking
 ||assets.askdoctors.jp/assets/packs/js/impression_tracker-*.js
@@ -69380,6 +69389,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||lemonde.fr/*?s=$ping,xmlhttprequest
 ||lemonde.fr/bucket/*/js/smartTag.bundle.js
 ||lemonde.fr/bucket/resources/front/*.pa.js
+||lemrock.com/v1/publishers/tracking/
 ||lendingtree.com/path/api/track/
 ||lenovo.com/_ui/desktop/common/js/common/youtubeVideoAnalytic.js
 ||lespresso.it/js/gtm-helper.js
@@ -70012,6 +70022,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||plausible.cgmagonline.com/api/event|
 ||play.*.com/vendor/$domain=play.aetv.com|play.mylifetime.com
 ||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
+||play.vidyard.com/api/metrics
 ||playbrain.io/analytics/
 ||playep.pro/pl/vendor/stat.min.js
 ||player-api.instaread.co/api/metrics/
@@ -70241,6 +70252,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||renotifier.miniclippt.com/rntracking.js
 ||report.23video.com/api/analytics/
 ||report.23video.com/report-batch
+||reports.adguard.com/-/metrics/
 ||repost.aws/api/v*/content/markResourceViewed
 ||res-ga.smzdm.com/gtm.js
 ||res.cdn.office.net/owamail/*/resources/analytics-ping.js
@@ -71998,6 +72010,8 @@ mail-count.matsui.co.jp$image
 mail.ferret-one.com%2Fbeacon$image
 mail.ferret-one.com/beacon$image
 mail.nationalgeographic.com$image
+mail01.monex.co.jp%2Fbin%2Fchecker%3F$image
+mail01.monex.co.jp/bin/checker?$image
 mailchimp.com%2Fmctx%2Fopens$image
 mailchimp.com/mctx/opens$image
 mailfoogae.appspot.com$image
@@ -72612,6 +72626,7 @@ $cookie=ytrackvisit
 ||agoda.com^$cookie=agoda.analytics
 ||agoda.com^$cookie=agoda.firstclicks
 ||agoda.com^$cookie=agoda.lastclicks
+||agoda.com^$cookie=t-pp
 ||agoda.com^$cookie=t-rc
 ||allrecipes.com^$cookie=/^-sharedid/
 ||amazon.com^$cookie=aws-target-data
@@ -73750,6 +73765,7 @@ d4?appid*type*
 ||ibd-as-api.iq.com^
 ||iemiq.com^
 ||iguazu.doordash.com^
+||ihmonitor.luckincoffee.us^
 ||ilyonanalytics.herokuapp.com^
 ||imp-*.jampp.com^
 ||imp.startappservice.com^
@@ -74194,6 +74210,7 @@ d4?appid*type*
 ||telemetry.canva.com^
 ||telemetry.codefusion.technology^
 ||telemetry.navigatorapp.net^
+||telemetry.sdk.inmobi.com^
 ||telemetry.voxeet.com^
 ||teleport.soom.la^
 ||tenant-content.apm.appfolio-analytics.com^
@@ -74225,10 +74242,12 @@ d4?appid*type*
 ||tr.line.me^
 ||tr.snapchat.com^
 ||tr6.snapchat.com^
+||trace-*.hungrypanda.co^
 ||trace.free-reels.com^
 ||trace.qq.com^
 ||traces.sr.roku.com^
 ||tracing-collector.strava.com^
+||track-*.hungrypanda.co^
 ||track-resource.bidease.com^
 ||track-us.bidease.com^
 ||track.*.roku.com^
@@ -74328,6 +74347,7 @@ d4?appid*type*
 ||usdiagnosis.icocofun.com^
 ||use-cr.svr-algorix.com^
 ||use-trk*.bluevoox.com^
+||use-trk.monetune.com^
 ||user-signals.production-public.tubi.io^
 ||userreporting.cloud.unity3d.com^
 ||usertrack.appcpi.net^
@@ -74341,6 +74361,7 @@ d4?appid*type*
 ||viva.api.xiaoying.co^
 ||vk-analytics.ru^
 ||volceapplog.com^
+||vsn-analytics.aparentmedia.com^
 ||weather-analytics-events.apple.com^
 ||weather-analytics-events.news.apple-dns.net^
 ||webmetrics.mayoclinic.org^
