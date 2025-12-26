@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512250219
+! Version: 202512260212
 ! Title: Personal Filter
-! Last Modified: 25 Dec 2025 02:19 UTC
+! Last Modified: 26 Dec 2025 02:12 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -14245,6 +14245,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||fugetech.com^$third-party
 ||fuhhg.tanaorjewelry.com^
 ||fuicmy.hana-mail.jp^
+||fullrestore.net^
 ||fullstory.com^$third-party
 ||fun-hits.com^$third-party
 ||fun.relationshipone.com^
@@ -37642,6 +37643,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||t.iuhoosiers.com^
 ||t.janieandjack.com^
 ||t.jaxstatesports.com^
+||t.jibeno.xyz^
 ||t.jmusports.com^
 ||t.karitraa.ch^
 ||t.kcroos.com^
@@ -63054,6 +63056,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||api2.poperblocker.com^
 ||apihorizon.nnmtools.com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
+||apistats.rg.ru^
 ||apm.yahoo.co.jp^
 ||apmplus.ap-southeast-1.volces.com^
 ||apollo.miniclip.com^
@@ -66546,7 +66549,7 @@ directtrack.*.js
 ||plausible.io/api/event
 ||plausible.io/js/p.js
 ||t.*/v1/lst/universal-script?ph=$script
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|agoda.com|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|agoda.com|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com|vodafone.com.tr
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|news.com.au|sibreal.org|yousee.dk
 ! + NOT_OPTIMIZED
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
@@ -70640,6 +70643,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||spiegel.tv/geoip/geoip.json
 ||spieletipps.de/js/jwplayer/plugins/tracking-min.js
 ||spinmedia.com/clarity.min.js
+||splunkcloud.com/services/collector/event|
+||splunkcloud.com/services/collector/event|$redirect=noop.json,xmlhttprequest
 ||sport.be/javascripts/tracking/counterassets.js^
 ||sport.ua/pixel/$image
 ||sportal.de/js/cf.analytics.js
@@ -74353,7 +74358,6 @@ d4?appid*type*
 ||usertrack.appcpi.net^
 ||usstat.icocofun.com^
 ||utop.umengcloud.com^
-||uts-front.line-apps.com^
 ||v-collector.dp.aws.charter.com^
 ||vcs.zijieapi.com^
 ||vgs-collect-keeper.apps.verygood.systems^
@@ -76801,6 +76805,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||frozekitchen.com^
 ||frugalfiestas.com^
 ||fuelinspector.com^
+||fullrestore.net^
 ||fumblingform.com^
 ||functionalcrown.com^
 ||functionalfeather.com^
@@ -76936,6 +76941,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||highnoongear.com^
 ||hikingbars.com^
 ||hilariouszinc.com^
+||hippojump.com^
 ||historicalbeam.com^
 ||historytrade.com^
 ||hocgeese.com^
@@ -76996,6 +77002,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||intricateberry.com^
 ||inventorycache.com^
 ||inventtango.com^
+||invoicetick.com^
 ||iotapool.com^
 ||irelandroad.com^
 ||iridescentdusk.com^
