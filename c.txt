@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512260212
+! Version: 202512270209
 ! Title: Personal Filter
-! Last Modified: 26 Dec 2025 02:12 UTC
+! Last Modified: 27 Dec 2025 02:09 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -6538,6 +6538,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||azxhnt.uniformadvantage.com^
 ||azyrak.aureumcollective.com^
 ||azzvz.wallien.com^
+||b-sing.com^
 ||b.aecf.org^
 ||b.allsecur.nl^
 ||b.bloomberglp.com^
@@ -8049,6 +8050,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||clickzzs.nl^$third-party
 ||client-analytics.braintreegateway.com^
 ||client-log.karte.io^
+||client-sdk.hackle.io^
 ||client.botchk.net^
 ||client.trustaff.com^
 ||clients.hermes-investment.com^
@@ -14245,7 +14247,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||fugetech.com^$third-party
 ||fuhhg.tanaorjewelry.com^
 ||fuicmy.hana-mail.jp^
-||fullrestore.net^
 ||fullstory.com^$third-party
 ||fun-hits.com^$third-party
 ||fun.relationshipone.com^
@@ -64519,6 +64520,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||perr.hola.org^
 ||pf.intuit.com^
 ||pf.newegg.com^
+||pftk.temu.com^
 ||pgt1.voyage-prive.es^
 ||phaseshift.almagrow.com^
 ||ping.fastsimon.com^
@@ -64973,6 +64975,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sp1.baidu.com^
 ||sp2.baidu.com^
 ||sp3.baidu.com^
+||spa-tracker*.spapi.io^
 ||spade.twitch.tv^
 ||spanids.dictionary.com^
 ||spanids.thesaurus.com^
@@ -65364,6 +65367,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||th.pinduoduo.com^
 ||thj.astrakhan.ru^
 ||thongke.24h.com.vn^
+||thtk.temu.com^
 ||tianji.flowgpt.com^
 ||tim.nextinpact.com^
 ||tiq.espritshop.pl^
@@ -66334,6 +66338,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /senddata?site=inpage
 /sensorsdata.min.js
 /set_tracking.js
+/sfp/universal_analytics.min.
 /sftouch?branchId=
 /share/js/gAnalytics.js
 /shareCounts.
@@ -70983,8 +70988,10 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/ttt.go?$image
+||temu.com/*/api/firefly/exp-config
 ||temu.com/*/conversion/*beacon$ping
 ||temu.com/api/adx/cm/pixel-xandr
+||temu.com/api/faas-abtest-server/firefly-api/exp-config
 ||tend-table.com/cgi-bin/WebLog.dll
 ||terabox.app/api/analytics?
 ||terabox.app/nodeapi/reporterror?*HTMLScriptElement
@@ -72546,6 +72553,7 @@ $cookie=ubpv
 $cookie=ubvs
 $cookie=ubvt
 $cookie=uniquecmgvisitor
+$cookie=universal-analytics-cid
 $cookie=usermatchhistory
 $cookie=utag-main
 $cookie=utag-main--pn
@@ -74397,9 +74405,11 @@ d4?appid*type*
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
+@@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||collector-*.px-cloud.net^$xmlhttprequest,domain=ifood.com.br
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
+enedis.fr#%#//scriptlet('set-constant', 'window.tc_vars', 'emptyObj')
 ! + PLATFORM(windows, mac, android, cli)
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
 @@||data.service.paypal.com^
@@ -76431,6 +76441,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||coloradoserves.com^
 ||colorfulpet.com^
 ||coloringisland.com^
+||coloroptimizer.com^
 ||colossalclouds.com^
 ||colossalcoat.com^
 ||colossalcry.com^
@@ -77041,6 +77052,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||juicingoasis.com^
 ||justconfig.com^
 ||justicejudo.com^
+||justlagoon.com^
 ||justpickaname.com^
 ||justwebcards.com^
 ||justwowjars.com^
@@ -78614,6 +78626,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||blu-ray.com/link/click.php$removeparam=tid
 ||boards.greenhouse.io^$removeparam=ref
 ||boncharge.com^$removeparam=shpxid
+||bookoffonline.co.jp^$removeparam=xadid
 ||bookshop.org^$removeparam=affiliate
 ||booster.osnova.io^$removeparam=boosteruid
 ||booster.osnova.io^$removeparam=place
