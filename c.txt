@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512280231
+! Version: 202512290228
 ! Title: Personal Filter
-! Last Modified: 28 Dec 2025 02:31 UTC
+! Last Modified: 29 Dec 2025 02:28 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -23217,7 +23217,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||metrics.steelcase.com^
 ||metrics.stilvol.de^
 ||metrics.strategiccoach.com^
-||metrics.streaks.jp^
 ||metrics.sun.com^
 ||metrics.sungard.com^
 ||metrics.sunshinehealth.com^
@@ -69625,6 +69624,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||metrics.aktin.*/collect?
 ||metrics.amd.com/b/ss/
 ||metrics.aviasales.ru^
+||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
 ||metrics.uol.com.br^
 ||metrika.yandex.ru/stat/?id=$third-party
 ||metro.co.uk/wp-content/themes/metro-parent/dist/components/measurement.min.js
@@ -77103,6 +77103,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||linkedleg.com^
 ||linksoutside.com^
 ||linkstable.com^
+||littlesun.net^
 ||livelumber.com^
 ||livelylaugh.com^
 ||livingsleet.com^
@@ -77112,6 +77113,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||loadsurprise.com^
 ||locateskill.com^
 ||lockuplookup.com^
+||logicalminds.net^
 ||logoshutter.com^
 ||lonelyflavor.com^
 ||longingtrees.com^
