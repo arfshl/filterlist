@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512300219
+! Version: 202512310219
 ! Title: Personal Filter
-! Last Modified: 30 Dec 2025 02:19 UTC
+! Last Modified: 31 Dec 2025 02:19 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -26440,6 +26440,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||pingdom.net^$third-party
 ||pingmeter.com^$third-party
 ||pingomatic.com^$third-party
+||pingpong.us^
 ||pinniped.quarantinecup.live^
 ||pinniped.resist.bot^
 ||pinniped.spacecountdown.com^
@@ -63928,6 +63929,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics-tracking.meetup.com^
 ||analytics-v2.wetransfer.com^
 ||analytics-wcms.joins.net^
+||analytics-webhook.doximity.com^
 ||analytics.*.sky.com^
 ||analytics.3c5.com^
 ||analytics.74.ru^
@@ -67802,7 +67804,6 @@ arstechnica.com###story-recommendations
 arstechnica.com#%#//scriptlet('set-local-storage-item', 'au/last_seen_pixels', '$remove$')
 arstechnica.com#%#//scriptlet('set-local-storage-item', 'permutive-app', '$remove$')
 arstechnica.com#%#//scriptlet('set-local-storage-item', 'permutive-data-misc', '$remove$')
-arte.tv#%#//scriptlet('set-local-storage-item', '/^oidc\./', '$remove$')
 artmoney.ru##a[href^="http://top.list.ru/"]
 artmoney.ru##a[href^="http://www.one.ru"]
 artmoney.ru##noindex > a
@@ -74787,6 +74788,7 @@ d4?appid*type*
 ||dsptrack.mobshark.net^
 ||dt.beyla.site^
 ||dtcollect.newsbang.com^
+||dts-log.anker.com^
 ||dualstack-cgicol.amap.com^
 ||dualstack-collection.rong-edge.com^
 ||dualstack-logs.amap.com^
@@ -74809,6 +74811,7 @@ d4?appid*type*
 ||event-us.ssp.taxssp.com^
 ||event.*.karrotmarket.com^
 ||event.aimailhome.io^
+||event.bblmw.com^
 ||event.bigkeyboardeasyphone.com^
 ||event.flareflow.tv^
 ||event.karrotmarket.com^
@@ -74980,6 +74983,7 @@ d4?appid*type*
 ||log.easy39.com^
 ||log.espn.com^
 ||log.estand.jp^
+||log.eufylife.com^
 ||log.game.qcplay.com^
 ||log.geetest.com^
 ||log.goodreels.com^
@@ -75165,6 +75169,7 @@ d4?appid*type*
 ||patriot.cs.pp.cn^
 ||payload.adadapted.com^
 ||pendo-data-prod.box.com^
+||perf.bblmw.com^
 ||perfsight.wetest.net^
 ||perseus-productanalytics.deliveryhero.net^
 ||pgapi.ksmobile.com^
@@ -77601,6 +77606,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cookiestorybook.com^
 ||coolestcatcare.com^
 ||coolguesthouse.com^
+||coolkidsdistrict.com^
 ||coordinatedcoat.com^
 ||copperstills.net^
 ||copycarpenter.com^
@@ -78255,6 +78261,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||lumpygnome.com^
 ||lumpylumber.com^
 ||lumpywood.com^
+||lunarcave.com^
 ||lunchroomlock.com^
 ||lustroushaven.com^
 ||luxformula.com^
@@ -78262,6 +78269,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||madlysuccessful.com^
+||madnessbuzz.com^
 ||madoverrice.com^
 ||magicaljoin.com^
 ||magicminibox.com^
@@ -79330,7 +79338,6 @@ $removeparam=af-adset
 $removeparam=af-click-lookback
 $removeparam=af-force-deeplink
 $removeparam=af-xp
-$removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 $removeparam=aiad-clid
 $removeparam=asgtbndr
 $removeparam=at-campaign
@@ -79710,9 +79717,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||announcements.bybit.com^$removeparam=sa-utm-tcn
 ||aozorabank.co.jp^$removeparam=lid
 ||app.startpage.com^$removeparam=source
-||asahi.com^$removeparam=cid
-||asahi.com^$removeparam=iref
-||asahi.com^$removeparam=ref
 ||assetstore.unity.com^$removeparam=aid
 ||audible.$removeparam=ref
 ||autodaily.ru^$removeparam=from
@@ -79731,7 +79735,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||awaliwa.com^$removeparam=z
 ||bandcamp.com^$removeparam=from
 ||baseballchannel.jp^$removeparam=ref
-||basketballking.jp^$removeparam=cx-art
 ||bbc.$removeparam=at-bbc-team
 ||bbc.$removeparam=facebook-page
 ||beacon-recommend.tower.jp^$removeparam=tracking-id
@@ -79763,6 +79766,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||boredpanda.com^$removeparam=cexp-id
 ||boredpanda.com^$removeparam=cexp-var
 ||brazzers.com^$removeparam=ats
+||browsec-uninstall.s3-website.eu-central-1.amazonaws.com^$removeparam
 ||bunshun.jp^$removeparam=ref
 ||buydomains.com/lander/*?domain=$removeparam
 ||byn.kr^$removeparam=rurl
@@ -79828,7 +79832,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chitai-gorod.ru^$removeparam=partnerid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
-||cinematoday.jp^$removeparam=g-clk
 ||click.redditmail.com^$removeparam=ref
 ||click.redditmail.com^$removeparam=ref-campaign
 ||click.redditmail.com^$removeparam=ref-source
@@ -79854,9 +79857,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||cmswire.com^$removeparam=source
 ||cnbc.com^$removeparam=--source
 ||cnbc.com^$removeparam=par
-||cnet.com^$removeparam=medium
-||cnet.com^$removeparam=source
-||cnn.co.jp^$removeparam=ref
 ||coca-cola.com^$removeparam=openexternalbrowser
 ||coco.fun/share/$removeparam=d
 ||coco.fun/share/$removeparam=m
@@ -79913,7 +79913,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||donation.yahoo.co.jp^$removeparam=cpt-n
 ||donation.yahoo.co.jp^$removeparam=cpt-s
 ||donga.com^$removeparam=ref
-||douban.com^$removeparam=-i
 ||douyin.com^$removeparam=extra-params
 ||douyin.com^$removeparam=previous-page
 ||dragonquest.jp^$removeparam=-bdld
@@ -79982,7 +79981,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||etsy.com^$removeparam=click-key
 ||etsy.com^$removeparam=click-sum
 ||etsy.com^$removeparam=ref
-||event.hoken-mammoth.jp^$removeparam=s-mf
 ||eventbrite.ca^$removeparam=aff
 ||expressvpn.com^$removeparam=shareid
 ||expressvpn.com^$removeparam=xvcid
@@ -80000,7 +79998,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||faphouse.com^$removeparam=veb
 ||faphouse.com^$removeparam=vep
 ||faphouse.com^$removeparam=xhuserid
-||fashion-press.net^$removeparam=media
 ||fastmail.com^$removeparam=gspk
 ||fastmail.com^$removeparam=gsxid
 ||fastmail.com^$removeparam=ps-partner-key
@@ -80137,11 +80134,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||ieagent.jp^$removeparam=ref
 ||igromania.ru^$removeparam=from-button-waterfall-knb
 ||ilsecoloxix.it^$removeparam=ref
-||immobilienscout24.de^$removeparam=navigationserviceurl
-||immobilienscout24.de^$removeparam=referrer
-||immobilienscout24.de^$removeparam=searchgeopath
-||immobilienscout24.de^$removeparam=searchid
-||immobilienscout24.de^$removeparam=source
 ||incogni.com^$removeparam=aff-sub
 ||incogni.com^$removeparam=affiliate-id
 ||incogni.com^$removeparam=offer-id
@@ -80153,11 +80145,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||iotransfer.itopvpn.com^$removeparam=ref
 ||irisplaza.co.jp^$removeparam=fd-bridge-id
 ||item.rakuten.co.jp^$removeparam=iasid
-||japan.cnet.com^$removeparam=tag
 ||jetbrains.com^$removeparam=from
-||jiji.com^$removeparam=m
 ||jiji.com^$removeparam=ref
-||jlcpcb.com^$removeparam=from
 ||join.worldoftanks.eu^$removeparam
 ||joshi-spa.jp^$removeparam=cx-clicks-art-mdl
 ||joshi-spa.jp^$removeparam=cx-clicks-sldbox
@@ -80759,6 +80748,27 @@ rtkcid=*&clickid=$removeparam=clickid
 ||zozo.jp^$removeparam=t
 ||zurichlife.co.jp^$removeparam=agentcode
 ||zurichlife.co.jp^$removeparam=waad
+! + NOT_PLATFORM(ext_chromium_mv3)
+$removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
+||asahi.com^$removeparam=cid
+||asahi.com^$removeparam=iref
+||asahi.com^$removeparam=ref
+||basketballking.jp^$removeparam=cx-art
+||cinematoday.jp^$removeparam=g-clk
+||cnet.com^$removeparam=medium
+||cnet.com^$removeparam=source
+||cnn.co.jp^$removeparam=ref
+||douban.com^$removeparam=-i
+||event.hoken-mammoth.jp^$removeparam=s-mf
+||fashion-press.net^$removeparam=media
+||immobilienscout24.de^$removeparam=navigationserviceurl
+||immobilienscout24.de^$removeparam=referrer
+||immobilienscout24.de^$removeparam=searchgeopath
+||immobilienscout24.de^$removeparam=searchid
+||immobilienscout24.de^$removeparam=source
+||japan.cnet.com^$removeparam=tag
+||jiji.com^$removeparam=m
+||jlcpcb.com^$removeparam=from
 ! + NOT_PLATFORM(ext_ublock)
 $document,removeparam=ocid,domain=msn.com
 $removeparam=/^mkt-tok/,domain=atlanticcouncil.org|digikey.com
@@ -81702,6 +81712,7 @@ inilah.com##.mui-style-9iqj81.MuiStack-root
 inilah.com##.mui-style-fg8iht.MuiStack-root
 inilah.com##.mui-style-jsgj5i.MuiStack-root
 hukumonline.com##.my-2.d-flex.ps-ads-banner
+suara.com##.notification-banner
 idxchannel.com##.outer-social-media-box
 tvrinews.com##.p-2.row
 kumparan.com##.pb8.pt8.flex.bshhdS.sc-1u3us5z-1.cTlHVA.Viewweb__StyledView-sc-b0snvl-0
@@ -81717,6 +81728,7 @@ insertlive.com##.smartbanner_new
 metrotvnews.com##.socmed-share-container
 keepo.me##.sticky-share-content
 pinhome.id##.style_stickyBannerDesktop__GLF3I
+suara.com##.tap-banner
 tribunnews.com##.tapp-banner
 quran.nu.or.id##.w-full.relative
 inews.id##.widgetNewsTV__news24Jam
