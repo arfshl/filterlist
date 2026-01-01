@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202512310219
+! Version: 202601010231
 ! Title: Personal Filter
-! Last Modified: 31 Dec 2025 02:19 UTC
+! Last Modified: 01 Jan 2026 02:31 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -64015,6 +64015,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.ifood.tv^
 ||analytics.ikyu.com^
 ||analytics.innologica.com^
+||analytics.inquirernetwork.net^
 ||analytics.iraiser.eu^
 ||analytics.islamicfinder.org^
 ||analytics.junia.ai^
@@ -67121,6 +67122,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /api/v1/firehose?_
 /app.php/ads/*
 /app/Eclog/js/cid.generate.js
+/apps/ssw/events-collector-lambda/events/*
 /apricot.php?
 /aspenanalytics.
 /assets/common/js/ga.js
@@ -70156,6 +70158,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hotels.com/egcs/v2/collect
 ||hotels.com/taps/v*/Impr?
 ||hotels.com/taps/v*/PageView?
+||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
 ||hotstar.com/*/identify$domain=~bifrost-api.hotstar.com
 ||hotstar.com/*/track$domain=~bifrost-api.hotstar.com
 ||hotwire.com/api/*/logging/
@@ -70969,6 +70972,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||omt.shinobi.jp/pv^
 ||omt.shinobi.jp/tsumugi?location=
 ||omtrdc.net/id^$important,redirect=noop.txt
+||omtrdc.net/rest/$ping
 ||omtrdc.net/rest/v*/delivery?client=$replace=/^\{[\s\s]*\}\$/{}/,domain=~acrobat.adobe.com|~elcomercio.es|~elcorreo.com|~eldiariomontanes.es|~hoy.es|~ideal.es|~kia.com|~lasprovincias.es|~pccomponentes.com|~ups.com
 ||on.aws/track?
 ||on.aws/tracking/event
@@ -72401,6 +72405,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||utopia.de/app/themes/utopiamain/assets/js/wecantrack.js
 ||utrack.buybox.click/analytics.js
 ||utrack.buybox.click/bb4shop.js
+||uts-front.line-apps.com/event-web
 ||utsgw.gmarket.co.kr/vi/send
 ||v*.astar.bz/*/ping.gif
 ||v20.cnnd.vn/index2.html
@@ -75528,10 +75533,12 @@ d4?appid*type*
 ! #################
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js$domain=aws.amazon.com
+@@||cdn.cquotient.com/js/*/gretel.min.js$domain=store.smart.com.ph
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||collector-*.px-cloud.net^$xmlhttprequest,domain=ifood.com.br
+@@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
@@ -78280,6 +78287,8 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||managedpush.com^
 ||manamoment.com^
 ||mantrafox.com^
+||manydiamonds.com^
+||manyfishes.com^
 ||mapbasin.com^
 ||mapcommand.com^
 ||marblediscussion.com^
@@ -79338,6 +79347,7 @@ $removeparam=af-adset
 $removeparam=af-click-lookback
 $removeparam=af-force-deeplink
 $removeparam=af-xp
+$removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 $removeparam=aiad-clid
 $removeparam=asgtbndr
 $removeparam=at-campaign
@@ -79717,6 +79727,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||announcements.bybit.com^$removeparam=sa-utm-tcn
 ||aozorabank.co.jp^$removeparam=lid
 ||app.startpage.com^$removeparam=source
+||asahi.com^$removeparam=cid
+||asahi.com^$removeparam=iref
+||asahi.com^$removeparam=ref
 ||assetstore.unity.com^$removeparam=aid
 ||audible.$removeparam=ref
 ||autodaily.ru^$removeparam=from
@@ -79735,6 +79748,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||awaliwa.com^$removeparam=z
 ||bandcamp.com^$removeparam=from
 ||baseballchannel.jp^$removeparam=ref
+||basketballking.jp^$removeparam=cx-art
 ||bbc.$removeparam=at-bbc-team
 ||bbc.$removeparam=facebook-page
 ||beacon-recommend.tower.jp^$removeparam=tracking-id
@@ -79832,6 +79846,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chitai-gorod.ru^$removeparam=partnerid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
+||cinematoday.jp^$removeparam=g-clk
 ||click.redditmail.com^$removeparam=ref
 ||click.redditmail.com^$removeparam=ref-campaign
 ||click.redditmail.com^$removeparam=ref-source
@@ -79857,6 +79872,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||cmswire.com^$removeparam=source
 ||cnbc.com^$removeparam=--source
 ||cnbc.com^$removeparam=par
+||cnet.com^$removeparam=medium
+||cnet.com^$removeparam=source
+||cnn.co.jp^$removeparam=ref
 ||coca-cola.com^$removeparam=openexternalbrowser
 ||coco.fun/share/$removeparam=d
 ||coco.fun/share/$removeparam=m
@@ -79913,6 +79931,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||donation.yahoo.co.jp^$removeparam=cpt-n
 ||donation.yahoo.co.jp^$removeparam=cpt-s
 ||donga.com^$removeparam=ref
+||douban.com^$removeparam=-i
 ||douyin.com^$removeparam=extra-params
 ||douyin.com^$removeparam=previous-page
 ||dragonquest.jp^$removeparam=-bdld
@@ -79981,6 +80000,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||etsy.com^$removeparam=click-key
 ||etsy.com^$removeparam=click-sum
 ||etsy.com^$removeparam=ref
+||event.hoken-mammoth.jp^$removeparam=s-mf
 ||eventbrite.ca^$removeparam=aff
 ||expressvpn.com^$removeparam=shareid
 ||expressvpn.com^$removeparam=xvcid
@@ -79998,6 +80018,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||faphouse.com^$removeparam=veb
 ||faphouse.com^$removeparam=vep
 ||faphouse.com^$removeparam=xhuserid
+||fashion-press.net^$removeparam=media
 ||fastmail.com^$removeparam=gspk
 ||fastmail.com^$removeparam=gsxid
 ||fastmail.com^$removeparam=ps-partner-key
@@ -80134,6 +80155,11 @@ rtkcid=*&clickid=$removeparam=clickid
 ||ieagent.jp^$removeparam=ref
 ||igromania.ru^$removeparam=from-button-waterfall-knb
 ||ilsecoloxix.it^$removeparam=ref
+||immobilienscout24.de^$removeparam=navigationserviceurl
+||immobilienscout24.de^$removeparam=referrer
+||immobilienscout24.de^$removeparam=searchgeopath
+||immobilienscout24.de^$removeparam=searchid
+||immobilienscout24.de^$removeparam=source
 ||incogni.com^$removeparam=aff-sub
 ||incogni.com^$removeparam=affiliate-id
 ||incogni.com^$removeparam=offer-id
@@ -80145,7 +80171,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||iotransfer.itopvpn.com^$removeparam=ref
 ||irisplaza.co.jp^$removeparam=fd-bridge-id
 ||item.rakuten.co.jp^$removeparam=iasid
+||japan.cnet.com^$removeparam=tag
 ||jetbrains.com^$removeparam=from
+||jiji.com^$removeparam=m
 ||jiji.com^$removeparam=ref
 ||join.worldoftanks.eu^$removeparam
 ||joshi-spa.jp^$removeparam=cx-clicks-art-mdl
@@ -80748,27 +80776,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||zozo.jp^$removeparam=t
 ||zurichlife.co.jp^$removeparam=agentcode
 ||zurichlife.co.jp^$removeparam=waad
-! + NOT_PLATFORM(ext_chromium_mv3)
-$removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
-||asahi.com^$removeparam=cid
-||asahi.com^$removeparam=iref
-||asahi.com^$removeparam=ref
-||basketballking.jp^$removeparam=cx-art
-||cinematoday.jp^$removeparam=g-clk
-||cnet.com^$removeparam=medium
-||cnet.com^$removeparam=source
-||cnn.co.jp^$removeparam=ref
-||douban.com^$removeparam=-i
-||event.hoken-mammoth.jp^$removeparam=s-mf
-||fashion-press.net^$removeparam=media
-||immobilienscout24.de^$removeparam=navigationserviceurl
-||immobilienscout24.de^$removeparam=referrer
-||immobilienscout24.de^$removeparam=searchgeopath
-||immobilienscout24.de^$removeparam=searchid
-||immobilienscout24.de^$removeparam=source
-||japan.cnet.com^$removeparam=tag
-||jiji.com^$removeparam=m
-||jlcpcb.com^$removeparam=from
 ! + NOT_PLATFORM(ext_ublock)
 $document,removeparam=ocid,domain=msn.com
 $removeparam=/^mkt-tok/,domain=atlanticcouncil.org|digikey.com
@@ -81579,7 +81586,6 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 @@||apimeishi.meituan.com/meishi/poi$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||em.dynamicyield.com^$removeparam=cuid
 @@||metabase.com^$removeparam=utm-term
-@@||passport.jlcpcb.com^$removeparam=from
 @@||portal-portm.meituan.com/horn$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||tix.axs.com^$removeparam=irclickid
 @@||yandex.go.link^$removeparam=adj-t
