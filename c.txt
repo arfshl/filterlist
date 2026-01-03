@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601020221
+! Version: 202601030209
 ! Title: Personal Filter
-! Last Modified: 02 Jan 2026 02:21 UTC
+! Last Modified: 03 Jan 2026 02:09 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -11307,6 +11307,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||data.decathlon.fr^
 ||data.decathlon.it^
 ||data.decathlon.pl^
+||data.deep-content.io^
 ||data.delivers.buick.com^
 ||data.delivers.cadillac.com^
 ||data.delivers.chevrolet.com^
@@ -16756,6 +16757,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||gvyyri.major-auto.ru^
 ||gw-analytics.panasonic.com^
 ||gw-dv.vip^
+||gw-usa-tracker.zmaticoo.com^
 ||gw.conversionsapigateway.com^
 ||gwguyh.edreams.es^
 ||gwmtracking.com^$third-party
@@ -17715,6 +17717,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||imp.dmm.co.jp^
 ||imp.dmm.com^
 ||imp.pvnsolutions.com^
+||imp_track.zmaticoo.com^
 ||impala.vnv.nl^
 ||import.goatmayoristas.com^
 ||imprc.gotpouches.com^
@@ -28232,6 +28235,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||rtattr.skyup.aero^
 ||rtb.voltaxam.com^
 ||rtbanalytics.com^
+||rtbuniverse.com^
 ||rtc.dymatrix.cloud^
 ||rtegbv.jmclaughlin.com^
 ||rtg.rubiconredirect.com^
@@ -63790,6 +63794,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||a.mts.ru^
 ||a.opmnstr.com^
 ||a.ria.ru^
+||a.streamed.pk^
 ||a.tampermonkey.net^
 ||a.thelocal.com^
 ||a.visme.co^
@@ -64495,6 +64500,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||cookiemon-analytics.azurewebsites.net^
 ||copilot-telemetry.githubusercontent.com^
 ||core.airbridge.io^
+||corfu.blogvault.net^
 ||count.channeladvisor.com^
 ||count.munhwa.com^
 ||count.rin.ru^
@@ -67796,6 +67802,7 @@ addons.mozilla.org#%#//scriptlet('href-sanitizer', 'a[href^="https://prod.outgoi
 adultportal.jp###custom_html-12
 agronews.com##a[alt="Яндекс.Метрика"]
 aihumanizer.ai,humbot.ai#%#//scriptlet('set-local-storage-item', '/__anon_id|browserId/', '$remove$')
+airlift.net#%#//scriptlet('abort-on-property-read', 'posthog')
 allrecipes.com#%#//scriptlet('set-local-storage-item', '/_fpi|_duid/', '$remove$')
 android-tools.ru###text-8
 androplus.org##a[href^="https://px.a8.net/"]
@@ -68601,7 +68608,9 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||apnews.com/newrelic/newrelic.browser.prod.js
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app-de-na1.niceincontact.com/logger-public
+||app.airlift.net/assets/affpix.js
 ||app.avada.io/scripttag/tracking/avada-track.min.js
+||app.blogvault.net/assets/affpix.js
 ||app.brightinfo.com/bi.aspx$third-party
 ||app.call-tracking.by/scripts/calltracking.js
 ||app.carnow.com/dealers/track_visitor
@@ -68679,7 +68688,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
 ||assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.
-||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|assets.adobedtm.com|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|eadt.co.uk|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
+||assets.adobedtm.com^$domain=0101.co.jp|aarp.org|abbott.com|aia.com.ph|algida.com.tr|assets.adobedtm.com|atu.de|baynews9.com|bellinghamherald.com|bmw-motorrad.co.uk|bmw.hu|carsales.com.au|channelnewsasia.com|charlotteobserver.com|chronicle.com|cif.com.tr|cineplex.com|clearhaircare.com|cloudflare.com|cnbc.com|deutschepost.de|dhc.co.jp|directscout.recruit.co.jp|domestos.com|dove.com|eadt.co.uk|edp24.co.uk|ef.ru|elidor.com.tr|elnuevoherald.com|eurosport.ru|f1sport.autorevue.cz|falabella.com|fredmeyer.com|geico.com|hellmanns.com.tr|herkessofraya.com|hp.com|intermiles.com|johnsonsbaby.com.tr|kbb.com|lipton.com|lnk.to|lux.com|magnumicecream.com|mcclatchydc.com|meijer.com|miamiherald.com|msnbc.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|myglo.com.ua|nbcnews.com|neutrogena.com.tr|newshub.co.nz|newsobserver.com|nzherald.co.nz|omo.com|otempo.com.br|oxfordmail.co.uk|philanthropy.com|r-agent.com|realtor.com|rexona.com|rikunabi.com|rottentomatoes.com|s.shufoo.net|sacbee.com|samsung.com|sap.com|schwarzkopf.com.tr|sephora.com|signalturkiye.com|songkick.com|spiegel.de|staples.com|t-mobile.com|tabelog.com|thebay.com|thehill.com|thesaurus.com|timgate.it|transfermarkt.com.tr|tsn.ca|ubs.com|viabcp.com|webmotors.com.br|worldshop.eu
 ||assets.adsttc.com/insights/form-funnel.min.js
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/*/affiliate-tracker.js$domain=aliexpress.com|aliexpress.us
@@ -69056,6 +69065,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.liga.net/assets/js/campaign.js
 ||cdn.liga.net/assets/js/remplib.js
 ||cdn.lihkg.com/static/*/js/21.chunk.js
+||cdn.live-widgets.com/tracker/
 ||cdn.lmiutil.com/lpassets/contentsquare/
 ||cdn.lmiutil.com/lpassets/track-
 ||cdn.lovense.com/front/web-analytics-sdk/bundle.js
@@ -71367,6 +71377,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||redfast.com/ping/
 ||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png
 ||reebok.eu/*/trackings|
+||reebok.jp/resources/js/analysis/tracker.js
 ||ref.dealerinspire.com/visit/*/events^
 ||reformal.ru/log.php
 ||regmedia.co.uk/*/tp.gif
@@ -71909,6 +71920,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.site24x7rum.jp/beacon/
 ||static.solarwinds.com/referrer-cookie.js
 ||static.spankbang.com/static_desktop/gen/*-ai-with-privacy.js
+||static.speisekarte.de/build/ub-tracker.js
 ||static.stands4.com/*/page.analytics.min.js$domain=lyrics.com
 ||static.stylight.net/js_external/trackjs.*.js
 ||static.tacdn.com/js3/taevents-c.js
@@ -74225,7 +74237,7 @@ xfree.com$cookie=anonymous
 ||globalapi.ad.xiaomi.com^
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
-||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats
+||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats|com.warmweather.forecast.reporter
 ||gulfnews.com^$cookie=/incap-|new-visitor|nlbi-|---utmv/
 ||hankookilbo.com^$cookie=hk-ltuid
 ||hankookilbo.com^$cookie=hkvstcd
@@ -74995,6 +75007,7 @@ d4?appid*type*
 ||log.happyapkdown.com^
 ||log.heartratepros.com^
 ||log.hiapkdownload.com^
+||log.hotweathers.live^
 ||log.isnssdk.com^
 ||log.jackpotmasterslots.com^
 ||log.lnk.events^
@@ -76102,7 +76115,6 @@ goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyArr")
 ||data-*.welt.de/iomm/latest/manager/base/*/bundle.js$redirect-rule=nooptext,script,stylesheet
 ||googletagmanager.com/gtag/js$important,redirect=google-analytics,script,domain=weathernews.jp
 ||googletagmanager.com/gtm.js$important,redirect=google-analytics,script,domain=raaga.com
-||googletagservices.com/tag/js/gpt.js$badfilter,redirect=googletagservices-gpt,script,xmlhttprequest,domain=thedailybeast.com
 ||wpfc.ml/b.gif$image,redirect=1x1-transparent.gif,domain=thestoryexchange.org
 ! #safari_cb_affinity
 ! + NOT_PLATFORM(ios, ext_safari)
