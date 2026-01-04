@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601030209
+! Version: 202601040233
 ! Title: Personal Filter
-! Last Modified: 03 Jan 2026 02:09 UTC
+! Last Modified: 04 Jan 2026 02:33 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -66333,6 +66333,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||t.imgur.com^
 ||t.indeed.com^
 ||t.iwara.tv^
+||t.jasper.ai^
 ||t.karte.io^
 ||t.kck.st^
 ||t.la-croix.com^
@@ -66856,6 +66857,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||upsell.alphwidget.com^
 ||upu.samsungelectronics.com^
 ||usage.trackjs.com^
+||use.hetzner.com^
 ||user-event-log.aminer.cn^
 ||ut.gamersyde.com^
 ||utiq.actu.fr^
@@ -69136,6 +69138,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cfm.kt.com/js/adobe/*/launch-
 ||cfm.kt.com/js/adobe/staticsLogcodeLaunch.js
 ||cfm.kt.com/js/common/global/oms.js
+||cfm.kt.com/js/GA/staticsLogcodeBuilder.js
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
 ||change.org/*/collector
@@ -74094,7 +74097,6 @@ gcdsdk.appsflyersdk.com^
 xfree.com$cookie=anonymous
 ||*cdn-settings.appsflyersdk.com^
 ||*conversions.appsflyersdk.com^
-||*inapps.appsflyersdk.com^
 ||*launches.appsflyersdk.com^
 ||*register.appsflyersdk.com^
 ||11st.co.kr^$cookie=/rake-sid/
@@ -78373,6 +78375,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||monthlyhat.com^
 ||mooncrustpizza.com^
 ||moorshoes.com^
+||morefolks.com^
 ||morefriendly.com^
 ||motionflowers.com^
 ||motionlessbelief.com^
@@ -78409,6 +78412,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||networklast.com^
 ||newarkdriving.com^
 ||newartreview.com^
+||nicefollows.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
