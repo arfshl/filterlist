@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601040233
+! Version: 202601050232
 ! Title: Personal Filter
-! Last Modified: 04 Jan 2026 02:33 UTC
+! Last Modified: 05 Jan 2026 02:32 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -78039,6 +78039,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||gripcorn.com^
 ||grocerycrew.com^
 ||grocerydog.com^
+||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
 ||grouchypush.com^
@@ -78387,6 +78388,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||muddledmemory.com^
 ||mundanenail.com^
 ||mushywaste.com^
+||musicflashcard.com^
 ||muteknife.com^
 ||mutemailbox.com^
 ||mutualhappy.com^
@@ -78445,6 +78447,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||objectsnetwork.com^
 ||oblivionfleet.com^
 ||obscenesidewalk.com^
+||obsidiangems.com^
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
