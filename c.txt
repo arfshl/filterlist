@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601070221
+! Version: 202601080221
 ! Title: Personal Filter
-! Last Modified: 07 Jan 2026 02:21 UTC
+! Last Modified: 08 Jan 2026 02:21 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -106,7 +106,6 @@ nicovideo.jp#%#//scriptlet('prevent-xhr', 'stella.nicovideo.jp')
 ofiii.com#%#//scriptlet('set-constant', 'COMSCORE', 'emptyObj')
 ofiii.com#%#//scriptlet('set-constant', 'COMSCORE.beacon', 'noopFunc')
 ohmynews.com#%#//scriptlet('set-constant', 'GA_Event', 'noopFunc')
-onet.pl#%#//scriptlet('prevent-element-src-loading', 'script', 'lib.onet.pl/static/pixel/')
 pullandbear.com#%#//scriptlet('prevent-element-src-loading', 'script', 'widget.fitanalytics.com/widget.js')
 qpp.caq.org.cn#%#//scriptlet('prevent-element-src-loading', 'script', 'hm.baidu.com/hm.js')
 quizlet.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'Snowplow')
@@ -4938,6 +4937,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||api.estudiodearte.net^
 ||api.eusoupixel.com^
 ||api.evandrocanello.com.br^
+||api.eventbus.me^
 ||api.evoluaemsegredo.com.br^
 ||api.evoluamaiscursosonline.com.br^
 ||api.execoop.com.br^
@@ -28595,6 +28595,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||rum.hlx.page^
 ||rum.uptime.com^
 ||rumanalytics.com^$third-party
+||rumt-sg.com^
 ||rumt-zh.com^
 ||run.surveyjump.com^
 ||runnzk.pch-shop.de^
@@ -65423,6 +65424,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||fc.webmasterpro.de^
 ||fclog.baidu.com^
 ||fe-go.letv.com^
+||fem.gprod.postmedia.digital^
 ||femetrics.grammarly.io^
 ||fingerprint.incodesmile.com^
 ||flask.us.nextdoor.com^
@@ -65494,6 +65496,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||globalservices.conde.digital^
 ||go.bidfluence.com^
 ||gocp.stroeermediabrands.de^
+||graffiti-tags.apple.com^
 ||grgnsht.nzxt.com^
 ||groovy-manul.pikapod.net^
 ||grow.powerstep.com^
@@ -66279,6 +66282,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||posthog.tarnkappe.info^
 ||pr-bh.ybp.yahoo.com^
 ||pra.praxis.nl^
+||prd-collect-llm.xverse.cn^
 ||prd-collector-anon.ex.co^
 ||prd-collector-anon.playbuzz.com^
 ||prd-collector-platform.ex.co^
@@ -66427,6 +66431,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sdata.wiley.com^
 ||sdk.airbridge.io^
 ||secure-wa-na.unileversolutions.com^
+||securemetrics.apple.com^
 ||securemvt.apple.com^
 ||segapi.splice.com^
 ||seghg.hottopic.com^
@@ -66870,6 +66875,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||t.dtscdn.com^
 ||t.eharmony.com^
 ||t.frtyi.com^
+||t.hentaivox.com^
 ||t.hulu.com/beacon/
 ||t.hypers.com.cn^
 ||t.illuma-tech.com^
@@ -67036,6 +67042,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tiq.espritshop.pl^
 ||tivan.naver.com^
 ||tj3rql9siwef.www.freecodecamp.org^
+||tk.jtbc.co.kr^
 ||tk.kaufda.de^
 ||tk.meinprospekt.de^
 ||tl.tradetracker.net^
@@ -69462,6 +69469,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||browserflow.app/proxy/api/event
 ||bs.yandex.ru/count/
 ||bs.yandex.ru/informer/$third-party
+||bsp-proxy.wetransfer.net/pico/v*/web-events
 ||btrace.video.qq.com/kvcollect^
 ||btvnovinite.bg/js/bg/shared/js/bweb-gpt.js
 ||btvnovinite.bg/js/bg/shared/js/bweb.js
@@ -69529,6 +69537,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cartoonporno.xxx/static/js/lib/counters/
 ||cartseekite.com/cartxtrack
 ||cas-live.das-onlinespiel.de/gateway?
+||cast-imp.jtbc.co.kr/trac?event=
 ||cast.imp.joins.com/persona.js
 ||catawiki.com/ab/s.js
 ||cba24n.com.ar/api/v*/analytics
@@ -71091,7 +71100,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||lexus.jp/common/*/js/analytics.js
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
 ||lib.onet.pl/s.csr/adp
-||lib.onet.pl/static/pixel/*.js$redirect=noop.js,script
 ||libcdnjs.com/api/event
 ||libs.platform.californiatimes.com/meteringjs/
 ||licdn.com/*li.lms-analytics/
@@ -72747,6 +72755,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tof.perfectworld.com/public/js/stat-tof-perfectworld-
 ||tof.perfectworld.com/public/js/stat.js
 ||toho-u.ac.jp/common/js/ga_tracking.js
+||tokbox.com/prod/logging/
 ||token.awswaf.com/*/report|
 ||tom.itv.com/itv/count/*
 ||toneden.io/*/analytics/
@@ -73076,7 +73085,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||w4m.rs/tracker.js
 ||wa.slideshare.net/api/v1/events
 ||walgreens.digital.nuance.com/tagserver/incrementality/onEvent
-||walmart.com/px/
 ||walmart.com/sp/b/s/im|
 ||walmartimages.com/beacon/beacon.js
 ||warehousecinemas.com/ahoy/events
@@ -73146,6 +73154,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||weltsport.appspot.com/hstrck-detect.js^
 ||weser-kurier.de/REST/frontend/itemstatistics^
 ||westjr.co.jp/*/analyze_tag.js
+||wetransfer.com/api/web-metrics
 ||wheelify-front.carecart.io/postimpression
 ||where-to-buy.co/libraries/ca/tracking/
 ||wherewindsmeetgame.com/*/api/upload/log
@@ -73936,6 +73945,9 @@ $cookie=-hjid
 $cookie=-hjincludedinpageviewsample
 $cookie=-hjincludedinsessionsample
 $cookie=-hjtldtest
+$cookie=-iiq-ab-map
+$cookie=-iiq-fdata
+$cookie=-iiq-ip
 $cookie=-lc2-fpi
 $cookie=-lc2-fpi-meta
 $cookie=-lcc
@@ -75206,7 +75218,7 @@ d4?appid*type*
 ||app-log-oversea.immomo.com^
 ||app-monitor.spacecape.com^
 ||app-tracking.hlogo.de^
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion
 ||appanalysis*.banggood.com^
 ||appcpi.net^
 ||applog*.matrix.easebar.com^
@@ -75383,6 +75395,7 @@ d4?appid*type*
 ||etl.tindersparks.com^
 ||etl.xlmc.sandai.net^
 ||ets.easybrain.com^
+||event-api-cs.stardust-tv.com^
 ||event-collector.moviesanywhere.com^
 ||event-dot-learning-piano.appspot.com^
 ||event-portal.dailyinnovation.biz^
@@ -75612,6 +75625,7 @@ d4?appid*type*
 ||logger.radiatetheworld.com^
 ||logging.api.intuit.com^
 ||logrcv.adseyeservice.com^
+||logreport-global-dual.cool*cloud.com^
 ||logreport-global-dual.coolbcloud.com^
 ||logreport-global-dual.coolhcloud.com^
 ||logs-*.rebxgame.com^
@@ -75648,6 +75662,7 @@ d4?appid*type*
 ||mcs.tiktokv.us^
 ||mcs.tiktokw.us^
 ||mcs16-normal-us-ttp.capcutapi.us^
+||mebed.dm-event.net^
 ||mediation-tracking.prd.mz.internal.unity3d.com^
 ||mediation.mwmadnetworks.com^
 ||meitustat.com^
@@ -75850,6 +75865,7 @@ d4?appid*type*
 ||sensor.emolm.com^
 ||sensors.snappea.com^
 ||sensors.snaptube.app^
+||sensorsdata-datasink.stardust-tv.com^
 ||sentry.eks.hoyoverse.com^
 ||service-api.flarelane.com^
 ||sf16-static.i18n-pglstatp.com^
@@ -76085,11 +76101,13 @@ d4?appid*type*
 ||vsn-analytics.aparentmedia.com^
 ||weather-analytics-events.apple.com^
 ||weather-analytics-events.news.apple-dns.net^
+||weblogger-wss.cool*cloud.com^
 ||webmetrics.mayoclinic.org^
 ||wlog.ksapisrv.com^
 ||wompanalytics.azurewebsites.net^
 ||woodpecker.uc.cn^
 ||ws.ksmobile.net^
+||wslog-global-dual.cool*cloud.com^
 ||wslog-global-dual.coolccloud.com^
 ||wsmetrics.batch.com^
 ||www-google-analytics.l.google.com^
@@ -76111,6 +76129,7 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js$domain=aws.amazon.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=store.smart.com.ph
@@ -76118,6 +76137,7 @@ d4?appid*type*
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
+@@||googletagmanager.com/gtm.js$domain=agrieuro.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
@@ -76325,7 +76345,6 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||simplelogin.io^$cookie
 @@||smetrics.aa.com^$app=com.aa.android
 @@||v144.philanthropy.com/DG/DEFAULT/rest/rpc/
-@@||walmart.com/px/*/captcha
 ||googletagmanager.com/gtag/js$redirect=google-analytics,script,domain=ncsoft.jp
 ||googletagmanager.com/gtag/js?id=$redirect=google-analytics,script,domain=dvdmax.pl
 ||hm.baidu.com/hm.js$redirect=noop.js,script,domain=qpp.caq.org.cn
@@ -79053,6 +79072,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||pailcrime.com^
 ||pailpatch.com^
 ||painstakingpickle.com^
+||paintmogul.com^
 ||paintpear.com^
 ||paleleaf.com^
 ||palmytree.com^
@@ -79076,6 +79096,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||perceivequarter.com^
 ||perfectfetch.com^
 ||perkyjade.com^
+||petitechili.com^
 ||phonecup.com^
 ||phoneresult.com^
 ||photohints.com^
