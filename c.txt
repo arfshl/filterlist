@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601080221
+! Version: 202601090222
 ! Title: Personal Filter
-! Last Modified: 08 Jan 2026 02:21 UTC
+! Last Modified: 09 Jan 2026 02:22 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -46463,6 +46463,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||wsktql.mopar.eu^
 ||wsnjjj.arredinitaly.com^
 ||wsqbs.kickit.net^
+||wstats.ageverif.com^
 ||wstatslive.com^$third-party
 ||wstfad.hausgold.de^
 ||wsytyz.tts.ru^
@@ -74319,6 +74320,7 @@ $cookie=ytrackvisit
 @@||googletagmanager.com/gtm.js$domain=oto.net
 @@||haisenryakuzu.net^$cookie=-ga
 @@||help.twilio.com^$cookie=-dd-s
+@@||hood.de^$cookie=dsid
 @@||itmedia.co.jp^$cookie=cx-g
 @@||microsoft.com^$cookie=muidb
 @@||moegirl.org.cn^$cookie=-gid
@@ -76138,6 +76140,7 @@ d4?appid*type*
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
 @@||googletagmanager.com/gtm.js$domain=agrieuro.com
+@@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
