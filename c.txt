@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601090222
+! Version: 202601100214
 ! Title: Personal Filter
-! Last Modified: 09 Jan 2026 02:22 UTC
+! Last Modified: 10 Jan 2026 02:14 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3332,6 +3332,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||aikhra.londonclub.sk^
 ||aikrir.lcwaikiki.com^
 ||ailzgt.cyberport.at^
+||aim-tag.hcn.health^
 ||aim.loc.kr^
 ||aimco.cos.com^
 ||aimediagroup.com^$third-party
@@ -8899,6 +8900,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||csdpn.hurraheroes.mx^
 ||csdri.gardner-white.com^
 ||csdrnf.a24.kr^
+||cse.rakanto.com^
 ||cse3.chausport.com^
 ||csebt.bloomist.com^
 ||csengb.manfredijewels.com^
@@ -28012,6 +28014,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||repixel.co^$third-party
 ||replay.reviews.io^
 ||replaybird.com^$third-party
+||repo.rakanto.com^
 ||report.alhalalcosmetics.de^
 ||report.oewa.at^
 ||reporting.autographapp.me^
@@ -65606,6 +65609,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||htrace.wetvinfo.com^
 ||huffingtonpost.fr/px.gif^
 ||hummingbird.mavencoalition.io^
+||hw-t.hypers.com.cn^
 ||hwa.his.huawei.com^
 ||i.bigin.io^
 ||i.go.sohu.com^
@@ -65936,6 +65940,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||mcs-*.lemon8-app.us^
 ||mcs-*.tiktok.com^
 ||mcs-va.capcutapi.com^
+||me9ddf.moebelix.
 ||measure.chase.com^
 ||measuring-pixel-service.alza.cz^
 ||media-stat.mail.ru^
@@ -68228,7 +68233,7 @@ directtrack.*.js
 ||plausible.io/api/event
 ||plausible.io/js/p.js
 ||t.*/v1/lst/universal-script?ph=$script
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|agoda.com|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com|vodafone.com.tr
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|agoda.com|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|huawei.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com|vodafone.com.tr
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|news.com.au|sibreal.org|yousee.dk
 ! + NOT_OPTIMIZED
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
@@ -68566,6 +68571,7 @@ megalifez.net##img[height="40"][width="88"]
 megatorrents.kg##a[href^="http://www.net.kg/stat.php"]
 minnyuu.jp#?#div[class$="BlockBase"] > div > div > div.plugin-freearea > div.ninja-recommend-block:upward(4)
 misterworker.com##.custom_text_home:has( > #mw-clerk-sliderhp)
+moebelix.*#%#//scriptlet('set-local-storage-item', 'coveo_cid', '$remove$')
 moeimg.net###pickup-header_frame
 msn.com##.tbla
 msn.com##.trc_related_container
@@ -69205,6 +69211,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||appdynamics.com/geo/$third-party
 ||apple.com/assets/mt-metricskit-
 ||apple.com/metrics/
+||appmifile.com/i18n/ga*/
 ||appmifile.com^*/stat/
 ||appront.net/click.js
 ||apps.bazaarvoice.com/analytics/
@@ -71903,6 +71910,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rasin.tech/scroll-logs/
 ||ratteb.com/js.
 ||ravde.re-in.de/z?
+||rawpixel.com/external/gtag.js
 ||rcs.mako.co.il/js/neo/hpstats.js
 ||rcs.mako.co.il/js/scripts/metrics.js
 ||rd.com/wp-content/plugins/pup-comscore/
@@ -72121,6 +72129,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||screensaversplanet.com/js/analytics.js
 ||scribd.com/documents/*/pingback
 ||scribd.com/log/
+||scriber.webflix.ai/beacon
 ||script.auction.co.kr/Common/montelena.js
 ||script.auction.co.kr/listing/wiselog_srp.js
 ||script.auction.co.kr/Vip/GTMScript.js
@@ -76131,20 +76140,24 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+! + PLATFORM(windows, mac, android, cli)
 @@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
 @@||awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js$domain=aws.amazon.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=store.smart.com.ph
+@@||cdn.optimizely.com/datafiles/*.json$domain=wingstop.com
 @@||cdn.shopify.com/oxygen-v2/*/assets/Clarity-$domain=thegoodguys.com.au
 @@||cdn.taboola.com/libtrc/unpkg/tfa.js$domain=/anitube\d+\.vip/
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
 @@||googletagmanager.com/gtm.js$domain=agrieuro.com
 @@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
+@@||pi.ai/ingest/$domain=pi.ai
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
 @@||static.vocstatic.com/voonto2/latest/voonto.js$script,domain=lagacetadesalamanca.es
 enedis.fr#%#//scriptlet('set-constant', 'window.tc_vars', 'emptyObj')
+||awswaf.com/*/telemetry|$redirect=noop.txt,domain=discipulusv2.amasystem.net
 ! + PLATFORM(windows, mac, android, cli)
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
 @@||data.service.paypal.com^
@@ -78062,6 +78075,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||brownboxgroup.com^
 ||bruisebaseball.com^
 ||bubblyaction.com^
+||buddycanvas.com^
 ||bugpizza.com^
 ||buildingknife.com^
 ||bulbbait.com^
@@ -79106,6 +79120,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||physicstees.com^
 ||pickmicro.com^
 ||pietexture.com^
+||pigeonkit.com^
 ||pigeonsetc.com^
 ||pigmentpaper.com^
 ||pinchsquirrel.com^
@@ -79204,6 +79219,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||questionate.com^
 ||quicklyedit.com^
 ||quicksandear.com^
+||quicktrick.net^
 ||quietknowledge.com^
 ||quillkick.com^
 ||quiltquick.com^
@@ -79253,6 +79269,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||reconditeprison.com^
 ||reconditerake.com^
 ||reconditerespect.com^
+||recyclehits.com^
 ||redbasketball.com^
 ||redbricksoap.com^
 ||reduceplan.com^
@@ -79298,6 +79315,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||ritzyveil.com^
 ||roaddynamics.com^
 ||roadwalks.com^
+||roamhousing.com^
 ||robotgarages.com^
 ||rockagainst.com^
 ||rockstarwriter.com^
