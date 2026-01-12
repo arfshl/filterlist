@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601110232
+! Version: 202601120228
 ! Title: Personal Filter
-! Last Modified: 11 Jan 2026 02:32 UTC
+! Last Modified: 12 Jan 2026 02:28 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -8787,6 +8787,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cpsmbor.ensorings.com^
 ||cpt.geniee.jp^
 ||cptrack.de^$third-party
+||cpu-api.infor.pl^
 ||cpvsm.evvy.com^
 ||cpx.to^
 ||cqaipi.cristaiscadoro.com^
@@ -26990,6 +26991,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||postgraduate.smu.edu.sg^
 ||postgraduate2.smu.edu.sg^
 ||povtbi.automovilesalhambra.es^
+||powa-ingest-prod-*.video-player.arcpublishing.com^
 ||power.dj.studio^
 ||powerbiz.co^$third-party
 ||powercount.com^$third-party
@@ -79347,6 +79349,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
 ||savoryorange.com^
@@ -79370,6 +79373,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||scenicapparel.com^
 ||scenicchicago.com^
 ||scenicdrops.com^
+||scentedkindly.com^
 ||sciencedart.com^
 ||scientificshirt.com^
 ||scintillatingscissors.com^
