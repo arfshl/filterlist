@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601120228
+! Version: 202601130219
 ! Title: Personal Filter
-! Last Modified: 12 Jan 2026 02:28 UTC
+! Last Modified: 13 Jan 2026 02:19 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -64406,6 +64406,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||affiliates.treasureisland.com^
 ||affiliates.vpn.ht^
 ||afl.rozetka.com.ua^
+||agatha-log-service-*.a.run.app^
 ||agent-server.sc-api.seaart.ai^
 ||agi-static.indiatimes.com^
 ||aidsvc.netflix.com^
@@ -65110,7 +65111,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||cv-tracker.stanby.com^
 ||cvt1.sibnet.ru^
 ||cwt.citywire.info^
-||cza.crazygames.com^
+||cza*.crazygames.com^
 ||d-collector.jennifersoft.com^
 ||d-log.asahi.co.jp^
 ||d-log.tv-asahi.co.jp^
@@ -65378,6 +65379,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||events.framer.com^
 ||events.getsitectrl.com^
 ||events.gfe.nvidia.com^
+||events.insiad.com^
 ||events.jora.com^
 ||events.mercadolibre.com^
 ||events.newsroom.bi^
@@ -65892,7 +65894,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||logtake.weidian.com^
 ||loxodo-analytics.ext.nile.works^
 ||loxodo-ct.ext.nile.works^
-||lp.spac.me^
 ||lptag.liveperson.net^
 ||ls.srvcs.tumblr.com^
 ||lt*.tritondigital.com^
@@ -70182,6 +70183,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||e.m6web.fr/events
 ||e.pcloud.com/trackopen
 ||e1.ru/api/metrics/
+||eadaily.com/tools/calc_news_stat.php
 ||eadt.co.uk/resources/responsive-static/vendor/
 ||eapi.pcloud.com/loganalyticsevent
 ||early-birds.fr/tracker/
@@ -71077,6 +71079,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||l.aaxads.com/log^
 ||l.iplsc.com/logger/
 ||l.ivi.ru/logger/
+||l.search.naver.com/n/responsive/*&no_qc=*&p=
 ||l.search.naver.com/n/scrolllog/*?u=*&slogs=
 ||l2.io/ip.js
 ||laftel.net/twitter-pixel.js
@@ -72341,7 +72344,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||sparkasse.de/frontend/setTrackingCookie.html
 ||spclient.wg.spotify.com/ad-logic/
 ||spclient.wg.spotify.com/gabo-receiver-service*/v3/events/
-||spcs.*/api/common/beacon/
 ||spdn.splice.com/next-integrations/integrations/google-tag-manager/
 ||spdn.splice.com/next-integrations/middleware/analytics.
 ||spechy.live/spechyAnalytics/spcwganalytic.js
@@ -74050,7 +74052,6 @@ $cookie=/^ubtc-/,domain=trip.com
 $cookie=/^uid-bp-\d+/
 $cookie=/^wisepops/
 $cookie=/dwac-/,domain=~nintendo.com
-$cookie=/dwanonymous-/,domain=~hoka.com|~nintendo.com
 $cookie=/mp-.*-mixpanel/
 $cookie=/wzrk-/
 $cookie=aam-uuid
@@ -75491,6 +75492,7 @@ d4?appid*type*
 ||h-adashx4ae.ut.taobao.com^
 ||hb-af-us-central1.outfit7.com^
 ||hb-failover-stpceyl2ua-uw.a.run.app^
+||hb-mob2.optiword.com^
 ||helpshift.com/api/lib/2/events/
 ||hibiki-track.logica.bz^
 ||hilton.data.adobedc.net^
@@ -75960,6 +75962,7 @@ d4?appid*type*
 ||tealand.cmcm.com^
 ||telemetry.canva.com^
 ||telemetry.codefusion.technology^
+||telemetry.doxo.com^
 ||telemetry.navigatorapp.net^
 ||telemetry.sdk.inmobi.com^
 ||telemetry.voxeet.com^
@@ -76005,6 +76008,7 @@ d4?appid*type*
 ||track.adflow-prod.minionplatform.com^
 ||track.adform.net^
 ||track.aieic.com^
+||track.applicaster.com^
 ||track.extra.app^
 ||track.hk01.com^
 ||track.ktplay.com^
@@ -76040,6 +76044,7 @@ d4?appid*type*
 ||tracking.aldi-international.com^
 ||tracking.carbonatixaudio.com^
 ||tracking.directservices.it^
+||tracking.geo.*.amazonaws.com^
 ||tracking.i2w.io^
 ||tracking.iwhop.cn^
 ||tracking.ksztone.com^
@@ -76142,6 +76147,9 @@ d4?appid*type*
 ! ### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
+@@||a.klaviyo.com/client/subscriptions/
+@@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
+investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
 ! + PLATFORM(windows, mac, android, cli)
 @@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
 @@||awsstatic.com/*/orchestrate.js$domain=aws.amazon.com
@@ -78436,6 +78444,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||etherealpinnacle.com^
 ||evanescentedge.com^
 ||evasivejar.com^
+||evencoating.com^
 ||eventexistence.com^
 ||eventsmall.com^
 ||exampleshake.com^
@@ -79374,6 +79383,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||scenicchicago.com^
 ||scenicdrops.com^
 ||scentedkindly.com^
+||scholarloop.com^
 ||sciencedart.com^
 ||scientificshirt.com^
 ||scintillatingscissors.com^
@@ -79398,6 +79408,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||secretturtle.com^
 ||seedscissors.com^
 ||seekmyshop.com^
+||seekremote.com^
 ||seenvault.com^
 ||seespice.com^
 ||selectivesummer.com^
