@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601130219
+! Version: 202601140226
 ! Title: Personal Filter
-! Last Modified: 13 Jan 2026 02:19 UTC
+! Last Modified: 14 Jan 2026 02:26 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -90,6 +90,8 @@ muratorplus.pl#%#//scriptlet('set-constant', 'GemiusPlayer', 'noopFunc')
 muratorplus.pl#%#//scriptlet('set-constant', 'GemiusPlayer.prototype.newProgram', 'noopFunc')
 muratorplus.pl#%#//scriptlet('set-constant', 'GemiusPlayer.prototype.programEvent', 'noopFunc')
 muratorplus.pl#%#//scriptlet('set-constant', 'GemiusPlayer.prototype.setVideoObject', 'noopFunc')
+muylinux.com#%#//scriptlet('abort-current-inline-script', 'sessionStorage', 'isAmpDevMode')
+muylinux.com$$script:contains(isAmpDevMode)
 mwed.jp#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'keen-tracking')
 nbcbayarea.com#%#//scriptlet('set-constant', 'ns_', 'emptyObj')
 nbcbayarea.com#%#//scriptlet('set-constant', 'ns_.StreamingAnalytics', 'noopFunc')
@@ -40171,6 +40173,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||telemetry.services.yofi.ai^
 ||telemetry.stryker.com^
 ||telemetry.swe.quicinc.com^
+||telemetry.tataritv.com^
 ||telemetry.webasto.com^
 ||telemetrydeck.com^
 ||telize.com^$third-party
@@ -65244,6 +65247,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||dnn506yrbagrg.cloudfront.net^
 ||dns-clientinfo.vtg.paramount.tech^
 ||doppler-beacon.cbsivideo.com^
+||doppler.hulu.com^
 ||dorangesource.alicdn.com^
 ||dot.texastribune.org^
 ||dot.wp.pl^
@@ -65788,7 +65792,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||log.etoday.co.kr^
 ||log.g-enews.com^
 ||log.getadblock.com^
-||log.go.com^
 ||log.gomlab.com^
 ||log.goodnovel.com^
 ||log.haberturk.com^
@@ -65878,6 +65881,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||logs.51cto.com^
 ||logs.8thwall.com^
 ||logs.appsource.microsoft.com^
+||logs.collector.*.cloud.solarwinds.com^
 ||logs.gaana.com^
 ||logs.getfiddler.com^
 ||logs.insight.rapid7.com^
@@ -66336,6 +66340,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||qlog.adap.tv^
 ||qnajplxtvz-a.akamaihd.net^
 ||r.aachener-zeitung.de^
+||r.anime-go.cc^
 ||r.bbci.co.uk^
 ||r.kleertjes.com^
 ||r.miamano.com^
@@ -68486,6 +68491,7 @@ fr.de##.bottom-footer > .dossier
 fudge.jp##.ratio-wrapper
 full-count.jp#?#.s-entry > section > div.c-heading:has( > div#taboola-below-article-thumbnails-desktop)
 gala.com#%#//scriptlet('set-local-storage-item', '_gal1', '$remove$')
+gamespot.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
 geinoukame.com##.ninja-recommend-block + br
 geinoukame.com##.ninja-recommend-block + hr
 gendai.media#?#.elementSectionHeadingsWithSuffix:has( + div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
@@ -70117,7 +70123,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||dollartree.com/ccstoreui/*/analytics/
 ||domatv.dnevnik.hr/bin/usrtrck-new.php
 ||donga.com/proc/ad_history
-||doppler.hulu.com/doppler/*/ingest?source=client-reporting-HTML
 ||dotnet.microsoft.com/static/js/analytics.min.js
 ||doubleclick.net/activity$third-party
 ||doubleclick.net/imp%$third-party
@@ -70930,6 +70935,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||iqiyi.com/pixel
 ||iqiyi.com/track
 ||ir.ebaystatic.com/*/js/GlanceCobrowseLoader_
+||ir.ebaystatic.com/*/s_1x2.gif
 ||ir.ebaystatic.com/cr/ebay-rum/
 ||ir.ebaystatic.com/rs/c/9527tracking/
 ||ir.ebaystatic.com/rs/c/makeebayfasterscript-src-scripts-logger-cbdc5549.js
@@ -71579,6 +71585,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||openapi.tv.zum.com/logs/ad/
 ||openculture.com/wp-admin/admin-ajax.php*^action=rxn_
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
+||openway.deepseeksvc.com/v*/write/rum
 ||ophan.theguardian.com/a.gif
 ||optimizer.poxo.com/ca2/analytics.js
 ||optimizer.poxo.com/jet/jet.js
@@ -74299,6 +74306,7 @@ $cookie=waldo-country
 $cookie=waldo-region
 $cookie=weba-apprlid
 $cookie=weba-vstid
+$cookie=wikia-beacon-id
 $cookie=wt-eid
 $cookie=wt-nbg-q3
 $cookie=wt-sid
@@ -74819,7 +74827,7 @@ xfree.com$cookie=anonymous
 ||globalapi.ad.xiaomi.com^
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
-||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats|com.warmweather.forecast.reporter
+||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats|com.warmweather.forecast.reporter|com.booking
 ||gulfnews.com^$cookie=/incap-|new-visitor|nlbi-|---utmv/
 ||hankookilbo.com^$cookie=hk-ltuid
 ||hankookilbo.com^$cookie=hkvstcd
@@ -74950,6 +74958,7 @@ xfree.com$cookie=anonymous
 ||si.com^$cookie=last-visit-bc
 ||si.com^$cookie=muid
 ||sina.cn^$cookie=recent-visited
+||skadsdk.appsflyersdk.com^
 ||smartworld.it^$cookie=--mx-log
 ||sngmta.qq.com^
 ||sportskeeda.com^$cookie=keeda-session-id
@@ -74966,7 +74975,7 @@ xfree.com$cookie=anonymous
 ||t-j.ru^$cookie=dsp-click-id
 ||t-j.ru^$cookie=mindboxdeviceuuid
 ||t.appsflyer.com^
-||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus
+||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus|com.booking
 ||taplytics.com^$cookie=/^-tl-/
 ||telemetry.api.swiftkey.com^
 ||tf1.fr^$cookie=abtasty
@@ -75669,6 +75678,7 @@ d4?appid*type*
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
 ||m5.amap.com/ws/shield/location/collection/autodata/stat^
 ||maas-*.phunware.com^
+||mab-mob2.websearchapp.com^
 ||mapi-log.qoo*.jp^
 ||mcs-va-*.tiktokv.com^
 ||mcs-va.tiktokv.com^
@@ -75754,6 +75764,9 @@ d4?appid*type*
 ||ndct-data.video.iqiyi.com^
 ||nelo2-col.linecorp.com^
 ||netapm.music.163.com^
+||news-app-events.apple.com^
+||news-events.apple.com^
+||news-sports-events.apple.com^
 ||ninja.onap.io^
 ||node.aibeacon.jp^
 ||notes-analytics-events.apple.com^
@@ -76161,7 +76174,6 @@ investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
 @@||googletagmanager.com/gtm.js$domain=agrieuro.com
-@@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 @@||pi.ai/ingest/$domain=pi.ai
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
@@ -80978,6 +80990,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||olegmakarenko.ru^$removeparam=from
 ||olx.$removeparam=ad-reason-recommended-items
 ||olybet.lv^$removeparam=ref
+||online.nojima.co.jp^$removeparam=campaign
 ||open.spotify.com^$removeparam=pi
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
