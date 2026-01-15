@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601140226
+! Version: 202601150221
 ! Title: Personal Filter
-! Last Modified: 14 Jan 2026 02:26 UTC
+! Last Modified: 15 Jan 2026 02:21 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -4436,6 +4436,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analytics.viisviis.fi^
 ||analytics.villagehouse.jp^
 ||analytics.vinevida.com^
+||analytics.vinovo.si^
 ||analytics.viture.dev^
 ||analytics.vivantskincare.com^
 ||analytics.vivint.com^
@@ -6909,6 +6910,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||bicp-analytics.postscript.io^
 ||bid.run^$third-party
 ||bidbpo.dr-10.com^
+||bidder.doceree.com^
 ||bidrbu.bett1.at^
 ||bidswitch.net^
 ||biesn.crossrope.com^
@@ -8881,6 +8883,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||cs.analytics.lego.com^
 ||cs.chaussea.com^
 ||cs.hot.net.il^
+||cs.media.net^
 ||cs.nexttv.co.il^
 ||cs.zg-api.com^
 ||cs0008sbeda.enzyme-supply.com^
@@ -14368,6 +14371,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||fpc.gartner.com^
 ||fpc.sage.com^
 ||fpc.utexas.edu^
+||fpcdn.io^
 ||fpcs.wellshaved.gr^
 ||fpctraffic2.com^$third-party
 ||fpdtag.tealiumdemo.com^
@@ -14380,6 +14384,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||fpida.une-nana-cool.com^
 ||fpida.wacoalholdings.jp^
 ||fpida.yue-japan.com^
+||fpjs.io^
 ||fpnpmcdn.net^
 ||fprnt.com^$third-party
 ||fpss.allsmart.gr^
@@ -46345,6 +46350,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||wiley.met.vgwort.de^
 ||winds.universalspendings.com^
 ||winnersmindset.org^
+||winsurbox.com^
 ||wioaavu.enkay.com^
 ||wipe.de^$third-party
 ||wiredminds.de^$third-party
@@ -65792,6 +65798,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||log.etoday.co.kr^
 ||log.g-enews.com^
 ||log.getadblock.com^
+||log.go.com^
 ||log.gomlab.com^
 ||log.goodnovel.com^
 ||log.haberturk.com^
@@ -66405,6 +66412,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||rubicon.wellsfargo.com^
 ||rudr-events.joybird.com^
 ||rum-metrics.bunny.net^
+||rum.api.intuit.com^
 ||rum.condenastdigital.com^
 ||rusty-heartbeat.services.ps.axelspringer.de^
 ||rvv.emol.com^
@@ -66685,6 +66693,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||st.avsplow.com^
 ||st.dynamicyield.com^
 ||st.film.ru^
+||st.freedom24.com^
 ||st.top100.ru^
 ||sta-events.swishapps.ai^
 ||sta.tirexo.ink^
@@ -67341,6 +67350,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||trackingapi.kaufda.de^
 ||trackingapi.meinprospekt.de^
 ||tracksrv.zdf.de^
+||trafficmanager.anyclip.com^
 ||tralut.chatpdf.com^
 ||trc.gpcdn.pl^
 ||trc.r25.jp^
@@ -68319,6 +68329,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /libraries/analytics/*.js$domain=aveda.com|aveda.com.tr|clinique.com|clinique.com.tr|esteelauder.com|jomalone.com|maccosmetics.com|origins.com
 /liveinternet.js$domain=russia-tv.online
 /log.gif$domain=nicovideo.jp
+/log/client/messages$domain=kayak.com|momondo.com
 /mediascope.js$domain=russia-tv.online
 /metrics^|$script,domain=anizle.*|anizle.com|anizle.net|anizm.*|anizm.com.tr|anizm.net|anizm.pro|puffytr.com
 /mrliteLogger.$image,script
@@ -68328,6 +68339,7 @@ $permissions=geolocation=(),domain=nzherald.co.nz
 /prod/dfm/g2i.min.js$important,redirect=noop.txt,domain=dailycamera.com
 /prod/dfm/t8y9347t.min.js$important,redirect=noop.txt,domain=dailycamera.com
 /production/track$domain=note.com
+/s/vestigo/measure$domain=kayak.com|momondo.com
 /scripts/data-unlocker.js$domain=earthclassmail.com
 /scripts/dataunlocker.js$domain=franchiseplus.nl
 /shoutout.wix.com/*$image
@@ -71259,6 +71271,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||market.samm.com/0/sendEventV2
 ||marketingautomation.services/client/ss.js
 ||marketingautomation.services/net?$third-party
+||marketplace.anyclip.com/v*/lre-events
 ||marketplace.geniusplus.ai/*/lre-events?cid=*&wid=
 ||markonlive.github.io/analytics/
 ||marsflag.com/mf2file/site/ext/tr.js
@@ -74064,6 +74077,7 @@ $cookie=/wzrk-/
 $cookie=aam-uuid
 $cookie=abldr
 $cookie=abmbl
+$cookie=ac-user-id
 $cookie=actppresence
 $cookie=ad-id
 $cookie=adb-saas
@@ -74481,6 +74495,7 @@ $cookie=ytrackvisit
 ||kari.com^$cookie=did
 ||kari.com^$cookie=rees46-device-id
 ||katu.com^$cookie=suid
+||kayak.com^$cookie=kmkid
 ||kimbino.$cookie=/^kim-tracker/
 ||kma.go.kr^$cookie=-trk-sid
 ||kma.go.kr^$cookie=-trk-uid
@@ -74507,6 +74522,7 @@ $cookie=ytrackvisit
 ||medicalnewstoday.com^$cookie=traveler-tglr-tenant-id
 ||mgmanager.gr^$cookie=visitorguid
 ||mgmanager.gr^$cookie=visitorstate
+||momondo.com^$cookie=kmkid
 ||my-best.com^$cookie=mybest-uuid
 ||newneek.co^$cookie=/amp-/
 ||newneek.co^$cookie=deviceid
@@ -74590,6 +74606,7 @@ $cookie=ytrackvisit
 ||uber.com^$cookie=marketing-vistor-id
 ||unipegaso.it^$cookie=crm-multi-tracking
 ||usetrmnl.com^$cookie=/^intercom-/
+||usnews.com^$cookie=usn-visitor-id
 ||vbr.ru^$cookie=puid
 ||vgwort.de^$cookie=srp
 ||vnexpress.net^$cookie=/^fosp-/
@@ -74827,7 +74844,7 @@ xfree.com$cookie=anonymous
 ||globalapi.ad.xiaomi.com^
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
-||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats|com.warmweather.forecast.reporter|com.booking
+||graph.facebook.com^$app=cl.android|com.shorts.wave.drama|com.drama.happy.look|com.enjoy.fancynovel.better|com.novel.eromance.ugs|com.novel.estory.free.reader.dreame.gp.us|com.fatix.fatixpro|com.coupang.mobile.eats|com.warmweather.forecast.reporter|com.booking|com.mysticsense.androidapp
 ||gulfnews.com^$cookie=/incap-|new-visitor|nlbi-|---utmv/
 ||hankookilbo.com^$cookie=hk-ltuid
 ||hankookilbo.com^$cookie=hkvstcd
@@ -75440,6 +75457,7 @@ d4?appid*type*
 ||events-api.towneers.prod.data.krmt.io^
 ||events-collector-api.viacom.tech^
 ||events-stream-svc.cordial.com^
+||events-stream-svc.cordial.io^
 ||events-stream-svc.usw2.cordial.com^
 ||events.api.red.wemesh.ca^
 ||events.backtrace.io^
@@ -75449,6 +75467,7 @@ d4?appid*type*
 ||events.claspws.tv^
 ||events.fubo.tv^
 ||events.funnelish.com^
+||events.gonative.io^
 ||events.iap.unity3d.com^
 ||events.ifunny.co^
 ||events.lbesecapi.com^
@@ -75476,6 +75495,7 @@ d4?appid*type*
 ||g.analytics.versa-ai.com^
 ||gamestats.easybrain.com^
 ||gateway.bingviz.microsoftapp.net^$app=com.microsoft.bing
+||gbxreport-*.wf.com^
 ||gcm.ksmobile.com^
 ||gcm.ksmobile.net^
 ||gd-stats.jpush.cn^
@@ -75492,7 +75512,7 @@ d4?appid*type*
 ||global.cmcs.service.amazonsilk.com/metrics
 ||gnsnpaw.com^
 ||googleadapis.l.google.com^
-||googletagmanager.com^$app=app.shinagawa.listentonovels.androidapp|com.edadeal.android
+||googletagmanager.com^$app=app.shinagawa.listentonovels.androidapp|com.edadeal.android|com.mysticsense.androidapp
 ||gpm-mon-va.byteoversea.com^
 ||grs.dbankcloud.
 ||grs.hicloud.com^
@@ -75680,6 +75700,7 @@ d4?appid*type*
 ||maas-*.phunware.com^
 ||mab-mob2.websearchapp.com^
 ||mapi-log.qoo*.jp^
+||matomo.podslink.net^
 ||mcs-va-*.tiktokv.com^
 ||mcs-va.tiktokv.com^
 ||mcs.*.tiktok.com^
@@ -76174,6 +76195,7 @@ investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
 @@||cdn.tagcommander.com/*/tc_ENEDIS_*.js$domain=frontend-mes-prms-part-cloud.enedis.fr
 @@||e.cquotient.com/recs/blqj-smart/$domain=store.smart.com.ph
 @@||googletagmanager.com/gtm.js$domain=agrieuro.com
+@@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 @@||pi.ai/ingest/$domain=pi.ai
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=heise.de
 @@||st-marks-yoga.recess.tv/_app/immutable/chunks/pixelTracker
@@ -79454,10 +79476,12 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||shallowblade.com^
 ||shamerain.com^
 ||shapecomb.com^
+||sharedswap.com^
 ||sheargovernor.com^
 ||sheideal.com^
 ||shesubscriptions.com^
 ||shinypond.com^
+||shirtseasons.com^
 ||shirtsidewalk.com^
 ||shiveringspot.com^
 ||shiverscissors.com^
@@ -82264,6 +82288,7 @@ adguard.app,adguard.com,adguard.info##.hello_from_adguard_apps
 @@||metabase.com^$removeparam=utm-term
 @@||portal-portm.meituan.com/horn$removeparam=utm-medium,xmlhttprequest,domain=meishi.meituan.com
 @@||tix.axs.com^$removeparam=irclickid
+@@||usprobioticguide.com^$removeparam=utm-campaign
 @@||yandex.go.link^$removeparam=adj-t
 ||https-filtering-check.adtidy.org^
 ! + PLATFORM(android)
