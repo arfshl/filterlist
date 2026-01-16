@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601150221
+! Version: 202601160223
 ! Title: Personal Filter
-! Last Modified: 15 Jan 2026 02:21 UTC
+! Last Modified: 16 Jan 2026 02:23 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -64585,6 +64585,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.kurocore.com^
 ||analytics.languagetoolplus.com^
 ||analytics.lasegunda.ecn.cl^
+||analytics.launcherleaks.net^
 ||analytics.livestream.com^
 ||analytics.lunarclientprod.com^
 ||analytics.lunaweb.cloud^
@@ -65657,6 +65658,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||infox.sg/stats.php^
 ||ingest.do.brainsland.com^
 ||ingest.make.rvohealth.com^
+||ingest.webcol.sdp.peacocktv.com^
 ||ingestion.webanalytics.italia.it^
 ||ingress.linktr.ee^
 ||inlog01.hket.com^
@@ -66892,6 +66894,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||t.channeladvisor.com^
 ||t.cinemablend.com^
 ||t.clic2buy.com^
+||t.collectiveaudience.co^
 ||t.dailymail.co.uk^
 ||t.danielwellington.com^
 ||t.delfi.
@@ -67883,6 +67886,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /javascripts/browserfp.min.js?templateId=
 /jquery.iframetracker.min.js
 /js/ad_insight/*
+/js/exponea.min.js
 /js/fb_tracking.js
 /js/generateStats-min.js
 /js/iMAWebCookie.js?
@@ -69013,7 +69017,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||apartmenttherapy.com/*/xhr/api/*/collector
 ||apartmenttherapy.com/*/xhr/b/s
 ||apay-us.amazon.com/cs/uedata
-||api-bloomreach.comfy.ua/js/exponea.min.js
 ||api-cf.affirm.com/api/v*/session/touch_track
 ||api-developer.sephora.com/v1/sot/evt?$ping
 ||api-developer.sephora.com/v1/sot/evtTopic?$ping
@@ -69030,7 +69033,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api-v*.tinypass.com/api/v*/conversion/logEspMicroConversion
 ||api-web.pressplay.cc/marketing^
 ||api.*.com/p/report?$domain=bybit.com
-||api.*.exponea.com^$domain=bogsfootwear.com|urbanstems.com
 ||api.20min.ch/kaia/v*/persist
 ||api.270degrees.nl/*/log?apiKey=
 ||api.actagtracker.jp/tag|
@@ -69192,6 +69194,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||app-de-na1.niceincontact.com/logger-public
 ||app.airlift.net/assets/affpix.js
 ||app.avada.io/scripttag/tracking/avada-track.min.js
+||app.birdsend.co/forms/*/display-stats-pixel
 ||app.blogvault.net/assets/affpix.js
 ||app.brightinfo.com/bi.aspx$third-party
 ||app.call-tracking.by/scripts/calltracking.js
@@ -73646,6 +73649,8 @@ e.dhgate.com%2Fa%2F*%2Fspacer.gif$image
 e.dhgate.com/a/*/spacer.gif$image
 e.email.forbes.com$image
 e.emails.huffpost.com/o/p/$image
+e.healio.com%2F*.php%3FID%3D$image
+e.healio.com/*.php?ID=$image
 e.mail.cnn.com$image
 ebayadservices.com%2Fmarketingtracking%2Fv1%2Fimpression%3F$image
 ebayadservices.com/marketingtracking/v1/impression?$image
@@ -73705,6 +73710,8 @@ go.smartinsights.com*gif$image
 go.toutapp.com$image
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 google.com/appserve/mkt/proof/img/*.gif
+healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
+healio.com/medialibrary/pixel.png?tp=
 hubspotlinks.com$image
 i.groovehq.com%2F*%40groovehq.com.gif$image
 i.groovehq.com%2F*.comment*%40groovehq.com.gif$image
@@ -75259,6 +75266,7 @@ d4?appid*type*
 ||app-monitor.spacecape.com^
 ||app-tracking.hlogo.de^
 ||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion
+||app.siteperformancetest.net^
 ||appanalysis*.banggood.com^
 ||appcpi.net^
 ||applog*.matrix.easebar.com^
@@ -79523,6 +79531,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||skillsresults.com^
 ||skisofa.com^
 ||skullmagnets.com^
+||skullteeth.com^
 ||skylightdata.com^
 ||slackpod.com^
 ||slaysweater.com^
@@ -79613,6 +79622,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||spurioussquirrel.com^
 ||spuriousstranger.com^
 ||spysubstance.com^
+||squadtee.net^
 ||squalidscrew.com^
 ||squarecamel.com^
 ||squeakzinc.com^
@@ -82456,6 +82466,7 @@ bobo.grid.id,bolasport.com##.mb10.text-center.row
 haibunda.com##.transition-all.gap-4.w-full.grid.z-10.isolate.bottom-0.fixed.pointer-events-none
 ! IDN Networks https://github.com/ABPindo/indonesianadblockrules/pull/837
 idntimes.com##.anchor-button
+fortuneidn.com,ggwp.id,idntimes.com##.css-150zvrw
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-1lh0foa
 popmama.com##.css-cw25l4
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-urr7k6
