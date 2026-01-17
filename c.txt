@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601160223
+! Version: 202601170210
 ! Title: Personal Filter
-! Last Modified: 16 Jan 2026 02:23 UTC
+! Last Modified: 17 Jan 2026 02:10 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -17056,6 +17056,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||healthfirstst.mywellnessoffer.com^
 ||healthier.aahs.org^
 ||healthy.spartanburgregional.com^
+||heap-api.com^
 ||heapanalytics.com^
 ||heatmap.emma.tools^
 ||heatmap.it^$third-party
@@ -64518,6 +64519,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.businessinsider.com^
 ||analytics.callbell.eu^
 ||analytics.carambo.la^
+||analytics.carvana.io^
 ||analytics.castel.jp^
 ||analytics.ceneo.pl^
 ||analytics.cinematoday.jp^
@@ -64672,6 +64674,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.thenest.com^
 ||analytics.thenewslens.com^
 ||analytics.theta360.com^
+||analytics.ticketmaster.com^
 ||analytics.tio.ch^
 ||analytics.tmonews.com^
 ||analytics.tn.kz^
@@ -64870,7 +64873,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||c.sibnet.ru^
 ||c.statcounter.com^
 ||c.tbex.ru^
-||c.us.heap-api.com^
 ||c.webp2p.letv.com^
 ||c.wort-suche.com^
 ||c.x.oanda.com^
@@ -66037,6 +66039,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||middleware.p7s1.io^
 ||minerva.devices.a2z.com^
 ||mixpanel-proxy.ted.com^
+||mixpanel.tigocloud.net^
 ||mllog.jd.com^
 ||mmm.theweek.co.uk^
 ||mms.al.com^
@@ -66466,6 +66469,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sensorsdata.glowapp.vip^
 ||sentry01.zerg.rambler.ru^
 ||seo-service.domclick.ru^
+||service-ad-image-ga-weighted.prd.pluto.tv^
 ||service-ad-impression-proxy-use1-1.prd.pluto.tv^
 ||service.minute.ly^
 ||services.haaretz.com^
@@ -66622,6 +66626,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||sp.newsleader.com^
 ||sp.northjersey.com^
 ||sp.pal-item.com^
+||sp.pluto.tv^
 ||sp.pnj.com^
 ||sp.portclintonnewsherald.com^
 ||sp.postcrescent.com^
@@ -67171,6 +67176,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||track.noz.de^
 ||track.nzz.ch^
 ||track.oasis.magictavern.com^
+||track.opentable.com^
 ||track.parentmood.com^
 ||track.peavoidud.com^
 ||track.price.ru^
@@ -67283,6 +67289,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tracking.bdi-services.de^
 ||tracking.bloomberg.com^
 ||tracking.bonnier.news^
+||tracking.carfax.com^
 ||tracking.carsales.com.au^
 ||tracking.cds.dmm.
 ||tracking.centerfield.com^
@@ -69337,6 +69344,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||autoteile24.de/*_tracking.js
 ||autotrader.com/beacon/rum?
 ||autotrader.com/no_cache/bi_
+||autotrader.com/pixall/
 ||auxin.g123.jp/external/*/refund_campaign/game/g123/status
 ||avivid.likr.tw/api/ring_only_tracking.min.js
 ||avtoradio.ru/design/images/site-design/top100.gif
@@ -69704,6 +69712,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
+||cdn1.adoberesources.net/alloy/$domain=pluto.tv
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
 ||cdn3.net/pixe/
@@ -71666,6 +71675,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||parismatch.com/build/outbrain-tag.*.js
 ||parsely.com/keys/$script,third-party
 ||parte.tv/static/assets/js/pa/lp.js
+||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partners.sbermarketing.ru/api/tracker/sdk.js
 ||passportnews.co.il/system/js/analytics.js
 ||passportnews.co.il/tag_manager.js
@@ -71903,6 +71913,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||quartic.pl/t.php^
 ||queer.de/a?$image
 ||quelle.de/servlet/LandmarkServlet?clientId=
+||question.searchiq.co/static/js/analytics.js
 ||quiz.stroeermediabrands.de/pub/t.png
 ||quoka.de/services/count.php
 ||quora.com/ajax/receive_POST
@@ -75020,6 +75031,7 @@ xfree.com$cookie=anonymous
 ||track.appsflyer.com^
 ||trackersimulator.org^
 ||tracking.*.miui.com^
+||tracking.ibotta-classic.ipn-ops.net^$app=com.ibotta.android
 ||tracking.miui.com^
 ||tradedoubler.com^$cookie=guid
 ||trafficcardinal.com^$cookie=1p-jar
@@ -75220,6 +75232,7 @@ d4?appid*type*
 ||analytics.studiodesignapp.com^
 ||analytics.tiktok.com^
 ||analytics.us.tiktok.com^
+||analytics.wachanga.app^
 ||analytics.wildlifestudios.com^
 ||analytics.zg-api.com^
 ||andmlb.kshwtj.com^
@@ -75265,7 +75278,7 @@ d4?appid*type*
 ||app-log-oversea.immomo.com^
 ||app-monitor.spacecape.com^
 ||app-tracking.hlogo.de^
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2
 ||app.siteperformancetest.net^
 ||appanalysis*.banggood.com^
 ||appcpi.net^
@@ -75331,6 +75344,7 @@ d4?appid*type*
 ||census-app.scorecardresearch.com^
 ||cfg.cml.ksmobile.com^
 ||cgicol.amap.com^
+||clarity.ms^|
 ||clck.yandex.ru^$app=com.edadeal.android
 ||click.oneplus.cn^
 ||click.oneplus.com^
@@ -75439,6 +75453,7 @@ d4?appid*type*
 ||edith-seb.xiaohongshu.com^
 ||edmanalytics.pandahall.com^
 ||elephantdata.net^
+||engagelab.cc^
 ||esa-reg-eup.myoppo.com^
 ||etl.tindersparks.com^
 ||etl.xlmc.sandai.net^
@@ -75517,6 +75532,7 @@ d4?appid*type*
 ||gid.tapapis.cn^
 ||gjapplog.uc.cn^
 ||gjapplog.ucweb.com^
+||global-sis.engagelab.com^
 ||global.cmcs.service.amazonsilk.com/metrics
 ||gnsnpaw.com^
 ||googleadapis.l.google.com^
@@ -75576,6 +75592,7 @@ d4?appid*type*
 ||iot-in-logser.realme.com^
 ||iot-logser.realme.com^
 ||ip.chinaz.com^$app=com.apkpure.aegon
+||ir-sdk.guardease.com^
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\bg_video_quality_privilege.gif
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\video_accelerate_guide_new.gif
 ||itracking.ikameglobal.com^
@@ -75880,6 +75897,7 @@ d4?appid*type*
 ||report.1-1.io^
 ||report.apkpure.net^
 ||report.pixverse.ai^
+||report.starshort.online^
 ||reporting.aatkit.com^
 ||reportwest-midas.codmwest.com^
 ||resolver.gslb.mi-idc.com^
@@ -76142,6 +76160,7 @@ d4?appid*type*
 ||us-events.api.iheart.com^
 ||us-tracking.nextdoor.com^
 ||us04logfiles.zoom.us^
+||usage.digitalconcerthall.com^
 ||usdiagnosis.icocofun.com^
 ||use-cr.svr-algorix.com^
 ||use-trk*.bluevoox.com^
@@ -76153,6 +76172,7 @@ d4?appid*type*
 ||utop.umengcloud.com^
 ||v-collector.dp.aws.charter.com^
 ||vcs.zijieapi.com^
+||verifysession.uxcam.com^
 ||vgs-collect-keeper.apps.verygood.systems^
 ||vik-analytics.moonactive.net^
 ||viva.api.xiaoying.co^
@@ -76190,6 +76210,10 @@ d4?appid*type*
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
 @@||a.klaviyo.com/client/subscriptions/
+@@||api.cxense.com/public/widget/data?json=$domain=elle.com
+@@||cdn.cxense.com/cx.cce.js$domain=elle.com
+@@||cdn.cxense.com/cx.js$domain=elle.com
+@@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
 ! + PLATFORM(windows, mac, android, cli)
@@ -79631,6 +79655,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||squishybears.com^
 ||stageschine.com^
 ||stakedances.com^
+||stakeschips.com^
 ||stakingbasket.com^
 ||stakingshock.com^
 ||stakingsmile.com^
