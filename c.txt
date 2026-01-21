@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601200223
+! Version: 202601210226
 ! Title: Personal Filter
-! Last Modified: 20 Jan 2026 02:23 UTC
+! Last Modified: 21 Jan 2026 02:26 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3360,7 +3360,6 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||agcmtb.nameit.com^
 ||agcs-knowledge.allianz.com^
 ||agenciaplanner.arenaeletromusic.com.br^
-||agencysignals.com^
 ||agencysst.mda-digital.com^
 ||agenda.onlineretailer.com^
 ||agent.agentsync.com.au^
@@ -22929,6 +22928,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||js.monetize-ssp.com^$third-party
 ||js.passaro-de-fogo.biz^$third-party
 ||js.ptengine.jp^$third-party
+||js.pulseinsights.com^
 ||jsahu.shoesforall.com^
 ||jsbmf.heymistr.com^
 ||jscounter.com^$third-party
@@ -94634,6 +94634,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||events-api*.outfit7.com^
 ||events-collector-dataplatform.action-media.ru^
 ||events-collector.spot.im^
+||events-sandbox.data.msn.com^
 ||events-tracker.deliveroo.net^
 ||events.apester.com^
 ||events.app-performance.music.amazon.dev^
@@ -97756,6 +97757,7 @@ everyplate.com,nytimes.com,slideshare.net#%#//scriptlet('set-local-storage-item'
 express.co.uk##.most-read-stories
 express.co.uk,iflscience.com,nypost.com#%#//scriptlet('set-local-storage-item', 'SPOTIM_DEVICE_UUID_V2', '$remove$')
 ezviz.ru#%#//scriptlet('set-local-storage-item', 'userUuid', '$remove$')
+fashiontechnews.zozo.com##div[class^="style-module--contentAreaInne"] > div[class^="style-module--bottomContainer--"]:has( > div[class^="style-module--footer"] > div[class^="style-module--reactions"])
 fatcatslim.ru#?#.sidebar > div.widget:has( > div > a[href$="liveinternet.ru/click"])
 fategrandorder.info##.sidebar_acr.side_inline
 ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"] + div[class^="_"] > svg
@@ -99236,6 +99238,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cvs.com/shop-assets/proxy/criteo^
 ||cxo.name/collect?
 ||cyberpedia.su/count.php
+||cycling74.com/web/matomo/
 ||d-rw.com/Scripts/tracker.js
 ||d.adroll.com/ipixel^
 ||d.bidmatic.io/tracking/
@@ -100840,6 +100843,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ok.ru/web-api/pixel?
 ||olegmakarenko.ru/ljcounter/
 ||olympiaverlag.sc.omtrdc.net/b/ss/
+||olympics.com/ddna-event-router/
 ||om.lds.org/id*AnalyticsFields
 ||omniture.chip.de/b/ss/
 ||omt.shinobi.jp/pv^
@@ -103808,10 +103812,6 @@ $cookie=ytrackvisit
 ||mgmanager.gr^$cookie=visitorstate
 ||momondo.com^$cookie=kmkid
 ||my-best.com^$cookie=mybest-uuid
-||netmonet.co^$removeparam=id
-||netmonet.co^$removeparam=operation
-||netmonet.co^$removeparam=visitid
-||netmonet.co^$removeparam=wpid
 ||newneek.co^$cookie=/amp-/
 ||newneek.co^$cookie=deviceid
 ||news.kbs.co.kr^$cookie=stat-weblog-token
@@ -104155,10 +104155,8 @@ xfree.com$cookie=anonymous
 ||justjoin.it^$cookie=useruid
 ||kariyer.net^$cookie=jobviewcount
 ||kayak.co.kr^$cookie=csid
-||kayak.co.kr^$cookie=kayak.mc
 ||kayak.co.kr^$cookie=kmkid
 ||kayak.com^$cookie=csid
-||kayak.com^$cookie=kayak.mc
 ||kayak.com^$cookie=kmkid
 ||kcby.com^$cookie=suid
 ||kkuriren.se^$cookie=adksid
@@ -108284,6 +108282,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||melodiouscomposition.com^
 ||melodiousharmony.com^
 ||melodioussymphony.com^
+||melodyglobe.com^
 ||meltmilk.com^
 ||memeorigin.com^
 ||memolight.com^
@@ -108675,6 +108674,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||roseincome.com^
 ||rottenray.com^
 ||rovememoirs.com^
+||royalespring.com^
 ||royalsbagels.com^
 ||royalsweeper.com^
 ||ruralrobin.com^
@@ -110295,6 +110295,10 @@ rtkcid=*&clickid=$removeparam=clickid
 ||nesine.com^$removeparam=trid
 ||nesine.com^$removeparam=xid-param-2
 ||netflix.com^$removeparam=source
+||netmonet.co^$removeparam=id
+||netmonet.co^$removeparam=operation
+||netmonet.co^$removeparam=visitid
+||netmonet.co^$removeparam=wpid
 ||news-postseven.com^$removeparam=-from
 ||news.yahoo.co.jp^$removeparam=bt
 ||news.yahoo.co.jp^$removeparam=ctg
