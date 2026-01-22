@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601210226
+! Version: 202601220227
 ! Title: Personal Filter
-! Last Modified: 21 Jan 2026 02:26 UTC
+! Last Modified: 22 Jan 2026 02:27 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -10127,6 +10127,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||d13082025.deltaconsertodegeladeiras.com.br^
 ||d15082025.drena.com.br^
 ||d18082025.123maridodealuguel.com.br^
+||d1dxoqu0t5mb7j.cloudfront.net^
 ||d1tracker.ru^
 ||d1udjti6mtxz9q.cloudfront.net^$third-party
 ||d22072025.motoboyrio.com.br^
@@ -96054,6 +96055,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.ibtimes.co.uk^
 ||stats.img2go.com^
 ||stats.indianpornempire.com^
+||stats.insighttimer.com^
 ||stats.itc.ua^
 ||stats.jiosaavn.com^
 ||stats.jpush.cn^
@@ -96086,6 +96088,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||stats.seotraff.team^
 ||stats.sharenet.co.za^
 ||stats.shopify.com^
+||stats.sirdata.eu^
 ||stats.slideshare.net^
 ||stats.someecards.com^
 ||stats.spottedlublin.pl^
@@ -96616,6 +96619,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||tracking2.channeladvisor.com^
 ||trackingapi.kaufda.de^
 ||trackingapi.meinprospekt.de^
+||trackinglibrary.prodperfect.com^
 ||tracksrv.zdf.de^
 ||trafficmanager.anyclip.com^
 ||tralut.chatpdf.com^
@@ -97136,6 +97140,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /home/new/v*/api/applogger.php
 /home/new/v*/api/get-ip.php
 /i.gif?pageEvent=
+/i?e=pv&page=
 /i?e=pv&url=
 /images/top100.gif
 /img.gif?
@@ -97330,12 +97335,14 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /snowplow.*.js$domain=~snowplow.io|~tv2.no
 /snowplow/*$script
 /solid.gif?z=
+/sp-2.0.0-dm-0.1.min.js
 /sr.gif?
 /sranalytics.
 /srpc.js?ssss
 /stat.gif?
 /stat/dspixel.js
 /static/js/analytics-helper.js
+/statistics/md.gif?
 /stats.php?*event=$image
 /stats.php?type=
 /stats/CounterPage.
@@ -97930,6 +97937,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[hre
 reuters.com###taboola-recirc
 revistaoeste.com##.content-aside__taboola
 revuestarlightre.com###custom_html-6
+ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
 s.response.jp##.aside-box-relation-arti
 saiganak.com#%#//scriptlet('prevent-element-src-loading', 'script', 'clarity.ms')
 samuraisoccer.doorblog.jp##.plugin-l-t:last-child
@@ -98375,6 +98383,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||api.novakidschool.com/api/*/metrics|
 ||api.nvidia.partners/telemetry/
 ||api.opinary.com/*events
+||api.pagepulse.info/webanalytics/
 ||api.parsely.com/*/analytics/
 ||api.parsely.com/v2/profile?uuid=*&apikey=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
@@ -101297,6 +101306,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rhea-cache.advividnetwork.com/tracker/
 ||ria.ru/polling?ticket=
 ||ridge.com/cdn/shopifycloud/media-analytics/
+||ridgemerino.com/api/collect
 ||rigvedawiki.net/r*/referer.php
 ||rihappy.com.br/api/sessions?items
 ||rihappy.com.br/Site/Track.aspx
@@ -101773,6 +101783,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.jobrapido.com/public/tracking/
 ||static.kbdmp.com/ma/kb_
 ||static.kbs.co.kr/recommend/rcmd_track.js
+||static.klaviyo.com/onsite/js/event_adapter.
 ||static.krone.at/wcm/donau/extern/anti_adblocker/check.js
 ||static.lefigaro.fr/figanalytics/
 ||static.line-scdn.net/uts/edge/*/uts.js$domain=today.line.me
@@ -104510,6 +104521,7 @@ d4?appid*type*
 ||api-access.pangolin-sdk-toutiao1.com^
 ||api-analytics.prod.birdapp.com^
 ||api-fp-retry-bj.fengkongcloud.com^
+||api-fp-retry-sa.fengkongcloud.com^
 ||api.abcsinsights.com^
 ||api.amplitude.com^
 ||api.analytics.omgpop.com^
@@ -104619,6 +104631,7 @@ d4?appid*type*
 ||client-events-ingress.bookbub.com^
 ||client-events.gurushots.com^
 ||client-log.box.com^
+||client-telemetry-preauth.hingeprod.net^
 ||client-telemetry.hingeprod.net^
 ||clientlog.perfectworldgames.com^
 ||clientlog3.music.163.com^
@@ -104668,6 +104681,7 @@ d4?appid*type*
 ||d.applvn.com^
 ||d.reddit.com^
 ||data-detect.nie.easebar.com^
+||data-p.gryphline.com^
 ||data.eu.pendo.io^
 ||data.joongna.com/log/ga
 ||data.kuiniuca.com^
@@ -104729,6 +104743,8 @@ d4?appid*type*
 ||event-api-cs.stardust-tv.com^
 ||event-collector.moviesanywhere.com^
 ||event-dot-learning-piano.appspot.com^
+||event-log-api-data-platform-data-lake-prod.gryphline.com^
+||event-log-api-ipv6.gryphline.com^
 ||event-portal.dailyinnovation.biz^
 ||event-search.jorte.com^
 ||event-us.ssp.taxssp.com^
@@ -104743,6 +104759,7 @@ d4?appid*type*
 ||event.togothermany.com^
 ||eventcollectorv2-1131000179.us-east-1.elb.amazonaws.com^
 ||eventgw.twilio.com^
+||eventlog.gryphline.com^
 ||events-api.lyrebirdstudio.net^
 ||events-api.soundcloud.com^
 ||events-api.towneers.prod.data.krmt.io^
@@ -104781,6 +104798,7 @@ d4?appid*type*
 ||fm-analytics-api.pocketfm.com^
 ||fp-*it*.fengkongcloud.com^
 ||fp-it.fengkongcloud.com^
+||fp-sa-it.fengkongcloud.com^
 ||fraud.adjoe.zone^
 ||fraudmetrix.cn^
 ||g.analytics.versa-ai.com^
@@ -104895,6 +104913,7 @@ d4?appid*type*
 ||log-upload.mihoyo.com^
 ||log-v4-insight.kaizenplatform.net^
 ||log-va*.capcutapi.com^
+||log-va.tiktokv.com^
 ||log-verify.mob.com^
 ||log.51changdu.com^
 ||log.adtimaserver.vn^
@@ -104907,6 +104926,7 @@ d4?appid*type*
 ||log.cleandesigner.live^
 ||log.cleanertoolboxonline.live^
 ||log.cleansweepplu.com^
+||log.clearcleanerpro.live^
 ||log.documentmanagerpdfdocxlssale.live^
 ||log.down61.com^
 ||log.dramaboxdb.com^
@@ -105073,6 +105093,7 @@ d4?appid*type*
 ||mssdk.capcutapi.us
 ||mum.alibabachengdun.com^
 ||munchkin.marketo.net^
+||native-log-collect.gryphline.com^
 ||nativesdks.mparticle.com^
 ||nbsdk-baichuan.taobao.com^
 ||ndct-data.video.iqiyi.com^
@@ -105481,9 +105502,12 @@ d4?appid*type*
 @@||api.cxense.com/public/widget/data?json=$domain=elle.com
 @@||cdn.cxense.com/cx.cce.js$domain=elle.com
 @@||cdn.cxense.com/cx.js$domain=elle.com
+@@||cdn.optimizely.com/datafiles/$domain=makro.es|makro.pt|metro-cc.hr|metro-kz.com|metro-tr.com|metro.at|metro.bg|metro.de|metro.fr|metro.it|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|metro.ua
 @@||googletagmanager.com/gtm.js$domain=uzdevumi.lv
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
+@@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
+@@||static.airbridge.io/sdk/latest/$domain=airbridge.io
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
 ! + PLATFORM(windows, mac, android, cli)
 @@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
@@ -108884,6 +108908,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||sortstructure.com^
 ||soulclicking.com^
 ||soundstocking.com^
+||sourcecodeinfo.com^
 ||sourceoak.com^
 ||sowlettuce.com^
 ||spaceaffinity.com^
@@ -109132,6 +109157,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||tritebadge.com^
 ||tritethunder.com^
 ||tritetongue.com^
+||triumphbull.com^
 ||tropicalpal.com^
 ||troubleshade.com^
 ||truckstomatoes.com^
@@ -110724,6 +110750,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||trustzonevpn.info/r.php$removeparam=rid
 ||tv.apple.com^$removeparam=itscg
 ||tv.apple.com^$removeparam=itsct
+||tw.news.yahoo.com^$removeparam=link-source
+||tw.news.yahoo.com^$removeparam=taid
 ||uber.com^$removeparam=uclick-id
 ||ubereats.com^$removeparam=campaign
 ||ubereats.com^$removeparam=marketing-visitor-id
@@ -111290,12 +111318,12 @@ $removeparam=xptdk,domain=shopee.co.id|shopee.co.th|shopee.ph
 ||linkedin.com/premium/$removeparam=isss
 ||linkedin.com/premium/$removeparam=referenceid
 ||linkedin.com/premium/$removeparam=upsellorderorigin
+||linkedin.com^$document,removeparam=refid
+||linkedin.com^$document,removeparam=trackingid
 ||linkedin.com^$removeparam=/^trk/
 ||linkedin.com^$removeparam=courseclaim
 ||linkedin.com^$removeparam=lipi
 ||linkedin.com^$removeparam=original-referer
-||linkedin.com^$removeparam=refid
-||linkedin.com^$removeparam=trackingid
 ||linkedin.com^$removeparam=trk
 ||live.nicovideo.jp^$removeparam=ch-anime-ref
 ||livedoor.biz^$removeparam=ref
