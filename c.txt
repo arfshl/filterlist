@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601220227
+! Version: 202601230223
 ! Title: Personal Filter
-! Last Modified: 22 Jan 2026 02:27 UTC
+! Last Modified: 23 Jan 2026 02:23 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -93832,6 +93832,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.inquirernetwork.net^
 ||analytics.iraiser.eu^
 ||analytics.islamicfinder.org^
+||analytics.itbox.ua^
 ||analytics.junia.ai^
 ||analytics.karakuri.ai^
 ||analytics.keepstreams.com^
@@ -94720,6 +94721,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||frog.yuanfudao.com^
 ||front.optimonk.com^
 ||frontend-logger.flippback.com^
+||frontier.capcutw.us^
 ||frontier.musical.ly^
 ||fuse.ubs.com^
 ||fxgate.baidu.com^
@@ -95037,6 +95039,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||log-stats.weathercn.com^
 ||log-upload-os.hoyolab.com^
 ||log-upload-os.hoyoverse.com^
+||log-v*-boot.capcutapi.com^
 ||log.adap.tv^
 ||log.affiliate.rakuten.co.jp^
 ||log.ahamo.com^
@@ -95356,6 +95359,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||mssdk-sg.byteoversea.com^
 ||mssdk.bytedance.com^
 ||mssdk.tiktokw.us^
+||mssdk16-normal-us-ttp.capcutapi.us^
 ||mst.rnd.de^
 ||mstat.acestream.net^
 ||mstm.motorsport.com^
@@ -95477,6 +95481,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||pingback.giphy.com^
 ||pingback.sogou.com^
 ||pings.conviva.com^
+||pinpoint.espn.com^
 ||pipe-collect.ebu.io^
 ||pipeline.rd.nl^
 ||pix.boursorama.com^
@@ -100039,7 +100044,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||hotels.com/egcs/v2/collect
 ||hotels.com/taps/v*/Impr?
 ||hotels.com/taps/v*/PageView?
-||hotpepper.jp/DEV/DEV_OPEN/CSP/log/
 ||hotstar.com/*/identify$domain=~bifrost-api.hotstar.com
 ||hotstar.com/*/track$domain=~bifrost-api.hotstar.com
 ||hotwire.com/api/*/logging/
@@ -109167,6 +109171,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
 ||twistloss.com^
+||typepredict.com^
 ||typewebsite.com^
 ||typicalairplane.com^
 ||typicalteeth.com^
@@ -109202,6 +109207,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||usabilitybook.com^
 ||uselesslumber.com^
 ||userballot.com^
+||utopiaband.net^
 ||validmemo.com^
 ||valuebuttons.com^
 ||vanfireworks.com^
