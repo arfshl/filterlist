@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601230223
+! Version: 202601240219
 ! Title: Personal Filter
-! Last Modified: 23 Jan 2026 02:23 UTC
+! Last Modified: 24 Jan 2026 02:19 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -93809,6 +93809,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||analytics.elegela.us^
 ||analytics.emforce.co.kr^
 ||analytics.emol.com^
+||analytics.everythingstream.com^
 ||analytics.faceitanalytics.com^
 ||analytics.fap.bar^
 ||analytics.flexclip.com^
@@ -99055,6 +99056,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||citizensvoice.com/logger/p.gif
 ||city.kamakura.kanagawa.jp/shared/renewal/js/ga.js
 ||citybeat.de/include/cbtrck.104.min.js
+||cjdropshipping.com/common-public/fingerprintjs
 ||cjs-cdkeys.com/index.php?action=track
 ||clan.su/stat/
 ||clancy.spiceworks.com/jackryan.js^
@@ -105508,8 +105510,10 @@ d4?appid*type*
 @@||cdn.cxense.com/cx.js$domain=elle.com
 @@||cdn.optimizely.com/datafiles/$domain=makro.es|makro.pt|metro-cc.hr|metro-kz.com|metro-tr.com|metro.at|metro.bg|metro.de|metro.fr|metro.it|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|metro.ua
 @@||googletagmanager.com/gtm.js$domain=uzdevumi.lv
+@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
 @@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
+@@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
 @@||static.airbridge.io/sdk/latest/$domain=airbridge.io
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
@@ -108234,6 +108238,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||livingsleet.com^
 ||lizardslaugh.com^
 ||llamavoice.com^
+||loaddisplay.com^
 ||loadedhearts.com^
 ||loadsurprise.com^
 ||locateskill.com^
@@ -108394,6 +108399,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||newarkdriving.com^
 ||newartreview.com^
 ||nicefollows.com^
+||nicehuh.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
@@ -109613,6 +109619,7 @@ $removeparam=utm-id
 $removeparam=utm-id-
 $removeparam=utm-journey-id
 $removeparam=utm-keyword
+$removeparam=utm-lob
 $removeparam=utm-medium
 $removeparam=utm-name
 $removeparam=utm-newsletterid
@@ -109637,6 +109644,7 @@ $removeparam=utm-term
 $removeparam=utm-umguk
 $removeparam=utm-userid
 $removeparam=utm-viz-id
+$removeparam=utm-wave
 $removeparam=uzcid
 $removeparam=vc-lpp
 $removeparam=vero-conv
@@ -110341,7 +110349,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||newspicks.com^$removeparam=a
 ||newspicks.com^$removeparam=adid
 ||newspicks.com^$removeparam=block
-||newspicks.com^$removeparam=ref
 ||newspicks.com^$removeparam=ref-t
 ||nikkansports.com^$removeparam=nsgid
 ||nikke-jp.com^$removeparam=pid
