@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601240219
+! Version: 202601250235
 ! Title: Personal Filter
-! Last Modified: 24 Jan 2026 02:19 UTC
+! Last Modified: 25 Jan 2026 02:35 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -54524,6 +54524,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||trackerhqu.com^$third-party
 ||trackerscript.sqreemtech.com^$third-party
 ||trackerstats.davidthe.dev^
+||trackhorizon.nnmtools.com^
 ||tracking-api-4lasu2nlcq-ew.a.run.app^
 ||tracking-api.g2.com^
 ||tracking-api.hotmart.com^
@@ -99596,6 +99597,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||eum.instana.rewe-group.com/eum
 ||euro.com.pl/log-customer-visit$redirect=noop.txt
 ||europe1.fr/build/e1/tracking.
+||european-alternatives.eu/api/event
 ||event-analytics.yesware.com/main.js
 ||event.arte.tv/api/server-side-tracking/
 ||event.symbiosys.ai/page_viewjs
@@ -108277,6 +108279,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||madnessbuzz.com^
 ||madoverrice.com^
 ||magicaljoin.com^
+||magicalpiano.com^
 ||magicminibox.com^
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
@@ -109238,6 +109241,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||victoriousrequest.com^
 ||victoryideas.com^
 ||vilenexus.com^
+||viralfoodie.net^
 ||virtualvincent.com^
 ||visitstor.com^
 ||vividcanopy.com^
@@ -110234,6 +110238,8 @@ rtkcid=*&clickid=$removeparam=clickid
 ||klook.com^$removeparam=clickid
 ||klook.com^$removeparam=spm
 ||kmkk78.com^$removeparam=agentid
+||kojima.net^$removeparam=argument
+||kojima.net^$removeparam=dmai
 ||korona.ru^$removeparam=pr-campaign
 ||korona.ru^$removeparam=pr-medium
 ||korona.ru^$removeparam=pr-source
