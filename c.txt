@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601270229
+! Version: 202601280225
 ! Title: Personal Filter
-! Last Modified: 27 Jan 2026 02:29 UTC
+! Last Modified: 28 Jan 2026 02:25 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -111987,6 +111987,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||azq.zozo.jp^
 ||b-aws.aol.com^
 ||b.ranking.apis.sankei-digital.co.jp^
+||b.trueanthem.com^
 ||b0.yahoo.co.jp^
 ||b347.pottsmerc.com^
 ||b607.dailylocal.com^
@@ -112869,6 +112870,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||ins.oberpfalzmedien.de^
 ||insight.bellmetric.net^
 ||insight.danawa.com^
+||insights-tag.convertkit.com^
 ||inspector-collector.m.naver.com^
 ||intake-analytics.wikimedia.org^
 ||intake-logging.wikimedia.org^
@@ -113109,6 +113111,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||logs.viewstats.com^
 ||logs2.jobs.com^
 ||logsdk.kwai-pro.com^
+||logsk.glomancloud.gr^
 ||logstash-*.radio-canada.ca^
 ||logtake.weidian.com^
 ||loxodo-analytics.ext.nile.works^
@@ -116523,7 +116526,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||assets.askdoctors.jp/assets/packs/js/impression_tracker-*.js
 ||assets.bbystatic.com/analytics-dotcom/
 ||assets.bwbx.io/s3/foundation/event-recorder-client/1.0/event-recorder-client.min.js
-||assets.coupangcdn.com/customjs/cou-log/
 ||assets.engoo-static.com/tracking.js
 ||assets.getpocket.com/web-utilities/public/static/te.js
 ||assets.grubhub.com/libs/*/clickstream2.min.js
@@ -126144,6 +126146,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||kindhush.com^
 ||kindlereunion.com^
 ||kitetuning.com^
+||kittentacos.com^
 ||kittycatking.com^
 ||knewpenny.com^
 ||knifetreasury.com^
