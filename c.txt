@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601280225
+! Version: 202601290243
 ! Title: Personal Filter
-! Last Modified: 28 Jan 2026 02:25 UTC
+! Last Modified: 29 Jan 2026 02:43 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -20853,6 +20853,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||hrzod.dadbrandapparel.com^
 ||hs-analytics.net^$third-party
 ||hs-scripts.com^$third-party
+||hsadspixel.net^
 ||hsae.beachbound.com^
 ||hsaxca.canaln.pe^
 ||hsbpf.customgoldgrillz.com^
@@ -112307,6 +112308,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||crta.metro.co.uk^
 ||cryo.socialblade.com^
 ||cs*.mp3bars.com^
+||cs.avito.ru^
 ||cs44.pikabu.ru^
 ||csi.gstatic.com^
 ||csm.cxpublic.com^
@@ -113429,7 +113431,6 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||pingback.giphy.com^
 ||pingback.sogou.com^
 ||pings.conviva.com^
-||pinpoint.espn.com^
 ||pipe-collect.ebu.io^
 ||pipeline.rd.nl^
 ||pix.boursorama.com^
@@ -115856,6 +115857,7 @@ ntvspor.net##.taboola-class-check
 nukigazo.com###text-2
 nypost.com#%#//scriptlet('set-local-storage-item', 'ow/social-browser-storage', '$remove$')
 oceans-nadia.com##.gtm-bnr-rensai
+octobrowser.net#%#//scriptlet('set-local-storage-item', 'oc_uuid', '$remove$')
 okazuch.site###custom_html-30
 okko.tv#%#//scriptlet('set-local-storage-item', 'sbid_logUid', '$remove$')
 olympics.com##section[data-cy="story-parts-wrapper"] > div:not([data-cy]):has(rect[clip-path="url(#loading)"])
@@ -116114,6 +116116,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||adope.net/external/analytics.js
 ||ads-partners.coupang.com/log/
 ||adservice.sbs.co.kr/NetInsight/event/
+||adsimg.vevor.com/upload/ga/*.js
+||adsimg.vevorstatic.com/upload/vevor/custom/vcr/*/vcr.js
 ||adsystem.dailyissue.co.kr/show/logs.php
 ||adtonos.com/atr/*/px.gif
 ||adultswim-vodlive.cdn.turner.com/csm/analytics
@@ -116570,6 +116574,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||autotrader.com/no_cache/bi_
 ||autotrader.com/pixall/
 ||auxin.g123.jp/external/*/refund_campaign/game/g123/status
+||avito.st/mstatic/build/legacy/*/fingerprint.*.js
+||avito.st/s/pixel/script.js
 ||avivid.likr.tw/api/ring_only_tracking.min.js
 ||avtoradio.ru/design/images/site-design/top100.gif
 ||aws.amazon.com/csds/collector/
@@ -118242,6 +118248,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||js.washingtonpost.com/wp-stat/
 ||js.zi-scripts.com/zi-tag.js
 ||js.zohocdn.com/salesiq/js/track_
+||js.zol.com.cn/pvn/z.pv
 ||jsak.mmtcdn.com/*/pwa_commons/pwatracker.js
 ||jscrambler.com/api/statistics
 ||jscrambler.com/bc.js
@@ -118799,6 +118806,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||oas.monster.com/Scripts/oas_analytics.js
 ||ocn-tag.sienca.jp/api/v1/event/pv
 ||ocnk.net/include/access.php
+||octobrowser.net/hs/scriptloader/
 ||oculus.com/ajax/bz?
 ||odnaknopka.ru/stat.js
 ||odsyms15.com/impression?
@@ -123323,6 +123331,7 @@ d4?appid*type*
 ||track.lc.quark.cn^
 ||track.midway.run^
 ||track.mobshark.net^
+||track.onef.pro^
 ||track.pingstart.com^
 ||track.starmakerstudios.com^
 ||track.taimi.com^
@@ -125219,6 +125228,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||actuallysnake.com^
 ||adamantsnail.com^
 ||addictedattention.com^
+||addressfriend.com^
 ||admiral.pub^
 ||admiralproxied.com^
 ||admissionaudit.com^
@@ -125360,6 +125370,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||blockdial.com^
 ||bloomsend.com^
 ||blueeyedblow.com^
+||bluelionlabs.net^
 ||bluenest.net^
 ||bluevinebooks.com^
 ||blushingbeast.com^
@@ -125823,6 +125834,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||fewkittens.com^
 ||fieldconfig.com^
 ||figsprotein.com^
+||figurehunter.net^
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^
