@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601290243
+! Version: 202601300243
 ! Title: Personal Filter
-! Last Modified: 29 Jan 2026 02:43 UTC
+! Last Modified: 30 Jan 2026 02:43 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -3923,6 +3923,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||analytic.haramain.shop^
 ||analytic.hawaii.aaa.com^
 ||analytic.hotelclub.com^
+||analytic.is^$third-party
 ||analytic.kim-tetzlaff.dk^
 ||analytic.newmexico.aaa.com^
 ||analytic.northernnewengland.aaa.com^
@@ -114149,6 +114150,7 @@ zjjz6lpv44aguszo.cloud.s11.sfmc-osl.com$image
 ||t.webjavaskript.net^
 ||t.wizards.com^
 ||t.xoom.com^
+||t.y8.com^
 ||t.zhipin.com^
 ||t002.myjournalcourier.com^
 ||t133.sun-sentinel.com^
@@ -115801,6 +115803,7 @@ kt.com#%#//scriptlet('set-constant', 'KT_trackClicks', 'noopFunc')
 kuow.org#?#.story-content-wrapper > div.embed_block:has( > div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has( > script:contains(window.usabilla))
 kuruma-news.jp##.recommend-container
+lasisa.net,president.jp##.recommend
 lastminute.com.au/api/uisprime/track
 ldblog.jp,livedoor.biz#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 lessentiel.lu#%#//scriptlet('set-local-storage-item', 'clientId', '$remove$')
@@ -115877,7 +115880,6 @@ pikabu.ru#%#//scriptlet('href-sanitizer', 'a[href^="https://pikabu.ru/"][href*="
 politring.com##a[href="https://metrika.yandex.ru/"]
 portaltele.com.ua##.td-footer-template-9
 ppomppu.co.kr#%#//scriptlet('href-sanitizer', 'a[href^="https://s.ppomppu.co.kr?"][href*="&target="]', '?target', 'base64decode')
-president.jp##.recommend
 prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистика)
 prm.com#%#//scriptlet('set-local-storage-item', '/deviceId/', '$remove$')
 pryamoj-efir.ru#?#.layout-post-right > h1.playmaker-list:contains(Статистика)
@@ -116078,6 +116080,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||academia.edu/v0/pv?
 ||account.golem.de/ping
 ||account.protonvpn.com/api/data/v1/metrics
+||account.y8.com/api/v*/json/tracking/
 ||accounts.ad.nl/gscounters.sendReport
 ||accounts.haymarket.media/tracking/drip-event
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
@@ -118632,7 +118635,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||mobile.auction.co.kr/CLog.aspx
 ||mobtop.az^$third-party
 ||mod.calltouch.ru/callback_event.php?*&analyticsId=
-||moderate.cleantalk.org/*/frontend_data
 ||moe-online.ru/api/moe/stat/sendStat
 ||moe-online.ru/themes/default/front/js/stat/
 ||monitor-frontend-collector.a.bybit-aws.com/api/*/batch/
@@ -120531,6 +120533,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||xing.com/logjam/
 ||xlgaytube.tv/analytics.js
 ||xlgaytube.tv/stats.gif^
+||xmind.app/_api/plsbl/gtag
 ||xn--pckua2a7gp15o89zb.com/api/tracking.js
 ||xozilla.xxx/static/js/analytics.*.js
 ||xp.apple.com/config/*/report/
@@ -122696,6 +122699,7 @@ d4?appid*type*
 ||dutils.com^
 ||dxp.baidu.com^
 ||e-ssl.apsalar.com^
+||e.tapdb.ap-sg.tapapis.com^
 ||eats-ads-event-capture.coupang.com^
 ||ec.adadapted.com^
 ||edith-seb.xiaohongshu.com^
@@ -122844,6 +122848,7 @@ d4?appid*type*
 ||iot-in-logser.realme.com^
 ||iot-logser.realme.com^
 ||ip.chinaz.com^$app=com.apkpure.aegon
+||ip.xindong.com^
 ||ir-sdk.guardease.com^
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\bg_video_quality_privilege.gif
 ||issuepcdn.freeterabox.com/issue/terabox/TeraBox_cdn_resource\pic\video_accelerate_guide_new.gif
@@ -122941,6 +122946,7 @@ d4?appid*type*
 ||log5.interactive-circle.jp^
 ||logapi-and.zhipin.com^
 ||logbak.hicloud.com^
+||logc-sg.tsd.xindong.com^
 ||logcollection.ronghub.com^
 ||logdata.hatspotlight.asia^
 ||logend.cookpad.com^
@@ -123084,6 +123090,7 @@ d4?appid*type*
 ||online-metrix.net^
 ||open.oneplus.net^
 ||openlog.tapapis.cn^
+||openlog.tapapis.com^
 ||opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io^
 ||otel-mobile.doordash.com^
 ||overseauspider.yuanshen.com:8888/log^
@@ -124390,7 +124397,7 @@ woman.excite.co.jp#%#//scriptlet('remove-attr', 'data-woman-ex', 'a[href][data-w
 @@||googletagmanager.com/gtag/js$domain=nbc.com|riamo.ru
 @@||googletagmanager.com/gtag/js?id=$domain=chainreactioncycles.com
 @@||googletagmanager.com/gtm.js$domain=beterbed.nl|chainreactioncycles.com|displate.com|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|easycredit.de|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|incehesap.com|kurierlubelski.pl|miastakobiet.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|realestate.co.nz|rottentomatoes.com|scotsman.com|sportowy24.pl|square-enix-games.com|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|stronazdrowia.pl|teddyfood.com|to.com.pl|ucicinemas.pt|wibc.com|wspolczesna.pl
-@@||googletagservices.com/tag/js/gpt.js$domain=gentside.co.uk|gentside.com|gentside.com.br|gentside.de|maxisciences.com|ohmirevista.com|ohmymag.com|ohmymag.de
+@@||googletagservices.com/tag/js/gpt.js$domain=gentside.co.uk|gentside.com|gentside.com.br|gentside.de|maxisciences.com|ohmymag.com|ohmymag.de
 @@||identity.mparticle.com/v*/identify$domain=amcplus.com|nbc.com
 @@||identity.mparticle.com/v1/identify$domain=cwtv.com
 @@||intersport.peerius.com/tracker/*.page$domain=intersport.de
