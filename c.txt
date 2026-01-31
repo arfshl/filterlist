@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601300243
+! Version: 202601310239
 ! Title: Personal Filter
-! Last Modified: 30 Jan 2026 02:43 UTC
+! Last Modified: 31 Jan 2026 02:39 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -360,6 +360,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||1hb4jkt1u2d.probemas.com^
 ||1j2n061x3td.www.digi.no^
 ||1k5vz1ejbcx.staging.probemas.com^
+||1mythtracker.xyz^
 ||1p-data.com^$third-party
 ||1p3293dngsv.dodofacile.fr^
 ||1phrzgfqiym8.marketingtornado.ca^
@@ -115034,6 +115035,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /countly.js
 /countly.min.js
 /cp2.gif?
+/crm/tag/call.tracker.js
 /detroitchicago/overlandpark.js
 /detroitchicago/reno.js
 /dfm/fp.min.js
@@ -117189,7 +117191,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||creema.jp/ad/impression-log
 ||criteo.com/event?$third-party
 ||crm.a1.by/bitrix/js/crm/tracking/
-||crm.a1.by/upload/crm/tag/call.tracker.js
 ||crm.zoho.com/crm/javascript/zcga.js
 ||crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?
 ||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
@@ -118068,6 +118069,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ie8eamus.com/fp?uuid=$domain=avgle.com
 ||ieq-systems.de/includes/piwikQ.js
 ||iframe.iono.fm/tracking?
+||ifsagram*.com/vt_beacon.php
 ||ig-store.ru/site/record-modal-event
 ||iha.com.tr/track.php^
 ||ikaclo.jp/api/admin/access_logs
@@ -119361,6 +119363,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||s.yimg.com/dy/readmo-pixel.js
 ||s.yimg.com/jk/aabd/prod/adblockerdetector.umd.js
 ||s.yimg.com/ss/analytics3.js
+||s.yimg.jp/images/approach/jslib/clear.gif?
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||s1.daumcdn.net/svc/original/U03/cssjs/userAgent
 ||s1.trrsf.com/*/zaz-mod-stalker/
@@ -122713,6 +122716,7 @@ d4?appid*type*
 ||event-api-cs.stardust-tv.com^
 ||event-collector.moviesanywhere.com^
 ||event-dot-learning-piano.appspot.com^
+||event-gateway.data.karrotmarket.com^
 ||event-log-api-data-platform-data-lake-prod.gryphline.com^
 ||event-log-api-ipv6.gryphline.com^
 ||event-portal.dailyinnovation.biz^
@@ -122788,6 +122792,7 @@ d4?appid*type*
 ||gid.tapapis.cn^
 ||gjapplog.uc.cn^
 ||gjapplog.ucweb.com^
+||gjtrack.ucweb.com^
 ||global-sis.engagelab.com^
 ||global.cmcs.service.amazonsilk.com/metrics
 ||gnsnpaw.com^
@@ -122799,6 +122804,7 @@ d4?appid*type*
 ||guid.tpns.sgp.tencent.com^
 ||h-adashx.ut.alibaba.com^
 ||h-adashx4ae.ut.taobao.com^
+||h-adashx4id.ut.taobao.com^
 ||hb-af-us-central1.outfit7.com^
 ||hb-failover-stpceyl2ua-uw.a.run.app^
 ||hb-mob2.optiword.com^
@@ -126201,6 +126207,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||lightenafterthought.com^
 ||lighttalon.com^
 ||likethedog.com^
+||limecodesign.com^
 ||limepeal.com^
 ||linkedleg.com^
 ||linksoutside.com^
