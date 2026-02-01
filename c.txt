@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202601310239
+! Version: 202602010321
 ! Title: Personal Filter
-! Last Modified: 31 Jan 2026 02:39 UTC
+! Last Modified: 01 Feb 2026 03:21 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -127384,6 +127384,7 @@ $removeparam=at-recipient-id
 $removeparam=at-recipient-list
 $removeparam=at-send-date
 $removeparam=awc
+$removeparam=bance-xuid
 $removeparam=bemobdata
 $removeparam=beyond-uzcvid
 $removeparam=beyond-uzmcvid
@@ -127694,6 +127695,8 @@ mailchimp.com$removeparam=amp%3butm-campaign
 mailchimp.com$removeparam=amp%3butm-medium
 ref=producthunt^$removeparam=ref
 rtkcid=*&clickid=$removeparam=clickid
+||123chat.jp/promotion/$removeparam=cid
+||123chat.jp/promotion/$removeparam=p
 ||1fichier.com^$removeparam=af
 ||3movs.com^$removeparam=site-id
 ||4kdownload.com^$removeparam=source
@@ -127713,6 +127716,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||ad.doubleclick.net/ddm/clk/$removeparam=clickorigin
 ||ad.doubleclick.net/ddm/clk/$removeparam=deeplink
 ||ad.doubleclick.net/ddm/clk/$removeparam=pid
+||ad.games.dmm.co.jp^$removeparam=clid
 ||ads.tiktok.com/*/signup$removeparam=-source-
 ||ads.tiktok.com/*/signup$removeparam=cachesdk
 ||ads.tiktok.com/*/signup$removeparam=region
@@ -127913,6 +127917,9 @@ rtkcid=*&clickid=$removeparam=clickid
 ||coolapk.com^$removeparam=sharefrom
 ||coolapk.com^$removeparam=shareuid
 ||crunchyroll.com^$removeparam=referrer
+||cv-measurement.com^$removeparam=adbnr
+||cv-measurement.com^$removeparam=adcopy
+||cv-measurement.com^$removeparam=creative
 ||cyber.sports.ru^$removeparam=p-a
 ||cyber.sports.ru^$removeparam=p-c
 ||cyber.sports.ru^$removeparam=p-n
@@ -128448,6 +128455,10 @@ rtkcid=*&clickid=$removeparam=clickid
 ||rakumachi.jp^$removeparam=uiaid
 ||rapidgator.net^$removeparam=referer
 ||raretech.site^$removeparam=from
+||ratel-ad.com^$removeparam=advertiser
+||rcv.ixd.dmm.com^$removeparam=ad
+||rcv.ixd.dmm.com^$removeparam=advertiser
+||rcv.ixd.dmm.com^$removeparam=clid
 ||rd.bizrate.com$removeparam=af-assettype-id
 ||rd.bizrate.com$removeparam=af-creative-id
 ||rd.bizrate.com$removeparam=af-id
