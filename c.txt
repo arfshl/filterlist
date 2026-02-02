@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602010321
+! Version: 202602020253
 ! Title: Personal Filter
-! Last Modified: 01 Feb 2026 03:21 UTC
+! Last Modified: 02 Feb 2026 02:53 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -126298,6 +126298,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||melodioussymphony.com^
 ||melodyglobe.com^
 ||meltmilk.com^
+||membernook.com^
 ||memeorigin.com^
 ||memolight.com^
 ||memopilot.com^
@@ -126343,6 +126344,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||moorshoes.com^
 ||morefolks.com^
 ||morefriendly.com^
+||motionarray.net^
 ||motionflowers.com^
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
@@ -127786,6 +127788,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||blog.naver.com^$removeparam=proxyreferer
 ||blog.naver.com^$removeparam=referrercode
 ||blog.naver.com^$removeparam=trackingcode
+||blog.qiita.com^$removeparam=utml-campaign
 ||blogmura.com^$removeparam=p-cid
 ||blogtrottr.com^$removeparam=lctg
 ||bloomberg.com^$removeparam=in-source
