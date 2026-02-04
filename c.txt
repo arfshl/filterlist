@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602030249
+! Version: 202602040244
 ! Title: Personal Filter
-! Last Modified: 03 Feb 2026 02:49 UTC
+! Last Modified: 04 Feb 2026 02:44 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -64079,6 +64079,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||wt.leitz.org^
 ||wt.netze-bw.de^
 ||wtag.estlier.net^$third-party
+||wtb-tag.mikmak.ai^
 ||wtdtqt.efireplacestore.com^
 ||wtgnmr.golfdigest.co.jp^
 ||wthlzk.home24.de^
@@ -120142,6 +120143,7 @@ zmail.mtrl.me$image
 ||cc.swiftype.com^
 ||cdn-channels-pixel.ex.co^
 ||cdn-eu.usefathom.com^
+||cdn-px-v1.metrix.az^
 ||cdn-redirector.glopal.com^
 ||cdn.c-i.as^
 ||cdn.contalyze.com^
@@ -127379,6 +127381,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||rzd-partner.ru/events/
 ||s-cdn.phonearena.com/js/ops/taina.js
 ||s-cdn.sportbox.ru/sites/all/libraries/design/*/js/user-tracking.global.js
+||s-nsk.ppstatic.pl/lib/ppa/v*/js/main.hb.js
 ||s.7tv.de/webtrekk/*/webtrekk_*.min.js
 ||s.aimg.sk/livemonitor/js/aztracker.js
 ||s.axon.ai/pixel.js
@@ -130806,6 +130809,7 @@ d4?appid*type*
 ||events.lbesecapi.com^
 ||events.mz.unity3d.com^
 ||events.prd.api.discomax.com^
+||events.production.us1.pgw-pci.klarna.net^
 ||events.swiftlycontent.net^
 ||events.swishapps.ai^
 ||events.textme-app.com^
@@ -131531,6 +131535,7 @@ d4?appid*type*
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 ! #################
 @@||a.klaviyo.com/client/subscriptions/
+@@||adobedc.demdex.net^$xmlhttprequest,domain=sc.com
 @@||api.cxense.com/public/widget/data?json=$domain=elle.com
 @@||cdn.cxense.com/cx.cce.js$domain=elle.com
 @@||cdn.cxense.com/cx.js$domain=elle.com
