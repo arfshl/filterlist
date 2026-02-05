@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602040244
+! Version: 202602050246
 ! Title: Personal Filter
-! Last Modified: 04 Feb 2026 02:44 UTC
+! Last Modified: 05 Feb 2026 02:46 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -31526,6 +31526,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||media.eagleridgeinvestment.com^
 ||media.elementsbehavioralhealth.com^
 ||media.everlastnordic.dk^
+||media.evolv.ai^
 ||media.gstoneinc.com^
 ||media.leahy-ifp.com^
 ||media.northlatitude.dk^
@@ -35486,6 +35487,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||parrv.jricards.com^
 ||partenaireslld.temsys.fr^
 ||partener.aeriumshop.ro^
+||participants.evolv.ai^
 ||partner-affilbox.telly.cz^
 ||partner.2din.cz^
 ||partner.aerium.sk^
@@ -36430,6 +36432,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||planarian.reverberate.org^
 ||plans.fundtherebuild.com^
 ||plas.imfeld.dev^
+||platform.datazoom.io^
 ||platformpanda.com^$third-party
 ||platypus.cmp.is^
 ||platypus.colly.com^
@@ -119585,6 +119588,7 @@ zmail.mtrl.me$image
 ||a.deadlinefunnel.com^
 ||a.flux.jp^
 ||a.hstrck.com^
+||a.kupibilet.ru^
 ||a.mobify.com^
 ||a.mts.ru^
 ||a.opmnstr.com^
@@ -120196,6 +120200,7 @@ zmail.mtrl.me$image
 ||client.rum.*.amazonaws.com^
 ||client.smartpushedm.com^
 ||clientlog.midomi.com^
+||clientlog.pwsdk.com^
 ||clientlogger.marketplace.aws.a2z.com^
 ||clk.onet.pl^
 ||clkstat.china.cn^
@@ -120494,6 +120499,7 @@ zmail.mtrl.me$image
 ||dgcollector.evidon.com^
 ||discovery-script.newspic.kr^
 ||discovery.newspic.kr^
+||dlog.pwsdk.com^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
 ||dmp.sbermarketing.ru^
@@ -120916,6 +120922,7 @@ zmail.mtrl.me$image
 ||ingestion.webanalytics.italia.it^
 ||ingress.linktr.ee^
 ||inlog01.hket.com^
+||ins.connatix.com^
 ||ins.oberpfalzmedien.de^
 ||insight.bellmetric.net^
 ||insight.danawa.com^
@@ -120938,6 +120945,7 @@ zmail.mtrl.me$image
 ||iss.shopimind.com^$third-party
 ||istatistik.arabam.com^
 ||istatistik.trthaber.com^
+||iv-datatracker.spx.shopee.sg^
 ||ivstat.indavideo.hu^
 ||iws2.io.naver.com^
 ||j.uralweb.ru^
@@ -121018,9 +121026,11 @@ zmail.mtrl.me$image
 ||librato-collector.genius.com^
 ||lighthouse.edoinc.com^
 ||lists.ccmbg.com^
+||lit.connatix.com^
 ||live.rezync.com^
 ||livecounter.theyosh.nl^
 ||lively-collect-elb-*.amazonaws.com^
+||livetech.shopee.com.br^
 ||lma.npaw.com^
 ||log*.aliyuncs.com^
 ||log*.vietnamplus.vn^
@@ -122603,6 +122613,7 @@ zmail.mtrl.me$image
 ||tracking.s24.com^
 ||tracking.shinycolors.enza.fun^
 ||tracking.shopback.com^
+||tracking.shopee.com.br^
 ||tracking.shopstyle.co.uk^
 ||tracking.skyword.com^
 ||tracking.socketlabs.com^
@@ -123851,6 +123862,7 @@ komachi.yomiuri.co.jp##.topi-popin-relation
 kt.com#%#//scriptlet('set-constant', 'KT_trackClicks', 'noopFunc')
 kuow.org#?#.story-content-wrapper > div.embed_block:has( > div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has( > script:contains(window.usabilla))
+kupibilet.ru#%#//scriptlet('set-local-storage-item', 'optimizely-vuid', '$remove$')
 kuruma-news.jp##.recommend-container
 lasisa.net,president.jp##.recommend
 lastminute.com.au/api/uisprime/track
@@ -123987,6 +123999,7 @@ today.ua##.li-bi-container
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 tousatu-ch.net##.widget_custom_html:has( > div.textwidget > div[style^="width: 100%;"] > div.ninja-recommend-block)
 tousatu-club.com###text-9
+turkifsalar7.space#%#//scriptlet('remove-node-text', 'script', 'MonsterInsightsDualTracker')
 tv2.no##.article-recommended
 udaff.com,vesti-ua.net##.counters
 unews.pro#?##banner > div.RightColumn:has( > a[href^="//www.liveinternet.ru/"])
@@ -124257,6 +124270,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||amazonaws.com/*/adtechanalytics-poc-*?Action=SendMessage&MessageBody=logType=
 ||amazonaws.com/*/trackpush.min.js
 ||amazonaws.com/?wsid=
+||amazonaws.com/beacon.*/beacon/before-login.gif?
 ||amazonaws.com/beacon^
 ||amazonaws.com/default/tracking?url=
 ||amazonaws.com/jsstore/*/ge.js
@@ -125166,7 +125180,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||condenastdigital.com/track$third-party
 ||conduit.com/drawtoolbar/
 ||conectiva.io/XEngine/extensions/visitor/visitor.js
-||connatix.com/rtb/
 ||connatix.com/scripts/facebook-pixel-script.js
 ||connatix.com/scripts/gaconnector.js
 ||connatix.com/scripts/hotjar.js
@@ -129825,6 +129838,7 @@ $cookie=ytrackvisit
 ||kma.go.kr^$cookie=-trk-uid
 ||kma.go.kr^$cookie=trk-ex
 ||ko44.ru^$cookie=uniqueid
+||kupibilet.ru^$cookie=kb-client-id
 ||lifehacker.com^$cookie=gtagsessionid
 ||lovense.com^$cookie=-utm-os
 ||lovense.com^$cookie=-utm-ref
@@ -130584,7 +130598,7 @@ d4?appid*type*
 ||app-log-oversea.immomo.com^
 ||app-monitor.spacecape.com^
 ||app-tracking.hlogo.de^
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban
 ||app.siteperformancetest.net^
 ||appanalysis*.banggood.com^
 ||appcpi.net^
@@ -130623,6 +130637,7 @@ d4?appid*type*
 ||beacons-prod.fubo.tv^
 ||beacons.ads.fubo.tv^
 ||beha.ksmobile.com^
+||bi-report.maxnapps.com^
 ||bi-tracker-global.rivergame.net^
 ||bi.manhuaren.com^
 ||bidder.dsp.outfit7.com^
@@ -131000,6 +131015,7 @@ d4?appid*type*
 ||log.wigoliv.work^
 ||log.yougameover.com^
 ||log1.apkomega.com^
+||log1.cmpassport.com^
 ||log1.perfectworldgames.com^
 ||log16-normal-us-ttp.capcutapi.us^
 ||log2.ihubgo.info^
@@ -133770,6 +133786,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||doggieshome.com^
 ||dollardelta.com^
 ||dollarthrill.com^
+||domaincolumn.com^
 ||doomhedge.com^
 ||doubledefend.com^
 ||doubtdrawer.com^
@@ -134405,6 +134422,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
 ||mountedbattery.com^
+||movableobject.com^
 ||movemeal.com^
 ||mowgoats.com^
 ||muddledaftermath.com^
@@ -134471,6 +134489,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||objectsnetwork.com^
 ||oblivionfleet.com^
 ||obscenesidewalk.com^
+||obscurespace.com^
 ||obsidiangems.com^
 ||octaneblood.com^
 ||offerniche.com^
@@ -134505,6 +134524,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||overconfidentfood.com^
 ||overkick.com^
 ||overratedchalk.com^
+||owlbees.com^
 ||owlreporter.com^
 ||owlsr.us^
 ||owlstwo.com^
@@ -134533,6 +134553,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||pawsnug.com^
 ||peacefullimit.com^
 ||pedropanther.com^
+||peeringhost.net^
 ||pegsbuttons.com^
 ||perceivequarter.com^
 ||perfectfetch.com^
