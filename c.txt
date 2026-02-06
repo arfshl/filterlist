@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602050246
+! Version: 202602060247
 ! Title: Personal Filter
-! Last Modified: 05 Feb 2026 02:46 UTC
+! Last Modified: 06 Feb 2026 02:47 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -29609,6 +29609,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||log-hl.snssdk.com^
 ||log-ird.outbrain.com^
 ||log-sg.bytegsdk.com^
+||log.ablyft.com^
 ||log.codemarketing.cloud^
 ||log.collectaction.com^
 ||log.dance^
@@ -121305,6 +121306,7 @@ zmail.mtrl.me$image
 ||mgs.instacart.com^
 ||middleware.p7s1.io^
 ||minerva.devices.a2z.com^
+||minimetrika.xsolla.com^
 ||mixpanel-proxy.ted.com^
 ||mixpanel.tigocloud.net^
 ||mllog.jd.com^
@@ -122706,6 +122708,7 @@ zmail.mtrl.me$image
 ||uie.data.cbc.ca^
 ||ukadh.livelyroot.com^
 ||um-public-panel-prod.s3.amazonaws.com^
+||um.merinfo.se^
 ||umami.spencerdevs.xyz^
 ||umami.subdavis.com^
 ||unidentifiedanalytics.web.app^
@@ -123808,6 +123811,7 @@ gq.com#%#//scriptlet('set-local-storage-item', '/^avoinspector/', '$remove$')
 hentai-sharing.net,news.webike.net,nexus-games.net###custom_html-3
 hentaiz.org##img[width="31"][height="31"]
 hinatasoku.blog.jp#?#.right-container > div.sidewrapper:has( > div.side > a[href="http://www.ziyu.net/"])
+hindustantimes.com##.middleTaboola
 hindustantimes.com#%#//scriptlet('set-local-storage-item', '/^_c(b|hartbeat)/', '$remove$')
 hindustantimes.com#%#//scriptlet('set-local-storage-item', 'ht_cdp', '$remove$')
 hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has( > td[background] > b:contains(Статистика))
@@ -124808,6 +124812,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bs.yandex.ru/count/
 ||bs.yandex.ru/informer/$third-party
 ||bsp-proxy.wetransfer.net/pico/v*/web-events
+||bthaber.com/js/ads-tracker.js
+||bthaber.com/js/news-tracker.js
 ||btrace.video.qq.com/kvcollect^
 ||btvnovinite.bg/js/bg/shared/js/bweb-gpt.js
 ||btvnovinite.bg/js/bg/shared/js/bweb.js
@@ -124817,6 +124823,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||bullwhip.cloud/event/
 ||bullwhip.cloud/log/
 ||bundle.app/js/PushAnalyticsEvent.js
+||bundles-stats.kachingappz.app/impressions
 ||bunkr.*/js/last_visit.js
 ||bunkr.*/js/lv.js
 ||buondua.com/hit/?
@@ -126031,6 +126038,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||higgsfield.ai/_next/static/chunks/amplitude
 ||highwebmedia.com/CACHE/js/output.ed5f5a28fb27.js
 ||hinata.me^*/pageview|
+||hindustantimes.com/cdp/user/ht
 ||histats.com^$domain=avgle.com
 ||hitfm.ru/*yandex-metrika.js
 ||hitfm.ru/uploads/vk-pixel.js
@@ -129867,6 +129875,7 @@ $cookie=ytrackvisit
 ||news.kbs.co.kr^$cookie=stat-weblog-token
 ||newsbreak.com^$cookie=nb-wuid
 ||newsbreak.com^$cookie=userid
+||newspicks.com^$cookie=np-uuid
 ||nicegram.app^$cookie=x-identify
 ||novakid.$cookie=ftr
 ||novakidschool.com^$cookie=ftr
@@ -130195,6 +130204,7 @@ xfree.com$cookie=anonymous
 ||iltalehti.fi^$cookie=sammio-bsid
 ||impression.appsflyer.com^
 ||inapps.appsflyer.com^
+||inapps.appsflyersdk.com^
 ||indiatimes.com^$cookie=/deviceid|lgc-deviceid|ak-bmsc/
 ||indiatimes.com^$cookie=/pfuuid|fpid/
 ||indiatimes.com^$cookie=deviceid
@@ -131559,6 +131569,7 @@ d4?appid*type*
 @@||googletagmanager.com/gtm.js$domain=uzdevumi.lv
 @@||lptag.liveperson.net^$domain=yesstyle.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
+@@||optimizely.com^$image,domain=marinco.navico.com
 @@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
 @@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
@@ -135773,6 +135784,7 @@ mailchimp.com$removeparam=amp%3baid
 mailchimp.com$removeparam=amp%3butm-campaign
 mailchimp.com$removeparam=amp%3butm-medium
 ref=producthunt^$removeparam=ref
+ref=shadcn.com^$removeparam=ref
 rtkcid=*&clickid=$removeparam=clickid
 ||123chat.jp/promotion/$removeparam=cid
 ||123chat.jp/promotion/$removeparam=p
@@ -136133,6 +136145,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||fastmail.com^$removeparam=ps-partner-key
 ||fastmail.com^$removeparam=ps-xid
 ||fastmail.com^$removeparam=pscd
+||feeder.co^$removeparam=from
 ||fikfapcams.com^$removeparam=affiliateid
 ||fikfapcams.com^$removeparam=realdomain
 ||fikfapcams.com^$removeparam=referrer
@@ -137899,6 +137912,7 @@ haibunda.com##.transition-all.gap-4.w-full.grid.z-10.isolate.bottom-0.fixed.poin
 ! IDN Networks https://github.com/ABPindo/indonesianadblockrules/pull/837
 idntimes.com##.anchor-button
 fortuneidn.com,ggwp.id,idntimes.com##.css-150zvrw
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-1hihsk8
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-1lh0foa
 popmama.com##.css-cw25l4
 fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-urr7k6
