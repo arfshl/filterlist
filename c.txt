@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602060247
+! Version: 202602070242
 ! Title: Personal Filter
-! Last Modified: 06 Feb 2026 02:47 UTC
+! Last Modified: 07 Feb 2026 02:42 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -6471,6 +6471,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||atnkdx.guthaben.de^
 ||ato.atozzen.com^
 ||atom-log.3.cn^$third-party
+||atomictrackercollector-i5adxi4wfq-uc.a.run.app^
 ||atouicib.dcongress.com^
 ||atpns.nuwavenow.com^
 ||atr.andreaterecomienda.co^
@@ -22586,6 +22587,8 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||icfms.thelaundress.com^
 ||iclxlm.drink.ch^
 ||icmakp.united-arrows.tw^
+||iconmediapixel-ipv4.com^
+||iconmediapixel.com^
 ||icstats.nl^$third-party
 ||ictls.takeaware.nl^
 ||ictrjw.barcastores.com^
@@ -63857,6 +63860,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||wgztae.audials.com^
 ||wh.giftd.tech^
 ||whahmy.timberland.es^
+||whale.camera^
 ||whale.gdebrauwer.dev^
 ||whatif.fr.adobe.com^
 ||whatif.it.adobe.com^
@@ -119797,6 +119801,7 @@ zmail.mtrl.me$image
 ||analytics.ecosia.org^
 ||analytics.edaily.co.kr^
 ||analytics.edgekey.net^
+||analytics.editorialedomani.it^
 ||analytics.egdata.app^
 ||analytics.eip.telegraph.co.uk^
 ||analytics.electro-com.ru^
@@ -120487,6 +120492,7 @@ zmail.mtrl.me$image
 ||dco.coupang.com^
 ||dcs.maxthon.com^
 ||dct.mango-office.ru^
+||dd.g2.com^
 ||dd.reuters.com^
 ||dd6zx4ibq538k.cloudfront.net^
 ||ddl.alma.iltalehti.fi^
@@ -120623,6 +120629,7 @@ zmail.mtrl.me$image
 ||event.playground.ru^
 ||event.scimo.io^
 ||event.tosspayments.com^
+||event.tradedealer.ru^
 ||event.wondershare.com^
 ||eventapi.sooplive.co.kr^
 ||eventbus.intuit.com^
@@ -121537,6 +121544,7 @@ zmail.mtrl.me$image
 ||pixel.reddit.com^
 ||pixel.roymorgan.com^
 ||pixel.rubiconproject.com^
+||pixel.scoring.ru^
 ||pixel.smartnews.com^
 ||pixel.sojern.com^
 ||pixel.spotify.com^
@@ -123062,6 +123070,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /cdn-cgi/pe/bag2?r[]=*whos.amung.us
 /cdn-cgi/rum?
 /cdn-cgi/zaraz/*
+/cdn/s/trekkie.storefront.*.min.js
 /cdn/shopifycloud/consent-tracking-api/*
 /census/RecordHit
 /cfga/jquery.js?$image
@@ -123339,7 +123348,9 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /shopify-datalayer-minified.js
 /shopify_stats.js
 /shopifycloud/media-analytics/v*/analytics.js
+/shopifycloud/perf-kit/shopify-perf-kit-*.min.js
 /shopifycloud/shopify/assets/shop_events_listener-*.js
+/shopifycloud/storefront/assets/shop_events_listener-*.js
 /showcounter.
 /showhits.php?
 /si-tracking.
@@ -123549,7 +123560,7 @@ directtrack.*.js
 ||tags.tiqcdn.com/utag/*/prod/utag.js$domain=adidas.co.uk|adidas.nl|adidas.pl|agoda.com|anantara.com|brother-usa.com|calvinklein.ca|cnet.com|grubhub.com|help.dropbox.com|huawei.com|hulu.com|iflscience.com|krymr.com|lineadirecta.com|louisvuitton.com|mcafee.com|mitsubishi-motors.co.jp|modernatx.com|monroeandmain.com|mtv.co.uk|mtv.de|mtv.it|mtvema.com|news.com.au|post.ch|qvc.jp|radissonhotels.com|sibreal.org|simplybusiness.co.uk|talksport.com|taylor.com|thesun.co.uk|totaljobs.com|truecar.com|uber.com|ubereats.com|usnews.com|vodafone.com.tr
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=calvinklein.ca|hosteurope.de|news.com.au|sibreal.org|yousee.dk
 ! + NOT_OPTIMIZED
-||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
+||securepubads.g.doubleclick.net/tag/js/gpt.js$redirect=googletagservices-gpt,script,domain=~dexerto.com|~eksisozluk.com|~gizmodo.jp|~golf.com|~heycar.co.uk|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~today.line.me
 ! + NOT_OPTIMIZED
 $permissions=geolocation=(),domain=nzherald.co.nz
 -config.sensic.net/3pc.html
@@ -124277,6 +124288,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||amazonaws.com/beacon.*/beacon/before-login.gif?
 ||amazonaws.com/beacon^
 ||amazonaws.com/default/tracking?url=
+||amazonaws.com/icontracker/
 ||amazonaws.com/jsstore/*/ge.js
 ||amazonaws.com/ki.js/
 ||amazonaws.com/pixelpop/app/pixelpop-
@@ -125810,6 +125822,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||g123.jp/api/v*/session_log
 ||g123.jp/reports
 ||g123.jp/stats?
+||g2.com/activity/events
 ||ga.yiche.com/autolog
 ||gacraft.jp/publish/token.html
 ||gadasource.storage.googleapis.com/ivc.js
@@ -126182,6 +126195,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||imgsmail.ru/gstat?
 ||imgssl.constantcontact.com/letters/images/sys/S.gif
 ||immobilien-zeitung.de/backend/commons/js/analytics_config.js
+||immowelt.de/serp-bff/analytics/
 ||imobie.com/js/analytics.js
 ||imp.snapdeal.biz/pub/imp?$domain=snapdeal.com
 ||imptrack.intoday.in/impression_tracker.php
@@ -127441,6 +127455,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||s1.trrsf.com/*/zaz-mod-stalker/
 ||s3-sa-east-1.amazonaws.com/analytics-gjc/analytics-gjc-min.js
 ||s3.amazonaws.com/cdx-radar^
+||s3.amazonaws.com/icontracker/
 ||s3.amazonaws.com/maropost/
 ||s3.ap-northeast-2.amazonaws.com/adpick.co.kr/apis/apTracker.v*.js
 ||s3.glbimg.com/cdn/libs/element-tracker/*/element-tracker.min.js$domain=globo.com
@@ -127914,7 +127929,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||store.nike.com/cms/analytics-store-desktop.js
 ||store.steampowered.com/app/usabilitytracking/
 ||store.vspo.jp/cdn/s/trekkie.
-||store.vspo.jp/cdn/shopifycloud/perf-kit/shopify-perf-kit-*.min.js
 ||storeedgefd.dsx.mp.microsoft.com/*/oemdiscovery?
 ||storm.mg/api/logs/
 ||storm.mg/avivid.js
@@ -135459,6 +135473,8 @@ $removeparam=af-force-deeplink
 $removeparam=af-xp
 $removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 $removeparam=aiad-clid
+$removeparam=analytics-context
+$removeparam=analytics-trace-id
 $removeparam=asgtbndr
 $removeparam=at-campaign
 $removeparam=at-campaign-type
@@ -135959,8 +135975,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||chemistwarehouse.com.au^$removeparam=raneaid
 ||chemistwarehouse.com.au^$removeparam=ranmid
 ||chemistwarehouse.com.au^$removeparam=ransiteid
-||chickencoopcompany.com/services/$removeparam=analytics-context
-||chickencoopcompany.com/services/$removeparam=analytics-trace-id
 ||chitai-gorod.ru^$removeparam=partnerid
 ||chunichi.co.jp^$removeparam=rct
 ||chunichi.co.jp^$removeparam=ref
@@ -136639,7 +136653,6 @@ rtkcid=*&clickid=$removeparam=clickid
 ||shimotsuke.co.jp^$removeparam=top
 ||shop.adidas.jp^$removeparam=shortlink
 ||shop.adidas.jp^$removeparam=source-caller
-||shop.app/accounts/$removeparam=analytics-trace-id
 ||shop.asus.com^$removeparam=ad-id
 ||shop.asus.com^$removeparam=campaign-id
 ||shop.tsukumo.co.jp/goods/$removeparam=cid
