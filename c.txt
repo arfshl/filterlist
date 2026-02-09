@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602080326
+! Version: 202602090254
 ! Title: Personal Filter
-! Last Modified: 08 Feb 2026 03:26 UTC
+! Last Modified: 09 Feb 2026 02:54 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -123030,6 +123030,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /b/ss/ueglobaldev/*
 /b/ss/wdgdolad
 /bbtstats/*
+/bcwc.analytic.js?
 /beacon.php3?
 /beacon.php?
 /beacon/error?
@@ -123896,6 +123897,7 @@ m4ex.com##.plugin-counter
 mais.sbt.com.br#%#//scriptlet('set-local-storage-item', 'youbora.youboraDeviceUUID', '$remove$')
 makemytrip.com#%#//scriptlet('set-local-storage-item', 'marketingCloudVisitorID', '$remove$')
 makemytrip.com#%#//scriptlet('set-local-storage-item', 'PERSONAL_FLIGHT_emperiaResponse', '$remove$')
+marketwatch.com#%#//scriptlet('set-local-storage-item', 'pvid', '$remove$')
 markezine.jp##.carouselBlock > li[id^="cx_"].c-headlineindex_listitem
 maxpark.com###listOfCounters
 mdpr.jp#?#.p-articleList__heading:has( + div#taboola-below-article-thumbnails-desktop)
@@ -129433,6 +129435,7 @@ $cookie=/dwac-/,domain=~nintendo.com
 $cookie=/mp-.*-mixpanel/
 $cookie=/wzrk-/
 $cookie=aam-uuid
+$cookie=ab-uuid
 $cookie=abldr
 $cookie=abmbl
 $cookie=ac-user-id
@@ -134278,6 +134281,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||knottyswing.com^
 ||laboredlocket.com^
 ||lackadaisicalkite.com^
+||lakesecure.com^
 ||lameletters.com^
 ||lamplow.com^
 ||landkarts.com^
@@ -134707,6 +134711,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||radiantcanopy.com^
 ||radiantlullaby.com^
 ||radiateprose.com^
+||radiosfax.com^
 ||raidmedics.com^
 ||railwaygiraffe.com^
 ||railwayrainstorm.com^
@@ -135261,6 +135266,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||truejasmine.com^
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
+||twelvedawn.com^
 ||twistloss.com^
 ||typepredict.com^
 ||typewebsite.com^
