@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602100319
+! Version: 202602110317
 ! Title: Personal Filter
-! Last Modified: 10 Feb 2026 03:19 UTC
+! Last Modified: 11 Feb 2026 03:17 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -2838,6 +2838,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||adg-data.kajicam.com^
 ||adg2.alemdagenetica.com.br^
 ||adgainersolutions.com^$third-party
+||adgeek.net^
 ||adgocoo.com^$third-party
 ||adgreed.com^$third-party
 ||adh.machbari.com^
@@ -25785,6 +25786,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||lifescience.item24.de^
 ||lifescience.item24.it^
 ||lift.acquia.com^$third-party
+||lighthouselabs.eu^
 ||lightstep.medium.systems^
 ||ligxyv.hackers.co.kr^
 ||lijhi.unclereco.com^
@@ -121389,6 +121391,7 @@ zmail.mtrl.me$image
 ||mst.rnd.de^
 ||mstat.acestream.net^
 ||mstm.motorsport.com^
+||mt.9gag.com^
 ||mt.gigazine.net^
 ||mtg.macpaw.com^
 ||mtga.setapp.com^
@@ -122393,6 +122396,7 @@ zmail.mtrl.me$image
 ||top100.rambler.ru^
 ||top100.vkirove.ru^
 ||topspin.npo.nl^
+||totem.tvmaze.com^
 ||touch.yesim.
 ||tp.content-score.com^
 ||tpa7.iahorro.com^
@@ -124208,6 +124212,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||adobe.com/*/pdc_s_code.js
 ||adobe.com/*/s_code*.js
 ||adobe.com/experienceedge/*/collect?
+||adobe.com/marketingtech/
 ||adobe.io/system/log
 ||adobedtm.com^*/satelliteLib-$script,domain=allrecipes.com|nvidia.at|nvidia.be|nvidia.cn|nvidia.co.jp|nvidia.co.kr|nvidia.co.uk|nvidia.com|nvidia.com.br|nvidia.com.mx|nvidia.com.tr|nvidia.com.tw|nvidia.cz|nvidia.de|nvidia.dk|nvidia.es|nvidia.fi|nvidia.fr|nvidia.in|nvidia.it|nvidia.nl|nvidia.no|nvidia.pl|nvidia.ru|nvidia.se
 ||adope.net/external/analytics.js
@@ -125030,6 +125035,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||cdn.shopify.com/s/files/*/ba_tracking.js
 ||cdn.sift.com/s.js
 ||cdn.sphlabs.com/suid/
+||cdn.sprig.com/shim.js
 ||cdn.static-fra.de/*/tracking/
 ||cdn.staticmember.com/wtp/common/scripts/google-tagmanager-min.js
 ||cdn.stroeerdigitalgroup.de/metatag/live/
@@ -127211,6 +127217,8 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||prophet.heise.de^
 ||proporn.com/ajax/log/
 ||prosecrets.pro/js/VietXfAdvStats/frontend.js
+||proton.me/api/data/
+||proton.me/api/feature/v2/frontend/client/metrics
 ||proxy.tproger.ru/yandex-metrika.js
 ||proxycheck.io/v*/?key=$third-party
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js
@@ -127898,6 +127906,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
 ||static.tp-link.com/assets/js/ga.js
 ||static.tripcdn.com/packages/ubt/websdk/*/ubt.minh.js
+||static.tvmaze.com/js/paq.js
 ||static.vocento.com/tag-manager/latest/vtm.js
 ||static.vocstatic.com/*/voonto.js
 ||static.vocstatic.com/tag-manager/latest/vtm.js
@@ -128083,6 +128092,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||technologynetworks.com/ApprovedGuid/
 ||techpowerup.com/__botcheck
 ||techraptor.net/sites/default/files/google_analytics/gtag.js
+||techsolutions.com.tw/analytics.js
 ||techstage.de/ivw-bin/ivw/CP^
 ||techstage.de/js/techstage/webtrekk_scrollposition.js
 ||teenage.engineering/_api/mw/track/
@@ -128287,6 +128297,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||tvchosun.com/dhitlog/
 ||tvid.in/log/
 ||tvigle.ru/track/
+||tvmaze.com/stats/
 ||tvn.pl/sweqevub.js
 ||tvsquared.com/tv2track$third-party
 ||tvsyd.dk/js/pscript.js
@@ -131609,12 +131620,14 @@ d4?appid*type*
 @@||cdn.optimizely.com/datafiles/$domain=makro.es|makro.pt|metro-cc.hr|metro-kz.com|metro-tr.com|metro.at|metro.bg|metro.de|metro.fr|metro.it|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|metro.ua
 @@||googletagmanager.com/gtm.js$domain=uzdevumi.lv
 @@||lptag.liveperson.net^$domain=yesstyle.com
+@@||mc.yandex.ru/metrika/tag.js$domain=apteka22.ru
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
 @@||optimizely.com^$image,domain=marinco.navico.com
 @@||samsclub.com/px/*/captcha/captcha.js$domain=samsclub.com
 @@||src.litix.io/*/bitmovin-mux.js$domain=shoof.alkass.net
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
 @@||static.airbridge.io/sdk/latest/$domain=airbridge.io
+felixmobile.com.au#$##__next [style*="filter:blur"] { filter: none !important; }
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopFunc')
 ! + PLATFORM(windows, mac, android, cli)
 @@||a.klaviyo.com/client/subscriptions/$xmlhttprequest,domain=ahead-nutrition.com
@@ -134848,6 +134861,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sandypocket.com^
 ||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
@@ -135382,6 +135396,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||wavesmachine.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
+||weatherbytes.net^
 ||websitesdude.com^
 ||weeklybanner.com^
 ||wellgroomedapparel.com^
@@ -135841,6 +135856,7 @@ rtkcid=*&clickid=$removeparam=clickid
 ||4kdownload.com^$removeparam=source
 ||7net.omni7.jp^$removeparam=intpr
 ||7net.omni7.jp^$removeparam=intpr2
+||account.proton.me^$removeparam=ref
 ||accounts.adblockplus.org^$removeparam=an
 ||accounts.adblockplus.org^$removeparam=ap
 ||accounts.adblockplus.org^$removeparam=apv
