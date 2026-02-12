@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602110317
+! Version: 202602120256
 ! Title: Personal Filter
-! Last Modified: 11 Feb 2026 03:17 UTC
+! Last Modified: 12 Feb 2026 02:56 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -65558,6 +65558,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 -telemetry.officeapps.live.com.mcas.ms^
 -telemetry.officeapps.live.com^
 -tracker.biliapi.net^
+-upaas.ucweb.com^
 .prod.pr.analytics.console.aws.a2z.com
 0jy51rvwaei8qy69.cloud.s11.sfmc-osl.com$image
 10002.connector-qa1.marketingcloudqaapis.com$image
@@ -122094,6 +122095,7 @@ zmail.mtrl.me$image
 ||stats.insighttimer.com^
 ||stats.itc.ua^
 ||stats.jiosaavn.com^
+||stats.jkdesa.com^
 ||stats.jpush.cn^
 ||stats.kaltura.com^
 ||stats.landingi.com^
@@ -123504,6 +123506,7 @@ $cookie=-awl;maxage=30,domain=9news.com|al.com|nypost.com
 /wp-content/plugins/stat-dfp/*
 /wp-content/plugins/thirstyaffiliates-pro/js/app/tap-gct.js
 /wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/js/*
+/wp-content/plugins/wp-analytify-pro/*
 /wp-content/plugins/wp-google-analytics-events/*
 /wp-content/plugins/yyi-rinker/js/event-tracking.js
 /wp-content/themes/vip/pmc-plugins/pmc-global-functions/js/geoPosition.js
@@ -129093,6 +129096,7 @@ go.lanet.click$image
 go.rjmetrics.com$image
 go.smartinsights.com*gif$image
 go.toutapp.com$image
+google-analytics.com%2Fcollect
 google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
 google.com/appserve/mkt/proof/img/*.gif
 healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
@@ -131388,6 +131392,7 @@ d4?appid*type*
 ||stats.calldorado.com^
 ||stats.cn.ronghub.com^
 ||stats.fifthstarlabs.io^
+||stats.norton.com^
 ||stats.oilpainting.colorbynumber.veraxen.com^
 ||stats.popcap.com^
 ||stats.rong-edge.com^
@@ -133399,6 +133404,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||aliasanvil.com^
 ||alikeaddition.com^
 ||aliveachiever.com^
+||allnewhost.com^
 ||alloutdubstep.com^
 ||allsunflowers.com^
 ||alltypo.com^
@@ -133594,6 +133600,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||callousbrake.com^
 ||calmcactus.com^
 ||calmstudent.com^
+||calvarycards.com^
 ||calypsocapsule.com^
 ||cannonchange.com^
 ||canvasandsocks.com^
