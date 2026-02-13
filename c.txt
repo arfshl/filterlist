@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602120256
+! Version: 202602130256
 ! Title: Personal Filter
-! Last Modified: 12 Feb 2026 02:56 UTC
+! Last Modified: 13 Feb 2026 02:56 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -6409,6 +6409,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||at-go.experian.com^
 ||at-o.net^
 ||at.agentcrate.com^
+||at.artistchai.co.kr^
 ||at.attualityofficial.com^
 ||at.badische-zeitung.de^
 ||at.choicefurnituresuperstore.co.uk^
@@ -12549,6 +12550,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||data.armexdef.uk^
 ||data.artangels.net^
 ||data.articles.ringcentral.com^
+||data.artistchai.co.kr^
 ||data.artnekretnine.com^
 ||data.aschito.com^
 ||data.ashbourne-co.com^
@@ -120518,6 +120520,7 @@ zmail.mtrl.me$image
 ||discovery-script.newspic.kr^
 ||discovery.newspic.kr^
 ||dlog.pwsdk.com^
+||dls-account.di.atlas.samsung.com^
 ||dmc1acwvwny3.cloudfront.net^
 ||dmp.citiservi.es^
 ||dmp.sbermarketing.ru^
@@ -120992,6 +120995,7 @@ zmail.mtrl.me$image
 ||k203.adn.com^
 ||k864.orovillemr.com^
 ||kaan.kakao.com^
+||karrot-pixel.business.daangn.com^
 ||kctag.net^
 ||kinesis.eu-west-1.amazonaws.com^
 ||klik.nrc.nl^
@@ -121042,6 +121046,7 @@ zmail.mtrl.me$image
 ||lexip.4pcdn.de^
 ||lfmetrics.loyalfans.com^
 ||lg3.media.net^
+||lgecokr.api.useinsider.com^
 ||lgforbes.akamaized.net^
 ||lhe-beacon.team-rec.jp^
 ||librato-collector.genius.com^
@@ -121588,6 +121593,7 @@ zmail.mtrl.me$image
 ||plausible.paimon.moe^
 ||plausible.pronouns.cc^
 ||plausible.simplelogin.io^
+||player-analytics.mp.lura.live^
 ||player-feedback-v1.glomex.com^
 ||player-feedback.p7s1video.net^
 ||player-telemetry.vimeo.com^
@@ -126505,6 +126511,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||levelaccess.net/analytics/
 ||lexus.jp/common/*/js/analytics.js
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
+||lge.co.kr/lg5-common/js/common/googleHeader.js
 ||lib.onet.pl/s.csr/adp
 ||libcdnjs.com/api/event
 ||libs.platform.californiatimes.com/meteringjs/
@@ -128583,7 +128590,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||whirlpool-cdn.thron.com/shared/plugins/tracking/current/sp.js
 ||whistleout.com.au/track?u=
 ||whitepages.com/api/log-
-||whitepages.com/static/dist/amplitudeSetup.js
 ||whitepages.com/static/dist/setupGaConfig.js
 ||whitepages.com/static/dist/web-vitals.attribution.
 ||widgeo.net/compteur.php?
@@ -131527,6 +131533,7 @@ d4?appid*type*
 ||trk.pinterest.com^
 ||trk2.pinterest.com^
 ||trkapi.impact.com^
+||trkcliq.com^
 ||trusted-collector-bk.tmocce.com^
 ||ts.line-apps.com^
 ||tumblr.com/services/cslog
@@ -133514,6 +133521,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||binarykite.com^
 ||binspiredtees.com^
 ||birthdaybelief.com^
+||blackbelted.com^
 ||blackbrake.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
@@ -133602,6 +133610,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||calmstudent.com^
 ||calvarycards.com^
 ||calypsocapsule.com^
+||cannonborough.com^
 ||cannonchange.com^
 ||canvasandsocks.com^
 ||capablecup.com^
