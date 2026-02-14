@@ -1,7 +1,7 @@
 [Adblock Plus 3.1]
-! Version: 202602130256
+! Version: 202602140244
 ! Title: Personal Filter
-! Last Modified: 13 Feb 2026 02:56 UTC
+! Last Modified: 14 Feb 2026 02:44 UTC
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used AdGuard for Android
 ! Expires: 1 days
@@ -31505,6 +31505,7 @@ www.google.*#%#//scriptlet('remove-attr', 'ping', 'div[id="search"] a[data-ved][
 ||measure.wearebazoo.com^
 ||measure.zency.dk^
 ||measure2.zeproc.com^
+||measureadv.com^
 ||measuremap.com^$third-party
 ||measurement.befestigungsfuchs.de^
 ||measurement.kilamobler.se^
@@ -122394,6 +122395,7 @@ zmail.mtrl.me$image
 ||tms.oracle.com^
 ||tmserverside.mango.com^
 ||to.torrentfreak.com^
+||token.awswaf.com^
 ||tools.ranker.com^
 ||top-fwz1.mail.ru^
 ||top.hsdn.org^
@@ -122435,6 +122437,7 @@ zmail.mtrl.me$image
 ||trace.51jingying.com^
 ||trace.mjyx.com^
 ||trace.rememberapp.co.kr^
+||trace.shengshu-ai.com^
 ||tracelog.www.alibaba.com^
 ||tracing.roblox.com^
 ||tracing.yelp.com^
@@ -123762,6 +123765,7 @@ businessinsider.com#%#//scriptlet('set-local-storage-item', 'fenrir_anonymous_id
 businessinsider.com#%#//scriptlet('set-local-storage-item', 'universal_id', '$remove$')
 businessinsider.jp##div[class^="article_specialFeature_"]
 businessinsider.jp##div[class^="displayhandler"]:has( > div[class^="premiumRecommend"])
+businessinsider.jp##div[class^="premiumRecommend_articles__"]
 businessinsider.jp##div[class^="recommendArticlesList_recommend__"]
 canadiantire.ca#%#//scriptlet('set-local-storage-item', 'signifydSessionIdInfo', '$remove$')
 carparts.com#%#//scriptlet('set-local-storage-item', 'optimizely-vuid', '$remove$')
@@ -124698,6 +124702,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||aws.amazon.com/csds/collector/
 ||awsapprunner.com/api/frontend/client/metrics
 ||awsstatic.com/libra/*/csp/csp-report.js
+||awswaf.com/*/report|
 ||awswaf.com/*/telemetry|
 ||ax.idg.se/st01^
 ||az416426.vo.msecnd.net^$third-party
@@ -125768,6 +125773,11 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||ff.netmonet.co/api/frontend/client/metrics
 ||ffo3gv1cf3ir.merlincdn.net/*/google-analytics-web*.js
 ||figma.com/api/web_logger/
+||filecrypt.cc/api/site/tracking-config/
+||filecrypt.cc/api/track|
+||filecrypt.cc/bla2.php
+||filecrypt.cc/muh.php
+||filecrypt.cc/surething.php
 ||files.cdn.spilcloud.com/*_adomic_hb_analytic.js
 ||files.metropoles.com/static/comscore.js
 ||files.slideruletools.com/eluredils-g.js
@@ -126369,6 +126379,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||js.gleam.io/*/trk.js
 ||js.hscta.net/cta/current.js
 ||js.hubspot.com/analytics/
+||js.iplsc.com/inpl.log/
 ||js.selfimg.com.cn/cna/analytics.js
 ||js.selfimg.com.cn/cna/tracking.min.js
 ||js.selfimg.com.cn/lib/ga/ga.js
@@ -126501,6 +126512,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||lemrock.com/v1/publishers/tracking/
 ||lendingtree.com/path/api/track/
 ||lenovo.com/_ui/desktop/common/js/common/youtubeVideoAnalytic.js
+||lenovo.com/portalpacks/web/js/AnalyticsServiceFactory*.js
 ||lespresso.it/js/gtm-helper.js
 ||lespresso.it/js/usercentrics-helper.js
 ||letelegramme.fr/assets/block/analytics/
@@ -127483,6 +127495,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||s.shopify.com/visit/record.gif?
 ||s.smallpdf.com/static/track-js-*-entrypoint.js
 ||s.teknolojioku.com/assets/web/js/hitcounter.min.js
+||s.turkiyegazetesi.com.tr/s/js/stats.js
 ||s.uicdn.com/nav-cdn/trackbar/*/trackbar.js$domain=mail.com
 ||s.uicdn.com/pos-cdn/tracklib/*/tracklib.poly.min.js$domain=mail.com
 ||s.yimg.*/cv/conversion.js^
@@ -128461,6 +128474,7 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 ||vidtech.cbsinteractive.com/*/lib/tracking/adobe/VideoHeartbeat-
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
+||vidu.com/api/canary
 ||viedtelevizija.lv/js/analytics.smartlib.js
 ||views.b1tv.ro/track.js
 ||views.playtech.ro/track.js
@@ -129842,6 +129856,7 @@ $cookie=ytrackvisit
 ||emart.ssg.com^$cookie=pcid
 ||eneba.com^$cookie=userid
 ||epicgames.com^$cookie=visitor-uuid
+||exodus.com^$cookie=cfz-zaraz-analytics
 ||expressvpn.com^$cookie=/gtm/
 ||expressvpn.com^$cookie=xvid
 ||fanatical.com^$cookie=affiliate-source
@@ -130010,6 +130025,7 @@ $cookie=ytrackvisit
 ||titulky.com^$cookie=adbwshown
 ||titulky.com^$cookie=sid
 ||titulky.com^$cookie=udid
+||tracktollywood.com^$cookie=uid-s
 ||tractorsupply.com^$cookie=/wc-useractivity-/
 ||tractorsupply.com^$cookie=wc-activepointer
 ||tractorsupply.com^$cookie=wc-generic-activitydata
@@ -131632,6 +131648,7 @@ d4?appid*type*
 @@||cdn.optimizely.com/datafiles/$domain=makro.es|makro.pt|metro-cc.hr|metro-kz.com|metro-tr.com|metro.at|metro.bg|metro.de|metro.fr|metro.it|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|metro.ua
 @@||googletagmanager.com/gtm.js$domain=uzdevumi.lv
 @@||lptag.liveperson.net^$domain=yesstyle.com
+@@||martech.condenastdigital.com/lib/martech.js$domain=wired.com
 @@||mc.yandex.ru/metrika/tag.js$domain=apteka22.ru
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/www/Fingerprint.js
 @@||optimizely.com^$image,domain=marinco.navico.com
@@ -133752,6 +133769,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cosplaygalaxy.com^
 ||costumeoffers.com^
 ||costwinner.com^
+||couponrail.com^
 ||courageousbaby.com^
 ||coverlayer.com^
 ||cowbelltime.com^
@@ -133804,6 +133822,7 @@ mamibuy.com.tw#%#window.ga = function() {};
 ||cutechin.com^
 ||cyclinghere.com^
 ||cyclopsdial.com^
+||dailydomino.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
