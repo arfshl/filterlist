@@ -51,3 +51,17 @@ bca-*.*
 
 ! Fix Microsoft Internet status
 ||msftconnecttest.com^$dnsrewrite=NOERROR;A;23.53.118.114
+
+! Block Hardcoded DNS
+!! IPs
+||1.1.1.1^
+||1.0.0.1^
+||8.8.8.8^
+||8.8.4.4^
+||9.9.9.9^
+||149.112.112.112^
+!! Domains
+||cloudflare-dns.com^
+||dns.google^
+||dns.quad9.net^
+
