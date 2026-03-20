@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 15052025
+! Version: 20032026
 ! Title: Personal Filter
-! Last Modified: 15 May 2025
+! Last Modified: 20 Mar 2026
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used for my uBlock Origin, AdGuard for Android, and AdGuard Home
 ! Expires: 1 days
