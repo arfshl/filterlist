@@ -56,4 +56,5 @@ bca-*.*
 
 ! hosts fix for bad IP routing
 ||nodejs.org^$dnsrewrite=NOERROR;A;104.20.1.252
+||chatgpt.com^$dnsrewrite=NOERROR;A;172.64.155.209
 
