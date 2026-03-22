@@ -1,0 +1,23 @@
+[Adblock Plus 2.0]
+! Version: 15052025
+! Title: Personal Filter (Services)
+! Last Modified: 15 May 2025
+! Homepage: https://github.com/arfshl/filterlist
+! Description: Apply blocking for several sites that uncovered by AdGuard Home or AdGuard DNS
+! Expires: 1 days
+
+! OnlyFans
+*onlyfans.com
+
+! Tinder
+*tinder*.com
+
+! MiChat
+*michat.sg
+
+! Terabox
+*terabox.com
+
+! Bigo Live
+bigo*.tv
+bigo*.sg
