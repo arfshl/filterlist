@@ -66,5 +66,5 @@ bca-*.*
 ||dns.quad9.net^
 
 ! hosts fix for bad IP routing
-104.20.1.252 nodejs.org
+||nodejs.org^$dnsrewrite=NOERROR;A;104.20.1.252
 
