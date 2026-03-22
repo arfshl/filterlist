@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20032026
+! Version: 22032026
 ! Title: Personal Filter
-! Last Modified: 20 Mar 2026
+! Last Modified: 22 Mar 2026
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used for my uBlock Origin, AdGuard for Android, and AdGuard Home
 ! Expires: 1 days
@@ -64,4 +64,7 @@ bca-*.*
 ||cloudflare-dns.com^
 ||dns.google^
 ||dns.quad9.net^
+
+! hosts fix for bad IP routing
+104.20.1.252 nodejs.org
 
