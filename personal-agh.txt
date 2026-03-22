@@ -1,0 +1,59 @@
+[Adblock Plus 2.0]
+! Version: 22032026
+! Title: Personal Filter
+! Last Modified: 22 Mar 2026
+! Homepage: https://github.com/arfshl/filterlist
+! Description: Used for AdGuard DNS, and AdGuard Home
+! Expires: 1 days
+
+! Blocks IDN Homographs domain
+*xn--*.*
+
+! Phishing BCA
+bca-*.*
+
+!! Blocks Tor2Web
+
+! Wildcard covering all
+*.onion.*
+
+! Per-Proxy
+||onion.to^
+||onion.cab^
+||onion.city^
+||onion.direct^
+
+!! WindowsSpyBlocker Update whitelists
+
+! Windows Defender definition update
+@@||definitionupdates.microsoft.com^
+
+! Windows Update Catalog
+@@||catalog.update.microsoft.com^
+@@||catalog.s.download.windowsupdate.com^
+
+! OneDrive
+@@||skydrivesync.policies.live.net^
+
+! Microsoft Edge Extensions
+@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
+
+! Fix Microsoft Internet status
+||msftconnecttest.com^$dnsrewrite=NOERROR;A;23.53.118.114
+
+! Block Hardcoded DNS
+!! IPs
+||1.1.1.1^
+||1.0.0.1^
+||8.8.8.8^
+||8.8.4.4^
+||9.9.9.9^
+||149.112.112.112^
+!! Domains
+||cloudflare-dns.com^
+||dns.google^
+||dns.quad9.net^
+
+! hosts fix for bad IP routing
+||nodejs.org^$dnsrewrite=NOERROR;A;104.20.1.252
+
