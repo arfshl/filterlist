@@ -5,29 +5,21 @@
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used for AdGuard DNS, and AdGuard Home
 ! Expires: 1 days
-
 ! Blocks IDN Homographs domain
 *xn--*.*
-
 ! Phishing BCA
 bca-*.*
-
 !! Blocks Tor2Web
 *.onion.*
 *.tor.pm*
-
 ! Fix Microsoft Internet status
-||msftconnecttest.com^$dnsrewrite=NOERROR;A;23.53.118.114
-
+||msftconnecttest.com^$dnsrewrite=noerror;a;23.53.118.114
 ! Block Hardcoded DNS
 ||cloudflare-dns.com^
 ||dns.google^
 ||dns.quad9.net^
-
 ! hosts fix for bad IP routing
-||nodejs.org^$dnsrewrite=NOERROR;A;104.20.1.252
-||chatgpt.com^$dnsrewrite=NOERROR;A;172.64.155.209
-
+||chatgpt.com^$dnsrewrite=noerror;a;172.64.155.209
+||nodejs.org^$dnsrewrite=noerror;a;104.20.1.252
 ! YouTube History fix
 @@||s.youtube.com^
-
