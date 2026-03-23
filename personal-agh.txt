@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
-! Version: 23032026
+! Version: 24032026
 ! Title: Personal Filter (DNS)
-! Last Modified: 23 Mar 2026
+! Last Modified: 24 Mar 2026
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used for AdGuard DNS, and AdGuard Home
 ! Expires: 1 days
 
 ! Blocks IDN Homographs domain
 *xn--*.*
+
 ! Phishing BCA
 bca-*.*
 
