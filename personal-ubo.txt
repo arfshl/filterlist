@@ -5,11 +5,14 @@
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Filter used by uBlock Origin and AdGuard
 ! Expires: 1 days
+
 ! Google Login Popup
 ###credential_picker_container
 ||accounts.google.com/gsi/iframe/select$subdocument
+
 ! Fandom Age Personalization
 fandom.com###age-gate
 fandom.com##.notifications-box
+
 ! speedtest ads
 speedtest.net###zdcFloatingBtn
