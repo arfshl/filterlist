@@ -25,8 +25,8 @@ bca-*.*
 ||dns.quad9.net^
 
 ! hosts fix for bad IP routing
-||chatgpt.com^$dnsrewrite=noerror;a;172.64.155.209
-||nodejs.org^$dnsrewrite=noerror;a;104.20.1.252
+||chatgpt.com^$dnsrewrite=NOERROR;A;172.64.155.209
+||nodejs.org^$dnsrewrite=NOERROR;A;104.20.1.252
 
 ! YouTube History fix
 @@||s.youtube.com^
