@@ -1,4 +1,4 @@
-name: c
+name: unifiedfilter
 
 on:
   workflow_dispatch:
@@ -27,14 +27,14 @@ jobs:
         pip install python-abp
     - name: Build
       run: |
-        flrender $GITHUB_WORKSPACE/c.template $GITHUB_WORKSPACE/c.txt
+        flrender $GITHUB_WORKSPACE/unifiedfilter.template $GITHUB_WORKSPACE/unifiedfilter.txt
         python $GITHUB_WORKSPACE/fop.py
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Update c.txt"
+        git commit -m "Updated unifiedfilter"
         git push
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
