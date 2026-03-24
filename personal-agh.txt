@@ -27,6 +27,7 @@ bca-*.*
 ! hosts fix for bad IP routing
 ||chatgpt.com^$dnsrewrite=NOERROR;A;172.64.155.209
 ||nodejs.org^$dnsrewrite=NOERROR;A;104.20.1.252
+||deb.nodesource.com^$dnsrewrite=NOERROR;A;104.20.45.190
 
 ! YouTube History fix
 @@||s.youtube.com^
