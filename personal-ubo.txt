@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 22032026
+! Version: 18042026
 ! Title: Personal Filter (Adblock)
 ! Last Modified: 22 Mar 2026
 ! Homepage: https://github.com/arfshl/filterlist
