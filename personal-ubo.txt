@@ -11,8 +11,7 @@
 ||accounts.google.com/gsi/iframe/select$subdocument
 
 ! Fandom Age Personalization
-fandom.com###age-gate
-fandom.com##.notifications-box
+fandom.com##.AgeGateDialog-module_modal__huX7o
 
 ! speedtest ads
 speedtest.net###zdcFloatingBtn
