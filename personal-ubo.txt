@@ -13,5 +13,3 @@
 ! Fandom Age Personalization
 fandom.com##.AgeGateDialog-module_modal__huX7o
 
-! speedtest ads
-speedtest.net###zdcFloatingBtn
