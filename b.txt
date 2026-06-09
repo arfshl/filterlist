@@ -1,5 +1,0 @@
-! AdGuard Private DNS User Rules - Modified 15-05-2025
-
-*xn--*.*
-*.onion.*
-bca-*.*
