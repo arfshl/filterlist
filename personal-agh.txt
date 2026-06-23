@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[Adblock Plus 3.13]
 ! Version: 24032026
 ! Title: Personal Filter (DNS)
 ! Last Modified: 24 Mar 2026
