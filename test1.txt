@@ -1,0 +1,144 @@
+[Adblock Plus 3.13]
+! Version: 202606201254
+! Title: ABPindo - Annoyances
+! Description: Filter tambahan untuk ABPindo berupa elemen UI yang mengganggu seperti popup/overlay non iklan atau pemutar video otomatis pada situs berbahasa Indonesia.
+! Last modified: 20 Jun 2026 12:54 UTC
+! Expires: 4 days (update frequency)
+! Homepage: https://github.com/ABPindo/indonesianadblockrules/
+! License: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/LICENSE
+! 
+! Please report any unblocked adverts or problems:
+! GitHub issues: https://github.com/ABPindo/indonesianadblockrules/issues
+! GitHub pull requests: https://github.com/ABPindo/indonesianadblockrules/pulls
+! 
+! --------------------------- annoyances ------------------------------!
+! *** abpindo:src/annoyances.txt ***
+gelora.co###aw-subscription-prompt
+tribunnews.com###banner_article_slide
+tvonenews.com###btt
+grid.id###button-scroll-top
+suara.com###comment-share
+detik.com###detikPagiSore
+javmiu.xyz###disclaimer
+detik.com###notification_newsfeed
+koran-jakarta.com###popupModal
+antaranews.com###scroll-top
+medcom.id###stickshare
+kompas.com##+js(aeld, scroll, kgSticky)
+kumparan.com##+js(set, body.style.overflow, visible !important)
+kompasiana.com##.align-center.floatingWrap
+hariantimes.com##.banner-content
+bloombergtechnoz.com##.banner-fix-bottom
+brainacademy.id##.banner-product
+idxchannel.com##.berita--terkait-container
+cnnindonesia.com##.border-b.bg-white.h-\[45px\].p-2.flex
+cnnindonesia.com##.bottom-\[50px\].left-0.z-\[90\].fixed.mb-4.text-white.px-4.py-3.bg-cnn_red
+detik.com##.breaking-detikpagi
+tvrinews.com##.breaking-news-popup
+bloombergtechnoz.com##.centering
+republika.co.id##.container.row
+borneotrend.com##.cookie-consent
+theasianparent.com##.cookie-widget
+sasa.co.id##.cookie_consent
+yummy.co.id##.css-15k19pw.chakra-button
+popmama.com##.css-1rywi60
+yummy.co.id##.css-1yxywc5
+tokopedia.com##.css-6xix1i
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com##.css-cw25l4
+tokopedia.com##.css-f1hbq2
+tribunnews.com##.desk-bannerslide
+sindonews.com##.download-sindoapps
+jpnn.com##.download_apps
+tokopedia.com##.e1nc1fa20.css-kl3gjj
+tokopedia.com##.e90j6ys0.css-1b94wk9-unf-overlay
+edge.id##.elementor-popup-modal
+detik.com##.float-vid__content
+kompas.com##.gate-kgplus
+liputan6.com##.gateway__mobile-app
+inews.id##.getawayApp
+tokopedia.com##.h0omPnp2Vr0upyxAZbs4jw\=\=
+gelora.co##.ignielInsertAfter
+suara.com##.item--baca-juga-inner
+kompas.com,kompas.tv,sonora.id##.kgnw-middle-ready.kgnw-middle
+bolasport.com,grid.id,gridoto.com,kompas.com,kompas.tv,motorplus-online.com##.kgnw-player
+kapanlagi.com##.liputan6-mobileapp-widget
+kompas.id##.mb-8.pb-8.border-blue-10.border-b-2
+inilah.com##.mui-style-1tl651l.MuiStack-root
+inilah.com##.mui-style-46fqhp.MuiStack-root
+inilah.com##.mui-style-9iqj81.MuiStack-root
+inilah.com##.mui-style-fg8iht.MuiStack-root
+inilah.com##.mui-style-jsgj5i.MuiStack-root
+hukumonline.com##.my-2.d-flex.ps-ads-banner
+suara.com##.notification-banner
+idxchannel.com##.outer-social-media-box
+tvrinews.com##.p-2.row
+kumparan.com##.pb8.pt8.flex.bshhdS.sc-1u3us5z-1.cTlHVA.Viewweb__StyledView-sc-b0snvl-0
+inews.id##.pipLiveStream__content
+theasianparent.com##.placeholder.top-app-download-banner
+sahijab.com##.popup-subscribe
+hukumonline.com##.product-header
+narasi.tv##.read-next
+xl.co.id##.sc-concent
+republika.co.id##.share
+jakartaglobe.id,republika.co.id##.show.fade.modal
+jakartaglobe.id,republika.co.id##.show.fade.modal-backdrop
+insertlive.com##.smartbanner_new
+metrotvnews.com##.socmed-share-container
+keepo.me##.sticky-share-content
+pinhome.id##.style_stickyBannerDesktop__GLF3I
+suara.com##.tap-banner
+tribunnews.com##.tapp-banner
+quran.nu.or.id##.w-full.relative
+inews.id##.widgetNewsTV__news24Jam
+kumparan.com##button[data-qa-id="close"]
+bloombergtechnoz.com##div:nth-of-type(5)
+kumparan.com##div[class*="ModalContent"]
+kumparan.com##div[class*="ModalOverlay"]
+kumparan.com##div[class*="Modalweb__"]
+kompas.tv,sonora.id##kgnw-middle-player
+! adult
+dutasex.*##.channel-icon-Telegram.chaty-icon
+dutasex.*##[href="https://rebrand.ly/dutasexAPK"]
+! Grid Networks
+grid.id###buttonGridstore
+motorplus-online.com###floatingIframe
+motorplus-online.com##.floatingIframe
+gridoto.com##.grid-plus
+sonora.id##.kgnowGate.sidebar.video-box-wrap
+grid.id,gridoto.com##.kgnowGate.video-box-wrap
+bolanas.com,bolasport.com,juara.net,kompas.com,kompas.tv,parapuan.co##.kgnw-player
+bobo.grid.id,bolasport.com##.mb10.text-center.row
+haibunda.com##.transition-all.gap-4.w-full.grid.z-10.isolate.bottom-0.fixed.pointer-events-none
+! IDN Networks https://github.com/ABPindo/indonesianadblockrules/pull/837
+idntimes.com##.anchor-button
+fortuneidn.com,ggwp.id,idntimes.com##.css-150zvrw
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-1hihsk8
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-1lh0foa
+popmama.com##.css-cw25l4
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##.css-urr7k6
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div.css-domd8m:nth-of-type(1)
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div.css-domd8m:nth-of-type(2)
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div.css-domd8m:nth-of-type(3)
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div.css-domd8m:nth-of-type(4)
+fortuneidn.com,ggwp.id,idntimes.com,popbela.com,popmama.com##div.css-domd8m:nth-of-type(5)
+! brainly.co.id
+brainly.co.id##.SatisfactionSurvey-module__desktopContainer--1O2RM
+brainly.co.id##.Web2AppBanner-module__bannerVisible--ynal1
+brainly.co.id##.Web2AppBox-module__bg--9uwwE
+brainly.co.id##.Web2AppPopover-module__containerVisible--JNFBy
+brainly.co.id##.sg-dialog__overlay--open
+! RuangGuru Blog
+brainacademy.id,english-academy.id,ruangguru.com###popupPromo
+brainacademy.id,english-academy.id,ruangguru.com##.banner-product-wrapper
+english-academy.id##.latest-article-cta
+brainacademy.id,english-academy.id,ruangguru.com##.modal.fade
+brainacademy.id,ruangguru.com##.normalize-css
+brainacademy.id,english-academy.id,ruangguru.com##.show.fade.modal-backdrop
+brainacademy.id,ruangguru.com##.side-banner-desktop
+brainacademy.id,ruangguru.com##.side-banner-mobile
+ruangguru.com##.widget-container
+brainacademy.id,english-academy.id,ruangguru.com##body:style(overflow: auto !important; position: static !important;)
+! Singaporean section
+beritaharian.sg##.p-\[24px\]
+! uBlock Specific
+detik.com##.detail__body-text .aevp > .sisip_video_ds:remove()
