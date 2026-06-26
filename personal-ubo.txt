@@ -1,4 +1,4 @@
-[Adblock Plus 3.13]
+[Adblock Plus 2.0]
 ! Version: 23062026
 ! Title: Personal Filter (Adblock)
 ! Last Modified: 23 Jun 2026
