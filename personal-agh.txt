@@ -1,7 +1,7 @@
-[Adblock Plus 3.13]
-! Version: 24032026
+[Adblock Plus 2.0]
+! Version: 26062026
 ! Title: Personal Filter (DNS)
-! Last Modified: 24 Mar 2026
+! Last Modified: 26 Mar 2026
 ! Homepage: https://github.com/arfshl/filterlist
 ! Description: Used for AdGuard DNS, and AdGuard Home
 ! Expires: 1 days
@@ -29,3 +29,9 @@ bca-*.*
 
 ! Block anthropic tracker
 ||api.segment.io^
+
+! Block Brave Ads
+||ads.brave.software
+||ads-admin.bravesoftware.com
+||ads-admin.brave.com
+||ads-admin.brave.software

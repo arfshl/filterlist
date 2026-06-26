@@ -13,3 +13,5 @@
 ! Fandom Age Personalization
 fandom.com##.AgeGateDialog-module_modal__huX7o
 
+! Block Brave Ads
+||ads.brave.com^$third-party
