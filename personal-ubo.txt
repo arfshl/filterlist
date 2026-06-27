@@ -9,6 +9,8 @@
 ! Google Login Popup
 ###credential_picker_container
 ||accounts.google.com/gsi/iframe/select$subdocument
+! google language settings
+google.com###slim_appbar > div
 
 ! Fandom Age Personalization
 fandom.com##.AgeGateDialog-module_modal__huX7o
